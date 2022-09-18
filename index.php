@@ -42,7 +42,7 @@
 
                 <?php
                 include("colderechaPag1.html");
-
+                echo '<h2> Galeria de Fotos </h2>';
                 include("GaleriaImg2.html");
                 ?>
             </div>

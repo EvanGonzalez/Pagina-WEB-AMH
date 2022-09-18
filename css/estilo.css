@@ -64,9 +64,10 @@
 .parrafos{
     
     text-align: justify;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left:    220px;
+    margin-right:   220px;
 }
+
 
 
 
@@ -227,10 +228,59 @@
 /* inicio de estilos de pagina 2 */
 
 .infomYv{
-    margin-left: 12px;
-    margin-right: 12px;
+    padding: 20px;
     display: flex;
-    
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    flex-direction: raw;
+    gap: 10px;
+    background: #121b4f;
     align-items: center;
     justify-content: center;
+}
+
+.card-text{
+    text-align: justify;
+    height: auto;
+    width: auto;
+    padding: 5px 15px ;
+    
+    
+}
+
+@media screen and (max-width: 767px) {
+    .infomYv {
+        flex-direction: columnaPag2;
+      }
+}
+
+.ParrafoHistoria{
+    text-align: justify;
+}
+
+.parrafocomunidad{
+    text-align: justify;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+/*-----------------slider de comunidad------------------------*/
+.ContActivi{
+    display: flex;
+    overflow-x: scroll;
+    padding: 40px;
+    width: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 25px;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+.ContActivi .card{
+    flex: 0 0 100%;
+    padding: 50px;
+    scroll-snap-align: start;
+    border-radius: 8px;
 }
