@@ -1,13 +1,13 @@
 window.sr = ScrollReveal();
 
-    sr.reveal('.menu', {
+    sr.reveal('.row1', {
         duration: 3000,
         origin: 'bottom',
         distance: '-100px'
     });
 
     
-    sr.reveal('.parrafo1', {
+    sr.reveal('.contenidoderecho', {
         duration: 4000,
         origin: 'left',
         distance: '-100px'
@@ -19,26 +19,26 @@ window.sr = ScrollReveal();
         distance: '-100px'
     });
 
-    sr.reveal('.parrafo2', {
+    sr.reveal('.ContendorPcards', {
         duration: 4000,
         origin: 'bottom',
         distance: '-100px'
     });
 
-    sr.reveal('.video', {
+    sr.reveal('.infomYv', {
         duration: 4000,
         origin: 'right',
         distance: '-100px'
     });
 
 
-    sr.reveal('.parrafo3', {
+    sr.reveal('.historia', {
         duration: 4000,
         origin: 'right',
         distance: '-100px'
     });
 
-    sr.reveal('.footer', {
+    sr.reveal('.ubicacion', {
         duration: 4000,
         origin: 'right',
         distance: '-100px'

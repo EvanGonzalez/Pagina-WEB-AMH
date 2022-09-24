@@ -2,7 +2,8 @@
 .slides {
     position: relative;
     background: #000;
-    height: 100vh;
+    height: 50vh;
+    width: 100%;
     overflow: hidden;
   }
   

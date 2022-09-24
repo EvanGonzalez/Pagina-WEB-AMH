@@ -37,7 +37,7 @@
 
         <div class="row">
             <div class="col-8 contenidoderecho">
-                <h3 class="letra3"> Oferta académica </h3>
+                <h3 class="letra3"> Departamentos por áreas  </h3>
 
 
             </div>

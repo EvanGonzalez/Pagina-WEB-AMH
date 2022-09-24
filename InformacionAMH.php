@@ -35,7 +35,7 @@
     <!--Inicia contenendor de informacion-->
     <div class="container text-center">
 
-        <div class="row3">
+        <div class="row3 contenidoderecho">
 
             <h3 class="letra3"> información </h3>
 
