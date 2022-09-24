@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
+    <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
     <script src="js/scrollreveal.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -12,7 +13,7 @@
 </head>
 
 
-<body id="fondo">
+<body id="fondoMain">
     
 
     <!--miga de pan-->
@@ -57,7 +58,12 @@
         </div>
     </div>
 
+    <footer>
+        <?php
+        include("footer.html");
 
+        ?>
+    </footer>
 
     <!--termina contenendor de informacion-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
