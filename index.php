@@ -12,7 +12,7 @@
 </head>
 
 
-<body id="fondo">
+<body id="fondoMain">
     <div class="row1">
         <?php
         include("Carrusel.html")
