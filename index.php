@@ -11,7 +11,6 @@
     <title>Pagina Web</title>
 </head>
 
-
 <body id="fondoMain">
     <div class="row1">
         <?php
@@ -33,8 +32,7 @@
     <h2 class="letra2"> Colegio Ángel María Herrera Penonomé </h2>
     <!--termina miga de pan-->
 
-
-    <!--Inicia contenendor de informacion-->
+    <!--Inicia contenendor de información-->
     <div class="container text-center">
 
         <div class="row">
