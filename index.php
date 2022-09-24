@@ -11,7 +11,7 @@
     <title>Pagina Web</title>
 </head>
 
-
+6
 <body id="fondoMain">
     <div class="row1">
         <?php
