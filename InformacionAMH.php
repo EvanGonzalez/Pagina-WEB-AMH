@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
+    <link rel="stylesheet" href="./css/header-style.css" type="text/css">
     <script src="js/scrollreveal.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Pagina Web</title>
@@ -14,7 +15,9 @@
 
 
 <body id="fondoMain">
-    
+    <?php
+    include("head.html")
+    ?>
 
     <!--miga de pan-->
     <div class="container text-center">
@@ -31,7 +34,7 @@
     <h2 class="letra2"> Colegio Ángel María Herrera Penonomé </h2>
     <!--termina miga de pan-->
 
-   
+
     <!--Inicia contenendor de informacion-->
     <div class="container text-center">
 
@@ -67,7 +70,7 @@
 
     <!--termina contenendor de informacion-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-
+    
     <script src="js/index.js"></script>
     <!--scrip para la animacion de imagenes pagina 2-->
     <script src="js/main.js"></script>

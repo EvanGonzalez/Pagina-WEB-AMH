@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/Efectos2.css" type="text/css">
     <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
+    <link rel="stylesheet" href="./css/header-style.css" type="text/css">
     <script src="js/scrollreveal.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Pagina Web</title>
@@ -15,7 +16,9 @@
 
 
 <body id="fondoMain">
-
+    <?php
+    include("head.html")
+    ?>
 
     <!--miga de pan-->
     <div class="container text-center">
@@ -49,11 +52,11 @@
                     <h2 class="letra2"></h2>
 
                     <?php
-                include("columDerePag3.html");
+                    include("columDerePag3.html");
 
-                ?>
+                    ?>
                 </aside>
-                
+
             </div>
         </div>
     </div>
