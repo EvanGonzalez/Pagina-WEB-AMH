@@ -28,7 +28,7 @@
     </div>
     <br>
 
-    <h2 class="letra2"> Colegio Ángel María Herrera Penonomé </h2>
+    <h2 class="letra2"> Colegio Ángel María Herrera Penonomé</h2>
     <!--termina miga de pan-->
 
 
