@@ -17,8 +17,6 @@
     include("head.html")
     ?>
 
-
-
     <div class="row1">
         <?php
         include("Carrusel.html")
