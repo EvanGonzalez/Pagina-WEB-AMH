@@ -36,7 +36,7 @@
         </div>
     </div>
     <br>
-    <h2 class="letra2"> Colegio Ángel María Herrera Penonomé  Hola Stella</h2>
+    <h2 class="letra2"> Colegio Ángel María Herrera Penonomé </h2>
     <!--termina miga de pan-->
 
     <!--Inicia contenendor de información-->
