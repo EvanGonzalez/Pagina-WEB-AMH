@@ -70,7 +70,7 @@
                     <div class="card-body">
                         Evan González<br>
                         Emir Robinson<br>
-                        Evan González<br>
+                        Alvis Sánchez<br>
                     </div>
                 </div>
             </div>
