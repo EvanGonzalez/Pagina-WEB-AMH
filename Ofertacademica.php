@@ -80,15 +80,14 @@
 
 
     <!--termina contenendor de informacion-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    
+    
 
     <script src="js/index.js"></script>
     <!--scrip para la animacion de imagenes pagina 2-->
     <script src="js/main.js"></script>
     <!--scrip para la galeria de imagenes pagina 2-->
     <script src="js/directores.js"></script>
-
     <script src="js/animacion.js"></script>
     <script src="js/Minimenu.js"></script>
 
