@@ -28,7 +28,7 @@
         </div>
     </div>
     <br>
-    <h3 class="letra3 text-center" style="color: #0079be;"> Departamento de Matemáticas</h3>
+    <h3 class="letra3 text-center" id=textazul> Departamento de Matemáticas</h3>
     <!--termina miga de pan-->
 
     <!--Inicia contenendor de información-->

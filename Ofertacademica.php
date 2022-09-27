@@ -31,8 +31,7 @@
         </div>
     </div>
     <br>
-
-    <h2 class="letra2"> Colegio Ángel María Herrera Penonomé </h2>
+ 
     <!--termina miga de pan-->
 
 
@@ -44,7 +43,7 @@
                 <h3 class="letra3"> Oferta académica </h3>
 
                 <?php
-                include("columIzquiPag3.html");
+                include("Oferta_Academica/columIzquiPag3.html");
                 ?>
             </div>
             <div class="col-4 contenidoizquierdo">
@@ -52,7 +51,7 @@
                     <h2 class="letra2"></h2>
 
                     <?php
-                    include("columDerePag3.html");
+                    include("Oferta_Academica/columDerePag3.html");
 
                     ?>
                 </aside>
