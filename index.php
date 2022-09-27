@@ -34,7 +34,7 @@
         </div>
     </div>
     <br>
-    <h2 class="letra2"> Colegio Ángel María Herrera Penonomé </h2>
+    <h2 class="letra2"> Escuela Secundaria Ángel María Herrera, Penonomé </h2>
     <!--termina miga de pan-->
 
     <!--Inicia contenendor de información-->
@@ -45,9 +45,9 @@
                 <h3 class="letra3"> Himno del plantel </h3>
 
                 <?php
-                include("colderechaPag1.html");
-                echo '<h2> Galeria de Fotos </h2>';
-                include("GaleriaImg2.html");
+                include("Inicio/colderechaPag1.html");
+                echo '<h2 id="textazul"> Galería de Fotos </h2>';
+                include("Inicio/GaleriaImg2.html");
                 ?>
             </div>
             <div class="col-4 contenidoizquierdo">
@@ -55,7 +55,7 @@
                     <h2 class="letra2">Noticias</h2>
 
                     <?php
-                    include("colizquierP1.html");
+                    include("Inicio/colizquierP1.html");
 
                     ?>
                 </aside>

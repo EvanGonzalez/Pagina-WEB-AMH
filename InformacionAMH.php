@@ -30,8 +30,6 @@
         </div>
     </div>
     <br>
-
-    <h2 class="letra2"> Colegio Ángel María Herrera Penonomé </h2>
     <!--termina miga de pan-->
 
 
@@ -43,7 +41,7 @@
             <h3 class="letra3"> información </h3>
 
             <?php
-            include("columnaPag2.html");
+            include("Nuestra_institucion/columnaPag2.html");
             ?>
 
 

@@ -38,14 +38,14 @@
 }
 
 .letra2{
-    color: rgb(0, 0, 0);
+    color: #0079be;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 12px;
 }
 
 .letra3{
-    color: rgb(12, 2, 2);
+    color: #0079be;
     margin-top: 15px;
     margin-bottom: 12px;
     font-size: 2.9rem;
@@ -333,6 +333,7 @@ span{
    
 }
 .list-group-item{
+    
     text-align: center;
     font-size: 20px;
    width: 100%;
@@ -425,4 +426,7 @@ span{
 .panel:hover .card__content {
     opacity: 1;
     transition-delay: .75s;
+}
+#textazul{
+    color: #0079be;
 }
