@@ -10,25 +10,27 @@
 #fondo {
     background-image: url('/img/footer.png');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
     
 }
 
 #contacto p,
 h2 {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 #servicios {
-    padding-top: 25%;
+    padding-top: 5%;
 }
 
 #servicios a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 #mas a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -71,13 +73,13 @@ h2 {
 }
 
 .pie-pagina .grupo-1 .box h2 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin-bottom: 25px;
     font-size: 20px;
 }
 
 .pie-pagina .grupo-1 .box p {
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
@@ -95,7 +97,7 @@ h2 {
 }
 
 #redes {
-    padding-top: 40%;
+    padding-top: 5%;
 }
 
 #back {
