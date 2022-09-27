@@ -1,7 +1,7 @@
 :root {
   box-sizing: border-box;
 
-  --primary: #0079be;
+  --primary: #121b4f;
   --hover-color: #fff;
   --dark: #1c2022;
   --light: #fff;
@@ -30,7 +30,7 @@
 
 
 .cotenidoMain{
-    background-color: #0079be;
+    background-color: #121b4f;
 }
 
 header {
