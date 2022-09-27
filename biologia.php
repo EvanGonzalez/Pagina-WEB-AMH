@@ -28,14 +28,14 @@
         </div>
     </div>
     <br>
-    <h3 class="letra3"> Departamento de Biología </h3>
+    <h3 class="letra3 text-center" style="color: #0079be;"> Departamento de Biología </h3>
     <!--termina miga de pan-->
     <center><img src="img/biologia.jpg"/></center>
     <!--Inicia contenendor de información-->
-    <div class="container text-justify">
+    <div class="container">
 
         <div class="row">
-            <div class="col-12 matematica">
+            <div class="col-12 matematica" style="text-align: justify;">
                 <p> Hasta el año 2018 estuvieron unidos al departamento de Física y Química y durante ese tiempo apoyaban las actividades de INVAN que dirige el profesor Walter Ortega y las actividades eran en conjunto.</p>
                 <p>Hicieron actividades durante más de 10 años de reciclaje de papel y de latas de aluminio como una manera de hacer conciencia y docencia sobre la tala indiscriminada y la contaminación por desechos no biológicos.</p>
                 <p>Durante algún tiempo fuimos parte del proyecto Globe en la que los estudiantes tomaban datos atmosféricos para medir como se estaba desarrollando el Cambio Climático en ese momento (2008-2009). </p>

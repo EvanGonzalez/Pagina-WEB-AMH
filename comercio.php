@@ -28,14 +28,14 @@
         </div>
     </div>
     <br>
-    <h3 class="letra3"> Departamento de Comercio</h3>
+    <h3 class="letra3 text-center" style="color: #0079be;"> Departamento de Comercio</h3>
     <!--termina miga de pan-->
 
     <!--Inicia contenendor de información-->
-    <div class="container text-justify">
+    <div class="container ">
 
-        <div class="row text-justify">
-            <div class="col-12 matematica">
+        <div class="row">
+            <div class="col-12 matematica " style="text-align: justify;">
                 <p>En 1895, en la Escuela Secundaria Ángel María Herrera, se crea el bachillerato de comercio que brinda la oportunidad a jóvenes estudiantes de nuestra comunidad, de lograr una preparación profesional que le permite grandes salidas en el mercado de trabajo.</p>
                 <p>Este bachillerato, creado a través de luchas y dificultades, cuenta en la actualidad laboratorio de software contable, salón de mecanografía, laboratorios de informática y salón de práctica profesional.</p>
                 <p>Nuestra primera promoción fue en 1987 y posteriormente se   más, todas ellas con especialización en contabilidad. y así los egresados podrán convertirse en profesionales claves dentro de una organización pública o privada.  </p>

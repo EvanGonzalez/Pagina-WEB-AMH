@@ -28,14 +28,14 @@
         </div>
     </div>
     <br>
-    <h3 class="letra3"> Departamento de Comercio </h3>
+    <h3 class="letra3 text-center" style="color: #0079be;"> Departamento de Matemáticas</h3>
     <!--termina miga de pan-->
 
     <!--Inicia contenendor de información-->
     <div class="container text-justify">
 
         <div class="row">
-            <div class="col-12 matematica">
+            <div class="col-12 matematica" style="text-align: justify;">
                 <p> Escuela secundaria Ángel María Herrera siempre ha sido conmemorada como un centro un centro educativo de gran prestigio y porvenir. </p>
 
                 <h3>Actividades realizadas actualmente</h3> 
