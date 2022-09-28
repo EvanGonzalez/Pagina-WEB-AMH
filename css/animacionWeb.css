@@ -66,6 +66,7 @@
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.7px;
+    padding: 12px;
   }
   
   /* Let's write the media query */
