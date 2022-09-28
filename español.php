@@ -67,7 +67,7 @@
                     <center><img src="img/oratoria.jpg" alt="" id="thumb"></center>
                     <div class="caption"><!-- Incio de la clase caption -->
                     <p><center>
-                        <a href="https://www.tvn-2.com/nacionales/damaris-santamaria-concurso-nacional-oratoria-video_1_1577603.html" class="btn btn-primary">Ver más</a>
+                        <a href="https://www.tvn-2.com/nacionales/damaris-santamaria-concurso-nacional-oratoria-video_1_1577603.html" class="btn btn-primary" target="blank">Ver más</a>
                     </center></p>
                     </div><!-- fin de la clase caption  -->
                 </div> <!--termina thumbnail-->
