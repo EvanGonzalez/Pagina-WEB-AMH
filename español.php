@@ -76,16 +76,6 @@
             </div>
         </div>
     </div>
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-6">
-                <?php
-                include("Paginacion.html");
-
-                ?>
-            </div>
-        </div>
-    </div>
 
     <footer>
         <?php
