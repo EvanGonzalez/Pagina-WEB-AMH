@@ -384,6 +384,9 @@ span {
 #thumb{
     width: 40%;
 }
+#imgDepart{
+    width: 100%;
+}
 @keyframes español{
     0%{
         transform: translateY(0);

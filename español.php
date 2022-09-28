@@ -53,6 +53,7 @@
             </div>
         </div
         <div class="row">
+        <p></p>
             <div class="col-12 matematica" style="text-align: justify;">
                 
                 <p>El Departamento de español de la Escuela Secundaria Ángel María Herrera, consciente de que nuestra lengua debe ser utilizada con propiedad, fluidez y pulcritud, aplica variadas técnicas metodológicas para que el estudiante considere el idioma como un ente vivo. </p>

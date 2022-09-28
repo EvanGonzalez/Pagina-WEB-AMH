@@ -29,12 +29,14 @@
     </div>
     <br>
     <h3 class="letra3 text-center" id=textazul> Departamento de Matemáticas</h3>
+    
     <!--termina miga de pan-->
 
     <!--Inicia contenendor de información-->
     <div class="container text-justify">
 
         <div class="row">
+        <p><center><img src="img/informatica.JPG" id="imgDepart"/></center><br></p>
             <div class="col-12 matematica" style="text-align: justify;">
                 <p> Escuela secundaria Ángel María Herrera siempre ha sido conmemorada como un centro un centro educativo de gran prestigio y porvenir. </p>
 
