@@ -34,24 +34,24 @@
     <!--Inicia contenendor de información-->
     <div class="container text-justify">
         <div class="row">
-            <div class=col-6>
+            <div class="col-12 d-flex justify-content-center align-items-center">
                 
-                    <div class="card my-4" id="">
-                    <div class="card-body">
+                    <div class="card my-4" id="cardEspañol">
+                    <div class="card-body" id="">
                         <p>
                             “Lengua castellana mía,<br>  
                             habla de plata y cristal,<br>
                             ardiente como una llama, <br> 
                             viva cual un manantial”<br>
                         </p>
-                        <p>Juana de Ibarbourou</p>
+                        <p style="text-align:right;">Juana de Ibarbourou</p>
                      
                     </div>
                 </div>
                 
                 
             </div>
-        </div>
+        </div
         <div class="row">
             <div class="col-12 matematica" style="text-align: justify;">
                 

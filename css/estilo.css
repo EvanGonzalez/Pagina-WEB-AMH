@@ -429,3 +429,19 @@ span{
 #textazul{
     color: #0079be;
 }
+#cardEspañol{
+    background-color: #0079be;
+    color: white;
+    animation: español 2.5s linear infinite ;
+}
+@keyframes español{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
