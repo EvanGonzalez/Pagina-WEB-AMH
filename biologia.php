@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
     <script src="js/scrollreveal.js"></script>
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Pagina Web</title>
 </head>
@@ -31,12 +32,14 @@
     <br>
     <h3 class="letra3 text-center" style="color: #0079be;"> Departamento de Biología </h3>
     <!--termina miga de pan-->
-    
+
     <!--Inicia contenendor de información-->
     <div class="container">
 
         <div class="row">
-        <p><center><img src="img/imagen2.jpg" id="imgDepart"/></center><br></p>
+            <p>
+                <center><img src="img/imagen2.jpg" id="imgDepart" /></center><br>
+            </p>
             <div class="col-12 matematica" style="text-align: justify;">
                 <p> Hasta el año 2018 estuvieron unidos al departamento de Física y Química y durante ese tiempo apoyaban las actividades de INVAN que dirige el profesor Walter Ortega y las actividades eran en conjunto.</p>
                 <p>Hicieron actividades durante más de 10 años de reciclaje de papel y de latas de aluminio como una manera de hacer conciencia y docencia sobre la tala indiscriminada y la contaminación por desechos no biológicos.</p>
@@ -45,7 +48,9 @@
             </div>
         </div>
     </div>
-
+    <?php
+    include("botonArriba.html");
+    ?>
 
     <footer>
         <?php
@@ -64,7 +69,7 @@
     <!--scrip para la animacion de imagenes pagina 2-->
     <script src="js/main.js"></script>
     <!--scrip para la galeria de imagenes pagina 2-->
-
+    <script src="js/boton_up.js"></script>
 
 </body>
 

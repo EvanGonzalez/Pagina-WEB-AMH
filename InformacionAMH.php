@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
     <script src="js/scrollreveal.js"></script>
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Pagina Web</title>
 </head>
@@ -59,7 +60,9 @@
             </div>
         </div>
     </div>
-
+    <?php
+    include("botonArriba.html");
+    ?>
     <footer>
         <?php
         include("footer.html");
@@ -75,9 +78,8 @@
     <script src="js/main.js"></script>
     <!--scrip para la galeria de imagenes pagina 2-->
     <script src="js/directores.js"></script>
-
     <script src="js/animacion.js"></script>
-
+    <script src="js/boton_up.js"></script>
 </body>
 
 </html>

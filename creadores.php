@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
+    <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <script src="js/scrollreveal.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Creadores</title>
 </head>
 
@@ -22,8 +22,8 @@
         <div class="row">
             <div class="col-6">
                 <?php
-                
-                include("MigaPan1pag.html")
+
+                include("Migas_Pan/MigaPan8.html")
                 ?>
             </div>
         </div>
@@ -37,16 +37,16 @@
         <div>
             <?php
             /*carrusel con fotos de los creadores */
-                include("Carrusel.html")
+            include("Carrusel.html")
             ?>
             <br>
         </div>
         <p>
-            La Universidad Tecnológica de Panamá, Centro Regional de Coclé y los estudiantes 
-            de tercer año de la carrera de Licenciatura en Desarrollo de Software - 2022, 
-            agradece el apoyo de los colaboradores de la Escuela Secundaria Ángel María Herrera, 
-            en el desarrollo del portal web dinámico https://nombreweb.com/. 
-            Este sitio web, es el proyecto final de la asignatura de Desarrollo de Software VII, 
+            La Universidad Tecnológica de Panamá, Centro Regional de Coclé y los estudiantes
+            de tercer año de la carrera de Licenciatura en Desarrollo de Software - 2022,
+            agradece el apoyo de los colaboradores de la Escuela Secundaria Ángel María Herrera,
+            en el desarrollo del portal web dinámico https://nombreweb.com/.
+            Este sitio web, es el proyecto final de la asignatura de Desarrollo de Software VII,
             a cargo de la docente Ing. María Yahaira Tejedor M. de Fernández.
         </p>
         <div class="row text-center">
@@ -96,8 +96,10 @@
             </div>
         </div>
     </div>
-    
 
+    <?php
+    include("botonArriba.html");
+    ?>
     <footer>
         <?php
         include("footer.html");
@@ -108,17 +110,13 @@
 
 
     <!--termina contenendor de informacion-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-        crossorigin="anonymous"></script>
-        <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
     <!--scrip para la animacion de imagenes pagina 2-->
     <script src="js/main.js"></script>
     <!--scrip para la galeria de imagenes pagina 2-->
-
+    <script src="js/boton_up.js"></script>
 </body>
 
 </html>

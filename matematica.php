@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
     <script src="js/scrollreveal.js"></script>
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Pagina Web</title>
 </head>
@@ -23,38 +24,42 @@
         <div class="row">
             <div class="col-6">
                 <?php
-               include("Migas_Pan/MigaPan5.html")
+                include("Migas_Pan/MigaPan5.html")
                 ?>
             </div>
         </div>
     </div>
     <br>
     <h3 class="letra3 text-center" id=textazul> Departamento de Matemáticas</h3>
-    
+
     <!--termina miga de pan-->
 
     <!--Inicia contenendor de información-->
     <div class="container text-justify">
 
         <div class="row">
-        <p><center><img src="img/informatica.JPG" id="imgDepart"/></center><br></p>
+            <p>
+                <center><img src="img/informatica.JPG" id="imgDepart" /></center><br>
+            </p>
             <div class="col-12 matematica" style="text-align: justify;">
                 <p> Escuela secundaria Ángel María Herrera siempre ha sido conmemorada como un centro un centro educativo de gran prestigio y porvenir. </p>
 
-                <h3>Actividades realizadas actualmente</h3> 
+                <h3>Actividades realizadas actualmente</h3>
                 <ul>
                     <li>Confección de murales por trimestre, con el propósito de resaltar estudiantes con índice académico que oscile 4.7 y 5.0. De esta manera les estimula hacia un estudio científico y entusiasta. </li>
                     <li>Premian a los mejores estudiantes estrellas de matemáticas de 9° y 12° grado. En cada promoción durante los años 2019 y 2021. </li>
                 </ul>
-                <h3>Actividades realizadas antes de la pandemia </h3> 
+                <h3>Actividades realizadas antes de la pandemia </h3>
                 <ul>
-                    <li>Competencias o cursos a nivel interno e intercolegial entre paralelos.</li> 
-                    <li>Se creó un club denominado Unión de Matemáticos Angelinos (UMA) que participaban alumnos de alto índice académico, quienes servían de modelo en las clases y ayudaban a los compañeros con dificultades en matemáticas.</li>  
+                    <li>Competencias o cursos a nivel interno e intercolegial entre paralelos.</li>
+                    <li>Se creó un club denominado Unión de Matemáticos Angelinos (UMA) que participaban alumnos de alto índice académico, quienes servían de modelo en las clases y ayudaban a los compañeros con dificultades en matemáticas.</li> 
                 </ul>
             </div>
         </div>
     </div>
-
+    <?php
+    include("botonArriba.html");
+    ?>
     <footer>
         <?php
         include("footer.html");
@@ -72,7 +77,7 @@
     <!--scrip para la animacion de imagenes pagina 2-->
     <script src="js/main.js"></script>
     <!--scrip para la galeria de imagenes pagina 2-->
-
+    <script src="js/boton_up.js"></script>
 
 </body>
 

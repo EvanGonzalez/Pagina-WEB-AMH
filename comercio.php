@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
     <script src="js/scrollreveal.js"></script>
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Pagina Web</title>
 </head>
@@ -30,14 +31,16 @@
     </div>
     <br>
     <h3 class="letra3 text-center" id="textazul"> Departamento de Comercio</h3>
-    
+
     <!--termina miga de pan-->
 
     <!--Inicia contenendor de información-->
     <div class="container ">
 
         <div class="row">
-        <p><center><img src="img/imagen4.jpg" id="imgDepart"/></center><br></p>
+            <p>
+                <center><img src="img/imagen4.jpg" id="imgDepart" /></center><br>
+            </p>
             <div class="col-12 matematica " style="text-align: justify;">
                 <p>En 1895, en la Escuela Secundaria Ángel María Herrera, se crea el bachillerato de comercio que brinda la oportunidad a jóvenes estudiantes de nuestra comunidad, de lograr una preparación profesional que le permite grandes salidas en el mercado de trabajo.</p>
                 <p>Este bachillerato, creado a través de luchas y dificultades, cuenta en la actualidad laboratorio de software contable, salón de mecanografía, laboratorios de informática y salón de práctica profesional.</p>
@@ -57,14 +60,16 @@
                     <li>Promoción de bachiller en comercio y contabilidad a los estudiantes de Premedia.</li>
                 </ul>
                 <p><b><i>“La semana de comercio se culmina con una convivencia personal administrativo, docente y educado del plantel”</i></b></p>
-                <h3>Práctica de los estudiantes graduandos:</h3> 
+                <h3>Práctica de los estudiantes graduandos:</h3>
                 <p>Todos los años los distinguidos realizan una práctica profesional, premio obtenido del estudio y dedicación. Para que el estudiante pueda hacer sus labores en una empresa privada o pública, debe obtener un promedio no menos de 4.0 en las asignaturas básicas: Español Comercial, Práctica de Contabilidad. Los demás estudiantes realizan esta actividad dentro de la escuela. </p>
                 <p>Nuestro centro educativo, a través del departamento de Comercio, ha recibido elogios por la eficiente labor de los estudiantes en las empresas e instituciones de la comunidad. </p>
             </div>
         </div>
     </div>
 
-
+    <?php
+    include("botonArriba.html");
+    ?>
     <footer>
         <?php
         include("footer.html");
@@ -82,7 +87,7 @@
     <!--scrip para la animacion de imagenes pagina 2-->
     <script src="js/main.js"></script>
     <!--scrip para la galeria de imagenes pagina 2-->
-
+    <script src="js/boton_up.js"></script>
 
 </body>
 
