@@ -1,14 +1,30 @@
-<div class="contenOferta">
-  <div class="row justify-content-center">
-    <div class="col-8">
-      <div
-        data-bs-spy="scroll"
-        data-bs-target="#list-example"
-        data-bs-smooth-scroll="true"
-        class="scrollspy-example"
-        tabindex="0"
-      >
-        <h4 id="textazul">Bachiller en Ciencias</h4>
+
+
+<div class="card">
+  <div class="card-body">
+    <ul class="navbar">
+      <li>
+        <a href="#tab1Id" class="tab active" data-id="home">
+          <span class="icon"><i class="fas fa-home"></i></span>
+          <span class="text">Bachiller en Ciencias</span>
+        </a>
+      </li>
+      <li>
+        <a href="#tab1Id" class="tab" data-id="profile">
+          <span class="icon"><i class="fas fa-user"></i></span>
+          <span class="text">Bachiller en Humanidades</span>
+        </a>
+      </li>
+      <li>
+        <a href="#tab1Id" class="tab" data-id="messages">
+          <span class="icon"><i class="far fa-envelope"></i></span>
+          <span class="text">Bachiller en Comercio y Contabilidad</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="tab-content">
+      <div class="tab-pane active" id="home">
         <p class="Bachillertxt">
           Son personas sociables, con capacidad de atención y escucha,
           observadores, reflexivos, con ganas de ayudar a los demás, con interés
@@ -21,6 +37,7 @@
           Emplea y comprende el idioma oficial de manera oral y escrita. Emplea
           y comprende una segunda lengua oral y escrita.
         </p>
+
         <div class="slides">
           <div class="slide">
             <img src="img/ciencias1.JPG" alt="" class="slide-image" />
@@ -31,11 +48,9 @@
           <div class="slide slide-3">
             <img src="img/ciencias4.JPG" alt="" class="slide-image" />
           </div>
-          
         </div>
-
-        <br /><br /><br /><br /><br /><br />
-        <h4 id="textazul">Bachiller en Humanidades</h4>
+      </div>
+      <div class="tab-pane" id="profile">
         <p class="Bachillertxt">
           Alumnos con gusto por la lectura y la literatura, buena capacidad de
           comprensión, interesados por los saberes humanísticos y las lenguas
@@ -45,9 +60,8 @@
           y clásicas. Emplea y comprende el idioma oficial de manera oral y
           escrita. Emplea y comprende una segunda lengua oral y escrita.
         </p>
-        <br /><br /><br /><br /><br /><br />
-        <h4 id="textazul">Bachiller en Comercio y Contabilidad</h4>
-
+      </div>
+      <div class="tab-pane" id="messages">
         <p class="Bachillertxt">
           Mentalidad abierta, flexible, participativa que sea capaz con su
           preparación teórica y práctica de poder enfrentar los cambios que se
@@ -73,9 +87,11 @@
           investigativo, que le permita desempeñarse como profesional con la
           calidad requerida y acorde con las normativas vigentes.
         </p>
-        <h4 id="textazul">Item 4</h4>
-        <p>...</p>
       </div>
     </div>
   </div>
 </div>
+
+<!-- jQuery CDN Link -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- Custom js -->

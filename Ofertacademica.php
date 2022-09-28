@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/Efectos2.css" type="text/css">
     <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="js/scrollreveal.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Pagina Web</title>
@@ -31,7 +32,7 @@
         </div>
     </div>
     <br>
- 
+
     <!--termina miga de pan-->
 
 
@@ -39,24 +40,14 @@
     <div class="container text-center">
 
         <div class="row">
-            <div class="col-8 contenidoderecho">
+            <div class="col-12 contenidoderecho">
                 <h3 class="letra3"> Oferta académica </h3>
 
                 <?php
                 include("Oferta_Academica/columIzquiPag3.html");
                 ?>
             </div>
-            <div class="col-4 contenidoizquierdo">
-                <aside id="asistyle">
-                    <h2 class="letra2"></h2>
-
-                    <?php
-                    include("Oferta_Academica/columDerePag3.html");
-
-                    ?>
-                </aside>
-
-            </div>
+            
         </div>
     </div>
 
@@ -79,9 +70,10 @@
 
 
     <!--termina contenendor de informacion-->
-    
-    
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/index.js"></script>
     <!--scrip para la animacion de imagenes pagina 2-->
     <script src="js/main.js"></script>
@@ -89,7 +81,7 @@
     <script src="js/directores.js"></script>
     <script src="js/animacion.js"></script>
     <script src="js/Minimenu.js"></script>
-
+    <script src="js/Ofertas.js"></script>
 </body>
 
 </html>
