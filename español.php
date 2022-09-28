@@ -62,6 +62,14 @@
                 <p>Es digno reconocer el apoyo que otrora recibimos de instituciones como la Lotería Nacional de Beneficencia, Universidad Popular de Coclé (actualmente, Universidad del Trabajo), Universidad de Azuero y la Biblioteca Pública Fernando Guardia. De igual forma, valoramos el respaldo incondicional de padres de familia y docentes de los distintos departamentos.</p>
                 <p>Es importante destacar que, en el año 1988, la escuela Secundaria Ángel María Herrera fue sede del Concurso provincial de oratoria patrocinado por la Caja de Ahorros. En esta ocasión, nuestra representante María Cristina Cheng S, fue la ganadora de la provincia de Coclé y del primer lugar a nivel nacional; hecho histórico ya que era la primera vez, en esta noble región coclesana, que se alcanzaba tal distinción en este renombrado concurso.</p>
                 <p>En el año 2016, Dámaris Santamaría Reyes, se alzó con el galardón de la duodécima versión del Concurso Nacional de Oratoria cuyo tema fue: “Agua para todos, el reto frente al cambio climático”.</p>
+                <div class="thumbnail"><!-- Incio del thumbnail -->
+                    <center><img src="img/oratoria.jpg" alt="" id="thumb"></center>
+                    <div class="caption"><!-- Incio de la clase caption -->
+                    <p><center>
+                        <a href="https://www.tvn-2.com/nacionales/damaris-santamaria-concurso-nacional-oratoria-video_1_1577603.html" class="btn btn-primary">Ver más</a>
+                    </center></p>
+                    </div><!-- fin de la clase caption  -->
+                </div> <!--termina thumbnail-->
                 <p>Loor a los estudiantes que han pasado por esta memorable institución y han legado un laurel en la formación cultural de nuestro hermoso pueblo.</p>
                 
             </div>

@@ -381,6 +381,9 @@ span {
     color: white;
     animation: español 2.5s linear infinite ;
 }
+#thumb{
+    width: 40%;
+}
 @keyframes español{
     0%{
         transform: translateY(0);
