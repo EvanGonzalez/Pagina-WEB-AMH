@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/Efectos2.css" type="text/css">
     <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
+    <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="js/scrollreveal.js"></script>
@@ -25,8 +26,8 @@
     <div class="container text-center">
         <div class="row">
             <div class="col-6">
-                <?php
-                include("MigaPan3.html")
+            <?php
+                include("Migas_Pan/MigaPan3.html")
                 ?>
             </div>
         </div>

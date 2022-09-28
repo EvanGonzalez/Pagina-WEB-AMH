@@ -1,0 +1,55 @@
+@import url(//fonts.googleapis.com/icon?family=Material+Icons);
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+.breadcrumbs {
+	background-image: -moz-linear-gradient(0% 100% 90deg,rgb(3, 3, 3), rgb(10, 10, 10));
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(255, 254, 254)), to(rgb(247, 247, 247)));
+	background-color: rgb(12, 12, 12);
+	padding: 10px 0;
+	color: #6F6F6F;
+	font-size: 0;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.75);
+}
+.breadcrumbs a,
+.breadcrumbs .last-crumb {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 24px;
+	padding: 0 20px 0 12px;
+	position: relative;
+}
+.breadcrumbs a:after {
+	border-top: 1px solid #555;
+	border-right: 1px solid #555;
+	content: "";
+	display: block;
+	margin: -6px 0 0 0;
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 50%;
+	right: 0;
+	-ms-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+.hidden {
+	display: none;
+}
+[data-icon]:before {
+	font-family: 'Material Icons';
+	content: attr(data-icon);
+	
+  font-size: 24px;
+	font-weight: normal;
+	line-height: 1;
+  vertical-align: bottom;
+}
