@@ -299,7 +299,7 @@ span {
 }
 
 #carouselExampleCaptions {
-  width: 90%;
+  width: 60%;
 }
 
 /* ======================== */
@@ -407,8 +407,8 @@ span {
   position: fixed;
   bottom: 4rem;
   right: 4rem;
-  width: 6.6rem;
-  height: 6.6rem;
+  width: 4.4rem;
+  height: 4.4rem;
   z-index: -1;
 }
 
@@ -442,8 +442,8 @@ span {
 
 .show .go-top-button {
   animation: popup 0.3s ease-in-out;
-  width: 6.6rem;
-  height: 6.6rem;
+  width: 3.6rem;
+  height: 3.6rem;
   z-index: 11;
 }
 
@@ -457,11 +457,11 @@ span {
       height: 0;
   }
   50% {
-      width: 8rem;
-      height: 8rem;
+      width: 6rem;
+      height: 6rem;
   }
   100% {
-      width: 6.6rem;
-      height: 6.6rem;
+      width: 3.6rem;
+      height: 3.6rem;
   }
 }
