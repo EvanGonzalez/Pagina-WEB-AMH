@@ -40,7 +40,7 @@
 
         <div class="row3 contenidoderecho">
 
-            <h3 class="letra3"> información </h3>
+            <h3 class="letra3"> Información </h3>
 
             <?php
             include("Nuestra_institucion/columnaPag2.html");
