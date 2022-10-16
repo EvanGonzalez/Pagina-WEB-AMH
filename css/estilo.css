@@ -67,6 +67,11 @@
   margin-right: 220px;
 }
 
+.ParrafoHistoria{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 /* galeria  animado con hover */
 .CONTENEDORIMG {
   display: block;
@@ -323,8 +328,8 @@ span {
   position: absolute;
   left: 0;
   width: 100%;
-  height: calc(60% + 35px);
-  background-color: rgba(0, 0, 0, 0.473);
+  height: calc(60% + 75px);
+  background-color: rgba(0, 0, 0, 0.579);
   transition: transform 0.5s.25s ease-in;
   z-index: -1;
   opacity: 20px;
@@ -357,10 +362,11 @@ span {
 
 }
 
-.card__description {
-  font-size: 30px;
+.card__description .accordion-body {
+  text-align: justify;
+  font-size: 1.2rem;
   color: #ffffff;
-  text-align: center;
+  
   width: 100%;
 }
 
