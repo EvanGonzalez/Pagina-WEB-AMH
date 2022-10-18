@@ -35,10 +35,8 @@
     <!--Inicia contenendor de información-->
     <div class="container text-justify">
         <div>
-            <?php
-            /*carrusel con fotos de los creadores */
-            include("Carrusel.html")
-            ?>
+            <!--foto de los colaboradores-->
+            <center><img src="img/IMG_5982.JPG" alt="" width="100%"></center>
             <br>
         </div>
         <p>
@@ -55,7 +53,7 @@
                     <h5 class="card-header">Colaboradores</h5>
                     <div class="card-body">
                         <!--foto de los colaboradores-->
-                        <center><img src="img/img3.jpg" alt=""></center>
+                        <center><img src="img/IMG_5971.JPG" alt="" width="100%"></center>
                         nombre,nombre,nombre
                     </div>
                 </div>
