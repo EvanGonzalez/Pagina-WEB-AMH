@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/Modal.css" type="text/css">
     <link rel="stylesheet" href="./css/leermas.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
+    <link rel="stylesheet" href="./scss/cardsanimation.scss">
     <script src="js/scrollreveal.js"></script>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -85,6 +86,7 @@
     <script src="js/boton_up.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/leermas.js"></script>
+    <script src="js/cardanimation.js"></script>
 </body>
 
 </html>
