@@ -1,6 +1,6 @@
 .ContenedorGrande {
 	margin: 0;
-	background-image: linear-gradient(90deg, #8577b7, #041c8a);
+	background-image: linear-gradient(90deg, #bbb8c4, #04114c);
 	color: #fff;
 	font-family: sans-serif;
 	display: flex;
@@ -121,3 +121,142 @@
 #t-5:checked ~ .testimonials label[for="t-5"] {
 	z-index: 4;
 }
+
+
+/* css para lista de carreras disponibles para la universidad */
+
+
+
+
+.card{
+	grid-area: text;
+	margin-left: 4rem;
+	border-radius: 0px;
+	box-shadow: 0 0 5px 1px #ddd;
+	margin-top: 0.5rem;
+}
+.card-html .card-header:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #e65127;
+	border-width: 10px;
+	top: 10px;
+}
+.card-css .card-header:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #379ad6;
+	border-width: 10px;
+	top: 10px;
+}
+.card-js .card-header:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #f2bf26;
+	border-width: 10px;
+	top: 10px;
+}
+.card-php .card-header:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #8b92bd;
+	border-width: 10px;
+	top: 10px;
+}
+.card-bootstrap .card-header:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #7952b3;
+	border-width: 10px;
+	top: 10px;
+}
+.card .card-header{
+	background-color: #8abe3e;
+	color: #fff;
+	font-size: 22px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.card-css .card-header, .card-css .btn-success{
+	background-color: #379ad6;
+	border-color: #379ad6;
+}
+.card-html .card-header, .card-html .btn-success{
+	background-color: #e65127;
+	border-color: #e65127;
+}
+.card-js .card-header, .card-js .btn-success{
+	background-color: #f2bf26;
+	border-color: #f2bf26;
+}
+.card-bootstrap .card-header, .card-bootstrap .btn-success{
+	background-color: #7952b3;
+	border-color: #7952b3;
+}
+.card-php .card-header, .card-php .btn-success{
+	background-color: #8b92bd;
+	border-color: #8b92bd;
+}
+
+
+
+/* css para contenido de cards informacion */
+.title {
+ 
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+     
+}
+.cartilla {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    
+    margin-top:20px;
+}
+
+
+
+
+.lex-direction{  
+	columns: auto;
+}
+
