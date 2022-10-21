@@ -1,6 +1,6 @@
 .ContenedorGrande {
 	margin: 0;
-	background-image: linear-gradient(90deg, #bbb8c4, #04114c);
+	background-image: linear-gradient(90deg, #ffffff, #f7f7f7);
 	color: #fff;
 	font-family: sans-serif;
 	display: flex;
@@ -82,36 +82,45 @@
 #t-5:checked ~ .dots label[for="t-4"] {
 	transform: scale(1.5);
 }
+#t-1:checked ~ .testimonials label[for="t-5"] {
+	transform: translate3d(1200px, 0, -360px) rotateY(-45deg);
+}
+#t-1:checked ~ .testimonials label[for="t-4"],
+#t-2:checked ~ .testimonials label[for="t-5"] {
+	transform: translate3d(900px, 0, -270px) rotateY(-35deg);
+	z-index: 1;
+}
 #t-1:checked ~ .testimonials label[for="t-3"],
 #t-2:checked ~ .testimonials label[for="t-4"],
-#t-3:checked ~ .testimonials label[for="t-5"],
-#t-4:checked ~ .testimonials label[for="t-1"],
-#t-5:checked ~ .testimonials label[for="t-2"] {
+#t-3:checked ~ .testimonials label[for="t-5"] {
 	transform: translate3d(600px, 0, -180px) rotateY(-25deg);
 	z-index: 2;
 }
 #t-1:checked ~ .testimonials label[for="t-2"],
 #t-2:checked ~ .testimonials label[for="t-3"],
 #t-3:checked ~ .testimonials label[for="t-4"],
-#t-4:checked ~ .testimonials label[for="t-5"],
-#t-5:checked ~ .testimonials label[for="t-1"] {
+#t-4:checked ~ .testimonials label[for="t-5"] {
 	transform: translate3d(300px, 0, -90px) rotateY(-15deg);
 	z-index: 3;
 }
 #t-2:checked ~ .testimonials label[for="t-1"],
 #t-3:checked ~ .testimonials label[for="t-2"],
 #t-4:checked ~ .testimonials label[for="t-3"],
-#t-5:checked ~ .testimonials label[for="t-4"],
-#t-1:checked ~ .testimonials label[for="t-5"] {
+#t-5:checked ~ .testimonials label[for="t-4"] {
 	transform: translate3d(-300px, 0, -90px) rotateY(15deg);
 	z-index: 3;
 }
 #t-3:checked ~ .testimonials label[for="t-1"],
 #t-4:checked ~ .testimonials label[for="t-2"],
-#t-5:checked ~ .testimonials label[for="t-3"],
-#t-2:checked ~ .testimonials label[for="t-5"],
-#t-1:checked ~ .testimonials label[for="t-4"] {
+#t-5:checked ~ .testimonials label[for="t-3"] {
 	transform: translate3d(-600px, 0, -180px) rotateY(25deg);
+}
+#t-5:checked ~ .testimonials label[for="t-2"],
+#t-4:checked ~ .testimonials label[for="t-1"] {
+	transform: translate3d(-900px, 0, -270px) rotateY(35deg);
+}
+#t-5:checked ~ .testimonials label[for="t-1"] {
+	transform: translate3d(-1200px, 0, -360px) rotateY(45deg);
 }
 #t-1:checked ~ .testimonials label[for="t-1"],
 #t-2:checked ~ .testimonials label[for="t-2"],
@@ -143,7 +152,7 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-right-color: #e65127;
+	border-right-color: #121b4f;
 	border-width: 10px;
 	top: 10px;
 }
@@ -155,7 +164,7 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-right-color: #379ad6;
+	border-right-color: #121b4f;
 	border-width: 10px;
 	top: 10px;
 }
@@ -167,7 +176,7 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-right-color: #f2bf26;
+	border-right-color: #121b4f;
 	border-width: 10px;
 	top: 10px;
 }
@@ -179,7 +188,7 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-right-color: #8b92bd;
+	border-right-color: #121b4f;
 	border-width: 10px;
 	top: 10px;
 }
@@ -191,12 +200,12 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-right-color: #7952b3;
+	border-right-color: #121b4f;
 	border-width: 10px;
 	top: 10px;
 }
 .card .card-header{
-	background-color: #8abe3e;
+	background-color: #121b4f;
 	color: #fff;
 	font-size: 22px;
 	border-top-left-radius: 0px;
@@ -204,23 +213,23 @@
 }
 
 .card-css .card-header, .card-css .btn-success{
-	background-color: #379ad6;
+	background-color: #121b4f;
 	border-color: #379ad6;
 }
 .card-html .card-header, .card-html .btn-success{
-	background-color: #e65127;
+	background-color: #121b4f;
 	border-color: #e65127;
 }
 .card-js .card-header, .card-js .btn-success{
-	background-color: #f2bf26;
+	background-color: #121b4f;
 	border-color: #f2bf26;
 }
 .card-bootstrap .card-header, .card-bootstrap .btn-success{
-	background-color: #7952b3;
+	background-color: #121b4f;
 	border-color: #7952b3;
 }
 .card-php .card-header, .card-php .btn-success{
-	background-color: #8b92bd;
+	background-color: #121b4f;
 	border-color: #8b92bd;
 }
 
@@ -260,3 +269,5 @@
 	columns: auto;
 }
 
+
+/* efecto de texto animado ofertas academicas */
