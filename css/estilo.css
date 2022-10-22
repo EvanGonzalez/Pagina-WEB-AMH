@@ -232,7 +232,7 @@
   text-align: justify;
   height: auto;
   width: auto;
-  padding: 5px 15px;
+  padding: 5px 5px;
 }
 
 @media screen and (max-width: 767px) {
