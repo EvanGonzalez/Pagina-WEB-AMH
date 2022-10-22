@@ -44,7 +44,6 @@
         <?php
         include("Nuestra_institucion/columnaPag2.html");
         ?>
-        
     </div>
 
 
