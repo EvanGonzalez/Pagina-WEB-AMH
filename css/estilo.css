@@ -216,13 +216,13 @@
 /* inicio de estilos de pagina 2 */
 
 .infomYv {
-  padding: 20px;
+  padding: 5px;
   display: flex;
-  width: 100%;
+  width: 90%;
   height: auto;
-  border-radius: 15px;
+  border-radius: 5px;
   flex-direction: raw;
-  gap: 10px;
+  gap: 5px;
   background: #121b4f;
   align-items: center;
   justify-content: center;
