@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
-    <link rel="stylesheet" href="./css/Modal.css" type="text/css">
+    <link rel="stylesheet" href="./css/galeriadetexto.css" type="text/css">
     <link rel="stylesheet" href="./css/leermas.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
     <link rel="stylesheet" href="./scss/cardsanimation.scss">
@@ -83,6 +83,7 @@
     <script src="js/modal.js"></script>
     <script src="js/leermas.js"></script>
     <script src="js/cardanimation.js"></script>
+    <script src="js/galeriadetexto.js"></script>
 </body>
 
 </html>

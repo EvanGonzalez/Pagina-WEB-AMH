@@ -1,0 +1,45 @@
+#cuerpocarrusel {
+    width: 100%;
+    padding-top: 20px;
+    text-align: left;
+  }
+  
+  #CARRUSEL {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .slick-slide {
+    margin: 10px;
+  }
+  .slick-slide img {
+    width: 100%;
+  }
+  .slick-prev,
+  .slick-next {
+    background: rgb(0, 12, 71);
+    border-radius: 15px;
+    border-color: transparent;
+  }
+  .carta {
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 15px #ccc;
+  }
+  .carta-body {
+    background: #121b4f;
+    width: 100%;
+    vertical-align: top;
+  }
+  .carta-content {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+  }
+  .carta-txt {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+  }
+  .textopagina2{
+      font-size: 24px;
+      color: #fff;
+  }
