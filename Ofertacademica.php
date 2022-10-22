@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
     <link rel="stylesheet" href="./css/infinitocarrusel.css" type="text/css">
-  
+    <link rel="stylesheet" href="efectogaleria.scss" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="js/scrollreveal.js"></script>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
@@ -90,7 +90,7 @@
     <script src="js/Minimenu.js"></script>
     <script src="js/Ofertas.js"></script>
     <script src="js/boton_up.js"></script>
-    
+    <script src="js/efectogaleria.js"></script>
 </body>
 
 </html>

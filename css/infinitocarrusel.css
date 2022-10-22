@@ -271,3 +271,6 @@
 
 
 /* efecto de texto animado ofertas academicas */
+#slidy-container { 
+	width: 90%; overflow: hidden; margin: 0 auto;
+  }
