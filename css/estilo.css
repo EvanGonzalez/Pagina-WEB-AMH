@@ -228,6 +228,11 @@
   justify-content: center;
 }
 
+.imgtecnicodocente{
+  width: 100%;
+  height: 50vw;
+}
+
 .card-text {
   text-align: justify;
   height: auto;
@@ -285,6 +290,7 @@ span {
 /*-----------------animacion------------------------*/
 
 /* css de ofertas academicas */
+
 #Bachillertxt {
   text-align: justify;
   font-size: 1.5rem;
@@ -336,8 +342,8 @@ span {
   position: absolute;
   left: 0;
   width: 100%;
-  height: calc(60% + 70px);
-  background-color: rgba(0, 0, 0, 0.988);
+  height: calc(60% + 60px);
+  background-color: rgba(0, 0, 0, 0.596);
   transition: transform 0.5s.25s ease-in;
   z-index: -1;
   opacity: 20px;
@@ -372,6 +378,13 @@ span {
 
 .description{
   color: #fff;
+  font-size: 1.9rem;
+}
+
+#link{
+  color: #0079be;
+  font-size: 1.9rem;
+
 }
 
 .description .accordion-body {

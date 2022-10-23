@@ -40,8 +40,15 @@
     color: rgb(0, 0, 0);
   }
   .textopagina2 {
-      font-size: 20px;
+      font-size: 1.2rem;
       color: #fff;
       text-align: left;
       text-decoration: none;
   }
+
+  .textopaginatecnico {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    text-decoration: none;
+}
