@@ -8,7 +8,6 @@
 
 #fondoMain {
   background-color: rgba(255, 255, 255, 0.911);
-  min-height: 728px;
 }
 
 .contenidoizquierdo {
@@ -53,9 +52,7 @@
 .container {
   background-color: rgb(255, 255, 255);
   font-family: "Exo 2", sans-serif;
-  display: flex;
-  flex: 1 1 auto;
-  flex-direction: column;
+  
 }
 
 
