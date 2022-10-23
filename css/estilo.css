@@ -336,8 +336,8 @@ span {
   position: absolute;
   left: 0;
   width: 100%;
-  height: calc(60% + 75px);
-  background-color: rgba(0, 0, 0, 0.579);
+  height: calc(60% + 70px);
+  background-color: rgba(0, 0, 0, 0.988);
   transition: transform 0.5s.25s ease-in;
   z-index: -1;
   opacity: 20px;
@@ -365,16 +365,19 @@ span {
 }
 
 .card__title {
-  color: #f8f8f8;
+  color: #ffffff;
   margin-bottom: 15px;
 
 }
 
-.card__description .accordion-body {
-  text-align: justify;
+.description{
+  color: #fff;
+}
+
+.description .accordion-body {
+  
   font-size: 1.2rem;
   color: #ffffff;
-  
   width: 100%;
 }
 

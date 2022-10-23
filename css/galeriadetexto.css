@@ -39,7 +39,9 @@
     font-weight: 300;
     color: rgb(0, 0, 0);
   }
-  .textopagina2{
-      font-size: 24px;
+  .textopagina2 {
+      font-size: 20px;
       color: #fff;
+      text-align: left;
+      text-decoration: none;
   }
