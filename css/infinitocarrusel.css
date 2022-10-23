@@ -59,7 +59,7 @@
 	width: 5px;
 	border-radius: 50%;
 	cursor: pointer;
-	background-color: #413B52;
+	background-color: #3e0dc4;
 	margin: 7px;
 	transition-duration: 0.2s;
 }
@@ -70,7 +70,7 @@
 #t-4:checked ~ .dots label[for="t-4"],
 #t-5:checked ~ .dots label[for="t-5"] {
 	transform: scale(2);
-	background-color: #fff;
+	background-color: rgb(0, 173, 241);
 }
 #t-1:checked ~ .dots label[for="t-2"],
 #t-2:checked ~ .dots label[for="t-1"],

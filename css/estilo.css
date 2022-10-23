@@ -212,6 +212,7 @@
 
 /* inicio de estilos de pagina 2 */
 
+
 .infomYv {
   padding: 5px;
   display: flex;
@@ -235,6 +236,7 @@
   height: auto;
   width: auto;
   padding: 5px 5px;
+  margin-left: 15px;
 }
 
 @media screen and (max-width: 767px) {
@@ -290,7 +292,7 @@ span {
 
 #Bachillertxt {
   text-align: justify;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .contmovil {
