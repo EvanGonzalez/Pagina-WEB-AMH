@@ -40,25 +40,35 @@
 
     <!--Inicia contenendor de informacion-->
     <div class="container text-center">
-        <h3 class="letra3"> Información </h3>
-        <?php
-        include("Nuestra_institucion/columnaPag2.html");
-        ?>
+        <h3 class="letra3">Directora</h3>
+
+        <div class="title h1 text-center">Lesbia Liao de Villareal.</div>
+        <center><img src="img/directora.JPG" class="imgtecnicodocente" /></center><br>
+        <ul class="textopaginatecnico">
+           
+        </ul>
+
+
+
+        <ul class="textopaginatecnico">
+            <div class="title h1 text-center">Formación Académica</div>
+
+            
+        </ul>
+
+        <div class="title h1 text-center">Experiencia Laboral</div>
+        <ul class="textopaginatecnico">
+            
+            
+        </ul>
+
     </div>
+    <br><br>
 
 
 
 
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-6">
-                <?php
-                include("Paginacion.html");
 
-                ?>
-            </div>
-        </div>
-    </div>
     <?php
     include("botonArriba.html");
     ?>
