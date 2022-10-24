@@ -34,41 +34,54 @@
         </div>
     </div>
     <br>
-    <h3 class="letra3 text-center" id=textazul> Departamento de Ciencias Sociales</h3>
+    <h3 class="letra3 text-center" id=textazul> Departamento de Afines</h3>
     <!--termina miga de pan-->
 
     <!--Inicia contenendor de información-->
     <div class="container text-justify">
         <div class="row">
-            <div class="col-md-6">
-                <p>Es un departamento que está comprometido con la investigación y enseñanza interdisciplinaria en los niveles de Premedia y media, formando a los discentes para que sean críticos y valoren el pasado y presente de los pueblos; resaltando las tradiciones y se conviertan en ente activo dentro de la sociedad.</p>
+            <div class="col-md-12">
+                <h3>DESCRIPCION</h3>
+                <p>El departamento de afines está formado por trece (13) profesores de diversas asignaturas, cada uno dedicado a su especialidad. La mayoría trabaja con estudiantes de Premedia y el resto con estudiante de media. Tiene un coordinador para todo el departamento que se elige cada dos años.</p>
+                <p>Este departamento se distingue por su diversidad de talentos, competencias, destrezas. Esta inmerso en toda las actividades curriculares y extracurriculares del plantel. Potencia en los estudiantes el desarrollo de las habilidades duras y blandas.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <center>
-                    <h3>Actividades</h3>
-                    <h2></h2>
-                </center>
-                <div id="CARRUSEL">
-                    <div>
-                        <div class="carta">
-                            <div class="carta-body">
-                                <div class="carta-content">
-                                    <div class="carta-txt">
-                                        <ul class="textopagina2">
-                                            <li>Diputado juvenil</li>
-                                            <li>Confección de murales con los diferentes hechos históricos.</li>
-                                            <li>Conferencias.</li>
-                                            <li>Trabajos de investigación.</li>
-                                            <li>Debates.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <table border="1">
+                <tr>
+                    <td>asignatura</td>
+                    <td>descripcion</td>
+                </tr>
+                <tr>
+                    <td>asignatura</td>
+                    <td>descripcion</td>
+                </tr>
+                <tr>
+                    <td>asignatura</td>
+                    <td>descripcion</td>
+                </tr>
+                <tr>
+                    <td>asignatura</td>
+                    <td>descripcion</td>
+                </tr>
+                <tr>
+                    <td>asignatura</td>
+                    <td>descripcion</td>
+                </tr>
+                <tr>
+                    <td>asignatura</td>
+                    <td>descripcion</td>
+                </tr>
+                <tr>
+                    <td>asignatura</td>
+                    <td>descripcion</td>
+                </tr>
+            </table>
+                <h3>FAMILIA Y DESARROLLO COMUNITARIO </h3>
+                <p>La materia de <b>familia</b> y desarrollo comunitario, desde su inicio, ha tratado de cumplir los planes y programas establecidos por el Ministerio de Educación.</p>
+                <p>Proporcionamos al estudiante los conocimientos requeridos en las diferentes áreas que la asignatura exige.</p>
+                <p>Durante el desarrollo de nuestras clases despertamos el interés de los estudiantes a través de la realización de proyectos manuales que luego se exponen en la feria del departamento, que se realiza en el mes de octubre, dónde se conmemora la semana de la alimentación.</p>
             </div>
         </div>
     </div>
