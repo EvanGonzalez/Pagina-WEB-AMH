@@ -40,7 +40,7 @@
     <!--Inicia contenendor de información-->
     <div class="container text-justify">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" id="justify">
                 <p>Es un departamento que está comprometido con la investigación y enseñanza interdisciplinaria en los niveles de Premedia y media, formando a los discentes para que sean críticos y valoren el pasado y presente de los pueblos; resaltando las tradiciones y se conviertan en ente activo dentro de la sociedad.</p>
             </div>
         </div>

@@ -70,7 +70,9 @@
   margin-left: 220px;
   margin-right: 220px;
 }
-
+#justify{
+  text-align: justify;
+}
 
 
 /* galeria  animado con hover */
