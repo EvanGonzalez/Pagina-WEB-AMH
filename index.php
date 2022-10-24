@@ -19,10 +19,14 @@
 
 <body id="fondoMain">
     <?php
-    include("head.html");
-    include("Carrusel.html");
+    include("head.html")
     ?>
 
+    <div class="row1">
+        <?php
+        include("Carrusel.html")
+        ?>
+    </div>
 
     <!--miga de pan-->
     <div class="container text-center">
