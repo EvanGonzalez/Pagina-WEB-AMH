@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
-    <link rel="stylesheet" href="./css/Modal.css" type="text/css">
+    <link rel="stylesheet" href="./css/galeriadetexto.css" type="text/css">
     <link rel="stylesheet" href="./css/leermas.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
     <link rel="stylesheet" href="./scss/cardsanimation.scss">
@@ -27,7 +27,7 @@
     <!--miga de pan-->
     <div class="container text-center">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6">
                 <?php
                 include("Migas_Pan/MigaPan2.html")
                 ?>
@@ -40,29 +40,16 @@
 
     <!--Inicia contenendor de informacion-->
     <div class="container text-center">
-
-        <div class="row3 contenidoderecho">
-
-            <h3 class="letra3"> Información </h3>
-
-            <?php
-            include("Nuestra_institucion/columnaPag2.html");
-            ?>
-
-
-        </div>
+        <h3 class="letra3"> Información </h3>
+        <?php
+        include("Nuestra_institucion/columnaPag2.html");
+        ?>
     </div>
 
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-6">
-                <?php
-                include("Paginacion.html");
 
-                ?>
-            </div>
-        </div>
-    </div>
+
+
+
     <?php
     include("botonArriba.html");
     ?>
@@ -75,8 +62,8 @@
 
     <!--termina contenendor de informacion-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
     <script src="js/index.js"></script>
     <!--scrip para la animacion de imagenes pagina 2-->
     <script src="js/main.js"></script>
@@ -87,6 +74,7 @@
     <script src="js/modal.js"></script>
     <script src="js/leermas.js"></script>
     <script src="js/cardanimation.js"></script>
+    <script src="js/galeriadetexto.js"></script>
 </body>
 
 </html>

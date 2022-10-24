@@ -50,7 +50,7 @@
         <div class="row text-center">
             <div class="col-12">
                 <div class="card my-4" id="">
-                    <h5 class="card-header">Colaboradores</h5>
+                    <h5 class="card-header">Colaboradores del Ángel María Herrera</h5>
                     <div class="card-body">
                         <!--foto de los colaboradores-->
                         <center><img src="img/IMG_5971.JPG" alt="" width="100%"></center>

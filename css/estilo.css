@@ -8,7 +8,6 @@
 
 #fondoMain {
   background-color: rgba(255, 255, 255, 0.911);
-  min-height: 728px;
 }
 
 .contenidoizquierdo {
@@ -53,7 +52,12 @@
 .container {
   background-color: rgb(255, 255, 255);
   font-family: "Exo 2", sans-serif;
+  
 }
+
+
+
+
 
 #asistyle {
   background-color: rgb(255, 255, 255);
@@ -66,7 +70,9 @@
   margin-left: 220px;
   margin-right: 220px;
 }
-
+#justify{
+  text-align: justify;
+}
 
 
 /* galeria  animado con hover */
@@ -208,24 +214,31 @@
 
 /* inicio de estilos de pagina 2 */
 
+
 .infomYv {
-  padding: 20px;
+  padding: 5px;
   display: flex;
-  width: auto;
+  width: 90%;
   height: auto;
-  border-radius: 15px;
+  border-radius: 5px;
   flex-direction: raw;
-  gap: 10px;
+  gap: 5px;
   background: #121b4f;
   align-items: center;
   justify-content: center;
+}
+
+.imgtecnicodocente{
+  width: 100%;
+  height: 50vw;
 }
 
 .card-text {
   text-align: justify;
   height: auto;
   width: auto;
-  padding: 5px 15px;
+  padding: 5px 5px;
+  margin-left: 15px;
 }
 
 @media screen and (max-width: 767px) {
@@ -251,10 +264,14 @@
   padding: 24px;
   width: 100%;
   scroll-snap-type: x mandatory;
-  scroll-padding: 25px;
-  border-radius: 8px;
-  gap: 30px;
+  scroll-padding: 35px;
+  border-radius: 10px;
+  gap: 35px;
   background-color: #121b4f;
+}
+
+.ComunidadEdu{
+  width: 100%;
 }
 
 .ContActivi .card {
@@ -262,7 +279,6 @@
   padding: 24px;
   scroll-snap-align: start;
   border-radius: 8px;
-
   justify-content: center;
 }
 
@@ -275,8 +291,10 @@ span {
 /*-----------------animacion------------------------*/
 
 /* css de ofertas academicas */
-.Bachillertxt {
+
+#Bachillertxt {
   text-align: justify;
+  font-size: 1.3rem;
 }
 
 .contmovil {
@@ -325,8 +343,8 @@ span {
   position: absolute;
   left: 0;
   width: 100%;
-  height: calc(60% + 75px);
-  background-color: rgba(0, 0, 0, 0.579);
+  height: calc(60% + 60px);
+  background-color: rgba(0, 0, 0, 0.596);
   transition: transform 0.5s.25s ease-in;
   z-index: -1;
   opacity: 20px;
@@ -354,16 +372,26 @@ span {
 }
 
 .card__title {
-  color: #f8f8f8;
+  color: #ffffff;
   margin-bottom: 15px;
 
 }
 
-.card__description .accordion-body {
-  text-align: justify;
+.description{
+  color: #fff;
+  font-size: 1.9rem;
+}
+
+#link{
+  color: #0079be;
+  font-size: 1.9rem;
+
+}
+
+.description .accordion-body {
+  
   font-size: 1.2rem;
   color: #ffffff;
-  
   width: 100%;
 }
 
@@ -385,7 +413,7 @@ span {
     animation: español 2.5s linear infinite ;
 }
 #thumb{
-    width: 40%;
+    width: 100%;
 }
 #imgDepart{
     width: 100%;
@@ -467,4 +495,32 @@ span {
       width: 3.6rem;
       height: 3.6rem;
   }
+}
+/*estilos para la tabla*/
+table {
+  margin: 3px;
+  width: 100%;
+  text-align: justify;
+  border-collapse: collapse;
+}
+/*color para las celdas de encabezado*/
+tr {
+  padding: 8px;
+  background: #b9f7fe;
+  border-top: 4px solid #aaf4fe;
+  border-bottom: 1px solid #fff;
+  color: rgb(0, 115, 153);
+}
+/*color para las demás celdas*/
+td {
+  padding: 8px;
+  background: #e8fdff;
+  border-bottom: 1px solid #fff;
+  color: rgb(0, 0, 0);
+  border-top: 1px solid transparent;
+}
+/*efecto al pasar el cursor sobre cada fila*/
+tr:hover td {
+  background: #0079be;
+  color: rgb(75, 188, 208);
 }
