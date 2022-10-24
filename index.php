@@ -43,7 +43,7 @@
     <div class="container text-center">
 
         <div class="row">
-            <div class="col-8 contenidoderecho">
+            <div class="col-md-8 contenidoderecho">
                 <h3 class="letra3"> Himno del plantel </h3>
 
                 <?php
@@ -52,7 +52,7 @@
                 include("Inicio/GaleriaImg2.html");
                 ?>
             </div>
-            <div class="col-4 contenidoizquierdo">
+            <div class="col-md-4 contenidoizquierdo">
                 <aside id="asistyle">
                     <h2 class="letra2">Noticias</h2>
 
@@ -64,16 +64,7 @@
             </div>
         </div>
     </div>
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-6">
-                <?php
-                include("Paginacion.html");
 
-                ?>
-            </div>
-        </div>
-    </div>
 
     <?php
     include("botonArriba.html");

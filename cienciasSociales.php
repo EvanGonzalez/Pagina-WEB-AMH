@@ -97,7 +97,7 @@
             </div>
             <div class="col-md-6">
                 <center>
-                    <h3>Participación ciudadanía con el Tribunal Electoral</h3>
+                    <h3>Participación ciudadana con el Tribunal Electoral</h3>
                     <h2></h2>
                 </center>
                 <div id="CARRUSEL">
@@ -107,8 +107,8 @@
                                 <div class="carta-content">
                                     <div class="carta-txt">
                                         <ul class="textopagina2">
-                                            <li>Semana de la Cívica electoral .</li>
-                                            <li>Semana de la democracia .</li>
+                                            <li>Semana de la Cívica Electoral .</li>
+                                            <li>Semana de la Democracia .</li>
                                         </ul>
                                     </div>
                                 </div>
