@@ -25,9 +25,9 @@
     ?>
 
     <!--miga de pan-->
-    <div class="container text-center">
+    <div class="contenedorMigaPan text-center">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-6">
                 <?php
                 include("Migas_Pan/MigaPan2.html")
                 ?>
