@@ -41,7 +41,16 @@
     <div class="container text-justify">
         <div class="row">
             <div class="col-md-6">
-             <img src="img/Dpt Ingles/20221004_122600.jpg" alt="" width="100%">
+            <div id="" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="img/Dpt Ingles/20221004_122600.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="img/Dpt Ingles/IMG-20221017-WA0016.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                </div>
             </div>
             <div class="col-md-6" id="justify">
                 
@@ -61,6 +70,7 @@
                 <div class="card my-4" style="background-color: #121b4f; color:white" id="justify">
                     <div class="card-body" >
                         El Departamento de Inglés consciente de que el saber un segundo idioma proporciona un acceso a una mejor educación y por ende la posibilidad de un mejor puesto de trabajo, desarrolla clases interactivas, hace uso de las TIC’s y fomenta actividades extracurriculares para que sean los estudiantes quienes tengan un papel más protagónico en el proceso de enseñanza y aprendizaje. En este sentido, el Departamento de Inglés celebra cada año su tradicional English Week con concursos tales como lectura comprensiva, confección de separadores, festival de puertas, murales, abanicos de información, deletreo, oratoria, coral poética entre otros concursos. Y es propicio mencionar en este espacio que el Departamento de Inglés se siente orgulloso de la sobresaliente participación de los estudiantes en los diferentes concursos celebrados por la Supervisión Regional de Coclé. 
+                        <br>Igualmente, deseamos resaltar la participación de los docentes en cada una de las actividades dentro de las aulas, en las actividades extracurriculares y la confección mensual del mural del departamento de acuerdo a los colores y valores de cada mes para de esta manera incentivar y fortalecer conocimientos adquiridos en los estudiantes. 
                     </div>
                 </div>
                 
@@ -121,11 +131,6 @@
                 </div>
 
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12" id="justify">
-            Igualmente, deseamos resaltar la participación de los docentes en cada una de las actividades dentro de las aulas, en las actividades extracurriculares y la confección mensual del mural del departamento de acuerdo a los colores y valores de cada mes para de esta manera incentivar y fortalecer conocimientos adquiridos en los estudiantes. 
             </div>
         </div>
     </div>
