@@ -114,7 +114,7 @@
                             </div>
                         </div>
 
-                        <div class="carde wow fadeInUp">
+                        <div class="carde wow fadeInUpf">
                             <div class="face front">
                                 <img src="../Otras Actividades/img/bmbf.jpeg" alt="Ballet Folklorico" title="Ballet Folklorico">
                                 <h3>2022</h3>

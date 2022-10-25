@@ -9,7 +9,7 @@ sr.reveal('.row1', {
 
 sr.reveal('.contenidoderecho', {
     duration: 4000,
-    origin: 'left',
+    origin: 'right',
     distance: '-100px'
 });
 
