@@ -41,7 +41,7 @@
                     <h1 class="text-center"> Conjunto Folclórico </h1>
                     <p>
                         El Conjunto Típico de la Escuela Secundaria Herrera fue fundado el 26 de julio de 1983 y por iniciativa del conjunto y de los graduandos, 
-                        lo llamaron denominaron “Conjunto de Proyecciones Folclóricas Ángel María Herrera”. Durante un tiempo estuvo integrado hasta por 30 parejas y 70 integrantes.
+                        lo denominaron “Conjunto de Proyecciones Folclóricas Ángel María Herrera”. Durante un tiempo estuvo integrado hasta por 30 parejas y 70 integrantes.
                          
                     </p>
                     <p>
