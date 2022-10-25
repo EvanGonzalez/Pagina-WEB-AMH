@@ -23,7 +23,7 @@
     ?>
 
 
-    <div class="row1">
+    <div class="">
         <?php
         include("Carrusel.html")
         ?>
