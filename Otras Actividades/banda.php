@@ -62,10 +62,7 @@
                     <br>
                     <br>
                     <br>
-     
-                </div>
-            </div>
-            <div class="container-fluid ">
+                <div class="container-fluid ">
 
                     <h2 class="text-center">Galardones</h2>
                     <hr>
@@ -127,8 +124,12 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                
                                 
-            </div>        
+                </div>                
+            </div>
+                    
     </section>
 
     <?php
