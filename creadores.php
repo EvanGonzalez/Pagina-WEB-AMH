@@ -34,37 +34,33 @@
 
     <!--Inicia contenendor de información-->
     <div class="container text-justify">
-        <div>
-            <!--foto de los colaboradores-->
-            <center><img src="img/IMG_5982.JPG" alt="" width="100%"></center>
-            <br>
-        </div>
-        <p>
-            La Universidad Tecnológica de Panamá, Centro Regional de Coclé y los estudiantes
-            de tercer año de la carrera de Licenciatura en Desarrollo de Software - 2022,
-            agradece el apoyo de los colaboradores de la Escuela Secundaria Ángel María Herrera,
-            en el desarrollo del portal web dinámico https://nombreweb.com/.
-            Este sitio web, es el proyecto final de la asignatura de Desarrollo de Software VII,
-            a cargo de la docente Ing. María Yahaira Tejedor M. de Fernández.
-        </p>
         <div class="row text-center">
             <div class="col-12">
-                <div class="card my-4" id="">
-                    <h5 class="card-header">Colaboradores del Ángel María Herrera</h5>
+                <div class="card my-4" style="background-color: #121b4f;color:white;">
+                    <h5 class="card-header" style="background-color:#0079be;"><b>Equipo Desarrollador</b></h5>
                     <div class="card-body">
-                        <!--foto de los colaboradores-->
-                        <center><img src="img/IMG_5971.JPG" alt="" width="100%"></center>
-                        nombre,nombre,nombre
+                        <!--foto de los desarrolladores-->
+                        <center><img src="img/IMG_5982.JPG" alt="" width="100%"></center>
+                        <br>
+                        <p id="justify">
+                            La Universidad Tecnológica de Panamá, Centro Regional de Coclé y los estudiantes
+                            de tercer año de la carrera de Licenciatura en Desarrollo de Software - 2022,
+                            agradece el apoyo de los colaboradores de la Escuela Secundaria Ángel María Herrera,
+                            en el desarrollo del portal web dinámico https://nombreweb.com/.
+                            Este sitio web, es el proyecto final de la asignatura de Desarrollo de Software VII,
+                            a cargo de la docente Ing. María Yahaira Tejedor M. de Fernández.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="row text-center">
             <h3>Asesora del proyecto:</h3>
             <p>Ing. María Yahaira Tejedor M. de Fernández</p>
             <div class="col-4 ">
-                <div class="card my-4" id="">
-                    <h5 class="card-header">Interfaces</h5>
+                <div class="card my-4" style="background-color: #121b4f;color:white;">
+                    <h5 class="card-header" style="background-color:#0079be;"><b>Interfaces</b></h5>
                     <div class="card-body">
                         Evan González<br>
                         Emir Robinson<br>
@@ -73,8 +69,8 @@
                 </div>
             </div>
             <div class="col-4 ">
-                <div class="card my-4" id="">
-                    <h5 class="card-header">Formularios</h5>
+                <div class="card my-4" style="background-color: #121b4f;color:white;">
+                    <h5 class="card-header" style="background-color:#0079be;"><b>Formularios</b></h5>
                     <div class="card-body">
                         Stella Ibarra<br>
                         Ángela Carrión<br>
@@ -83,12 +79,24 @@
                 </div>
             </div>
             <div class="col-4 ">
-                <div class="card my-4" id="">
-                    <h5 class="card-header">Base de datos</h5>
+                <div class="card my-4" style="background-color: #121b4f;color:white;">
+                    <h5 class="card-header" style="background-color:#0079be;"><b>Base de datos</b></h5>
                     <div class="card-body">
                         Martín Fuentes<br>
                         Luis García<br>
                         Óscar Rodríguez<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-12">
+                <div class="card my-4" style="background-color: #121b4f;color:white;">
+                    <h5 class="card-header" style="background-color:#0079be;"><b>Colaboradores del Ángel María Herrera</b></h5>
+                    <div class="card-body">
+                        <!--foto de los colaboradores-->
+                        <center><img src="img/IMG_5971.JPG" alt="" width="100%"></center>
+                        Jorge Marín, , , , Magister Erica Arias Quiroz, , .
                     </div>
                 </div>
             </div>

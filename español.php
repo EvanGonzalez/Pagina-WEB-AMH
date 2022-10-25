@@ -56,28 +56,34 @@
         </div>
         <div class="row">
         <p></p>
-        <div></div>
-        <div class="col-md-12 matematica" style="text-align: justify;">
+        
+        <div class="col-md-6 matematica">
+            <div class="card my-4" style="text-align: justify; background-color:#121b4f; color:white;">
+                <div class="card-body">
+                <p>El Departamento de español de la Escuela Secundaria Ángel María Herrera, consciente de que nuestra lengua debe ser utilizada con propiedad, fluidez y pulcritud, aplica variadas técnicas metodológicas para que el estudiante considere el idioma como un ente vivo. </p>
+                <p>Es responsabilidad del Departamento planificar y ejecutar actividades que permitan descubrir valores y destrezas entre nuestros alumnos y también, enriquecer su nivel cultural.</p>
+                <p>Año tras año, al aproximarse el 23 de abril, Día universal del idioma español, organizamos exposiciones de murales, afiches, alocuciones, separadores de libros, con la finalidad de rendirle homenaje al padre de las letras españolas, Don Miguel de Cervantes Saavedra y, por consiguiente, para ensalzar a la segunda lengua más hablada del mundo.</p>
+                </div>
+            </div>
 
-            <p>El Departamento de español de la Escuela Secundaria Ángel María Herrera, consciente de que nuestra lengua debe ser utilizada con propiedad, fluidez y pulcritud, aplica variadas técnicas metodológicas para que el estudiante considere el idioma como un ente vivo. </p>
-            <p>Es responsabilidad del Departamento planificar y ejecutar actividades que permitan descubrir valores y destrezas entre nuestros alumnos y también, enriquecer su nivel cultural.</p>
-            <p>Año tras año, al aproximarse el 23 de abril, Día universal del idioma español, organizamos exposiciones de murales, afiches, alocuciones, separadores de libros, con la finalidad de rendirle homenaje al padre de las letras españolas, Don Miguel de Cervantes Saavedra y, por consiguiente, para ensalzar a la segunda lengua más hablada del mundo.</p>
-
+        </div>
+        <div class="col-md-6"><br>
+            <center><img src="img/Dpt español/IMG_5009.JPG" alt="" width="100%"></center>
         </div>
     </div>
     <div class="row" >
         <div class="col-md-4">
-            <div class="card my-4">
-                <h3 class="card-header">Ganadora del Concurso Nacional de Oratoria 2016</h3>
+            <div class="card my-4" style="background-color:#121b4f; color:white;">
+                <h3 class="card-header" style="background-color:#0079be;text-align:center"><b>Ganadora del Concurso Nacional de Oratoria 2016</b></h3>
                 <div class="card-body">
                     <div class="thumbnail">
                         <!-- Incio del thumbnail -->
                         <center><img src="img/oratoria.jpg" alt="" id="thumb"></center>
-                        <div class="caption">
+                        <div class="caption" >
                             <!-- Incio de la clase caption -->
                             <p>
                                 <center>
-                                    <a href="https://www.tvn-2.com/nacionales/damaris-santamaria-concurso-nacional-oratoria-video_1_1577603.html" class="btn btn-primary" target="blank">Ver más</a>
+                                    <a href="https://www.tvn-2.com/nacionales/damaris-santamaria-concurso-nacional-oratoria-video_1_1577603.html" class="btn btn-primary" target="blank" style="background-color:white;color:#121b4f">Ver más</a>
                                 </center>
                             </p>
                         </div><!-- fin de la clase caption  -->
