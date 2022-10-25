@@ -14,8 +14,8 @@
   margin: auto;
   
   padding: 60px;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-20%, 0%);
+  -ms-transform: translate(-20%, 0%);
+  transform: translate(-20%, 10%);
 }
 
 #imagendeANGEL{
