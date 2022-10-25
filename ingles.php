@@ -41,7 +41,7 @@
     <div class="container text-justify">
         <div class="row">
             <div class="col-md-6">
-
+             <img src="img/Dpt Ingles/20221004_122600.jpg" alt="" width="100%">
             </div>
             <div class="col-md-6" id="justify">
                 
@@ -57,8 +57,65 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6" id="justify">
+            <div class="col-md-4" id="justify">
                 El Departamento de Inglés consciente de que el saber un segundo idioma proporciona un acceso a una mejor educación y por ende la posibilidad de un mejor puesto de trabajo, desarrolla clases interactivas, hace uso de las TIC’s y fomenta actividades extracurriculares para que sean los estudiantes quienes tengan un papel más protagónico en el proceso de enseñanza y aprendizaje. En este sentido, el Departamento de Inglés celebra cada año su tradicional English Week con concursos tales como lectura comprensiva, confección de separadores, festival de puertas, murales, abanicos de información, deletreo, oratoria, coral poética entre otros concursos. Y es propicio mencionar en este espacio que el Departamento de Inglés se siente orgulloso de la sobresaliente participación de los estudiantes en los diferentes concursos celebrados por la Supervisión Regional de Coclé. 
+            </div>
+            <div class="col-md-8">
+                <div class="container">
+
+                <div class="row text-center text-lg-start">
+
+                <div class="col-lg-4 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/20220930_101108.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0018.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0025.jpg" alt="">
+                    </a>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0012.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0011.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0013.jpg" alt="">
+                    </a>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0030.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0032.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0033.jpg" alt="">
+                    </a>
+                </div>
+                
+                </div>
+
+                </div>
             </div>
         </div>
         <div class="row">
