@@ -62,13 +62,60 @@
                     <br>
                     <br>
                     <br>
-                    <div class="col-md-12">
-                        <h2 class="text-center">Galardones</h2>
-                        <hr>
-                    </div>      
+     
                 </div>
             </div>
-        </div>        
+            <div class="container-fluid ">
+
+                    <h2 class="text-center">Galardones</h2>
+                    <hr>
+                    <p class="text-center">
+                        A través de su accionar por el mundo de la música, ha sido galardonada con diversos premios en competencias a nivel regional y nacional.
+                    </p>
+                    <div class="elotro">
+                        <div class="carde">
+                            <div class="face front">
+                                <img src="../Otras Actividades/img/bm1.jpg" alt="">
+                                <h3>2015</h3>
+                            </div>
+                            <div class="face back">
+                                <h3>2015</h3>
+                                <p class="text-white">
+                                    Invitada a la primera gira internacional a la hermana República de México, para un intercambio cultural con varios planteles de esta ciudad; representando a nuestro país, para la provincia de Coclé y nuestra alma mater Ángel María Herrera.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carde">
+                            <div class="face front">
+                                <img src="../Otras Actividades/img/bm3.jpg" alt="">
+                                <h3>2016-2017</h3>
+                            </div>
+                            <div class="face back">
+                                <h3>2016-2017</h3>
+                                <p class="text-white">
+                                    En el 2016 ganó el tercer lugar en el segundo festival de bandas de música, que se realizó en la ciudad de Panamá.
+                                    En septiembre de 2017, se realizó un intercambio cultural la hermana República de Colombia, llevando nuestra música y representando a Panamá.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carde">
+                            <div class="face front">
+                                <img src="img3.jpeg" alt="">
+                                <h3>Perú</h3>
+                            </div>
+                            <div class="face back">
+                                <h3>Perú</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+                                <div class="link">
+                                    <a href="#">Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                
+            </div>        
     </section>
 
     <?php
