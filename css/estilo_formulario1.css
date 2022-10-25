@@ -1,4 +1,4 @@
-.container{
+.contenedorform1{
 	width: 100%;
 	height: auto;
 	align-items: center;
@@ -35,6 +35,11 @@
 	align-items: center;
 	justify-content: center;
 	margin-left: 100px;
+    
+}
+
+#estilodeextoform1{
+    color: #000000;
 }
 
 .container2 h1{
