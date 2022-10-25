@@ -382,7 +382,7 @@
                   </label>
                 </div>
               </div>
-              <h5>15. Fecha</h5>
+              <h5>15. Fecha</h5> 
               <div class="col-md-6">
                 <input type="date" min="<?php echo date("Y-m-d"); ?>" class="form-control" required>
               </div>
