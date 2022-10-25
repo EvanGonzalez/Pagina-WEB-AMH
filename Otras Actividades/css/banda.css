@@ -3,7 +3,8 @@
     padding: 0;
 }
 
-section  {
+section {
+    font-family: 'Exo 2', sans-serif;
     width: 100%;  
     height: 100vh;
     /* display: flex; */
