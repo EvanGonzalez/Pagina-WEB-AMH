@@ -57,8 +57,13 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4" id="justify">
-                El Departamento de Inglés consciente de que el saber un segundo idioma proporciona un acceso a una mejor educación y por ende la posibilidad de un mejor puesto de trabajo, desarrolla clases interactivas, hace uso de las TIC’s y fomenta actividades extracurriculares para que sean los estudiantes quienes tengan un papel más protagónico en el proceso de enseñanza y aprendizaje. En este sentido, el Departamento de Inglés celebra cada año su tradicional English Week con concursos tales como lectura comprensiva, confección de separadores, festival de puertas, murales, abanicos de información, deletreo, oratoria, coral poética entre otros concursos. Y es propicio mencionar en este espacio que el Departamento de Inglés se siente orgulloso de la sobresaliente participación de los estudiantes en los diferentes concursos celebrados por la Supervisión Regional de Coclé. 
+            <div class="col-md-4"  >
+                <div class="card my-4" style="background-color: #121b4f; color:white" id="justify">
+                    <div class="card-body" >
+                        El Departamento de Inglés consciente de que el saber un segundo idioma proporciona un acceso a una mejor educación y por ende la posibilidad de un mejor puesto de trabajo, desarrolla clases interactivas, hace uso de las TIC’s y fomenta actividades extracurriculares para que sean los estudiantes quienes tengan un papel más protagónico en el proceso de enseñanza y aprendizaje. En este sentido, el Departamento de Inglés celebra cada año su tradicional English Week con concursos tales como lectura comprensiva, confección de separadores, festival de puertas, murales, abanicos de información, deletreo, oratoria, coral poética entre otros concursos. Y es propicio mencionar en este espacio que el Departamento de Inglés se siente orgulloso de la sobresaliente participación de los estudiantes en los diferentes concursos celebrados por la Supervisión Regional de Coclé. 
+                    </div>
+                </div>
+                
             </div>
             <div class="col-md-8">
                 <div class="container">
