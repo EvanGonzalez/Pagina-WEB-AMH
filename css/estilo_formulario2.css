@@ -10,10 +10,6 @@ body {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-#correoEstilo{
-  color: #fff;
-}
-
 h3 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -26,16 +22,23 @@ h5 {
   font-size: 10px;
 }
 
-p {
+.objetivo {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 16px;
   margin-left: 7%;
   margin-right: 7.2%;
+  color: #050505;
+  text-align: justify;
+}
+.instrucción{
+  padding-top: 1px;
+  color: #050505;
+  text-align: justify;
 }
 
 :root {
-  --input-color: #050505;
+  --input-color: #a7a6a6aa;
   --input-border: #121b4f;
   --input-background: #fff;
   --input-placeholder: #bebfc4;
@@ -53,7 +56,7 @@ p {
   width: 100%;
   padding: 8px 16px;
   line-height: 25px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   font-family: inherit;
   border-radius: 6px;
