@@ -52,7 +52,7 @@
                 <p>Nuestra primera promoción fue en 1987 y posteriormente se   más, todas ellas con especialización en contabilidad. y así los egresados podrán convertirse en profesionales claves dentro de una organización pública o privada.  </p>
             </div>
             <div class="col-md-6 matematica " style="text-align: justify;"><br><br>
-                <div><img src="img/Dpt comercio/WhatsApp Image 2022-09-23 at 2.12.44 PM.jpeg" alt="" width="100%"></div>
+                <div><img src="img/Dpt comercio/WhatsApp Image 2022-09-23 at 2.12.44 PM.jpeg" alt="" width="100%" ></div>
             </div>
         </div>
         <div class="row">
