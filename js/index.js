@@ -27,7 +27,7 @@ window.sr = ScrollReveal();
 
     sr.reveal('.infomYv', {
         duration: 4000,
-        origin: 'right',
+        origin: 'left',
         distance: '-100px'
     });
 
@@ -64,4 +64,45 @@ window.sr = ScrollReveal();
         distance: '-1000px'
     });
     
+    sr.reveal('.anumationcomunidadEdu1', {
+        duration: 5000,
+        origin: 'top',
+        distance: '-1000px'
+    });
     
+    sr.reveal('.ComunidadEdu', {
+        duration: 5000,
+        origin: 'right',
+        distance: '-1000px'
+    });
+    
+    sr.reveal('.animationedu1', {
+        duration: 5000,
+        origin: 'left',
+        distance: '-1000px'
+    });
+    sr.reveal('.animationedu2', {
+        duration: 5000,
+        origin: 'right',
+        distance: '-1000px'
+    });
+    sr.reveal('.animationedu3', {
+        duration: 5000,
+        origin: 'left',
+        distance: '-1000px'
+    });
+    sr.reveal('.animationedu4', {
+        duration: 5000,
+        origin: 'right',
+        distance: '-1000px'
+    });
+    sr.reveal('.animationedu5', {
+        duration: 5000,
+        origin: 'left',
+        distance: '-1000px'
+    });
+    sr.reveal('.animationedu6', {
+        duration: 5000,
+        origin: 'right',
+        distance: '-1000px'
+    });

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
     <link rel="stylesheet" href="./css/infinitocarrusel.css" type="text/css">
     <link rel="stylesheet" href="/css/carruselPequeño.css" >
+    <link rel="stylesheet" href="/css/galeriadetexto.css" >
     <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="js/scrollreveal.js"></script>

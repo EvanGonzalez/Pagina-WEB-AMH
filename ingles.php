@@ -40,13 +40,26 @@
     <!--Inicia contenendor de información-->
     <div class="container text-justify">
         <div class="row">
-            <div class="col-md-6">
-             <img src="img/Dpt Ingles/20221004_122600.jpg" alt="" width="100%">
-            </div>
+            <div class="card my-4" style="background-color: #121b4f;color:white;">
+                <div class="card-body">
+                    <div class="row">
+                    <div class="col-md-6">
+                        <div id="" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/Dpt Ingles/20221004_122600.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            <div class="carousel-item">
+                                <img src="img/Dpt Ingles/IMG-20221017-WA0016.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             <div class="col-md-6" id="justify">
-                
                     El Departamento de Inglés desde sus inicios ha estado integrado por docentes con conocimiento amplio y sólido sobre el idioma inglés, capaces de identificar las necesidades de los estudiantes, capaces de valorar las destrezas lingüísticas que poseen los alumnos; docentes innovadores, creativos, capaces de adaptarse a los cambios y formas de aprendizajes de los estudiantes, razón por la cual, ajustan los contenidos de las clases de acuerdo a las necesidades y exigencias de los estudiantes para desarrollar en ellos las cuatros destrezas propias de cada idioma como los son la parte auditiva, expresión oral, lectura y escritura.
-                
+            </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row">
@@ -61,6 +74,7 @@
                 <div class="card my-4" style="background-color: #121b4f; color:white" id="justify">
                     <div class="card-body" >
                         El Departamento de Inglés consciente de que el saber un segundo idioma proporciona un acceso a una mejor educación y por ende la posibilidad de un mejor puesto de trabajo, desarrolla clases interactivas, hace uso de las TIC’s y fomenta actividades extracurriculares para que sean los estudiantes quienes tengan un papel más protagónico en el proceso de enseñanza y aprendizaje. En este sentido, el Departamento de Inglés celebra cada año su tradicional English Week con concursos tales como lectura comprensiva, confección de separadores, festival de puertas, murales, abanicos de información, deletreo, oratoria, coral poética entre otros concursos. Y es propicio mencionar en este espacio que el Departamento de Inglés se siente orgulloso de la sobresaliente participación de los estudiantes en los diferentes concursos celebrados por la Supervisión Regional de Coclé. 
+                        <br>Igualmente, deseamos resaltar la participación de los docentes en cada una de las actividades dentro de las aulas, en las actividades extracurriculares y la confección mensual del mural del departamento de acuerdo a los colores y valores de cada mes para de esta manera incentivar y fortalecer conocimientos adquiridos en los estudiantes. 
                     </div>
                 </div>
                 
@@ -72,60 +86,55 @@
 
                 <div class="col-lg-4 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/20220930_101108.jpg" alt="">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/20220930_101108.jpg" alt="" style="background-color: #121b4f;">
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0018.jpg" alt="">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0018.jpg" alt="" style="background-color: #121b4f;">
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0025.jpg" alt="">
-                    </a>
-                </div>
-                
-                <div class="col-lg-4 col-md-4 col-6">
-                    <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0012.jpg" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-6">
-                    <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0011.jpg" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-6">
-                    <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0013.jpg" alt="">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0025.jpg" alt="" style="background-color: #121b4f;">
                     </a>
                 </div>
                 
                 <div class="col-lg-4 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0030.jpg" alt="">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0012.jpg" alt="" style="background-color: #121b4f;">
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0032.jpg" alt="">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0011.jpg" alt="" style="background-color: #121b4f;">
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0033.jpg" alt="">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0013.jpg" alt="" style="background-color: #121b4f;">
+                    </a>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0030.jpg" alt="" style="background-color: #121b4f;">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0032.jpg" alt="" style="background-color: #121b4f;">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0033.jpg" alt="" style="background-color: #121b4f;">
                     </a>
                 </div>
                 
                 </div>
 
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12" id="justify">
-            Igualmente, deseamos resaltar la participación de los docentes en cada una de las actividades dentro de las aulas, en las actividades extracurriculares y la confección mensual del mural del departamento de acuerdo a los colores y valores de cada mes para de esta manera incentivar y fortalecer conocimientos adquiridos en los estudiantes. 
             </div>
         </div>
     </div>
