@@ -102,15 +102,15 @@
 
                         <div class="carde">
                             <div class="face front">
-                                <img src="img3.jpeg" alt="">
-                                <h3>Perú</h3>
+                                <img src="../Otras Actividades/img/bm6.jpg" alt="">
+                                <h3>2019</h3>
                             </div>
                             <div class="face back">
-                                <h3>Perú</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
-                                <div class="link">
-                                    <a href="#">Details</a>
-                                </div>
+                                <h3>2019</h3>
+                                <p class="text-white">
+                                    En el mes de mayo del 2019, una vez más fue invitada a una gira internacional a través del intercambio intercultural en la República de México, 
+                                    participando en la ciudad de Hidalgo, Tepeji del Río Ocampo, Tula entre otros.
+                                </p>
                             </div>
                         </div>
                     </div>
