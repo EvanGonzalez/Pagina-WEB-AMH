@@ -1,0 +1,72 @@
+.container2{
+    margin-bottom: 70px;
+}
+
+
+.carrusel {
+  box-shadow: 0 3px 20px #777;
+  box-sizing: border-box;
+  background-color: black;
+  
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  
+}
+.itemCarrusel {
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all 3000ms;
+  }
+  .itemCarrusel:nth-child(1) {
+    background-color: mediumpurple;
+  }
+  .itemCarrusel:nth-child(2) {
+    background-color: yellowgreen;
+  }
+  .itemCarrusel:nth-child(3) {
+    background-color: tomato;
+  }
+
+  .itemCarrusel:nth-child(4) {
+    background-color: aqua;
+  }
+  .itemCarrusel > img {
+    height: 100%;
+    width: 100%;
+  }
+  .hideItemCarrusel {
+    z-index: -1;
+    left: 1000px;
+  }
+  .position {
+    
+    z-index: 5;
+  }
+  .animationImg {
+    animation: example 8s ease-out, blur 2s ease-in;
+  }
+
+@-webkit-keyframes example {
+  from {
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes blur {
+  from {
+    filter: blur(5px);
+  }
+  to {
+    filter: blur(0px);
+  }
+}
