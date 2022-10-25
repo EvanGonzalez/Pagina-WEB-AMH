@@ -9,10 +9,15 @@
   --header-bg: var(--primary);
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 #image img {
   width: 200px;
 }
-
 
 #header .col-md-8 {
     text-align: center;
