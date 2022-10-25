@@ -1,72 +1,84 @@
-.container2{
-    margin-bottom: 70px;
-}
-
-
-.carrusel {
-  box-shadow: 0 3px 20px #777;
-  box-sizing: border-box;
-  background-color: black;
-  
+.contenedorCarrusel {
+  position: relative;
   width: 100%;
   height: 80vh;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+.imagen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.imagen img {
+  width: 100%;
+  height: 100%;
   position: relative;
-  
-}
-.itemCarrusel {
-    position: absolute;
-    height: 80vh;
-    width: 100%;
-    top: 0;
-    left: 0;
-    transition: all 3000ms;
-  }
-  .itemCarrusel:nth-child(1) {
-    background-color: mediumpurple;
-  }
-  .itemCarrusel:nth-child(2) {
-    background-color: yellowgreen;
-  }
-  .itemCarrusel:nth-child(3) {
-    background-color: tomato;
-  }
-
-  .itemCarrusel:nth-child(4) {
-    background-color: aqua;
-  }
-  .itemCarrusel > img {
-    height: 100%;
-    width: 100%;
-  }
-  .hideItemCarrusel {
-    z-index: -1;
-    left: 1000px;
-  }
-  .position {
-    
-    z-index: 5;
-  }
-  .animationImg {
-    animation: example 8s ease-out, blur 2s ease-in;
-  }
-
-@-webkit-keyframes example {
-  from {
-    transform: scale(1.5);
-  }
-  to {
-    transform: scale(1);
-  }
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-@-webkit-keyframes blur {
+
+
+
+
+.puntos {
+  position: absolute;
+  top: 93%;
+  width: 100%;
+  text-align: center;
+}
+.punto {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.punto:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+.contenedor a:hover {
+  color: gray;
+}
+
+.actual {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 1s, opacity 1s;
+}
+.activo {
+  background-color: gray;
+}
+
+
+
+/* css para carrusel contabilidad */
+@-webkit-keyframes zoom {
   from {
-    filter: blur(5px);
+    -webkit-transform: scale(1, 1);
   }
   to {
-    filter: blur(0px);
+    -webkit-transform: scale(1.5, 1.5);
   }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.carousel-inner .item > img {
+  -webkit-animation: zoom 20s;
+  animation: zoom 20s;
 }
