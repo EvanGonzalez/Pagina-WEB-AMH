@@ -54,6 +54,13 @@
   font-family: "Exo 2", sans-serif;
   
 }
+.contenedortexto{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .contenedorMigaPan{
   background-color: rgb(255, 255, 255);
