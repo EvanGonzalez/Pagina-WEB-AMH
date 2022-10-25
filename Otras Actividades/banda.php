@@ -27,8 +27,6 @@
         <div class="container" id="principal">
             <br>
             <br>
-
-           
             <center>
                 <h1 class="wow zoomIn" id="registre">Banda de Música Ángel María Herrera</h1>
             </center>
