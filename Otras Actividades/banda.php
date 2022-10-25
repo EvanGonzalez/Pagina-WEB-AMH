@@ -73,7 +73,7 @@
                         A través de su accionar por el mundo de la música, ha sido galardonada con diversos premios en competencias a nivel regional y nacional.
                     </p>
                     <div class="elotro">
-                        <div class="carde">
+                        <div class="carde wow fadeInUp">
                             <div class="face front">
                                 <img src="../Otras Actividades/img/bm1.jpg" alt="Banda de Música" title="Banda de Música">
                                 <h3>2015</h3>
@@ -86,7 +86,7 @@
                             </div>
                         </div>
 
-                        <div class="carde">
+                        <div class="carde wow fadeInUp">
                             <div class="face front">
                                 <img src="../Otras Actividades/img/bm3.jpg" alt="Banda de Música" title="Banda de Música">
                                 <h3>2016-2017</h3>
@@ -100,7 +100,7 @@
                             </div>
                         </div>
 
-                        <div class="carde">
+                        <div class="carde wow fadeInUp">
                             <div class="face front">
                                 <img src="../Otras Actividades/img/bm6.jpg" alt="Banda de Música" title="Banda de Música">
                                 <h3>2019</h3>
@@ -114,7 +114,7 @@
                             </div>
                         </div>
 
-                        <div class="carde">
+                        <div class="carde wow fadeInUp">
                             <div class="face front">
                                 <img src="../Otras Actividades/img/bmbf.jpeg" alt="Ballet Folklorico" title="Ballet Folklorico">
                                 <h3>2022</h3>
