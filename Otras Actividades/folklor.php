@@ -81,14 +81,15 @@
                 </div>
                 <div class="col-md-6 wow fadeInRight">
                 <div class="card border-dark mb-3" style="width: 100%;">
-                    <div class="card-header">Eventos y Premios</div>
+                    <div class="card-header">Personajes Destacados</div>
                     <div class="card-body text-dark">
-                        <h5 class="card-title">Eventos Nacionales</h5>
+                        <h5 class="card-title">Personajes Destacados</h5>
                         <p class="card-text">
-                            Entre los eventos nacionales en que ha participado podemos mencionar: Festival Toro Guapo de Antón, Festival de la Mejorana de Guararé, La Feria de la Chorrera, Feria de Azuero en Los Santos, Feria San José en David, Feria de la Concepción en Chiriquí y El Desfile de las Polleras en la ciudad capital.
+                        Como bailarines que se han destacado en el conjunto típico podemos mencionar a: Rosalinda Arosemena, Manuel Oliva, Luis Peñalba, Maycol Martínez, Dilcia Sambrano, Jesús Jaén y Jesica Sánchez.  
                         </p>
+                        <h5 class="card-title">Profesor Ramón Cepeda</h5>
                         <p class="card-text">
-                            Entre los premios alcanzados por esta agrupación podemos mencionar que el Ministerio de Educación organizó el concurso de baile para aquellas escuelas que tenían conjuntos y durante los tres años que lo realizaron (Colón, Los Santos y la Cuidad Panamá )  el conjunto de la AMH ganó un primer lugar y dos segundos lugares. 
+                            Fue uno de los fundadores del Conjunto Típico, tiene 65 años de enseñar danza panameña y dirigió el Conjunto Típico de la escuela por 27 años. 
                         </p>
                     </div>
                 </div>                    
@@ -96,11 +97,13 @@
                                
             </div>
 
-
+        <hr>
         </div>
         <div class="container-fluid">
             <div id="registre">
-
+                <h2>
+                    Pedir imagenes
+                </h2>
             </div>            
         </div>
 
