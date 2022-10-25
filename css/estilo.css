@@ -513,10 +513,12 @@ span {
 }
 /*estilos para la tabla*/
 table {
+  border-radius: 5%;
   margin: 3px;
   width: 100%;
   text-align: justify;
   border-collapse: collapse;
+  
 }
 /*color para las celdas de encabezado*/
 tr {
