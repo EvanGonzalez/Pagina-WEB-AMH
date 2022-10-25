@@ -9,6 +9,22 @@
   --header-bg: var(--primary);
 }
 
+
+.Conttitulomenu{
+  margin: auto;
+  
+  padding: 60px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-20%, 0%);
+}
+
+#imagendeANGEL{
+  display: block;
+  width: 100%;
+  
+  
+}
+
 .sticky {
   position: fixed;
   top: 0;
