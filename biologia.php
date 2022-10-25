@@ -38,9 +38,6 @@
     <div class="container">
 
         <div class="row">
-            <p>
-                <center><img src="img/Dpt Ciencias y Biologia/Laboratorio de Ciencias .JPG" id="imgDepart" /></center><br>
-            </p>
             <div class="col-md-6 matematica" style="text-align: justify;">
                 <p> Hasta el año 2018 estuvieron unidos al departamento de Física y Química y durante ese tiempo apoyaban las actividades de INVAN que dirige el profesor Walter Ortega y las actividades eran en conjunto.</p>
                 <p>Hicieron actividades durante más de 10 años de reciclaje de papel y de latas de aluminio como una manera de hacer conciencia y docencia sobre la tala indiscriminada y la contaminación por desechos no biológicos.</p>
@@ -48,7 +45,34 @@
                 <p>Fuimos centro de intercambio de becarios y voluntarios del programa JICA de la Embajada de Japón, voluntarios éstos que han compartido sus experiencias de éxito con docentes y estudiantes de nuestro centro educativo.</p>
             </div>
             <div class="col-md-6">
+                    <center>
+                        <br>
+                        <div id="" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Ciencias .JPG" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biología 1.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biología 6.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biología 4.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </center>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
                 
+                </div>
+            <div class="col-md-8 matematica" style="text-align: justify;">
+                
+               
             </div>
         </div>
     </div>
