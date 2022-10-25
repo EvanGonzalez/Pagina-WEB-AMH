@@ -11,7 +11,7 @@ section {
     /* justify-content: center; */
     /* align-items: center; */
     /* overflow: hidden;   */
-    background: linear-gradient(rgba(0,0,0,0), rgb(255, 255, 255) 100%), url("../img/bm0.jpeg");
+    background: linear-gradient(rgba(47, 47, 47, 0.517), rgb(255, 255, 255) 80%), url("../img/bm0.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }

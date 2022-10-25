@@ -26,26 +26,25 @@
 
         <div class="container" id="principal">
             <br>
+            <br>
+
+           
             <center>
                 <h1 class="wow zoomIn" id="registre">Banda de Música Ángel María Herrera</h1>
             </center>
             <br>
+            <br>
             <div class=" container wow fadeInUp" >
-                <div class="col-md-12" id="info">
-
-                    <!-- <br> -->
-                    <p>
-                        La Banda de Música de la escuela secundaria Ángel María Herrera de Penonomé se ha caracterizado por las grandiosas 
-                        presentaciones que ha realizado a nivel provincial y nacional, logros que han obtenido, precisamente contrabajo, 
-                        esfuerzo y dedicación.
-                    </p>
-                </div>
-                <!-- <br>
-                <hr>
-                <br> -->
                 <div class="row">
                     <div class="col-md-7 wow fadeInLeft" data-wow-delay="1,0s" id="bminicio">
-                        <h2>Inicios</h2>
+                        <h2 id="registre">Inicios</h2>
+                        <br>
+                        
+                        <p>
+                            La Banda de Música de la escuela secundaria Ángel María Herrera de Penonomé se ha caracterizado por las grandiosas 
+                            presentaciones que ha realizado a nivel provincial y nacional, logros que han obtenido, precisamente contrabajo, 
+                            esfuerzo y dedicación.
+                        </p>                        
                         <p>
                             Se inició como una pequeña banda de tambores hace más de 40 años dirigida por el profesor Porfirio Méndez, 
                             que en contrabajo y algunos años de esfuerzo fue incorporando clarinetes, liras, y algunos instrumentos musicales 
