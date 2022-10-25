@@ -51,14 +51,14 @@
 
 
 
-        <ul class="textopaginatecnico">
+        <ul class="textopaginatecnico2">
             <div class="title h1 text-center">Formación Académica</div>
 
             
         </ul>
 
         <div class="title h1 text-center">Experiencia Laboral</div>
-        <ul class="textopaginatecnico">
+        <ul class="textopaginatecnico2">
             
             
         </ul>

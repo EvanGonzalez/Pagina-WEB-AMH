@@ -39,7 +39,7 @@
 
         <div class="row">
             <p>
-                <center><img src="img/imagen2.jpg" id="imgDepart" /></center><br>
+                <center><img src="img/Dpt Ciencias y Biologia/Laboratorio de Ciencias .JPG" id="imgDepart" /></center><br>
             </p>
             <div class="col-12 matematica" style="text-align: justify;">
                 <p> Hasta el año 2018 estuvieron unidos al departamento de Física y Química y durante ese tiempo apoyaban las actividades de INVAN que dirige el profesor Walter Ortega y las actividades eran en conjunto.</p>
