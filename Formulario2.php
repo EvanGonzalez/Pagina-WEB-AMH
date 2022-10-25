@@ -154,7 +154,7 @@
         <h5>6. Correo institucional del estudiante</h5>
         <div class="form-group">
           <input class="form-field" placeholder="Ejemplo@meduca.edu.pa" title="Utilice el correo institucional @meduca.edu.pa" type="email" placeholder="Email" required pattern=".+@[mM][eE][dD][uU][cC][aA][.][eE][dD][uU][.][pP][aA]">
-          <span>@meduca.edu.pa</span>
+          <span id="correoEstilo">@meduca.edu.pa</span>
         </div>
 
         <h5>7. Número de célular del estudiante</h5>

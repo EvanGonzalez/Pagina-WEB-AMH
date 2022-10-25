@@ -51,7 +51,7 @@
 
 
 
-        <ul class="textopaginatecnico">
+        <ul class="textopaginatecnico2">
             <div class="title h1 text-center">Formación Académica</div>
 
             <li>Magíster en Administración de Empresas con Énfasis en Recursos Humanos. Universidad de Panamá. 2010.
@@ -64,14 +64,32 @@
                 Ministerio de Educación. 2017.</li>
         </ul>
 
-        <div class="title h1 text-center">Experiencia Laboral</div>
-        <ul class="textopaginatecnico">
-            
-            <li>Con dieciséis(16) años de experiencia en educación.</li>
-            <li>Ocho (8) años como docente.(2005 - 2013)</li>
-            <li>Ocho (8) años como Subdirectora Técnico Docente en la Escuela Secundaria Ángel María Herrera. (2014 - 2022).</li>
+        <div class="title h1 text-center"></div>
+        <div id="CARRUSEL">
+            <div>
+                <div class="carta">
+                    <div class="carta-body">
+                        <div class="carta-content">
+                            <div class="carta-txt">
+                                <h4 class="title h1 text-center" style="color: #ffff;">Experiencia Laboral</h4>
+                                <p class="card-header">
+                                <ul class="textopaginatecnico">
+                                    <li>Con dieciséis(16) años de experiencia en educación.</li>
+                                    <li>Ocho (8) años como docente.(2005 - 2013)</li>
+                                    <li>Ocho (8) años como Subdirectora Técnico Docente en la Escuela Secundaria Ángel María Herrera. (2014 - 2022).</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        </ul>
+
+
+
+
 
     </div>
     <br><br>
