@@ -32,6 +32,7 @@
             </center>
             <br>
             <br>
+            <br>
             <div class="container wow fadeInUp" >
                 <div class="row">
                     <div class="col-md-7 wow fadeInLeft" data-wow-delay="1,0s" id="bminicio">
@@ -61,7 +62,7 @@
                     </div>
                     <br>
                     <br>
-                    <br>
+                    
      
                 </div>
             </div>
