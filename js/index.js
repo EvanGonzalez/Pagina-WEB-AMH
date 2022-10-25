@@ -73,7 +73,7 @@ sr.reveal('.anumationcomunidadEdu1', {
 sr.reveal('.ComunidadEdu', {
     duration: 5000,
     origin: 'right',
-    distance: '-1000px'
+    distance: '-100px'
 });
 
 sr.reveal('.animationedu1', {
@@ -84,27 +84,27 @@ sr.reveal('.animationedu1', {
 sr.reveal('.animationedu2', {
     duration: 5000,
     origin: 'right',
-    distance: '-1000px'
+    distance: '-100px'
 });
 sr.reveal('.animationedu3', {
     duration: 5000,
     origin: 'left',
-    distance: '-1000px'
+    distance: '-100px'
 });
 sr.reveal('.animationedu4', {
     duration: 5000,
     origin: 'right',
-    distance: '-1000px'
+    distance: '-100px'
 });
 sr.reveal('.animationedu5', {
     duration: 5000,
     origin: 'left',
-    distance: '-1000px'
+    distance: '-100px'
 });
 sr.reveal('.animationedu6', {
     duration: 5000,
     origin: 'right',
-    distance: '-1000px'
+    distance: '-100px'
 });
 
 sr.reveal('.animationIngles1', {

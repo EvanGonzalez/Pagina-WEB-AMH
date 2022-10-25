@@ -121,7 +121,7 @@
               </div>
               <h5>3. Número de cédula del estudiante</h5>
               <div class="col-md-6">
-                <input type="text" class="form-control" required pattern="([1-9]|PI|N|E|PE|10|11|12|13)[-]{1}[0-9]{1,4}[-]{1}[0-9]{1,4}" placeholder="0-000-0000">
+                <input type="text" class="form-control" required pattern="[E]{0,1}[-]{0,1}([1-9]|1PI|N|PE|10|11|12|13)[-]{1}[0-9]{1,4}[-]{1}[0-9]{1,4}" placeholder="0-000-0000">
               </div>
 
               <h5>4. Género del estudiante</h5>
