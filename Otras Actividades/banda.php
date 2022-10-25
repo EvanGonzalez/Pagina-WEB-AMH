@@ -24,7 +24,7 @@
     ?>
     <section>
 
-        <div class="container" id="principal">
+        <div class="container-fluid" id="principal">
             <br>
             <br>
             <center>
@@ -32,12 +32,11 @@
             </center>
             <br>
             <br>
-            <div class=" container wow fadeInUp" >
+            <div class="container wow fadeInUp" >
                 <div class="row">
                     <div class="col-md-7 wow fadeInLeft" data-wow-delay="1,0s" id="bminicio">
                         <h2 id="registre">Inicios</h2>
                         <br>
-                        
                         <p>
                             La Banda de Música de la escuela secundaria Ángel María Herrera de Penonomé se ha caracterizado por las grandiosas 
                             presentaciones que ha realizado a nivel provincial y nacional, logros que han obtenido, precisamente contrabajo, 
@@ -50,15 +49,17 @@
                             La Banda de Música tuvo su génesis en 1996, bajo la dirección del profesor Juan Erasmo Salazar. A través de la música 
                             en el desarrollo espiritual e intelectual del estudiantado angelino y de la juventud penonomeña.
                         </p>
+                        <p>
+                            Esta prestigiosa banda, actualmente dirigida por el profesor Elvis Somarriba, cuenta con 150 integrantes entre porta banderas, 
+                            ballet folclórico, músicos instrumentales y abre calles. Cabe destacar que todos estos estudiantes están debidamente matriculados.
+                        </p>
                     </div>
                     <div class="col-md-5">
                         <div class="img2">
                             <img src="../Otras Actividades/img/bm2.jpg" class="img-fluid" alt="Banda de Música del Colegio Ángel María Herrera">
-
                         </div>
-                    </div>          
+                    </div>         
                 </div>
-
             </div>
         </div>        
     </section>
