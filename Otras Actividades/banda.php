@@ -75,7 +75,7 @@
                     <div class="elotro">
                         <div class="carde">
                             <div class="face front">
-                                <img src="../Otras Actividades/img/bm1.jpg" alt="">
+                                <img src="../Otras Actividades/img/bm1.jpg" alt="Banda de Música" title="Banda de Música">
                                 <h3>2015</h3>
                             </div>
                             <div class="face back">
@@ -88,7 +88,7 @@
 
                         <div class="carde">
                             <div class="face front">
-                                <img src="../Otras Actividades/img/bm3.jpg" alt="">
+                                <img src="../Otras Actividades/img/bm3.jpg" alt="Banda de Música" title="Banda de Música">
                                 <h3>2016-2017</h3>
                             </div>
                             <div class="face back">
@@ -102,7 +102,7 @@
 
                         <div class="carde">
                             <div class="face front">
-                                <img src="../Otras Actividades/img/bm6.jpg" alt="">
+                                <img src="../Otras Actividades/img/bm6.jpg" alt="Banda de Música" title="Banda de Música">
                                 <h3>2019</h3>
                             </div>
                             <div class="face back">
@@ -110,6 +110,19 @@
                                 <p class="text-white">
                                     En el mes de mayo del 2019, una vez más fue invitada a una gira internacional a través del intercambio intercultural en la República de México, 
                                     participando en la ciudad de Hidalgo, Tepeji del Río Ocampo, Tula entre otros.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carde">
+                            <div class="face front">
+                                <img src="../Otras Actividades/img/bmbf.jpeg" alt="Ballet Folklorico" title="Ballet Folklorico">
+                                <h3>2022</h3>
+                            </div>
+                            <div class="face back">
+                                <h3>2022</h3>
+                                <p class="text-white">
+                                    Durante el año 2022, la banda de música ha participado en diferentes presentaciones dentro y fuera de la provincia. En días pasados hemos recibido invitación de la Municipalidad de Pérez Zeledón, Costa Rica para participar con nuestra banda en el Festival Luces del Valle de Pérez Zeledón 2022.
                                 </p>
                             </div>
                         </div>
