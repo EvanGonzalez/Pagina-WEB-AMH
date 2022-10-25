@@ -3,7 +3,9 @@
 	height: auto;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
+
 
 .container h1{
 	text-align: center;
@@ -40,7 +42,10 @@
 
 #estilodeextoform1{
     color: #000000;
+
 }
+
+
 
 .container2 h1{
 	text-align: left;
