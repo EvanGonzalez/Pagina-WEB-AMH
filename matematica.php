@@ -39,9 +39,7 @@
     <div class="container text-justify">
 
         <div class="row">
-            <p>
-                <center><img src="img/informatica.JPG" id="imgDepart" /></center><br>
-            </p>
+           
             <div class="col-12 matematica" style="text-align: justify;">
                 <p> Escuela secundaria Ángel María Herrera siempre ha sido conmemorada como un centro un centro educativo de gran prestigio y porvenir. </p>
                 <h3></h3>
@@ -50,8 +48,8 @@
         </div>
         <div class="row">
             <div class="col-md-6" style="text-align: justify;">
-                <div class="card my-4">
-                    <h3 class="card-header">Actividades realizadas actualmente</h3>
+                <div class="card my-4" style="height: 90%;background-color: #121b4f;color:white;">
+                    <h3 class="card-header" style="background-color:#0079be;">Actividades realizadas actualmente</h3>
                     <div class="card-body">
                     <ul>
                         <li>Confección de murales por trimestre, con el propósito de resaltar estudiantes con índice académico que oscile 4.7 y 5.0. De esta manera les estimula hacia un estudio científico y entusiasta. </li>
@@ -61,8 +59,8 @@
                 </div>
             </div>
             <div class="col-md-6" style="text-align: justify;">
-                <div class="card my-4">
-                    <h3 class="card-header">Actividades realizadas antes de la pandemia</h3>
+                <div class="card my-4" style="height: 90%; background-color: #121b4f; color:white;">
+                    <h3 class="card-header" style="background-color:#0079be;">Actividades realizadas antes de la pandemia</h3>
                     <div class="card-body">
                     <ul>
                         <li>Competencias o cursos a nivel interno e intercolegial entre paralelos.</li>
