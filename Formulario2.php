@@ -393,9 +393,14 @@
               </div>
           </div>
 
+          <!--Boton Animado-->
+          <div class="botones">
+            <div class="contenedor-botones">
+          <br>
+          <center><button type="submit" name="boton1" class="boton enviar"><span>Enviar Información</span></button></center>
           <br><br>
-          <center><button type="submit" name="boton1" class="btn btn-secondary" style="background-color: #8e0000;">Enviar Información</button></center>
-          <br><br>
+          </div>
+        </div>
 
           </form>
         </div>
