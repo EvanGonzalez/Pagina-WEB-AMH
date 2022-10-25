@@ -43,6 +43,23 @@
             <div class="col-md-6" id="justify">
                 <p>Es un departamento que está comprometido con la investigación y enseñanza interdisciplinaria en los niveles de Premedia y media, formando a los discentes para que sean críticos y valoren el pasado y presente de los pueblos; resaltando las tradiciones y se conviertan en ente activo dentro de la sociedad.</p>
             </div>
+            <div class="col-md-6">
+                <center>
+                                    <div id="" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="img/Dpt Sociales/Capacitación Docentes de Ciencias Sociales.jpeg" class="d-block w-90 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="70%">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/Dpt Sociales/Apoyo a la Administración.jpeg" class="d-block w-90 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="70%">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/Dpt Sociales/Inspección de Proyectos.jpeg" class="d-block w-90 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="70%">
+                                            </div>
+                                        </div>
+                                    </div>
+                </center>
+            </div>
         </div>
         <div class="row">
             <div class="col-md-12">
