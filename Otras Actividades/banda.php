@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/2.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/footerstyle.css">
+    <link rel="stylesheet" href="../Otras Actividades/css/animate.css">
     <link rel="stylesheet" href="../Otras Actividades/css/banda.css">
     <link rel="stylesheet" href="../Otras Actividades/">
     <!-- CSS only -->
@@ -17,48 +18,53 @@
     <title>AMH: Banda de música</title>
 </head>
 <body>
-    <div class="arriba">
-        <h1>Banda de Música Ángel María Herrera</h1>
-        <br>
-        <div class="modal-container" id="img_portada">
-            <img src="../Otras Actividades/img/bm2.jpg" class="img-fluid" alt="Banda de Música del Colegio Ángel María Herrera" title="Banda de Música del Colegio Ángel María Herrera">
-        </div>        
-    </div>
-    <div class="container" id="principal">
-        <div class=" container">
-            <div class="col-md-12" id="info">
+    <section>
+        <div class="arriba">
+            <center>
+                <h1>Banda de Música Ángel María Herrera</h1>
+            </center>
+            <br>
+            <!-- <div class="modal-container" id="img_portada">
+                <img src="../Otras Actividades/img/bm4.jpg" class="img-fluid" alt="Banda de Música del Colegio Ángel María Herrera" title="Banda de Música del Colegio Ángel María Herrera">
+            </div>         -->
+        </div>
+        <div class="container" id="principal">
+            <div class=" container">
+                <div class="col-md-12" id="info">
 
-                <br>
-                <p>
-                    La Banda de Música de la escuela secundaria Ángel María Herrera de Penonomé se ha caracterizado por las grandiosas 
-                    presentaciones que ha realizado a nivel provincial y nacional, logros que han obtenido, precisamente contrabajo, 
-                    esfuerzo y dedicación.
-                </p>
-            </div>
-            <br>
-            <hr>
-            <br>
-            <div class="row">
-                <div class="col-md-7 wow fadeInLeft" data-wow-delay="1,0s" id="bminicio">
-                    <h2>Inicios</h2>
+                    <!-- <br> -->
                     <p>
-                        Se inició como una pequeña banda de tambores hace más de 40 años dirigida por el profesor Porfirio Méndez, 
-                        que en contrabajo y algunos años de esfuerzo fue incorporando clarinetes, liras, y algunos instrumentos musicales 
-                        con el afán de crear una banda de prestigio y renombre.
-                        La Banda de Música tuvo su génesis en 1996, bajo la dirección del profesor Juan Erasmo Salazar. A través de la música 
-                        en el desarrollo espiritual e intelectual del estudiantado angelino y de la juventud penonomeña.
+                        La Banda de Música de la escuela secundaria Ángel María Herrera de Penonomé se ha caracterizado por las grandiosas 
+                        presentaciones que ha realizado a nivel provincial y nacional, logros que han obtenido, precisamente contrabajo, 
+                        esfuerzo y dedicación.
                     </p>
                 </div>
-                <div class="col-md-5">
-                    <div >
-                        <img src="../Otras Actividades/img/bm4.jpg" class="img-fluid" alt="...">
-
+                <!-- <br>
+                <hr>
+                <br> -->
+                <div class="row">
+                    <div class="col-md-7 wow fadeInLeft" data-wow-delay="1,0s" id="bminicio">
+                        <h2>Inicios</h2>
+                        <p>
+                            Se inició como una pequeña banda de tambores hace más de 40 años dirigida por el profesor Porfirio Méndez, 
+                            que en contrabajo y algunos años de esfuerzo fue incorporando clarinetes, liras, y algunos instrumentos musicales 
+                            con el afán de crear una banda de prestigio y renombre.
+                            La Banda de Música tuvo su génesis en 1996, bajo la dirección del profesor Juan Erasmo Salazar. A través de la música 
+                            en el desarrollo espiritual e intelectual del estudiantado angelino y de la juventud penonomeña.
+                        </p>
                     </div>
-                </div>          
-            </div>
+                    <div class="col-md-5">
+                        <div class="img2">
+                            <img src="../Otras Actividades/img/bm2.jpg" class="img-fluid" alt="Banda de Música del Colegio Ángel María Herrera">
 
-        </div>
-    </div>
+                        </div>
+                    </div>          
+                </div>
+
+            </div>
+        </div>        
+    </section>
+
     <?php
         include ("./footer.html"); 
     ?>
