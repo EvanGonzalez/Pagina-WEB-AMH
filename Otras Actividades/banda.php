@@ -9,27 +9,28 @@
     <link rel="stylesheet" href="../Otras Actividades/css/animate.css">
     <link rel="stylesheet" href="../Otras Actividades/css/banda.css">
     <link rel="stylesheet" href="../Otras Actividades/">
+    <link rel="stylesheet" href="../css/header-style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="js/wow.min.js"></script>
     <script>
       new WOW().init();
     </script> 
-    <title>AMH: Banda de música</title>
+    <title>AMH: Banda de Música</title>
 </head>
 <body>
+    <?php
+        include("head.html");
+    ?>
     <section>
-        <div class="arriba">
+
+        <div class="container" id="principal">
+            <br>
             <center>
-                <h1>Banda de Música Ángel María Herrera</h1>
+                <h1 class="wow zoomIn" id="registre">Banda de Música Ángel María Herrera</h1>
             </center>
             <br>
-            <!-- <div class="modal-container" id="img_portada">
-                <img src="../Otras Actividades/img/bm4.jpg" class="img-fluid" alt="Banda de Música del Colegio Ángel María Herrera" title="Banda de Música del Colegio Ángel María Herrera">
-            </div>         -->
-        </div>
-        <div class="container" id="principal">
-            <div class=" container">
+            <div class=" container wow fadeInUp" >
                 <div class="col-md-12" id="info">
 
                     <!-- <br> -->

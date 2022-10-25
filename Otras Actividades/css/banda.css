@@ -16,6 +16,19 @@ section {
     background-size: cover;
 }
 
+h1{
+    padding: 15px;
+    color: #0079be;
+}
+
+#registre {
+    background-color: #121b4f;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px grey;
+    color: white;
+}
 
 p {
     text-align: justify;
@@ -33,7 +46,7 @@ p {
 .img2 {
     border-style: solid;
     border-radius: 5%;
-    box-shadow: inset;
+    box-shadow: 0 0 10px grey ;
 }
 
 .img2 img{
