@@ -46,25 +46,44 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <center>
-                    <h3>Actividades</h3>
-                    <h2></h2>
-                </center>
-                <div id="CARRUSEL">
-                    <div>
-                        <div class="carta">
-                            <div class="carta-body">
-                                <div class="carta-content">
-                                    <div class="carta-txt">
-                                        <ul class="textopagina2">
-                                            <li>Diputado juvenil</li>
-                                            <li>Confección de murales con los diferentes hechos históricos.</li>
-                                            <li>Conferencias.</li>
-                                            <li>Trabajos de investigación.</li>
-                                            <li>Debates.</li>
-                                        </ul>
+                <div class="card my-4" style="background-color: #121b4f;color:white;">
+                    <h5 class="card-header" style="background-color:#0079be; text-align:center"><b>Actividades</b></h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <center>
+                                    <div id="" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="img/Dpt Sociales/Diputado juvenil 1.jpeg" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4 style="-webkit-text-stroke: 0.5px #121b4f;">Diputado Juvenil</h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/Dpt Sociales/Diputado juvenil 2.jpeg" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4 style="-webkit-text-stroke: 0.5px #121b4f;">Diputado Juvenil</h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/Dpt Sociales/Semana de la Etnia.jpeg" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4 style="-webkit-text-stroke: 0.5px #121b4f;">Semana de la Etnia</h4>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                </center>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="textopagina2">
+                                    <li>Diputado juvenil</li>
+                                    <li>Confección de murales con los diferentes hechos históricos.</li>
+                                    <li>Conferencias.</li>
+                                    <li>Trabajos de investigación.</li>
+                                    <li>Debates.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
