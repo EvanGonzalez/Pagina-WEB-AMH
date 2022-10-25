@@ -32,7 +32,6 @@
             </center>
             <br>
             <br>
-            <br>
             <div class="container wow fadeInUp" >
                 <div class="row">
                     <div class="col-md-7 wow fadeInLeft" data-wow-delay="1,0s" id="bminicio">
@@ -62,7 +61,7 @@
                     </div>
                     <br>
                     <br>
-                    
+                    <br>
      
                 </div>
             </div>
@@ -115,7 +114,7 @@
                             </div>
                         </div>
 
-                        <div class="carde wow fadeInUp">
+                        <div class="carde wow fadeInUpf">
                             <div class="face front">
                                 <img src="../Otras Actividades/img/bmbf.jpeg" alt="Ballet Folklorico" title="Ballet Folklorico">
                                 <h3>2022</h3>
