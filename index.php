@@ -19,13 +19,11 @@
 
 <body id="fondoMain">
     <?php
-    include("head.html")
+        include("head.html");
     ?>
-
-
     <div class="">
         <?php
-        include("Carrusel.html")
+            include("Carrusel.html");
         ?>
     </div>
 
