@@ -22,6 +22,7 @@
     include("head.html")
     ?>
 
+
     <div class="row1">
         <?php
         include("Carrusel.html")
@@ -47,12 +48,19 @@
         <div class="row">
             <div class="col-md-8 contenidoderecho">
                 <h3 class="letra3"> Himno del plantel </h3>
-
                 <?php
-                include("Inicio/colderechaPag1.html");
-                echo '<h2 id="textazul"> Galería de Fotos </h2>';
-                include("Inicio/GaleriaImg2.html");
+                include("Inicio/colderechaPag1.html");?>
+                <audio controls>
+                    <source src="audio/audio_himno.mp3" type="audio/mp3">
+                </audio>   
+                <br>
+                <hr>           
+                <?php 
+                    echo '<h2 id="textazul"> Galería de Fotos </h2>
+                    <br>';
+                    include("Inicio/GaleriaImg2.html");
                 ?>
+
             </div>
             <div class="col-md-4 contenidoizquierdo">
                 <aside id="asistyle">
