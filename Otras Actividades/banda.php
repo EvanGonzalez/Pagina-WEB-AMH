@@ -56,9 +56,16 @@
                     </div>
                     <div class="col-md-5">
                         <div class="img2">
-                            <img src="../Otras Actividades/img/bm2.jpg" class="img-fluid" alt="Banda de Música del Colegio Ángel María Herrera">
+                            <img src="../Otras Actividades/img/Banda de Música Bastón Mayor.jpeg" class="img-fluid" alt="Banda de Música del Colegio Ángel María Herrera">
                         </div>
-                    </div>         
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="col-md-12">
+                        <h2 class="text-center">Galardones</h2>
+                        <hr>
+                    </div>      
                 </div>
             </div>
         </div>        
