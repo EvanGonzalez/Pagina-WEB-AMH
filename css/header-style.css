@@ -12,35 +12,26 @@
 
 .Conttitulomenu{
   margin: auto;
-  
   padding: 60px;
   -ms-transform: translate(-20%, 0%);
   transform: translate(-20%, 10%);
 }
 
-#imagendeANGEL{
-  display: block;
-  width: 100%;
-  
-  
-}
+
 
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 60%;
 }
 
 #image img {
-  width: 250px;
-}
-
-#letras_logo{
-  display: flex;
-  align-items: flex-start;
+  margin-top: 12px;
+  width: 100%;
 }
 
 .cotenidoMain{
+  
     background-color: #121b4f;
 }
 
@@ -265,20 +256,6 @@ header {
 main {
   /* just to make scrollable vertically to see sticky navbar    */
   height: 200vh;
-}
-
-#carouselId {
-  width: 100%;
-}
-
-#carousel-item {
-  width: 100%;
-  height: 500px;
-}
-
-#carousel-item img{
-  width: 100%;
-  height: 700px;
 }
 
 

@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
-    <link rel="stylesheet" href="./css/header-style.css" type="text/css">
+    <link rel="stylesheet" href="/css/header-style.css" type="text/css">
+    <link rel="stylesheet" href="/css/CarruselP.css">
     <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <script src="js/scrollreveal.js"></script>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
@@ -23,17 +24,15 @@
     ?>
     <div class="">
         <?php
-            include("Carrusel.html");
+            include("./CarruselMain/CarruselPrincipal.html");
         ?>
     </div>
 
     <!--miga de pan-->
     <div class="container text-center">
-        <div class="row">
             <?php
             include("Migas_Pan/MigaPan1.html")
             ?>
-        </div>
     </div>
 
     <br>
@@ -87,15 +86,16 @@
 
 
     <!--termina contenendor de informacion-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    
     <script src="js/pega.js"></script>
     <script src="js/index.js"></script>
     <!--scrip para la animacion de imagenes pagina 2-->
     <script src="js/main.js"></script>
     <!--scrip para la galeria de imagenes pagina 2-->
     <script src="js/boton_up.js"></script>
-
+    <script src="Menu/boton_up.js"></script>
+    <!-- javascrip para carrusel -->
+    <script src="/CarruselMain/Carrusel.js"></script>
 </body>
 
 </html>
