@@ -17,8 +17,6 @@
   transform: translate(-20%, 10%);
 }
 
-
-
 .sticky {
   position: fixed;
   top: 0;
@@ -28,11 +26,12 @@
 #image img {
   margin-top: 12px;
   width: 100%;
+
 }
 
 .cotenidoMain{
-  
     background-color: #121b4f;
+   
 }
 
 header {

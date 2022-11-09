@@ -75,8 +75,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/index.js"></script>
     <!--scrip para la animacion de imagenes pagina 2-->
-    <script src="js/main.js"></script>
-    <!--scrip para la galeria de imagenes pagina 2-->
     <script src="js/directores.js"></script>
     <script src="js/animacion.js"></script>
     <script src="js/Minimenu.js"></script>
