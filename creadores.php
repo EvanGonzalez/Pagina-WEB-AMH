@@ -15,7 +15,7 @@
 
 <body id="fondoMain">
     <?php
-    include("head.html")
+    include("./Menu_footer/head.html");
     ?>
     <!--miga de pan-->
     <div class="container text-center">
@@ -108,7 +108,7 @@
     ?>
     <footer>
         <?php
-        include("footer.html");
+        include("./Menu_footer/footer.html");
 
         ?>
     </footer>

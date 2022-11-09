@@ -20,7 +20,7 @@
 
 <body id="fondoMain">
     <?php
-        include("head.html");
+        include("./Menu_footer/head.html");
     ?>
     <div class="">
         <?php
@@ -79,7 +79,7 @@
 
     <footer>
         <?php
-        include("footer.html");
+        include("./Menu_footer/footer.html");
         ?>
     </footer>
 
