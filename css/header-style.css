@@ -42,11 +42,7 @@ header {
   top: 0;
 }
 
-.branding-logo {
-  color: var(--light);
-  font-size: calc(0.8rem + 1vw);
-  text-decoration: none;
-}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -54,6 +50,8 @@ header {
   z-index: 100;
   position: relative;
 }
+
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -154,7 +152,7 @@ header {
 
 @media only screen and (max-width: 50em) {
   header {
-    /*     position: relative; */
+    position: relative; 
     padding: 1.5em 2em;
   }
   .menu {
@@ -223,7 +221,7 @@ header {
   }
 
   .hamburger::after {
-    top: 0.65em;
+    top: 0.45em;
   }
   .hamburger::before {
     bottom: 0.65em;
@@ -260,3 +258,22 @@ main {
 
 
 
+ 
+/*Styling Buttons*/
+.loginWEB{
+  background-color:#fbb03b;
+  border: 1.5px solid #f2f5f7;
+  
+  border-radius: 2em;
+  padding: 0.6rem 0.8rem;
+  margin-left: 2vw;
+  font-size: 1rem;
+  cursor: pointer;
+
+}
+.loginWEB:hover {
+  color: #131418;
+  background-color: #f2f5f7;
+  border:1.5px solid #f2f5f7;
+  transition: all ease-in-out 350ms;
+}

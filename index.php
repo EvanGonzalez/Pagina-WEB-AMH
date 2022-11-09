@@ -87,15 +87,13 @@
 
     <!--termina contenendor de informacion-->
     
-    <script src="js/pega.js"></script>
     <script src="js/index.js"></script>
-    <!--scrip para la animacion de imagenes pagina 2-->
-    <script src="js/main.js"></script>
     <!--scrip para la galeria de imagenes pagina 2-->
     <script src="js/boton_up.js"></script>
     <script src="Menu/boton_up.js"></script>
     <!-- javascrip para carrusel -->
     <script src="/CarruselMain/Carrusel.js"></script>
+    
 </body>
 
 </html>

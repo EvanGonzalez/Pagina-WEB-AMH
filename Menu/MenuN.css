@@ -2126,9 +2126,9 @@ span.ruby-c-content {
         visibility:hidden;
         display: none
     }
-
+    /* se encarga del tamaño del contenedor */
     div.ruby-wrapper {
-        width: 760px
+        width: 100%
     }
 
     ul.ruby-menu > li.ruby-menu-mega-blog > div > ul.ruby-menu-mega-blog-nav {
