@@ -75,8 +75,7 @@
     ?>
     <footer>
         <?php
-        include("footer.html");
-
+        include("./Menu_footer/footer.html");
         ?>
     </footer>
 
