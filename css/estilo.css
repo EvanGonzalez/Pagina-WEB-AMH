@@ -72,13 +72,26 @@
 
 
 
-
+/* estilo para columna derecha index */
 
 #asistyle {
   background-color: rgb(255, 255, 255);
   width: 100%;
   display: block;
 }
+
+
+.contenedorNoticias{
+  width: 300px;
+  height: 400px;
+  padding: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+/* fin de estilo de columna derecha index */
+
+
 
 .parrafos {
   text-align: justify;

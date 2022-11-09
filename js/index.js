@@ -79,7 +79,7 @@ sr.reveal('.ComunidadEdu', {
 sr.reveal('.animationedu1', {
     duration: 5000,
     origin: 'left',
-    distance: '-1000px'
+    distance: '-100px'
 });
 sr.reveal('.animationedu2', {
     duration: 5000,
