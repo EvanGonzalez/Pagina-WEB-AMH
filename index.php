@@ -90,7 +90,6 @@
     <script src="js/index.js"></script>
     <!--scrip para la galeria de imagenes pagina 2-->
     <script src="js/boton_up.js"></script>
-    <script src="Menu/boton_up.js"></script>
     <!-- javascrip para carrusel -->
     <script src="/CarruselMain/Carrusel.js"></script>
     
