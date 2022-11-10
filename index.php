@@ -36,7 +36,7 @@
     </div>
 
     <br>
-    <h2 class="letra2"> Escuela Secundaria Ángel María Herrera, Penonom </h2>
+    <h2 class="letra2"> Escuela Secundaria Ángel María Herrera, Penonomé </h2>
     <!--termina miga de pan-->
 
     <!--Inicia contenendor de información-->
