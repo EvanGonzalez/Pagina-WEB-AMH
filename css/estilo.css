@@ -272,10 +272,16 @@
   justify-content: center;
 }
 
+/* para tamaño de imagen de cuerpo administrativo */
 .imgtecnicodocente{
-  width: 100%;
-  height: 50vw;
+  width: 50%;
+  height: 40vw;
 }
+.imgdirectora{
+  width: 70%;
+  height: 40vw;
+}
+
 
 .card-text {
   text-align: justify;

@@ -44,7 +44,7 @@
         <h3 class="letra3">Directora</h3>
 
         <div class="title h1 text-center">Lesbia Liao de Villareal.</div>
-        <center><img src="img/directora.JPG" class="imgtecnicodocente" /></center><br>
+        <center><img src="img/directora.JPG" class="imgdirectora" /></center><br>
         <ul class="textopaginatecnico">
            
         </ul>
