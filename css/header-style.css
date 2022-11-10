@@ -270,9 +270,34 @@ main {
   cursor: pointer;
 
 }
+
 .loginWEB:hover {
   color: #131418;
   background-color: #f2f5f7;
   border:1.5px solid #f2f5f7;
   transition: all ease-in-out 350ms;
 }
+
+
+/* estilo de boton cerrar sesión */
+.loginWEBEND{
+  background-color:#fe442c;
+  border: 1.5px solid #f2f5f7;
+  
+  border-radius: 2em;
+  padding: 0.6rem 0.8rem;
+  margin-left: 2vw;
+  font-size: 1rem;
+  cursor: pointer;
+
+}
+
+.loginWEBEND:hover {
+  color: #131418;
+  background-color: #f2f5f7;
+  border:1.5px solid #f2f5f7;
+  transition: all ease-in-out 350ms;
+}
+
+/* fin de estilo de boton cerrar sesión */
+

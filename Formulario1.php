@@ -25,7 +25,7 @@ $fechaActual = date('d-m-Y');
 
 <body id="fondoMain">
 	<?php
-	include("./Menu_footer/head.html");
+	include("./Menu_footer/headAdmin.html");
 	?>
 
 	<!--miga de pan-->
