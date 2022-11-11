@@ -47,7 +47,7 @@
 
         <div class="row">
             <div class="col-md-12 contenidoderecho">
-                <h3 class="letra3"> Oferta Académica </h3>
+                <h3 class="letra3"> Oferta Académica: Bachilleres </h3>
 
                 <?php
                 include("Oferta_Academica/columIzquiPag3.html");

@@ -92,6 +92,8 @@
     <script src="js/boton_up.js"></script>
     <!-- javascrip para carrusel -->
     <script src="/CarruselMain/Carrusel.js"></script>
+
+    <script src="/js/menuresponsi.js"></script>
     
 </body>
 
