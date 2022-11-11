@@ -573,3 +573,29 @@ tr:hover td {
   background: #0079be;
   color: rgb(75, 188, 208);
 }
+
+
+
+
+/* css para premedia  */
+#circle-shape-example { 
+  font-family: Open Sans, sans-serif; 
+  margin: 2rem; 
+}
+#circle-shape-example p { 
+  line-height: 1.8;
+  text-align: justify; 
+}
+#circle-shape-example .curve { 
+  width: 54%; height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right:16rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+}
+
+
+
+/* fin de css de premedia */

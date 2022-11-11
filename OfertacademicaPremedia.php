@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
     <link rel="stylesheet" href="./css/Efectos2.css" type="text/css">
+
+    <link rel="stylesheet" href="./Oferta_Academica/PremediaEfect.css" type="text/css">
     <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <script src="js/scrollreveal.js"></script>
+    
     <title>AMH: Premedia</title>
 </head>
 <body id="fondoMain">
@@ -38,11 +41,13 @@
 
         <div class="row">
             <div class="col-md-12 contenidoderecho">
-                <h3 class="letra3"> Oferta Académica: Premedia </h3>
-
+                <h3 class="letra3"> Oferta Académica  </h3>
+                <br>
+                <hr>
                 <?php
-               
+                    include ("./Oferta_Academica/OfertaAcademicaPremedia.html");
                 ?>
+                
             </div>
 
         </div>
@@ -57,10 +62,9 @@
         include("./Menu_footer/footer.html");
         ?>
     </footer>
-   
-
     <!--termina contenendor de informacion-->
     <script src="js/index.js"></script>
     <script src="js/boton_up.js"></script>
+    
 </body>
 </html>

@@ -160,3 +160,16 @@ sr.reveal('.animationsociales5', {
     
 
 });
+sr.reveal('.GaleriaFotosPremedia', {
+    scale: 0.95,
+    duration: 4000,
+    distances: '-1000px'
+});
+
+
+sr.reveal('.contendiopremedia', {
+    reset: true,
+    duration: 5000,
+    origin: 'top',
+    distance: '-100px'
+});
