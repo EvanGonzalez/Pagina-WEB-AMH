@@ -93,7 +93,7 @@
     <!-- javascrip para carrusel -->
     <script src="/CarruselMain/Carrusel.js"></script>
 
-    <script src="/js/menuresponsi.js"></script>
+    
     
 </body>
 
