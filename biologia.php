@@ -41,13 +41,11 @@
     <!--Inicia contenendor de información-->
     <div class="container">
 
-        <div class="row">
+        <div class="row" style="text-align: justify;">
             <div class="col-md-6 matematica" style="text-align: justify;">
                 El Departamento de Ciencias Naturales y Biología, está conformado por 11 docentes y 6 Asistentes de laboratorio, distribuidos entre la Jornada Matutina y por 11 docentes y 6 Asistentes de laboratorio, distribuidos entre la Jornada Matutina y Vespertina.
                 Hasta el año 2018 estuvieron unidos al Departamento de Física y Química y durante ese tiempo coordinaron conjuntamente las actividades de INVAN que dirige el profesor Walter Ortega. Además, hemos realizado por más de 10 años reciclaje de papel y de latas de aluminio como una manera de hacer crear conciencia y hacer docencia sobre la tala indiscriminada y la contaminación por desechos no biológicos.</p>
                 Hicieron actividades durante más de 10 años de reciclaje de papel y de latas de aluminio como una manera de hacer conciencia y docencia sobre la tala indiscriminada y la contaminación por desechos no biológicos.</p>
-                Durante algún tiempo fuimos parte del proyecto Globe en la que los estudiantes tomaban datos atmosféricos para medir como se estaba desarrollando el Cambio Climático en ese momento (2008-2009). </p>
-                Fuimos centro de intercambio de becarios y voluntarios del programa JICA de la Embajada de Japón, voluntarios éstos que han compartido sus experiencias de éxito con docentes y estudiantes de nuestro centro educativo.</p>
             </div>
             <div class="col-md-6">
                     <center>
@@ -70,6 +68,11 @@
                         </div>
                     </center>
             </div>
+            <div>
+                Durante algún tiempo fuimos parte del proyecto Globe en la que los estudiantes tomaban datos atmosféricos para medir como se estaba desarrollando el Cambio Climático en ese momento (2008-2009). </p>
+            Fuimos centro de intercambio de becarios y voluntarios del programa JICA de la Embajada de Japón, voluntarios éstos que han compartido sus experiencias de éxito con docentes y estudiantes de nuestro centro educativo.</p>
+            </div>
+            
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -98,8 +101,11 @@
                 </div>
                 </div>
 
-<br><div class="row">
-                <div class="col-md-6">
+                <br><div class="row" style="text-align: justify;">
+                <!--<div class="col-md-2 matematica" style="text-align: justify;">
+                    <br><br><img src="img/Dpt Ciencias y Biologia/Instrumentos2.jpeg" alt="" width="100%">
+                </div>-->
+                <div class="col-md-12">
                     <div class="animationsociales4">
                         <center>
                             <h3>Actividades</h3>
@@ -126,15 +132,8 @@
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
         </div>
-            </div>
-            <div class="col-md-8 matematica" style="text-align: justify;">
-                
-               
             </div>
         </div>
     </div>
