@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../Otras Actividades/css/banda.css">
     <link rel="stylesheet" href="../Otras Actividades/">
     <link rel="stylesheet" href="../css/header-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="js/wow.min.js"></script>
@@ -33,7 +34,7 @@
             <br>
             <br>
             <div class="container wow fadeInUp" >
-                <div class="row">
+                <div class="row" id="negar">
                     <div class="col-md-7 wow fadeInLeft" data-wow-delay="1,0s" id="bminicio">
                         <h2 id="registre">Inicios</h2>
                         <br>
@@ -62,78 +63,75 @@
                     <br>
                     <br>
                     <br>
-                <div class="container-fluid ">
+                    <div class="container-fluid ">
+                        <h2 class="text-center">Galardones</h2>
+                        <hr>
+                        <p class="text-center">
+                            A través de su accionar por el mundo de la música, ha sido galardonada con diversos premios en competencias a nivel regional y nacional.
+                        </p>
+                        <div class="elotro">
+                            <div class="carde wow fadeInUp">
+                                <div class="face front">
+                                    <img src="../Otras Actividades/img/bm1.jpg" alt="Banda de Música" title="Banda de Música">
+                                    <h3>2015</h3>
+                                </div>
+                                <div class="face back">
+                                    <h3>2015</h3>
+                                    <p class="text-white">
+                                        Invitada a la primera gira internacional a la hermana República de México, para un intercambio cultural con varios planteles de esta ciudad; representando a nuestro país, para la provincia de Coclé y nuestra alma mater Ángel María Herrera.
+                                    </p>
+                                </div>
+                            </div>
 
-                    <h2 class="text-center">Galardones</h2>
-                    <hr>
-                    <p class="text-center">
-                        A través de su accionar por el mundo de la música, ha sido galardonada con diversos premios en competencias a nivel regional y nacional.
-                    </p>
-                    <div class="elotro">
-                        <div class="carde wow fadeInUp">
-                            <div class="face front">
-                                <img src="../Otras Actividades/img/bm1.jpg" alt="Banda de Música" title="Banda de Música">
-                                <h3>2015</h3>
+                            <div class="carde wow fadeInUp">
+                                <div class="face front">
+                                    <img src="../Otras Actividades/img/bm3.jpg" alt="Banda de Música" title="Banda de Música">
+                                    <h3>2016-2017</h3>
+                                </div>
+                                <div class="face back">
+                                    <h3>2016-2017</h3>
+                                    <p class="text-white">
+                                        En el 2016 ganó el tercer lugar en el segundo festival de bandas de música, que se realizó en la ciudad de Panamá.
+                                        En septiembre de 2017, se realizó un intercambio cultural la hermana República de Colombia, llevando nuestra música y representando a Panamá.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="face back">
-                                <h3>2015</h3>
-                                <p class="text-white">
-                                    Invitada a la primera gira internacional a la hermana República de México, para un intercambio cultural con varios planteles de esta ciudad; representando a nuestro país, para la provincia de Coclé y nuestra alma mater Ángel María Herrera.
-                                </p>
-                            </div>
-                        </div>
 
-                        <div class="carde wow fadeInUp">
-                            <div class="face front">
-                                <img src="../Otras Actividades/img/bm3.jpg" alt="Banda de Música" title="Banda de Música">
-                                <h3>2016-2017</h3>
+                            <div class="carde wow fadeInUp">
+                                <div class="face front">
+                                    <img src="../Otras Actividades/img/bm6.jpg" alt="Banda de Música" title="Banda de Música">
+                                    <h3>2019</h3>
+                                </div>
+                                <div class="face back">
+                                    <h3>2019</h3>
+                                    <p class="text-white">
+                                        En el mes de mayo del 2019, una vez más fue invitada a una gira internacional a través del intercambio intercultural en la República de México, 
+                                        participando en la ciudad de Hidalgo, Tepeji del Río Ocampo, Tula entre otros.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="face back">
-                                <h3>2016-2017</h3>
-                                <p class="text-white">
-                                    En el 2016 ganó el tercer lugar en el segundo festival de bandas de música, que se realizó en la ciudad de Panamá.
-                                    En septiembre de 2017, se realizó un intercambio cultural la hermana República de Colombia, llevando nuestra música y representando a Panamá.
-                                </p>
-                            </div>
-                        </div>
 
-                        <div class="carde wow fadeInUp">
-                            <div class="face front">
-                                <img src="../Otras Actividades/img/bm6.jpg" alt="Banda de Música" title="Banda de Música">
-                                <h3>2019</h3>
-                            </div>
-                            <div class="face back">
-                                <h3>2019</h3>
-                                <p class="text-white">
-                                    En el mes de mayo del 2019, una vez más fue invitada a una gira internacional a través del intercambio intercultural en la República de México, 
-                                    participando en la ciudad de Hidalgo, Tepeji del Río Ocampo, Tula entre otros.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="carde wow fadeInUpf">
-                            <div class="face front">
-                                <img src="../Otras Actividades/img/bmbf.jpeg" alt="Ballet Folklorico" title="Ballet Folklorico">
-                                <h3>2022</h3>
-                            </div>
-                            <div class="face back">
-                                <h3>2022</h3>
-                                <p class="text-white">
-                                    Durante el año 2022, la banda de música ha participado en diferentes presentaciones dentro y fuera de la provincia. En días pasados hemos recibido invitación de la Municipalidad de Pérez Zeledón, Costa Rica para participar con nuestra banda en el Festival Luces del Valle de Pérez Zeledón 2022.
-                                </p>
+                            <div class="carde wow fadeInUpf">
+                                <div class="face front">
+                                    <img src="../Otras Actividades/img/bmbf.jpeg" alt="Ballet Folklorico" title="Ballet Folklorico">
+                                    <h3>2022</h3>
+                                </div>
+                                <div class="face back">
+                                    <h3>2022</h3>
+                                    <p class="text-white">
+                                        Durante el año 2022, la banda de música ha participado en diferentes presentaciones dentro y fuera de la provincia. En días pasados hemos recibido invitación de la Municipalidad de Pérez Zeledón, Costa Rica para participar con nuestra banda en el Festival Luces del Valle de Pérez Zeledón 2022.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                
-                                
                 </div>                
             </div>
                     
     </section>
 
     <?php
-        include ("./footer.html"); 
+        include '../Otras Actividades/footer.html'; 
     ?>
     <!-- <script src="../Otras Actividades/js/img_visual.js"></script> -->
     <!-- JavaScript Bundle with Popper -->

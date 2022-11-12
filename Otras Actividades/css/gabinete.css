@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#negar {
+    padding-left: 0px;
+}
+
+
+h1, h2{
+    padding: 15px;
+    color: #0079be;
+}
+
+.img-thumbnail {
+    width: 326px;
+    height: 326px;
+}
+
+#registre {
+    background-color: #121b4f;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px grey;
+    color: white;
+}
+
+#cartas {
+    background-color: #121b4f;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px grey;
+    color: rgb(80, 80, 80);
+}
+
+section p {
+    text-align: justify;
+    color: black;
+}
+
+.arriba {
+    align-items: center;
+}
+
+
+.img2 {
+    border: 2px solid white;
+    border-radius: 5%;
+    box-shadow: 0 0 10px grey ;
+}
+
+.img2 img{
+    border-radius: 5%;
+}
+
