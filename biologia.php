@@ -46,11 +46,11 @@
             </div>
             <div class="col-md-6">
                     <center>
-                        <br>
+                        
                         <div id="" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Ciencias .JPG" class="d-block w-50 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
+                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Ciencias .JPG" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
                                 </div>
                                 <div class="carousel-item">
                                     <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biología 1.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
