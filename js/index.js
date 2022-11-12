@@ -121,8 +121,9 @@ sr.reveal('.animationIngles2', {
 });
 
 sr.reveal('.animationIngles3', {
-    scale: 0.89
-    
+    duration: 6000,
+    origin: 'top',
+    distance: '-100px'
 
 });
 sr.reveal('.animationIngles4', {
@@ -172,4 +173,23 @@ sr.reveal('.contendiopremedia', {
     duration: 5000,
     origin: 'top',
     distance: '-100px'
+});
+
+
+sr.reveal('.carta-content', {
+    reset: true,
+    duration: 2000,
+    origin: 'top',
+    distance: '-100px'
+});
+
+ imgtecnicodocente
+
+sr.reveal('.title', {
+    scale: 0.95,
+    duration: 4000,
+    origin: 'top',
+    distances: '-1000px'
+    
+
 });
