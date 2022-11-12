@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
+    <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
+    <link rel="stylesheet" href="./css/galeriadetexto.css" type="text/css">
+    <link rel="stylesheet" href="./css/leermas.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
+    <link rel="stylesheet" href="./scss/cardsanimation.scss">
     <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <script src="js/scrollreveal.js"></script>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
@@ -39,10 +43,11 @@
 
         <div class="row">
             <div class="col-md-6 matematica" style="text-align: justify;">
-                <p> Hasta el año 2018 estuvieron unidos al departamento de Física y Química y durante ese tiempo apoyaban las actividades de INVAN que dirige el profesor Walter Ortega y las actividades eran en conjunto.</p>
-                <p>Hicieron actividades durante más de 10 años de reciclaje de papel y de latas de aluminio como una manera de hacer conciencia y docencia sobre la tala indiscriminada y la contaminación por desechos no biológicos.</p>
-                <p>Durante algún tiempo fuimos parte del proyecto Globe en la que los estudiantes tomaban datos atmosféricos para medir como se estaba desarrollando el Cambio Climático en ese momento (2008-2009). </p>
-                <p>Fuimos centro de intercambio de becarios y voluntarios del programa JICA de la Embajada de Japón, voluntarios éstos que han compartido sus experiencias de éxito con docentes y estudiantes de nuestro centro educativo.</p>
+                El Departamento de Ciencias Naturales y Biología, está conformado por 11 docentes y 6 Asistentes de laboratorio, distribuidos entre la Jornada Matutina y por 11 docentes y 6 Asistentes de laboratorio, distribuidos entre la Jornada Matutina y Vespertina.
+                Hasta el año 2018 estuvieron unidos al Departamento de Física y Química y durante ese tiempo coordinaron conjuntamente las actividades de INVAN que dirige el profesor Walter Ortega. Además, hemos realizado por más de 10 años reciclaje de papel y de latas de aluminio como una manera de hacer crear conciencia y hacer docencia sobre la tala indiscriminada y la contaminación por desechos no biológicos.</p>
+                Hicieron actividades durante más de 10 años de reciclaje de papel y de latas de aluminio como una manera de hacer conciencia y docencia sobre la tala indiscriminada y la contaminación por desechos no biológicos.</p>
+                Durante algún tiempo fuimos parte del proyecto Globe en la que los estudiantes tomaban datos atmosféricos para medir como se estaba desarrollando el Cambio Climático en ese momento (2008-2009). </p>
+                Fuimos centro de intercambio de becarios y voluntarios del programa JICA de la Embajada de Japón, voluntarios éstos que han compartido sus experiencias de éxito con docentes y estudiantes de nuestro centro educativo.</p>
             </div>
             <div class="col-md-6">
                     <center>
@@ -67,9 +72,66 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
-                
+            <div class="col-md-12">
+            <div class="animationsociales3">
+            <div class="row">
+                <div class="col-md-12">
+                    <center>
+                        <h3>Misión</h3>
+                        <br>
+                    </center>
+                    <div id="CARRUSEL">
+                        <div>
+                            <div class="carta">
+                                <div class="carta-body">
+                                    <div class="carta-content">
+                                        <div class="carta-txt">
+                                            <ul class="textopagina2">
+                                                <li>Desarrollar el pensamiento investigativo y crítico entre los estudiantes, desde que inician su actividad escolar en séptimo grado y que se mantenga durante su vida.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                </div>
+
+<br><div class="row">
+                <div class="col-md-6">
+                    <div class="animationsociales4">
+                        <center>
+                            <h3>Actividades</h3>
+                            <h2></h2>
+                        </center>
+                        <div id="CARRUSEL">
+                            <div>
+                                <div class="carta">
+                                    <div class="carta-body">
+                                        <div class="carta-content">
+                                            <div class="carta-txt">
+                                                <ul class="textopagina2 text-justify">
+                                                    <li>Conmemoración de fechas ecológicas y sucesos científicos importantes como el día del Agua, el día de la Tierra, el día del Árbol, el mes de los Recursos Naturales, entre otras efemérides destacadas.</li>
+                                                    <li>Confección de Murales alusivos a hechos sobresalientes.</li>
+                                                    <li>Desarrollo de Charlas científicas en el marco de la Semana de la Ciencia. </li>
+                                                    <li>Mantenimiento del Parque Forestal Angelino.</li>
+                                                    <li>Concienciación entre la comunidad angelina sobre el rol en el mantenimiento de la salud del planeta.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+            </div>
             <div class="col-md-8 matematica" style="text-align: justify;">
                 
                
