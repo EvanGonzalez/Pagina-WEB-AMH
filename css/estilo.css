@@ -84,12 +84,7 @@
 .contenedorNoticias{
   width: 100%;
   background-color: #121b4f;
-  color: #ffffff;
-  height: 500px;
-  padding: 10px;
-  overflow: hidden;
-  overflow-y: scroll;
-  
+  color: #ffffff; 
 }
 .subcontenedor{
   width: 100%;
