@@ -57,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                <p> Escuela secundaria Ángel María Herrera siempre ha sido conmemorada como un centro un centro educativo de gran prestigio y porvenir. </p>
+                <p>La escuela secundaria Ángel María Herrera siempre ha sido conmemorada como un centro un centro educativo de gran prestigio y porvenir.</p>
                 <h3></h3>
                 
             </div>
@@ -68,8 +68,8 @@
                     <h3 class="card-header" style="background-color:#0079be;">Actividades realizadas actualmente</h3>
                     <div class="card-body">
                     <ul>
-                        <li>Confección de murales por trimestre, con el propósito de resaltar estudiantes con índice académico que oscile 4.7 y 5.0. De esta manera les estimula hacia un estudio científico y entusiasta. </li>
-                        <li>Premian a los mejores estudiantes estrellas de matemáticas de 9° y 12° grado. En cada promoción durante los años 2019 y 2021. </li>
+                        <li>Confección de murales por trimestre, con el propósito de resaltar estudiantes con índice académico que oscile entre 4.7 y 5.0. De esta manera, se les estimula hacia un estudio científico y entusiasta.</li>
+                        <li>Premiación para los mejores estudiantes, denominados estrellas de matemáticas de 9° y 12° grado. Esto se ha realizado en cada promoción durante los años 2019 y 2021.</li>
                     </ul>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                     <div class="card-body">
                     <ul>
                         <li>Competencias o cursos a nivel interno e intercolegial entre paralelos.</li>
-                        <li>Se creó un club denominado Unión de Matemáticos Angelinos (UMA) que participaban alumnos de alto índice académico, quienes servían de modelo en las clases y ayudaban a los compañeros con dificultades en matemáticas.</li> 
+                        <li>Se creó un club denominado Unión de Matemáticos Angelinos (UMA) que participaban integrado por alumnos de alto índice académico, quienes eran considerados como modelo en las clases y ayudaban a los compañeros con  que tenían dificultades en matemáticas.  </li> 
                     </ul>
                     </div>
                 </div>

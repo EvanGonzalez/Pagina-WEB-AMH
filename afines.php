@@ -48,6 +48,50 @@
             </div>
         </div>
         <div class="row">
+            <div class="col-md-6" id="justify">
+                <div class="card my-4" style="background-color: #121b4f;color:white;">
+                    <div class="card-body">  
+                                <div id="" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Dpt de afines/Banquete para bodas.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Dpt de afines/Banquete para graduación.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Dpt de afines/costura.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Dpt de afines/preparación de dulces y frutas .jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="justify">
+                <div class="card my-4" style="background-color: #121b4f;color:white;">  
+                    <div class="card-body">  
+                                <div id="" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Dpt de afines/manualidades1.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Dpt de afines/manualidades2.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Dpt de afines/manualidades3.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row">
             <div class="col-md-12">
             <table>
                 <tr>

@@ -243,7 +243,7 @@ header {
   }
 
   /* reveal menu */
-  input[type="checkbox"]:checked + .menu {
+  input[type="checkbox"]:checked~.menu {
     position: absolute;
     opacity: 1;
     transform: scaleY(1);
@@ -308,3 +308,5 @@ main {
 
 
 /* fin de hamburger */
+
+

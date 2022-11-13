@@ -175,21 +175,3 @@ sr.reveal('.contendiopremedia', {
     distance: '-100px'
 });
 
-
-sr.reveal('.carta-content', {
-    reset: true,
-    duration: 2000,
-    origin: 'top',
-    distance: '-100px'
-});
-
- imgtecnicodocente
-
-sr.reveal('.title', {
-    scale: 0.95,
-    duration: 4000,
-    origin: 'top',
-    distances: '-1000px'
-    
-
-});
