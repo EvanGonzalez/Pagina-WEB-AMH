@@ -82,7 +82,7 @@
                 <div class="card my-4" style="background-color: #121b4f;color:white;">
                     <h5 class="card-header" style="background-color:#0079be;"><b>Base de datos</b></h5>
                     <div class="card-body">
-                        Martín Fuentes<br>
+                        Martin Fuentes<br>
                         Luis García<br>
                         Óscar Rodríguez<br>
                     </div>
