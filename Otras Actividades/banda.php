@@ -20,9 +20,7 @@
     <title>AMH: Banda de Música</title>
 </head>
 <body>
-    <?php
-        include("head.html");
-    ?>
+    <?php include ('../Menu_Footer/head.html'); ?>
     <section>
 
         <div class="container-fluid" id="principal">

@@ -19,7 +19,7 @@
     <title>AMH: Proyectos Científicos y Tecnológicos</title>
 </head>
 <body>
-    <?php include ('../Otras Actividades/head.html'); ?>
+    <?php include ('../Menu_Footer/head.html'); ?>
     <br>
     <div class="container-fluid">
         <h2 class="text-center" id="registre">PROYECTOS TECNOLÓGICOS</h2>         

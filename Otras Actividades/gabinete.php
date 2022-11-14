@@ -19,7 +19,7 @@
     <title>AMH: Gabinete Psicopadagógico, Orientacion y Educación Especial</title>
 </head>
 <body>
-    <?php include("../Otras Actividades/head.html"); ?>
+    <?php include ('../Menu_Footer/head.html'); ?>
     <section>
         <!-- para la derecha -->
         <div class="container">

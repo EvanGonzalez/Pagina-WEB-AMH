@@ -19,7 +19,7 @@
     <title>AMH: Folklore</title>
 </head>
 <body>
-    <?php include("../Otras Actividades/head.html");?>
+    <?php include ('../Menu_Footer/head.html'); ?>
     <br>
     <section>
         <div class="container-fluid wow fadeInUp">
