@@ -34,7 +34,7 @@
                         <br>       
                         <br>             
                     <div class="img2">
-                        <img src="../Otras Actividades/img/conjunto/conjunto4.jpeg" alt="" class="img-fluid">                        
+                        <img src="../Otras Actividades/img/conjunto/conjunto 2.jpeg" alt="" class="img-fluid">                        
                     </div>
 
                 </div>
@@ -148,7 +148,7 @@
                                                 </div>
                                         </div>
                                     </div>
-                                                                   
+                                    <h2 class="text-center fst-italic">Muestra de algunas presentaciones</h2>                            
                                 </div>
                                     
                         </div>
@@ -165,6 +165,10 @@
 
         <hr>
         </div>
+
+    </section>
+    <!-- Segunda Mitada de la pagina  -->
+    <section>
 
     </section>
     <?php include("../Otras Actividades/footer.html");?>
