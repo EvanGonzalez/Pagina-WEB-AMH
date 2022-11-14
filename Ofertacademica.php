@@ -24,7 +24,7 @@
 
 <body id="fondoMain">
     <?php
-    include("head.html")
+     include("./Menu_footer/head.html");
     ?>
 
     <!--miga de pan-->
@@ -47,7 +47,7 @@
 
         <div class="row">
             <div class="col-md-12 contenidoderecho">
-                <h3 class="letra3"> Oferta Académica </h3>
+                <h3 class="letra3"> Oferta Académica: Bachilleres </h3>
 
                 <?php
                 include("Oferta_Academica/columIzquiPag3.html");
@@ -63,8 +63,7 @@
     ?>
     <footer>
         <?php
-        include("footer.html");
-
+        include("./Menu_footer/footer.html");
         ?>
     </footer>
 
@@ -76,8 +75,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/index.js"></script>
     <!--scrip para la animacion de imagenes pagina 2-->
-    <script src="js/main.js"></script>
-    <!--scrip para la galeria de imagenes pagina 2-->
     <script src="js/directores.js"></script>
     <script src="js/animacion.js"></script>
     <script src="js/Minimenu.js"></script>

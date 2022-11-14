@@ -21,7 +21,7 @@
 
 <body id="fondoMain">
     <?php
-    include("head.html")
+     include("./Menu_footer/head.html");
     ?>
 
     <!--miga de pan-->
@@ -46,13 +46,13 @@
             <p>
                 
             </p>
-            <div class="col-md-8 matematica " style="text-align: justify;">
+            <div class="col-md-6 matematica " style="text-align: justify;">
                 <p>En 1895, en la Escuela Secundaria Ángel María Herrera, se crea el bachillerato de comercio que brinda la oportunidad a jóvenes estudiantes de nuestra comunidad, de lograr una preparación profesional que le permite grandes salidas en el mercado de trabajo.</p>
                 <p>Este bachillerato, creado a través de luchas y dificultades, cuenta en la actualidad laboratorio de software contable, salón de mecanografía, laboratorios de informática y salón de práctica profesional.</p>
                 <p>Nuestra primera promoción fue en 1987 y posteriormente se   más, todas ellas con especialización en contabilidad. y así los egresados podrán convertirse en profesionales claves dentro de una organización pública o privada.  </p>
             </div>
-            <div class="col-md-4 matematica " style="text-align: justify;">
-                <div><img src="img/Dpt comercio/WhatsApp Image 2022-09-23 at 2.12.44 PM.jpeg" alt="" width="100%"></div>
+            <div class="col-md-6 matematica " style="text-align: justify;"><br><br>
+                <div><img src="img/Dpt comercio/WhatsApp Image 2022-09-23 at 2.12.44 PM.jpeg" alt="" width="100%" ></div>
             </div>
         </div>
         <div class="row">
@@ -102,7 +102,7 @@
                     </div>
             </div>
             <div class="col-md-6 matematica " style="text-align: justify;">
-                <img src="img/Dpt comercio/Departamento de Comercio.jpeg" alt="" width="100%">
+                <img src="img/Dpt comercio/Departamento de Comercio.jpeg" alt="" width="100%"> <br><br>
                 <img src="img/Dpt comercio/WhatsApp Image 2022-09-23 at 2.10.44 PM.jpeg" alt="" width="100%">
             </div>
         </div>
@@ -121,7 +121,7 @@
     ?>
     <footer>
         <?php
-        include("footer.html");
+       include("./Menu_footer/footer.html");
 
         ?>
     </footer>

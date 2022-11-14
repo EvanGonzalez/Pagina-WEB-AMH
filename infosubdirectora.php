@@ -6,22 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
-    <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="./css/galeriadetexto.css" type="text/css">
-    <link rel="stylesheet" href="./css/leermas.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
-    <link rel="stylesheet" href="./scss/cardsanimation.scss">
+    <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <script src="js/scrollreveal.js"></script>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <title>Pagina Web</title>
+    <title>Subdirectora administrativa</title>
 </head>
 
 
 <body id="fondoMain">
     <?php
-    include("head.html")
+    include("./Menu_footer/head.html");
     ?>
 
     <!--miga de pan-->
@@ -49,24 +47,54 @@
         </ul>
 
 
+        <div id="CARRUSEL">
+            <div>
+                <div class="carta">
+                    <div class="carta-body">
+                        <div class="carta-content">
+                            <div class="carta-txt">
+                                <h4 class="title h1 text-center" style="color: #ffff;">Formación Académica</h4>
+                                <p class="card-header">
+                                <ul class="textopaginatecnico">
+                                    Inicio sus estudios primarios en la escuela Manuel José Hurtado, secundaria primer ciclo en el instituto América y su segundo ciclo en el colegio privado Instituto Istmeño, donde se le otorgó diploma de Bachiller en Ciencias.
+                                    <br><br>
+                                    Curso estudio universitario, en la Universidad de Panamá y obtuvo el título de Licenciada en Administración de empresa, después obtuvo el título de licenciada en Economía.
+                                    <br> <br>
+                                    Además, en la Universidad Santa María La Antigua, obtuvo el título de Maestría en ingeniería Económica, sus estudios se ampliaron cuando también participo en el curso de Economía para funcionarios públicos por la universidad de IOWA en la ciudad de Panamá, un crédito de postgrado. Logro postgrado y diplomados en administración de empresa.
+                                    <br><br>
+                                    <li>Doctora en Ciencias Económicas y Empresariales. </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <ul class="textopaginatecnico2">
-            <div class="title h1 text-center">Formación Académica</div>
-            Inicio sus estudios primarios en la escuela Manuel José Hurtado, secundaria primer ciclo en el instituto América y su segundo ciclo en el colegio privado Instituto Istmeño, donde se le otorgó diploma de Bachiller en Ciencias.
+        <hr>
 
-            Curso estudio universitario, en la Universidad de Panamá y obtuvo el título de Licenciada en Administración de empresa, después obtuvo el título de licenciada en Economía.
-
-            Además, en la Universidad Santa María La Antigua, obtuvo el título de Maestría en ingeniería Económica, sus estudios se ampliaron cuando también participo en el curso de Economía para funcionarios públicos por la universidad de IOWA en la ciudad de Panamá, un crédito de postgrado. Logro postgrado y diplomados en administración de empresa.
-            <br><br>
-            <li>Doctora en Ciencias Económicas y Empresariales. </li>
-        </ul>
-
-        <div class="title h1 text-center">Experiencia Laboral</div>
-        <ul class="textopaginatecnico">
-
-
-        </ul>
-
+        <div id="CARRUSEL">
+            <div>
+                <div class="carta">
+                    <div class="carta-body">
+                        <div class="carta-content">
+                            <div class="carta-txt">
+                                <h4 class="title h1 text-center" style="color: #ffff;">Experiencia Laboral</h4>
+                                <p class="card-header">
+                                <ul class="textopaginatecnico">
+                                    <li>Docente en el Primer Ciclo Santa Rita, provincia de Colón </li>
+                                    <li>Docente Colegio Benigno Jiménez Garay, provincia de Colón </li>
+                                    <li>Escuela Isabel Herrera de Obaldía como Profesora de Contabilidad, y en especialidad de Finanzas y Banca. </li>
+                                    <li>Sub directora técnica Administrativa Colegio Ángel María Herrera. </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <br><br>
 
@@ -79,8 +107,7 @@
     ?>
     <footer>
         <?php
-        include("footer.html");
-
+        include("./Menu_footer/footer.html");
         ?>
     </footer>
 
@@ -90,15 +117,7 @@
 
     <script src="js/index.js"></script>
     <!--scrip para la animacion de imagenes pagina 2-->
-    <script src="js/main.js"></script>
-    <!--scrip para la galeria de imagenes pagina 2-->
-    <script src="js/directores.js"></script>
-    <script src="js/animacion.js"></script>
     <script src="js/boton_up.js"></script>
-    <script src="js/modal.js"></script>
-    <script src="js/leermas.js"></script>
-    <script src="js/cardanimation.js"></script>
-    <script src="js/galeriadetexto.js"></script>
 </body>
 
 </html>

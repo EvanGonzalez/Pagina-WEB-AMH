@@ -17,7 +17,7 @@
 
 <body id="fondoMain">
     <?php
-    include("head.html")
+     include("./Menu_footer/head.html");
     ?>
 
     <!--miga de pan-->
@@ -41,7 +41,23 @@
         <div class="row">
            
             <div class="col-12 matematica" style="text-align: justify;">
-                <p> Escuela secundaria Ángel María Herrera siempre ha sido conmemorada como un centro un centro educativo de gran prestigio y porvenir. </p>
+                <div id="" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/Dpt Matematicas/Docentes del Departamento de matemáticas.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Dpt Matematicas/Mural de las Estrellas de Matemáticas.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Dpt Matematicas/trabajo en el aula 3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Dpt Matematicas/Concurso de Murales de Matemáticas 3.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <p>La escuela secundaria Ángel María Herrera siempre ha sido conmemorada como un centro un centro educativo de gran prestigio y porvenir.</p>
                 <h3></h3>
                 
             </div>
@@ -52,8 +68,8 @@
                     <h3 class="card-header" style="background-color:#0079be;">Actividades realizadas actualmente</h3>
                     <div class="card-body">
                     <ul>
-                        <li>Confección de murales por trimestre, con el propósito de resaltar estudiantes con índice académico que oscile 4.7 y 5.0. De esta manera les estimula hacia un estudio científico y entusiasta. </li>
-                        <li>Premian a los mejores estudiantes estrellas de matemáticas de 9° y 12° grado. En cada promoción durante los años 2019 y 2021. </li>
+                        <li>Confección de murales por trimestre, con el propósito de resaltar estudiantes con índice académico que oscile entre 4.7 y 5.0. De esta manera, se les estimula hacia un estudio científico y entusiasta.</li>
+                        <li>Premiación para los mejores estudiantes, denominados estrellas de matemáticas de 9° y 12° grado. Esto se ha realizado en cada promoción durante los años 2019 y 2021.</li>
                     </ul>
                     </div>
                 </div>
@@ -64,20 +80,55 @@
                     <div class="card-body">
                     <ul>
                         <li>Competencias o cursos a nivel interno e intercolegial entre paralelos.</li>
-                        <li>Se creó un club denominado Unión de Matemáticos Angelinos (UMA) que participaban alumnos de alto índice académico, quienes servían de modelo en las clases y ayudaban a los compañeros con dificultades en matemáticas.</li> 
+                        <li>Se creó un club denominado Unión de Matemáticos Angelinos (UMA) que participaban integrado por alumnos de alto índice académico, quienes eran considerados como modelo en las clases y ayudaban a los compañeros con  que tenían dificultades en matemáticas.  </li> 
                     </ul>
                     </div>
                 </div>
             </div>
-        </div>
+            <br>
+            <center><div class="row text-center text-lg-start">
+
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/trabajo en el aula 1.jpg" alt="" style="background-color: #121b4f;">
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/trabajo en el aula 4.jpg" alt="" style="background-color: #121b4f;">
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/trabajo en el aula 2.jpg" alt="" style="background-color: #121b4f;">
+                                </a>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/trabajo en el aula 5.jpg" alt="" style="background-color: #121b4f;">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/Concurso de Murales de Matemáticas 1.jpeg" alt="" style="background-color: #121b4f;">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/Concurso de Murales de Matemáticas 5.jpeg" alt="" style="background-color: #121b4f;">
+                                </a>
+                            </div>
+
+                        </div>
+        </div></center>
     </div>
     <?php
     include("botonArriba.html");
     ?>
     <footer>
         <?php
-        include("footer.html");
-
+        include("./Menu_footer/footer.html");
         ?>
     </footer>
 

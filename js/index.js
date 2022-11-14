@@ -79,7 +79,7 @@ sr.reveal('.ComunidadEdu', {
 sr.reveal('.animationedu1', {
     duration: 5000,
     origin: 'left',
-    distance: '-1000px'
+    distance: '-100px'
 });
 sr.reveal('.animationedu2', {
     duration: 5000,
@@ -121,8 +121,9 @@ sr.reveal('.animationIngles2', {
 });
 
 sr.reveal('.animationIngles3', {
-    scale: 0.89
-    
+    duration: 6000,
+    origin: 'top',
+    distance: '-100px'
 
 });
 sr.reveal('.animationIngles4', {
@@ -160,3 +161,17 @@ sr.reveal('.animationsociales5', {
     
 
 });
+sr.reveal('.GaleriaFotosPremedia', {
+    scale: 0.95,
+    duration: 4000,
+    distances: '-1000px'
+});
+
+
+sr.reveal('.contendiopremedia', {
+    reset: true,
+    duration: 5000,
+    origin: 'top',
+    distance: '-100px'
+});
+

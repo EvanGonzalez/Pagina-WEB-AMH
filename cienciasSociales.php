@@ -21,7 +21,7 @@
 
 <body id="fondoMain">
     <?php
-    include("head.html")
+     include("./Menu_footer/head.html");
     ?>
 
     <!--miga de pan-->
@@ -89,7 +89,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="img/Dpt Sociales/Semana de la Etnia.jpeg" class="d-block w-100" alt="...">
+                                                    <img src="img/Dpt Sociales/Semana de la Etnia.jpeg" class="d-block w-100" alt="" >
                                                     <div class="carousel-caption d-none d-md-block">
                                                         <h4 style="-webkit-text-stroke: 0.5px #121b4f;">Semana de la Etnia</h4>
                                                     </div>
@@ -202,8 +202,7 @@
     ?>
     <footer>
         <?php
-        include("footer.html");
-
+       include("./Menu_footer/footer.html");
         ?>
     </footer>
 

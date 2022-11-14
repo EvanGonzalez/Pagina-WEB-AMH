@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
 
-.container {
+#container {
   width: 100%;
   display: flex;
   flex-direction: column;

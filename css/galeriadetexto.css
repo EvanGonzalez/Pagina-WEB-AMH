@@ -55,7 +55,7 @@
     font-size: 1.2rem;
     color: rgb(255, 255, 255);
     text-align: justify;
-    text-decoration: none;
+    
 }
 
 
@@ -64,4 +64,5 @@
     color: rgb(0, 0, 0);
     text-align: justify;
     text-decoration: none;
+    list-style: none;
 }

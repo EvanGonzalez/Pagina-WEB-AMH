@@ -72,13 +72,42 @@
 
 
 
-
+/* estilo para columna derecha index */
 
 #asistyle {
   background-color: rgb(255, 255, 255);
   width: 100%;
   display: block;
 }
+
+
+.contenedorNoticias{
+  width: 100%;
+  background-color: #121b4f;
+  color: #ffffff;
+  height: 550px;
+  padding: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+  
+}
+.subcontenedor{
+  width: 100%;
+  background-color: #fff;
+}
+.TwitterMedia{
+  color: turquoise;
+  font-size: 50px;
+}
+
+.FacebookMedia{
+  color: rgb(1, 77, 253);
+  font-size: 50px;
+}
+
+/* fin de estilo de columna derecha index */
+
+
 
 .parrafos {
   text-align: justify;
@@ -243,10 +272,16 @@
   justify-content: center;
 }
 
+/* para tamaño de imagen de cuerpo administrativo */
 .imgtecnicodocente{
-  width: 100%;
-  height: 50vw;
+  width: 50%;
+  height: 40vw;
 }
+.imgdirectora{
+  width: 70%;
+  height: 40vw;
+}
+
 
 .card-text {
   text-align: justify;
@@ -333,9 +368,6 @@ span {
   margin-left: 12px;
 }
 
-#carouselExampleCaptions {
-  width: 60%;
-}
 
 /* ======================== */
 
@@ -541,3 +573,29 @@ tr:hover td {
   background: #0079be;
   color: rgb(75, 188, 208);
 }
+
+
+
+
+/* css para premedia  */
+#circle-shape-example { 
+  font-family: Open Sans, sans-serif; 
+  margin: 2rem; 
+}
+#circle-shape-example p { 
+  line-height: 1.8;
+  text-align: justify; 
+}
+#circle-shape-example .curve { 
+  width: 54%; height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right:16rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+}
+
+
+
+/* fin de css de premedia */

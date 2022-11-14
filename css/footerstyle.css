@@ -8,12 +8,19 @@
 }
 
 #fondo {
-    background-image: url('/img/footer.png');
+    background-image: url('/img/footer.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:bottom;
-    
+    padding: 60px;
 }
+
+/* funcina para ser responsi en pantallas grandes */
+/* .footer-contenedor{
+    /* background-position:bottom;
+    max-width: 130rem; 
+   
+} 
+*/
 
 #contacto p,
 h2 {
@@ -46,9 +53,11 @@ h2 {
 
 /*:::::Pie de Pagina*/
 .pie-pagina {
+    margin-top: 30px;
     width: 100%;
     background-color: #ffffff;
 }
+
 
 .pie-pagina .grupo-1 {
     width: 100%;
@@ -104,9 +113,10 @@ h2 {
     background-color: rgba(255, 255, 255, 0.153);
     border-radius: 5%;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.151);
+    
 }
 
-.row {
+.columFooter {
     padding-top: 3%;
     padding-bottom: 5%;
     padding-left: 5%;

@@ -12,16 +12,17 @@
     <link rel="stylesheet" href="./css/leermas.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
     <link rel="stylesheet" href="./scss/cardsanimation.scss">
+    <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <script src="js/scrollreveal.js"></script>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <title>Pagina Web</title>
+    <title>Directora</title>
 </head>
 
 
 <body id="fondoMain">
     <?php
-    include("head.html")
+    include("./Menu_footer/head.html");
     ?>
 
     <!--miga de pan-->
@@ -44,25 +45,65 @@
         <h3 class="letra3">Directora</h3>
 
         <div class="title h1 text-center">Lesbia Liao de Villareal.</div>
-        <center><img src="img/directora.JPG" class="imgtecnicodocente" /></center><br>
-        <ul class="textopaginatecnico">
-           
-        </ul>
-
-
-
+        <center>
+            <img src="img/directora.JPG" class="imgdirectora" />
+        </center><br>
         <ul class="textopaginatecnico2">
-            <div class="title h1 text-center">Formación Académica</div>
+            <center>
+                <li><a href="mailto:lesbia.liao@meduca.edu.pa?">Contactar por correo: lesbia.liao@meduca.edu.pa</a></li>
+            </center>
 
-            
         </ul>
 
-        <div class="title h1 text-center">Experiencia Laboral</div>
-        <ul class="textopaginatecnico2">
-            
-            
-        </ul>
+        <div id="CARRUSEL">
+            <div>
+                <div class="carta">
+                    <div class="carta-body">
+                        <div class="carta-content">
+                            <div class="carta-txt">
+                                <h4 class="title h1 text-center" style="color: #ffff;">Formación Académica</h4>
+                                <p class="card-header">
+                                <ul class="textopaginatecnico">
+                                    <li>Magíster en Finanzas y Banca. Universidad Interamericana. 2007.</li>
+                                    <li>Magíster en Administración de Empresas con énfasis en Recursos Humanos. Universidad de la Paz. 2000.</li>
+                                    <li>Postgrado en Docencia Superior. Universidad de Panamá 1999. </li>
+                                    <li>Postgrado de Didáctica de las Ciencias Comerciales. Instituto Tecnológico Latinoamericano 2003 </li>
+                                    <li>Profesora de Educación Media con Especialización en Finanzas y Banca. Universidad de Panamá 1991.</li>
+                                    <li>Profesora de Educación Media con Especialización en Contabilidad. Universidad de La Paz 2001.</li>
+                                    <li>Licenciada en Banca y Finanzas. Universidad USMA 1985.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+
+        <div id="CARRUSEL">
+            <div>
+                <div class="carta">
+                    <div class="carta-body">
+                        <div class="carta-content">
+                            <div class="carta-txt">
+                                <h4 class="title h1 text-center" style="color: #ffff;">Experiencia Laboral</h4>
+                                <p class="card-header">
+                                <ul class="textopaginatecnico">
+                                    <li>Un (1) año Caja de Ahorros (1986 - 1986) – Oficial de Control Interno </li>
+                                    <li>Siete (7) años Banco del Istmo (1987 - 1993) – Oficial de Operaciones Bancarias </li>
+                                    <li>Doce (12) años experiencia docente José de los Reyes Vásquez y Ángel María Herrera (1994-2005)</li>
+                                    <li>Cinco (5) años como Subdirectora Administrativa en la Escuela Básica General Clelia F. de Martínez (2006 - 2010).</li>
+                                    <li>Veinte (20) años de experiencia como Docente en la Universidad de Panamá – Facultad de Economía (1999-2019).</li>
+                                    <li>Once (11) años como Directora en la Escuela Secundaria Ángel María Herrera. (2011 - 2022).</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <br><br>
 
@@ -75,8 +116,7 @@
     ?>
     <footer>
         <?php
-        include("footer.html");
-
+        include("./Menu_footer/footer.html");
         ?>
     </footer>
 
@@ -86,15 +126,8 @@
 
     <script src="js/index.js"></script>
     <!--scrip para la animacion de imagenes pagina 2-->
-    <script src="js/main.js"></script>
-    <!--scrip para la galeria de imagenes pagina 2-->
-    <script src="js/directores.js"></script>
-    <script src="js/animacion.js"></script>
     <script src="js/boton_up.js"></script>
-    <script src="js/modal.js"></script>
-    <script src="js/leermas.js"></script>
-    <script src="js/cardanimation.js"></script>
-    <script src="js/galeriadetexto.js"></script>
+
 </body>
 
 </html>

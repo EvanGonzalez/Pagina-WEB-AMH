@@ -1,0 +1,27 @@
+*
+{
+	box-sizing: border-box;
+	font-family: sans-serif;
+	
+}
+body
+{
+	margin: 0;
+    padding: 0;
+	background: url(/img/portada1.JPG) no-repeat center top;
+	background-size: cover;	
+}
+.af
+{
+	margin-right:10%;
+	margin-top:5%;
+}
+img
+{
+	width: 120px;
+}
+
+
+
+
+

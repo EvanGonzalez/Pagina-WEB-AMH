@@ -21,7 +21,7 @@
 
 <body id="fondoMain">
     <?php
-    include("head.html")
+     include("./Menu_footer/head.html");
     ?>
 
     <!--miga de pan-->
@@ -46,6 +46,50 @@
                 <p>El departamento de afines está formado por trece (13) profesores de diversas asignaturas, cada uno dedicado a su especialidad. La mayoría trabaja con estudiantes de Premedia y el resto con estudiante de media. Tiene un coordinador para todo el departamento que se elige cada dos años.</p>
                 <p>Este departamento se distingue por su diversidad de talentos, competencias, destrezas. Esta inmerso en toda las actividades curriculares y extracurriculares del plantel. Potencia en los estudiantes el desarrollo de las habilidades duras y blandas.</p>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6" id="justify">
+                <div class="card my-4" style="background-color: #121b4f;color:white;">
+                    <div class="card-body">  
+                                <div id="" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Dpt de afines/Banquete para bodas.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Dpt de afines/Banquete para graduación.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Dpt de afines/costura.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Dpt de afines/preparación de dulces y frutas .jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="justify">
+                <div class="card my-4" style="background-color: #121b4f;color:white;">  
+                    <div class="card-body">  
+                                <div id="" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Dpt de afines/manualidades1.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Dpt de afines/manualidades2.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Dpt de afines/manualidades3.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -99,8 +143,7 @@
     ?>
     <footer>
         <?php
-        include("footer.html");
-
+        include("./Menu_footer/footer.html");
         ?>
     </footer>
 
