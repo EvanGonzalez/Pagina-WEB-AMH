@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
+    <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <script src="js/scrollreveal.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <title>Creadores</title>
+    <title>Creadores y Colaboradores</title>
 </head>
 
 <body id="fondoMain">
