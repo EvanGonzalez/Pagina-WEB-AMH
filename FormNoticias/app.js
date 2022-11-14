@@ -7,7 +7,8 @@ let myDropzone = new Dropzone('.dropzone', {
   addRemoveLinks:true,
   dictRemoveFile:'Eliminar',
   dictInvalidFileType: "El Archivo subido no es permitido",
-  dictFileTooBig: "La imagen es mas grande de lo permitido"
+  dictFileTooBig: "La imagen es mas grande de lo permitido",
+  dictMaxFilesExceeded: "Solamente Se puede subir 3 Imagenes"
 })
 
 myDropzone.on('addedfile', file => {
