@@ -148,7 +148,10 @@
                                                 </div>
                                         </div>
                                     </div>
-                                    <h2 class="text-center fst-italic">Muestra de algunas presentaciones</h2>                            
+                                    <h2 class="text-center fst-italic">Muestra de algunas presentaciones</h2>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="../Otras Actividades/img/conjunto/Tamborito.mp4" allowfullscreen></iframe>
+                                    </div>                        
                                 </div>
                                     
                         </div>
