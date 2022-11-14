@@ -129,7 +129,7 @@
     </section>
 
     <?php
-        include '../Otras Actividades/footer.html'; 
+        include '../Menu_Footer/footer.html'; 
     ?>
     <!-- <script src="../Otras Actividades/js/img_visual.js"></script> -->
     <!-- JavaScript Bundle with Popper -->
