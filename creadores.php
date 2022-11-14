@@ -84,7 +84,7 @@
                     <div class="card-body">
                         Martin Fuentes<br>
                         Luis García<br>
-                        Óscar Rodríguez<br>
+                        Oscar Rodríguez<br>
                     </div>
                 </div>
             </div>
