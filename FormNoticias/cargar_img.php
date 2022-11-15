@@ -1,11 +1,12 @@
 <?php
+session_start();
 include '../BaseDeDatos/conexion_db.php';
 $tit = $_POST['Titulo'];
 $fech = $_POST['FechaActual'];
 $des = $_POST['enfermedadDescrip'];
 $con = conectar();
-$query = $con->prepare("Insert into noticia(titulo,fecha,descripcion) Values (?, ?, ?)");
-$query->bind_param('sss', $tit, $fech, $des);
+$query = $con->prepare("Insert into noticia(titulo,fecha,descripcion,usuario) Values (?, ?, ?, ?)");
+$query->bind_param('ssss', $tit, $fech, $des,$_SESSION['username']);
 $query->execute();
 mysqli_close($con);
 
