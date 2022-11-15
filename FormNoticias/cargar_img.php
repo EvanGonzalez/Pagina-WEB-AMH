@@ -16,7 +16,7 @@ foreach ($_FILES["imagenes"]['name'] as $key => $tmp_name) {
     }
     mysqli_close($con);
 }
-echo "<script>alert(" . $contar. ")</script>";
+
 if ($contar === 0) {
 
     $tit = $_POST['Titulo'];
@@ -27,8 +27,6 @@ if ($contar === 0) {
     $query->bind_param('ssss', $tit, $fech, $des, $_SESSION['username']);
     $query->execute();
     mysqli_close($con);
-
-    echo "<script>alert(" . count($_FILES['imagenes']['tmp_name']) . ")</script>";
     if (count($_FILES['imagenes']['tmp_name']) <= 3) {
 
         foreach ($_FILES["imagenes"]['tmp_name'] as $key => $tmp_name) {
