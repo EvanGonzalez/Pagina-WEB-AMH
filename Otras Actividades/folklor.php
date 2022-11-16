@@ -149,8 +149,8 @@
                                         </div>
                                     </div>
                                     <h2 class="text-center fst-italic">Muestra de algunas presentaciones</h2>
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="../Otras Actividades/img/conjunto/Tamborito.mp4" allowfullscreen></iframe>
+                                    <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center">
+                                        <video src="../Otras Actividades/img/conjunto/Tamborito.mp4" controls ></video>
                                     </div>                        
                                 </div>
                                     
@@ -174,7 +174,7 @@
     <section>
 
     </section>
-    <?php include("../Menu_Footer/footer.html");?>
+        <?php include("../Menu_Footer/footer.html");?>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
