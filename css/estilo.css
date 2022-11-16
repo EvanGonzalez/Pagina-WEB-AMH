@@ -1,16 +1,17 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,600&display=swap');
 
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Exo 2', sans-serif;
 }
 
 #fondoMain {
   background-color: rgba(255, 255, 255, 0.911);
-  font-family: 'Exo 2', sans-serif;
+  
 }
 
 .contenidoizquierdo {
@@ -545,32 +546,53 @@ span {
 }
 /*estilos para la tabla*/
 table {
-  border-radius: 5%;
   margin: 3px;
   width: 100%;
   text-align: justify;
-  border-collapse: collapse;
   
+}
+tr:first-child td:first-child { 
+  border-top-left-radius: 10px; 
+}
+tr:first-child td:last-child {   
+  border-top-right-radius: 10px; 
+}
+tr:last-child td:first-child { 
+  border-bottom-left-radius: 10px; 
+}
+tr:last-child td:last-child { 
+  border-bottom-right-radius: 10px; 
 }
 /*color para las celdas de encabezado*/
 tr {
   padding: 8px;
   background: #b9f7fe;
-  border-top: 4px solid #aaf4fe;
-  border-bottom: 1px solid #fff;
+  border-top: 4px solid #121b4f;
+  border-bottom: 1px solid #121b4f;
   color: rgb(0, 115, 153);
+}
+.tdtext{
+  color: rgb(0, 0, 0);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#cabeceras{
+  padding: 8px;
+  background: #121b4f;
 }
 /*color para las demás celdas*/
 td {
   padding: 8px;
-  background: #e8fdff;
-  border-bottom: 1px solid #fff;
-  color: rgb(0, 0, 0);
-  border-top: 1px solid transparent;
+  background: #f3f3f3;
+  border-bottom: 3px solid #121b4f;
+  color: rgb(255, 255, 255);
+  border-top: 3px solid #121b4f;
 }
 /*efecto al pasar el cursor sobre cada fila*/
 tr:hover td {
-  background: #0079be;
+  background: #2071b2;
   color: rgb(75, 188, 208);
 }
 

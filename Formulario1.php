@@ -1,6 +1,7 @@
 <?php
 /*obteniendo la fecha actual del sistema */
-$fechaActual = date('d-m-Y');
+$fechaActual = date('Y-m-d');
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -45,7 +46,7 @@ $fechaActual = date('d-m-Y');
 	<!--Inicia contenendor de informacion-->
 	<!--Inicio de la clase container..-->
 	<div class="container">
-		<form action="" method="post" id="my-awesome-dropzone">
+		<form action="./FormNoticias/cargar_img.php" method="post" enctype="multipart/form-data"">
 			<!--Inicio del Form..-->
 			<div class="row">
 				<!--Inicio de la clase Row..-->
@@ -76,14 +77,31 @@ $fechaActual = date('d-m-Y');
 								</div>
 							</div>
 
-							<div class="dropzone" id="mydropzone">
-								<div class="dz-default dz-message">
-									<button class="dz-button" type="button"><img src="img/upload.png" alt=""></button>
+							<div class="">
+								<div class="">
+									<div class="">
+										<h4 class="text-center">Cargar Imagen de Noticia</h4>
+										<div class="form-group">
+
+											<div class="col-12 ">
+												<input type="file" class="form-control" name="imagenes[]" accept="image/jpeg,image/jpg,image/png" multiple>
+											</div>
+										</div>
+
+									</div>
 								</div>
 							</div>
+							<br>
+
+							<!-- <div class="" id="myimagenes">
+								<div class="dz-default dz-message">
+									<input type="file" name="archivo_img" id="">
+									<button class="dz-button" type="button"><img src="img/upload.png" alt=""></button>
+								</div>
+							</div> -->
 
 							<div class="button">
-								<button type="submit" id="send">Enviar</button>
+								<button name="enviar" type="submit" id="send">Enviar</button>
 							</div>
 						</div>
 					</div>
@@ -115,10 +133,7 @@ $fechaActual = date('d-m-Y');
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 	<script src="js/boton_up.js"></script>
-	<!--paquete de complementos y dependecias de js para el dropzone -->
-	<script src="node_modules/dropzone/dist/dropzone-min.js"></script>
-	<script src="/FormNoticias/app.js"></script>
-	<script src="/FormNoticias/popup.js"></script> 
+
 
 </body>
 

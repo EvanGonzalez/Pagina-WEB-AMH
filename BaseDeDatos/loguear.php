@@ -6,13 +6,14 @@
 
     $usuario = $_POST['txtusuario'];
     $contraseña = $_POST['txtpassword'];
-
-    $query = "SELECT COUNT(*) As contar FROM iniciar_sesion Where usuario = '$usuario' and contrasena = '$contraseña'";
-
-    $consulta = mysqli_query($conexion,$query);
-    $array = mysqli_fetch_array($consulta);
-
-    if($array['contar'] > 0){
+    $con=conectar();
+    $query = $con->prepare( "SELECT COUNT(*) As contar FROM iniciar_sesion Where usuario = ? and contrasena = ?;");
+    $query->bind_param('ss', $usuario,$contraseña);
+    $query->execute();
+    $result=$query->get_result();
+    $arr=$result->fetch_assoc();
+    mysqli_close($con);
+    if($arr['contar']>0){
         $_SESSION['username'] = $usuario;
         header("location: ../../Formulario1.php");
     }else{

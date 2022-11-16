@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
     <link rel="stylesheet" href="./FormNoticias/Noticias.css" type="text/css">
-    
+     <!--Complemento para Imagen responsive-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/EstiloNoticia.css" />
     <!--paquete de complementos y dependecias de js para los elementos bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Pagina Web</title>
@@ -34,16 +38,36 @@
     <br>
     <!--termina miga de pan-->
 
-
     <!--Inicia contenendor de informacion-->
-    <!--Inicio de la clase container..-->
-   
+    <!--Inicia clase container-->
+    <div class="container" class="cuerpoNt" class="p-3 m-0 border-0 bd-example">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="titulo1">titulo noticia</h2>
+            </div>
+            <div class="col-12">
+                <div class="clearfix">
+                     <!--Imagen Principal responsive-->
+                    <center><img src="..." class="bd-placeholder-img col-md-5 float-md-end mb-3 ms-md-3" height="400" width="90%"></center>
+                    <!--Contenido de la noticia-->
+                    <p>
+                       
+                    </p>
+
+                </div>
+                   <!--Ultimas imagenes-->
+                <div  class="container text-center">
+                        <div class="row">
+                            <div class="col-md-6"><img class="imgNot" src="..."></div>
+                            <div class="col-md-6"><img class="imgNot3" src="..."></div>
+                        </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
     <!--Fin de la clase container..-->
-
-
-
-
-    <!-- fin de formulario -->
 
 
     <?php

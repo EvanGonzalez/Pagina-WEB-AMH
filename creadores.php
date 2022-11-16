@@ -74,7 +74,7 @@
                     <h5 class="card-header" style="background-color:#0079be;"><b>Formularios</b></h5>
                     <div class="card-body">
                         Stella Ibarra<br>
-                        Ángela Carrión<br>
+                        Angela Carrión<br>
                         Elyam López<br>
                     </div>
                 </div>
@@ -97,7 +97,8 @@
                     <div class="card-body">
                         <!--foto de los colaboradores-->
                         <center><img src="img/IMG_5971.JPG" alt="" width="100%"></center>
-                        Jorge Marín, , , , Magister Erica Arias Quiroz, , .
+                        <br>
+                        De izq. a derecha: Profesor Jorge Marín, Profesora María Cedeño, Profesora María Elena Mendieta, Profesora Dayra Martínez, Profesora Erica Arias, Profesora Marisol Magallón, Licenciada Gladys Montero.
                     </div>
                 </div>
             </div>
