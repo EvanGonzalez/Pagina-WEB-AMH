@@ -161,9 +161,12 @@
                                                 brinda atención a estudiantes con discapacidad; los estudiantes se mantienen en el aula regular y la docente les brinda el apoyo 
                                                 requerido de acuerdo a su condición.  
                                             </p>
-                                            <img src="../Otras Actividades/img/Orientación y Educación Especial/Docente de Educación Especial.jpeg" class="img-thumbnail" alt="...">
-                                            <img src="../Otras Actividades/img/Orientación y Educación Especial/Docentes.jpeg" class="img-thumbnail" alt="...">
-                                            <img src="../Otras Actividades/img/Orientación y Educación Especial/Orientación .jpeg" class="img-thumbnail" alt="...">
+                                            <div class="justify-content-center">
+                                                
+                                            </div>
+                                            <img src="../Otras Actividades/img/orientacion/Docente de Educación Especial.jpeg" class="img-thumbnail" alt="...">
+                                            <img src="../Otras Actividades/img/orientacion/Docentes.jpeg" class="img-thumbnail" alt="...">
+                                            <img src="../Otras Actividades/img/orientacion/Orientación .jpeg" class="img-thumbnail" alt="...">
                                         </div>
                                     </div>
                                    
