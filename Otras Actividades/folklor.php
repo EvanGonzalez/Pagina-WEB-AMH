@@ -90,7 +90,7 @@
                                                 <img src="../Otras Actividades/img/conjunto/conjunto3.jpeg" alt="Conjunto Folcloriko" class="img-fluid">
                                             </div>                    
                                         </div>
-                                        <hr>
+                                        
                                         <!-- ---- -->
                                     <div class="col-md-6 wow fadeInRight">
                                             <div class="img2" style="width: 100%;">
@@ -177,7 +177,29 @@
     </section>
     <!-- Segunda Mitada de la pagina  -->
     <section>
-
+        <div class="container">
+            <div class="row" id="negar">
+                <div class="col-md-6">
+                    <h2 class="fst-italic text-center wow fadeInUp">Bailes y vestuarios</h2>
+                    <p class="wow fadeInLeft">
+                        Algunos bailes que interpreta el conjunto son: El Chogorro, La Iguana, Compadre Gallinazo, la Pachenda y otros.
+                    </p>
+                    <p class="wow fadeInLeft">
+                    Algunos vestuarios utilizados por los bailarines son: Montunas Coclesanas, Pollera Blanca Tradicional, Polleras Tiriada, Basquiñas, Camisillas Blancas, Coletas marcadas, Cutarras, Chinelas, Sombrero de Junco, sombrero Pintado, Cebaderas, Cabeza de tembleques.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="../Otras Actividades/img/conjunto/conjunto4.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-12">
+                    <h2 class="fst-italic text-center wow fadeInUp">Personajes Destacados</h2>
+                    <p>
+                        Como bailarines que se han destacado en el conjunto típico podemos mencionar a: Rosalinda Arosemena, Manuel Oliva, Luis Peñalba, Maycol Martínez, Dilcia Sambrano, Jesús Jaén y Jesica Sánchez.  
+                        Tocador de tambor: Ricauter Villarreal como tocador de tambor. 
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
         <?php include("../Menu_Footer/footer.html");?>
 
