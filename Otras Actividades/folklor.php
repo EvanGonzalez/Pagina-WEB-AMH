@@ -151,6 +151,8 @@
                                     <h2 class="text-center fst-italic">Muestra de algunas presentaciones</h2>
                                     <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center">
                                         <video src="../Otras Actividades/img/conjunto/Tamborito.mp4" controls ></video>
+                                        <video src="../Otras Actividades/img/conjunto/decima.mp4" controls ></video>
+                                        <video src="../Otras Actividades/img/conjunto/" controls ></video>
                                     </div>                        
                                 </div>
                                     
