@@ -99,7 +99,6 @@
                                     </div>                                         
                                     <div class="col-md-6 wow fadeInLeft">
                                         <div class="card border-dark mb-3 wow fadeInLeft" style="width: 100%;">
-
                                             <div class="card-header">Premios Alcanzados</div>
                                                 <div class="card-body text-dark">
                                                     <h5 class="card-title">Premios Alcanzados</h5>
@@ -153,11 +152,22 @@
                                         </div>
                                     </div>
                                     <h2 class="text-center fst-italic">Muestra de algunas presentaciones</h2>
-                                    <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center">
+                                    <div class="d-flex justify-content-center" id="videos">
+                                      <div class="titulo">
+                                        <h2>Tamborito</h2>
+                                      </div>
                                         <video src="../Otras Actividades/img/conjunto/Tamborito.mp4" controls ></video>
+                                    
+                                    </div>
+                                    <p class="text-center">
+                                        Destacamos la participacion el XXXVI Festival Nacional Manuel F. Zarate
+
+                                    </p>
+                                    
+                                    <div class="d-flex justify-content-evenly" id="videos">
                                         <video src="../Otras Actividades/img/conjunto/decima.mp4" controls ></video>
-                                        <video src="../Otras Actividades/img/conjunto/" controls ></video>
-                                    </div>                        
+                                        <video src="../Otras Actividades/img/conjunto/Saloma.mp4" controls ></video>                                        
+                                    </div>                      
                                 </div>
                                     
                         </div>
@@ -180,7 +190,7 @@
         <div class="container">
             <div class="row" id="negar">
                 <div class="col-md-6">
-                    <h2 class="fst-italic text-center wow fadeInUp">Bailes y vestuarios</h2>
+                    <h2 class="fst-italic text-center wow zoomIn">Bailes y vestuarios</h2>
                     <p class="wow fadeInLeft">
                         Algunos bailes que interpreta el conjunto son: El Chogorro, La Iguana, Compadre Gallinazo, la Pachenda y otros.
                     </p>
