@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/2.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/header-style.css">
+    <link rel="stylesheet" href="../css/menutest.css">
     <link rel="stylesheet" href="../css/footerstyle.css">
     <link rel="stylesheet" href="../Otras Actividades/css/animate.css">
     <link rel="stylesheet" href="../Otras Actividades/css/folklor.css">
@@ -19,7 +19,7 @@
     <title>AMH: Folklore</title>
 </head>
 <body>
-    <?php include ('../Menu_Footer/head.html'); ?>
+    <?php include ('./Otras Actividades/'); ?>
     <br>
     <section>
         <div class="container-fluid wow fadeInUp">
