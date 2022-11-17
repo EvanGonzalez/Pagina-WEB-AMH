@@ -21,13 +21,13 @@
 
 <body id="fondoMain">
     <?php
-    include("./Menu_footer/menumain.html");
+    include("./Menu_Footer/menumain.html");
     ?>
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6">
                 <?php
                 include("Migas_Pan/MigaPan4.html")
                 ?>
@@ -42,7 +42,7 @@
     <div class="container text-justify">
         <div class="animationIngles1">
             <div class="row">
-
+                <div class="col-md-12">
                 <div class="card my-4" style="background-color: #121b4f;color:white;">
                     <div class="card-body">
                         <div class="row">
@@ -68,13 +68,13 @@
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
 
         <div class="animationIngles3">
             <div class="row">
                 <div class="col-md-12" id="justify">
-
                     El Departamento de Inglés actualmente está integrado por nueve docentes en la jornada matutina y ocho, en la jornada vespertina, una docente puente que atiende ambas jornadas y un docente de la cátedra de francés. Todos juntos conforman el cuerpo de docentes del Departamento de Inglés cuyo objetivo primordial es que los estudiantes adquieran las bases del idioma tales como vocabulario, pronunciación, gramática, lectura comprensiva, así como el desarrollo de las habilidades comunicativas propias del idioma y éstos logren interactuar con diferentes personas en diferentes contextos.
 
                 </div>
@@ -97,49 +97,49 @@
 
                         <div class="row text-center text-lg-start">
 
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/20220930_101108.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0018.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0025.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
 
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0012.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0011.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0013.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
 
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0030.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0032.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0033.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
@@ -158,7 +158,7 @@
     ?>
     <footer>
         <?php
-        include("./Menu_footer/footer.html");
+        include("./Menu_Footer/footer.html");
         ?>
     </footer>
 

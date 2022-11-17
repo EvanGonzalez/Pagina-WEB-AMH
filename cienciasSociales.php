@@ -21,13 +21,13 @@
 
 <body id="fondoMain">
     <?php
-     include("./Menu_footer/menumain.html");
+     include("./Menu_Footer/menumain.html");
     ?>
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6">
                 <?php
                 include("Migas_Pan/MigaPan15.html")
                 ?>
@@ -83,7 +83,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="img/Dpt Sociales/Diputado juvenil 2.jpeg" class="d-block w-100" alt="...">
+                                                    <img src="img/Dpt Sociales/Diputado Juvenil 2.jpeg" class="d-block w-100" alt="...">
                                                     <div class="carousel-caption d-none d-md-block">
                                                         <h4 style="-webkit-text-stroke: 0.5px #121b4f;">Diputado Juvenil</h4>
                                                     </div>
@@ -202,7 +202,7 @@
     ?>
     <footer>
         <?php
-       include("./Menu_footer/footer.html");
+       include("./Menu_Footer/footer.html");
         ?>
     </footer>
 

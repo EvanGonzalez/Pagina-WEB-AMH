@@ -17,13 +17,13 @@
 
 <body id="fondoMain">
     <?php
-     include("./Menu_footer/menumain.html");
+     include("./Menu_Footer/menumain.html");
     ?>
 
     <!--miga de pan-->
     <div class="container text-center">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6">
                 <?php
                 include("Migas_Pan/MigaPan5.html")
                 ?>
@@ -40,7 +40,7 @@
 
         <div class="row">
            
-            <div class="col-12 matematica" style="text-align: justify;">
+            <div class="col-md-12 matematica" style="text-align: justify;">
                 <div id="" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -88,33 +88,33 @@
             <br>
             <center><div class="row text-center text-lg-start">
 
-                            <div class="col-lg-3 col-md-3 col-6">
+                            <div class="col-lg-3 col-md-3 col-md-3">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/trabajo en el aula 1.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-3 col-md-3 col-6">
+                            <div class="col-lg-3 col-md-3 col-md-3">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/trabajo en el aula 4.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-3 col-md-3 col-6">
+                            <div class="col-lg-3 col-md-3 col-md-3">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/trabajo en el aula 2.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
 
-                            <div class="col-lg-3 col-md-3 col-6">
+                            <div class="col-lg-3 col-md-3 col-md-3">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/trabajo en el aula 5.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-6">
+                            <div class="col-lg-6 col-md-6 col-md-6">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/Concurso de Murales de Matemáticas 1.jpeg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-6">
+                            <div class="col-lg-6 col-md-6 col-md-6">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/Concurso de Murales de Matemáticas 5.jpeg" alt="" style="background-color: #121b4f;">
                                 </a>
@@ -128,7 +128,7 @@
     ?>
     <footer>
         <?php
-        include("./Menu_footer/footer.html");
+        include("./Menu_Footer/footer.html");
         ?>
     </footer>
 
