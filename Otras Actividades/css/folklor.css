@@ -54,7 +54,8 @@ section p {
     border-radius: 10px;
 }
 
-#videos .titulo{
-    
-}
+video {
+    width: 100%;
+    height: auto;
+  }
 
