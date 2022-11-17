@@ -30,7 +30,7 @@
         <div class="row">
             <div class="col-6">
                 <?php
-                include("Migas_Pan/migapan9.html")
+                include("migas_pan/migapan9.html")
                 ?>
             </div>
         </div>

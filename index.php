@@ -32,7 +32,7 @@
     <!--miga de pan-->
     <div class="container text-center">
             <?php
-            include("Migas_Pan/migapan1.html")
+            include("migas_pan/migapan1.html")
             ?>
     </div>
 

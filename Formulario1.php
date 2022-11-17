@@ -34,7 +34,7 @@ $fechaActual = date('Y-m-d');
 		<div class="row">
 			<div class="col-6">
 				<?php
-				include("Migas_Pan/migapan12.html")
+				include("migas_pan/migapan12.html")
 				?>
 			</div>
 		</div>

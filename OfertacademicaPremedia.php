@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-6">
                 <?php
-                include("Migas_Pan/migapan20.html")
+                include("migas_pan/migapan20.html")
                 ?>
             </div>
         </div>

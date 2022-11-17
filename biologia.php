@@ -29,7 +29,7 @@
         <div class="row">
             <div class="col-md-6">
                 <?php
-                include("Migas_Pan/migapan6.html")
+                include("migas_pan/migapan6.html")
                 ?>
             </div>
         </div>
