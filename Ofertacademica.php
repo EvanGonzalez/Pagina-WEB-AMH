@@ -50,7 +50,7 @@
                 <h3 class="letra3"> Oferta Académica: Bachilleres </h3>
 
                 <?php
-                include("Oferta_Academica/columIzquiPag3.html");
+                include("oferta_academica/columIzquiPag3.html");
                 ?>
             </div>
 

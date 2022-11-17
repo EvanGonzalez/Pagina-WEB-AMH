@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-6">
                 <?php
-                include("Migas_Pan/MigaPan3.html")
+                include("Migas_Pan/migapan20.html")
                 ?>
             </div>
         </div>
@@ -45,7 +45,7 @@
                 <br>
                 <hr>
                 <?php
-                    include ("./Oferta_Academica/OfertaAcademicaPremedia.html");
+                    include ("./oferta_academica/ofertaacademicapremedia.html");
                 ?>
                 
             </div>

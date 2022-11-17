@@ -1,7 +1,7 @@
 let carrusel = async () =>{
     let items = document.querySelectorAll('.itemCarrusel');//Array with all carrusel elements
-    let timeShowingEl = 2000;//Time  to showing the  ItemCarrusel, dont forget sum with timeKeepLastEl
-    let timeKeepLastEl = 3000;//Need to have the same time that CSS properti setted in '.itemCarrusel' -> transition: all 500ms;
+    let timeShowingEl = 3000;//Time  to showing the  ItemCarrusel, dont forget sum with timeKeepLastEl
+    let timeKeepLastEl = 4000;//Need to have the same time that CSS properti setted in '.itemCarrusel' -> transition: all 500ms;
                              //Time  to keep  showing the  ItemCarrusel to dont see the  container Element ".carrusel" 
                              
 

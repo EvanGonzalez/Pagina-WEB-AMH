@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
-    <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
+    <link rel="stylesheet" href="./css/migapan.css" type="text/css">
     <link rel="stylesheet" href="/css/menutest.css" type="text/css">
-    <link rel="stylesheet" href="/css/CarruselP.css">
+    <link rel="stylesheet" href="/css/carruselp.css">
     <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <script src="js/scrollreveal.js"></script>
     
@@ -25,7 +25,7 @@
     ?>
     <div class="">
         <?php
-            include("./CarruselMain/CarruselPrincipal.html");
+            include("./carruselmain/carruselprincipal.html");
         ?>
     </div>
 
@@ -47,7 +47,7 @@
             <div class="col-md-8 contenidoderecho">
                 <h3 class="letra3"> Himno del plantel </h3>
                 <?php
-                include("Inicio/colderechaPag1.html");?>
+                include("inicio/colderechapag1.html");?>
                 <audio controls>
                     <source src="audio/audio_himno.mp3" type="audio/mp3">
                 </audio>   
@@ -56,7 +56,7 @@
                 <?php 
                     echo '<h2 id="textazul"> Galería de Fotos </h2>
                     <br>';
-                    include("Inicio/GaleriaImg2.html");
+                    include("inicio/GaleriaImg2.html");
                 ?>
 
             </div>
@@ -65,7 +65,7 @@
                     <h2 class="letra2">Noticias</h2>
 
                     <?php
-                    include("Inicio/colizquierP1.html");
+                    include("inicio/colizquierP1.html");
 
                     ?>
                 </aside>
@@ -92,9 +92,8 @@
     <!--scrip para la galeria de imagenes pagina 2-->
     <script src="js/boton_up.js"></script>
     <!-- javascrip para carrusel -->
-    <script src="/CarruselMain/Carrusel.js"></script>
-    <div id="fb-root"></div>
-
+    <script src="/carruselmain/carrusel.js"></script>
+    
     
     
 </body>
