@@ -16,12 +16,12 @@
 
 <body id="fondoMain">
     <?php
-    include("./Menu_footer/menumain.html");
+    include("./Menu_Footer/menumain.html");
     ?>
     <!--miga de pan-->
     <div class="container text-center">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6">
                 <?php
 
                 include("Migas_Pan/MigaPan8.html")
@@ -36,7 +36,7 @@
     <!--Inicia contenendor de información-->
     <div class="container text-justify">
         <div class="row text-center">
-            <div class="col-12">
+            <div class="col-md-12">
                 <div class="card my-4" style="background-color: #121b4f;color:white;">
                     <h5 class="card-header" style="background-color:#0079be;"><b>Equipo Desarrollador</b></h5>
                     <div class="card-body">
@@ -59,7 +59,7 @@
         <div class="row text-center">
             <h3>Asesora del proyecto:</h3>
             <p>Ing. María Yahaira Tejedor M. de Fernández</p>
-            <div class="col-4 ">
+            <div class="col-md-4 ">
                 <div class="card my-4" style="background-color: #121b4f;color:white;">
                     <h5 class="card-header" style="background-color:#0079be;"><b>Interfaces</b></h5>
                     <div class="card-body">
@@ -69,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 ">
+            <div class="col-md-4 ">
                 <div class="card my-4" style="background-color: #121b4f;color:white;">
                     <h5 class="card-header" style="background-color:#0079be;"><b>Formularios</b></h5>
                     <div class="card-body">
@@ -79,7 +79,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 ">
+            <div class="col-md-4 ">
                 <div class="card my-4" style="background-color: #121b4f;color:white;">
                     <h5 class="card-header" style="background-color:#0079be;"><b>Base de datos</b></h5>
                     <div class="card-body">
@@ -91,7 +91,7 @@
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-12">
+            <div class="col-md-12">
                 <div class="card my-4" style="background-color: #121b4f;color:white;">
                     <h5 class="card-header" style="background-color:#0079be;"><b>Colaboradores del Ángel María Herrera</b></h5>
                     <div class="card-body">
@@ -110,7 +110,7 @@
     ?>
     <footer>
         <?php
-        include("./Menu_footer/footer.html");
+        include("./Menu_Footer/footer.html");
 
         ?>
     </footer>
