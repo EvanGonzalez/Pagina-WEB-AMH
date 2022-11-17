@@ -34,7 +34,7 @@ $fechaActual = date('Y-m-d');
 		<div class="row">
 			<div class="col-6">
 				<?php
-				include("Migas_Pan/MigaPan12.html")
+				include("Migas_Pan/migapan12.html")
 				?>
 			</div>
 		</div>
@@ -124,7 +124,7 @@ $fechaActual = date('Y-m-d');
 	?>
 	<footer>
 		<?php
-		include("./Menu_footer/footer.html");
+		include("./menu_footer/footer.html");
 
 		?>
 	</footer>

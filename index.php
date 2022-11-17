@@ -32,7 +32,7 @@
     <!--miga de pan-->
     <div class="container text-center">
             <?php
-            include("Migas_Pan/MigaPan1.html")
+            include("Migas_Pan/migapan1.html")
             ?>
     </div>
 
@@ -80,7 +80,7 @@
 
     <footer>
         <?php
-        include("./Menu_footer/footer.html");
+        include("./menu_footer/footer.html");
         ?>
     </footer>
 

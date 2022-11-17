@@ -27,7 +27,7 @@
         <div class="row">
             <div class="col-6">
                 <?php
-                include("Migas_Pan/MigaPan10.html")
+                include("Migas_Pan/migapan10.html")
                 ?>
             </div>
         </div>
@@ -107,7 +107,7 @@
     ?>
     <footer>
         <?php
-        include("./Menu_footer/footer.html");
+        include("./menu_footer/footer.html");
         ?>
     </footer>
 

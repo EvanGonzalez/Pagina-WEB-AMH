@@ -59,7 +59,7 @@
     ?>
     <footer>
         <?php
-        include("./Menu_footer/footer.html");
+        include("./menu_footer/footer.html");
         ?>
     </footer>
     <!--termina contenendor de informacion-->
