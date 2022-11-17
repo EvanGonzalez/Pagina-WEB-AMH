@@ -29,7 +29,6 @@
     <section>
         <div class="container">
             <div class="row" id="negar">
-                
                 <div class="col-md-12">
                     <figure class="figure">
                         <img src="../Otras Actividades/img/proyecto/Competencias Regionales.jpeg" alt="Competencias Regionales" title="Competencias Regionales" class="figure-img img-fluid shadow p-1 mb-5 bg-body rounded-4 wow fadeInUp">
@@ -39,7 +38,7 @@
                     <p class="wow fadeInUp">
                         Dentro de los proyectos tecnológicos nuestro colegio a participado en diferentes proyectos que promueven la participación, creatividad e innovación de nuestros estudiantes 
                         angelinos entre los que podemos mencionar el proyecto de Soluciones para el futuro de Samsung, <b>“Samsung Solve for Tomorrow”</b> , el cual esta enfocado en que los estudiantes 
-                        desarrollen soluciones STEAM para los problemas que afectan a las comunidades, soluciones utilizando la ciencia, la matemática, la tecnología y el arte...
+                        desarrollen soluciones STEAM para los problemas que afectan a las comunidades, soluciones utilizando la ciencia, la matemática, la tecnología y el arte.
                     </p>
                     <div class="collapse" id="collapseExample">
                         <div class="">
@@ -57,8 +56,7 @@
                                         <li>Megan Córdoba, Abdiel Lanzas, Andrea Gálvez, Melva Martinez su proyecto Sistema de riego a distancia</li>
                                         <li>María M. Martínez G., Jahir A. Saldaña Vargas, Ricardo Villareal G., Carol A. Fernández L., Karla P. Rosas T., su proyecto Carencia de agua potable</li>
                                     </ol>
-                                    <p>Y a sus profesores tutores Celisbeth Martínez, Lizzett Cornejo y José Tejeira</p>
-                                                                                                         
+                                    <p>Y a sus profesores tutores Celisbeth Martínez, Lizzett Cornejo y José Tejeira</p>                                                                   
                                 </div>
                                 <div class="col-md-3 wow fadeInRight">
                                     <img src="../Otras Actividades/img/proyecto/Preparación de esenarios.jpeg" class="img-fluid rounded-4 shadow mb-5 bg-body" alt="Preparación de las Ecesenarios" title="Preparación de los Escenarios ">

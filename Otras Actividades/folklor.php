@@ -99,7 +99,6 @@
                                     </div>                                         
                                     <div class="col-md-6 wow fadeInLeft">
                                         <div class="card border-dark mb-3 wow fadeInLeft" style="width: 100%;">
-
                                             <div class="card-header">Premios Alcanzados</div>
                                                 <div class="card-body text-dark">
                                                     <h5 class="card-title">Premios Alcanzados</h5>
@@ -152,12 +151,36 @@
                                                 </div>
                                         </div>
                                     </div>
-                                    <h2 class="text-center fst-italic">Muestra de algunas presentaciones</h2>
-                                    <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center">
-                                        <video src="../Otras Actividades/img/conjunto/Tamborito.mp4" controls ></video>
-                                        <video src="../Otras Actividades/img/conjunto/decima.mp4" controls ></video>
-                                        <video src="../Otras Actividades/img/conjunto/" controls ></video>
-                                    </div>                        
+                                    <div class="col-md-12">
+                                        <h2 class="text-center fst-italic">Muestra de algunas presentaciones</h2>
+                                        <div class="d-flex justify-content-center" id="videos">
+                                            <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
+                                                <video src="../Otras Actividades/img/conjunto/Tamborito.mp4" controls ></video>
+                                                <figcaption class="figure-caption text-end">Destacamos la participacion el XXXVI Festival Nacional Manuel F. Zarate</figcaption>
+                                            </figure>
+                                        </div>                                          
+                                    </div>
+            
+                                    <div id="videos">
+                                        <div class="row" id="negar">
+                                            <div class="col-md-6">
+                                                <div class="d-flex justify-content-center">
+                                                    <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
+                                                        <video src="../Otras Actividades/img/conjunto/decima.mp4" controls ></video>
+                                                        <figcaption class="figure-caption text-end">Tamborito</figcaption>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="d-flex justify-content-center">
+                                                    <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
+                                                        <video src="../Otras Actividades/img/conjunto/Saloma.mp4" controls ></video>                                        
+                                                        <figcaption class="figure-caption text-end">Saloma</figcaption>
+                                                    </figure>
+                                                </div>                                            
+                                            </div>
+                                        </div>
+                                    </div>                      
                                 </div>
                                     
                         </div>
@@ -180,24 +203,25 @@
         <div class="container">
             <div class="row" id="negar">
                 <div class="col-md-6">
-                    <h2 class="fst-italic text-center wow fadeInUp">Bailes y vestuarios</h2>
+                    <h2 class="fst-italic text-center wow fadeInLeft" >Bailes y vestuarios</h2>
                     <p class="wow fadeInLeft">
                         Algunos bailes que interpreta el conjunto son: El Chogorro, La Iguana, Compadre Gallinazo, la Pachenda y otros.
                     </p>
                     <p class="wow fadeInLeft">
                     Algunos vestuarios utilizados por los bailarines son: Montunas Coclesanas, Pollera Blanca Tradicional, Polleras Tiriada, Basquiñas, Camisillas Blancas, Coletas marcadas, Cutarras, Chinelas, Sombrero de Junco, sombrero Pintado, Cebaderas, Cabeza de tembleques.
                     </p>
-                </div>
-                <div class="col-md-6">
-                    <img src="../Otras Actividades/img/conjunto/conjunto4.jpeg" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-12">
-                    <h2 class="fst-italic text-center wow fadeInUp">Personajes Destacados</h2>
-                    <p>
+                    <h2 class="fst-italic text-center wow fadeInLeft">Personajes Destacados</h2>
+                    <p class="wow fadeInLeft">
                         Como bailarines que se han destacado en el conjunto típico podemos mencionar a: Rosalinda Arosemena, Manuel Oliva, Luis Peñalba, Maycol Martínez, Dilcia Sambrano, Jesús Jaén y Jesica Sánchez.  
                         Tocador de tambor: Ricauter Villarreal como tocador de tambor. 
                     </p>
                 </div>
+                <div class="col-md-6 wow fadeInRight">
+                    <img src="../Otras Actividades/img/conjunto/conjunto4.jpeg" alt="" class="img-fluid">
+                </div>
+   
+
+
             </div>
         </div>
     </section>
