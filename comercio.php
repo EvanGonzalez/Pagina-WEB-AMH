@@ -21,7 +21,7 @@
 
 <body id="fondoMain">
     <?php
-    include("./Menu_Footer/menumain.html");
+    include("./menu_footer/menumain.html");
     ?>
 
     <!--miga de pan-->

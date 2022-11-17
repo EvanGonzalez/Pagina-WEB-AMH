@@ -19,7 +19,7 @@
 
 <body id="fondoMain">
     <?php
-   include("./Menu_footer/menumain.html");
+   include("./menu_footer/menumain.html");
     ?>
 
     <!--miga de pan-->
