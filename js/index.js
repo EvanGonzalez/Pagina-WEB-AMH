@@ -175,3 +175,17 @@ sr.reveal('.contendiopremedia', {
     distance: '-100px'
 });
 
+
+
+
+sr.reveal('.familia1', {
+    duration: 4000,
+    origin: 'left',
+    distance: '-100px'
+});
+
+sr.reveal('.familia2', {
+    duration: 4000,
+    origin: 'right',
+    distance: '-100px'
+});

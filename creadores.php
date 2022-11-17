@@ -74,7 +74,7 @@
                     <h5 class="card-header" style="background-color:#0079be;"><b>Formularios</b></h5>
                     <div class="card-body">
                         Stella Ibarra<br>
-                        Ángela Carrión<br>
+                        Angela Carrión<br>
                         Elyam López<br>
                     </div>
                 </div>
