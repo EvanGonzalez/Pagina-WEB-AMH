@@ -6,24 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/2.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/footerstyle.css">
-    <link rel="stylesheet" href="../Otras Actividades/css/animate.css">
-    <link rel="stylesheet" href="../Otras Actividades/css/gabinete.css">
-    <link rel="stylesheet" href="../css/header-style.css">
+    <link rel="stylesheet" href="../Otras_Actividades/css/animate.css">
+    <link rel="stylesheet" href="../Otras_Actividades/css/gabinete.css">
+    <link rel="stylesheet" href="../css/menutest.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="js/wow.min.js"></script>
+    <script src="../Otras_Actividades/js/wow.min.js"></script>
     <script>
       new WOW().init();
     </script> 
     <title>AMH: Gabinete Psicopadagógico, Orientacion y Educación Especial</title>
 </head>
 <body>
-    <?php include ('../Menu_Footer/head.html'); ?>
+    <?php include ('../Menu_Footer/menumain.html'); ?>
     <section>
         <!-- para la derecha -->
         <div class="container">
-            <h2 class="fst-italic text-center">Gabinete Psicopadagógico, Orientacion y Educación especial</h2>
+            <br>
+            <h2 class="text-center" id="registre">Gabinete Psicopadagógico, Orientacion y Educación especial</h2>
             <div class="row" id="negar">
                 <div class="col-md-12">
                 <p class="text-center">
@@ -32,7 +33,7 @@
                 </p>
                 </div>
                 <div class="col-md-12">
-                    <div class="row">
+                    <div class="row" id="negar">
                         <!-- psico -->
                         <div class="col-md-12">
                             <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -49,16 +50,16 @@
                                             </ol>
                                             <div class="carousel-inner" role="listbox">
                                                 <div class="carousel-item active">
-                                                    <img src="../Otras Actividades/img/Gabinete Psicopedagogico/Trabajo grupal 1.jpeg" class="w-100 d-block" alt="First slide">
+                                                    <img src="../Otras_Actividades/img/gabinete/Trabajo grupal 1.jpeg" class="w-100 d-block" alt="First slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="../Otras Actividades/img/Gabinete Psicopedagogico/Trabajo grupal 2.jpeg" class="w-100 d-block" alt="Second slide">
+                                                    <img src="../Otras_Actividades/img/gabinete/Trabajo grupal 2.jpeg" class="w-100 d-block" alt="Second slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="../Otras Actividades/img/Gabinete Psicopedagogico/Trabajo grupal 3.jpeg" class="w-100 d-block" alt="Third slide">
+                                                    <img src="../Otras_Actividades/img/gabinete/Trabajo grupal 3.jpeg" class="w-100 d-block" alt="Third slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="../Otras Actividades/img/Gabinete Psicopedagogico/Visita Domiciliaria.jpeg" class="w-100 d-block" alt="Third slide">
+                                                    <img src="../Otras_Actividades/img/gabinete/Visita Domiciliaria.jpeg" class="w-100 d-block" alt="Third slide">
                                                 </div>
                                             </div>
                                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
@@ -142,18 +143,42 @@
                             <div class="collapse multi-collapse" id="multiCollapseExample2">
                                 <div class="" >
                                     <div class="row" id="negar">
-                                        <h2 class="text-center fst-italic">Descripción del Departamento de Orientación (Aula Especial)</h2>
-                                        <div class="col-md-6">
+                                        <h2 class="text-center fst-italic wow fadeInUp">Descripción del Departamento de Orientación (Aula Especial)</h2>
+                                        <div class="col-md-7 wow fadeInLeft">
                                             <p>
-                                            Este departamento tiene un rol importante en el seno de la comunidad educativa para atender diferentes aspectos educativos, sociales, emocionales y vocacional-profesionales de los estudiantes, siendo ellos el eje motor de la comunidad educativa. 
+                                                Este departamento tiene un rol importante en el seno de la comunidad educativa para atender diferentes aspectos educativos, 
+                                                sociales, emocionales y vocacional-profesionales de los estudiantes, siendo ellos el eje motor de la comunidad educativa. 
                                             </p>
                                             <p>
-                                            El Departamento de Orientación (Aula Especial) está integrado por las profesoras orientadoras Fabrys Madrid (Jornada matutina), Hellys Rodríguez /Jornada Mixta) e Irma Barría (Jornada vespertina y Coordinadora del departamento); las profesoras de NEE Claribel De Gracia (Jornada matutina) y Yizel Agrazal (Jornada vespertina) y la profesora Inocencia Ortíz (IPHE).   
+                                                El Departamento de Orientación <b>(Aula Especial)</b> está integrado por las profesoras orientadoras Fabrys Madrid (Jornada matutina), 
+                                                Hellys Rodríguez /Jornada Mixta) e Irma Barría (Jornada vespertina y Coordinadora del departamento); las profesoras de NEE 
+                                                Claribel De Gracia (Jornada matutina) y Yizel Agrazal (Jornada vespertina) y la profesora Inocencia Ortíz (IPHE).   
                                             </p>
-
+                                            <p>
+                                            La labor del Departamento de Orientación Educativa y Profesional, va dirigida a lograr individuos que se valoren como personas, 
+                                            por medio del conocimiento de ellos mismos, del control de su inteligencia emocional y asumiendo los retos de la vida, a nivel personal y profesional.
+                                            </p>
+                                            <p>
+                                                En la Escuela Secundaria Ángel María Herrera el Departamento de orientación funciona en ambos turnos y los servicios que ofrece se 
+                                                derivan de tres grandes áreas que son:  Área de Orientación Educativa, Área Orientación Personal Social y Área de Orientación 
+                                                Vocacional – Profesional.
+                                            </p>
                                         </div>
-                                        <div class="col-md-6">
-                                            <img src="../Otras Actividades/img/Orientación y Educación Especial/Docentes de Educación Especial y Orientación 2.jpeg" alt="" class="img-fluid ">
+                                        <div class="col-md-5 wow fadeInRight">
+                                            <img src="../Otras_Actividades/img/orientacion/Docentes de Educación Especial y Orientación 2.2.jpeg" alt="" class="img-fluid shadow  bg-body rounded-4">
+                                        </div>
+                                        <div class="row d-flex justify-content-around" id="negar">
+                                            <div class="col-md-4" id="img">
+                                                <img src="../Otras_Actividades/img/orientacion/Orientación a  la campaña de Gigantes de Fanlyc.jpeg" alt="" class="img-fluid rounded-4">
+                                            </div>
+                                            
+                                            <div class="col-md-4" id="img">
+                                                <img src="../Otras_Actividades/img/orientacion/Orientación Vocacional-Profesional.jpeg" alt="" class="img-fluid rounded-4">
+
+                                            </div>
+                                            <div class="col-md-4" id="img">
+                                                <img src="../Otras_Actividades/img/orientacion/Charla salud mental 2.jpeg" alt="" class="img-fluid rounded-4">
+                                            </div>
                                         </div>
                                         <div class="col-md-12">
                                             <p>
@@ -161,12 +186,12 @@
                                                 brinda atención a estudiantes con discapacidad; los estudiantes se mantienen en el aula regular y la docente les brinda el apoyo 
                                                 requerido de acuerdo a su condición.  
                                             </p>
-                                            <div class="justify-content-center">
-                                                
+                                            <div class="d-flex justify-content-around">
+                                                <img src="../Otras_Actividades/img/orientacion/Docente de Educación Especial.jpeg" class="img-thumbnail" alt="...">
+                                                <img src="../Otras_Actividades/img/orientacion/Docentes.jpeg" class="img-thumbnail" alt="...">
+                                                <img src="../Otras_Actividades/img/orientacion/Orientación .jpeg" class="img-thumbnail" alt="...">                                                
                                             </div>
-                                            <img src="../Otras Actividades/img/orientacion/Docente de Educación Especial.jpeg" class="img-thumbnail" alt="...">
-                                            <img src="../Otras Actividades/img/orientacion/Docentes.jpeg" class="img-thumbnail" alt="...">
-                                            <img src="../Otras Actividades/img/orientacion/Orientación .jpeg" class="img-thumbnail" alt="...">
+
                                         </div>
                                     </div>
                                    

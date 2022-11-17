@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/2.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/footerstyle.css">
-    <link rel="stylesheet" href="../Otras Actividades/css/animate.css">
-    <link rel="stylesheet" href="../Otras Actividades/css/banda.css">
-    <link rel="stylesheet" href="../Otras Actividades/">
+    <link rel="stylesheet" href="../Otras_Actividades/css/animate.css">
+    <link rel="stylesheet" href="../Otras_Actividades/css/banda.css">
     <link rel="stylesheet" href="../css/menutest.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- CSS only -->
@@ -55,7 +54,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="img2">
-                            <img src="../Otras Actividades/img/banda/Banda de Música Bastón Mayor.jpeg" class="img-fluid" alt="Banda de Música del Colegio Ángel María Herrera">
+                            <img src="../Otras_Actividades/img/banda/Banda de Música Bastón Mayor.jpeg" class="img-fluid" alt="Banda de Música del Colegio Ángel María Herrera">
                         </div>
                     </div>
                     <br>
@@ -70,7 +69,7 @@
                         <div class="elotro">
                             <div class="carde wow fadeInUp">
                                 <div class="face front">
-                                    <img src="../Otras Actividades/img/banda/México 2015-2.jpg" alt="Banda de Música" title="Banda de Música">
+                                    <img src="../Otras_Actividades/img/banda/México 2015-2.jpg" alt="Banda de Música" title="Banda de Música">
                                     <h3>2015</h3>
                                 </div>
                                 <div class="face back">
@@ -83,7 +82,7 @@
 
                             <div class="carde wow fadeInUp">
                                 <div class="face front">
-                                    <img src="../Otras Actividades/img/banda/Colombia1.jpeg" alt="Banda de Música" title="Banda de Música">
+                                    <img src="../Otras_Actividades/img/banda/Colombia1.jpeg" alt="Banda de Música" title="Banda de Música">
                                     <h3>2016-2017</h3>
                                 </div>
                                 <div class="face back">
@@ -97,7 +96,7 @@
 
                             <div class="carde wow fadeInUp">
                                 <div class="face front">
-                                    <img src="../Otras Actividades/img/banda/México 2019-4.jpg" alt="Banda de Música" title="Banda de Música">
+                                    <img src="../Otras_Actividades/img/banda/México 2019-4.jpg" alt="Banda de Música" title="Banda de Música">
                                     <h3>2019</h3>
                                 </div>
                                 <div class="face back">
@@ -111,7 +110,7 @@
 
                             <div class="carde wow fadeInUpf">
                                 <div class="face front">
-                                    <img src="../Otras Actividades/img/banda/PXL_20221018_132837626.jpg" alt="Banda" title="Banda">
+                                    <img src="../Otras_Actividades/img/banda/PXL_20221018_132837626.jpg" alt="Banda" title="Banda">
                                     <h3>2022</h3>
                                 </div>
                                 <div class="face back">

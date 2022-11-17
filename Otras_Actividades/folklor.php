@@ -7,8 +7,8 @@
     <link rel="shortcut icon" href="../img/2.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/menutest.css">
     <link rel="stylesheet" href="../css/footerstyle.css">
-    <link rel="stylesheet" href="../Otras Actividades/css/animate.css">
-    <link rel="stylesheet" href="../Otras Actividades/css/folklor.css">
+    <link rel="stylesheet" href="../Otras_Actividades/css/animate.css">
+    <link rel="stylesheet" href="../Otras_Actividades/css/folklor.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -19,7 +19,7 @@
     <title>AMH: Folklore</title>
 </head>
 <body>
-    <?php include ('./Otras Actividades/'); ?>
+    <?php include ('../Menu_Footer/menumain.html'); ?>
     <br>
     <section>
         <div class="container-fluid wow fadeInUp">
@@ -34,7 +34,7 @@
                         <br>       
                         <br>             
                     <div class="img2">
-                        <img src="../Otras Actividades/img/conjunto/conjunto 2.jpeg" alt="" class="img-fluid">                        
+                        <img src="../Otras_Actividades/img/conjunto/conjunto 2.jpeg" alt="" class="img-fluid">                        
                     </div>
 
                 </div>
@@ -85,23 +85,23 @@
                                             </p>
                                         </div>
                                     </div>
-                                        <div class="col-md-6 wow fadeInRight">
-                                            <div class="card border-dark mb-3" style="width: 100%;">
-                                                <img src="../Otras Actividades/img/conjunto/conjunto3.jpeg" alt="Conjunto Folcloriko" class="img-fluid">
-                                            </div>                    
-                                        </div>
+                                    <div class="col-md-6 wow fadeInRight">
+                                        <div class="card border-dark mb-3" style="width: 100%;">
+                                            <img src="../Otras_Actividades/img/conjunto/conjunto3.jpeg" alt="Conjunto Folcloriko" class="img-fluid">
+                                        </div>                    
+                                    </div>
                                         
                                         <!-- ---- -->
                                     <div class="col-md-6 wow fadeInRight">
                                             <div class="img2" style="width: 100%;">
-                                                <img src="../Otras Actividades/img/conjunto/Premiacion1.jpeg" alt="" class="img-fluid">
+                                                <img src="../Otras_Actividades/img/conjunto/Premiacion1.jpeg" alt="" class="img-fluid">
                                             </div>                    
-                                    </div>                                         
-                                    <div class="col-md-6 wow fadeInLeft">
-                                        <div class="card border-dark mb-3 wow fadeInLeft" style="width: 100%;">
+                                    </div>                                   
+                                    <div class="col-md-6 wow fadeInLeft" style="padding-top: 10px;">
+                                        <div class="card border-dark mb-3 p-y-3 wow fadeInLeft" style="width: 100%;">
                                             <div class="card-header">Premios Alcanzados</div>
                                                 <div class="card-body text-dark">
-                                                    <h5 class="card-title">Premios Alcanzados</h5>
+                                                   
                                                     <p class="card-text">
                                                     Entre los premios alcanzados por esta agrupación podemos mencionar que el Ministerio de Educación organizó el concurso 
                                                     de baile para aquellas escuelas que tenían conjuntos y durante los tres años que lo realizaron 
@@ -155,8 +155,8 @@
                                         <h2 class="text-center fst-italic">Muestra de algunas presentaciones</h2>
                                         <div class="d-flex justify-content-center" id="videos">
                                             <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
-                                                <video src="../Otras Actividades/img/conjunto/Tamborito.mp4" controls ></video>
-                                                <figcaption class="figure-caption text-end">Destacamos la participacion el XXXVI Festival Nacional Manuel F. Zarate</figcaption>
+                                                <video src="../Otras_Actividades/img/conjunto/Tamborito.mp4" controls ></video>
+                                                <figcaption class="figure-caption text-end">Participacion el XXXVI Festival Nacional Manuel F. Zarate</figcaption>
                                             </figure>
                                         </div>                                          
                                     </div>
@@ -166,7 +166,7 @@
                                             <div class="col-md-6">
                                                 <div class="d-flex justify-content-center">
                                                     <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
-                                                        <video src="../Otras Actividades/img/conjunto/decima.mp4" controls ></video>
+                                                        <video src="../Otras_Actividades/img/conjunto/decima.mp4" controls ></video>
                                                         <figcaption class="figure-caption text-end">Tamborito</figcaption>
                                                     </figure>
                                                 </div>
@@ -174,7 +174,7 @@
                                             <div class="col-md-6">
                                                 <div class="d-flex justify-content-center">
                                                     <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
-                                                        <video src="../Otras Actividades/img/conjunto/Saloma.mp4" controls ></video>                                        
+                                                        <video src="../Otras_Actividades/img/conjunto/Saloma.mp4" controls ></video>                                        
                                                         <figcaption class="figure-caption text-end">Saloma</figcaption>
                                                     </figure>
                                                 </div>                                            
@@ -216,8 +216,9 @@
                         Tocador de tambor: Ricauter Villarreal como tocador de tambor. 
                     </p>
                 </div>
+                <br>
                 <div class="col-md-6 wow fadeInRight">
-                    <img src="../Otras Actividades/img/conjunto/conjunto4.jpeg" alt="" class="img-fluid">
+                    <img src="../Otras_Actividades/img/conjunto/conjunto.jpeg" alt="Conjunto Folclorico" title="Conjunto Folclorico" class="img-fluid rounded-4">
                 </div>
    
 
