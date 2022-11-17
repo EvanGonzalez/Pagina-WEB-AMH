@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
-    <link rel="stylesheet" href="./css/header-style.css" type="text/css">
+    <link rel="stylesheet" href="/css/menutest.css" type="text/css">
     <link rel="stylesheet" href="./css/Efectos2.css" type="text/css">
 
     <link rel="stylesheet" href="./Oferta_Academica/PremediaEfect.css" type="text/css">
@@ -18,7 +18,7 @@
 </head>
 <body id="fondoMain">
     <?php
-     include("./Menu_footer/head.html");
+     include("./Menu_footer/menumain.html");
     ?>
 
     <!--miga de pan-->

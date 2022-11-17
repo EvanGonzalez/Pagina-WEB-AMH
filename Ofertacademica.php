@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/Efectos2.css" type="text/css">
     <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
-    <link rel="stylesheet" href="./css/header-style.css" type="text/css">
+    <link rel="stylesheet" href="/css/menutest.css" type="text/css">
     <link rel="stylesheet" href="./css/infinitocarrusel.css" type="text/css">
     <link rel="stylesheet" href="/css/carruselPequeño.css" >
     <link rel="stylesheet" href="/css/galeriadetexto.css" >
@@ -24,7 +24,7 @@
 
 <body id="fondoMain">
     <?php
-     include("./Menu_footer/head.html");
+     include("./Menu_footer/menumain.html");
     ?>
 
     <!--miga de pan-->

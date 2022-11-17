@@ -12,7 +12,7 @@ $fechaActual = date('Y-m-d');
 	<link rel="stylesheet" href="./css/estilo.css" type="text/css">
 	<link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
 	<link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
-	<link rel="stylesheet" href="./css/header-style.css" type="text/css">
+	<link rel="stylesheet" href="/css/menutest.css" type="text/css">
 	<link rel="stylesheet" href="./FormNoticias/Noticias.css" type="text/css">
 	<!--paquete de complementos y dependecias de js para el dropzone-->
 	<link rel="stylesheet" href="node_modules/dropzone/dist/dropzone.css">
