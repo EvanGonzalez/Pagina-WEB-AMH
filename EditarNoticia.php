@@ -11,7 +11,7 @@ $fechaActual = date('Y-m-d');
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/estilo.css" type="text/css">
 	<link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
-	<link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
+	<link rel="stylesheet" href="./css/migapan.css" type="text/css">
 	<link rel="stylesheet" href="./css/header-style.css" type="text/css">
 	<link rel="stylesheet" href="./FormNoticias/Noticias.css" type="text/css">
 	<!--paquete de complementos y dependecias de js para el dropzone-->
@@ -26,7 +26,7 @@ $fechaActual = date('Y-m-d');
 
 <body id="fondoMain">
 	<?php
-	include("./Menu_footer/headAdmin.html");
+	include("./menu_footer/headAdmin.html");
 	?>
 
 	<!--miga de pan-->
@@ -34,7 +34,7 @@ $fechaActual = date('Y-m-d');
 		<div class="row">
 			<div class="col-6">
 				<?php
-				include("Migas_Pan/MigaPan12.html")
+				include("migas_pan/migapan12.html")
 				?>
 			</div>
 		</div>
@@ -136,7 +136,7 @@ $fechaActual = date('Y-m-d');
 	?>
 	<footer>
 		<?php
-		include("./Menu_footer/footer.html");
+		include("./menu_footer/footer.html");
 
 		?>
 	</footer>

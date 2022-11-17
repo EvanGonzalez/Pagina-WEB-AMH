@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
-    <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
+    <link rel="stylesheet" href="./css/migapan.css" type="text/css">
     <link rel="stylesheet" href="./css/galeriadetexto.css" type="text/css">
     <link rel="stylesheet" href="./css/leermas.css" type="text/css">
     <link rel="stylesheet" href="/css/menutest.css" type="text/css">
-    <link rel="stylesheet" href="./scss/cardsanimation.scss">
     <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <script src="js/scrollreveal.js"></script>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
@@ -21,7 +20,7 @@
 
 <body id="fondoMain">
     <?php
-    include("./Menu_Footer/menumain.html");
+    include("./menu_footer/menumain.html");
     ?>
 
     <!--miga de pan-->
@@ -29,7 +28,7 @@
         <div class="row">
             <div class="col-md-6">
                 <?php
-                include("Migas_Pan/MigaPan4.html")
+                include("migas_pan/migapan4.html")
                 ?>
             </div>
         </div>
@@ -158,7 +157,7 @@
     ?>
     <footer>
         <?php
-        include("./Menu_Footer/footer.html");
+        include("./menu_footer/footer.html");
         ?>
     </footer>
 

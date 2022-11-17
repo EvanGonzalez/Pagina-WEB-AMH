@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
-    <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
+    <link rel="stylesheet" href="./css/migapan.css" type="text/css">
     <link rel="stylesheet" href="/css/menutest.css" type="text/css">
     <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <script src="js/scrollreveal.js"></script>
@@ -17,7 +17,7 @@
 
 <body id="fondoMain">
     <?php
-     include("./Menu_Footer/menumain.html");
+     include("./menu_footer/menumain.html");
     ?>
 
     <!--miga de pan-->
@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-md-6">
                 <?php
-                include("Migas_Pan/MigaPan17.html")
+                include("migas_pan/migapan17.html")
                 ?>
             </div>
         </div>
@@ -119,7 +119,7 @@
     ?>
     <footer>
         <?php
-       include("./Menu_Footer/footer.html");
+       include("./menu_footer/footer.html");
 
         ?>
     </footer>
