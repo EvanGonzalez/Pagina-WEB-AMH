@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/2.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/footerstyle.css">
-    <link rel="stylesheet" href="../Otras Actividades/css/animate.css">
-    <link rel="stylesheet" href="../Otras Actividades/css/protec.css">
-    <link rel="stylesheet" href="../css/header-style.css">
+    <link rel="stylesheet" href="../Otras_Actividades/css/animate.css">
+    <link rel="stylesheet" href="../Otras_Actividades/css/protec.css">
+    <link rel="stylesheet" href="../css/menutest.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -19,7 +19,7 @@
     <title>AMH: Proyectos Científicos y Tecnológicos</title>
 </head>
 <body>
-    <?php include ('../Menu_Footer/head.html'); ?>
+    <?php include ('../Menu_Footer/menumain.html'); ?>
     <br>
     <div class="container-fluid">
         <h2 class="text-center" id="registre">PROYECTOS TECNOLÓGICOS</h2>         
@@ -31,7 +31,7 @@
             <div class="row" id="negar">
                 <div class="col-md-12">
                     <figure class="figure">
-                        <img src="../Otras Actividades/img/proyecto/Competencias Regionales.jpeg" alt="Competencias Regionales" title="Competencias Regionales" class="figure-img img-fluid shadow p-1 mb-5 bg-body rounded-4 wow fadeInUp">
+                        <img src="../Otras_Actividades/img/proyecto/Competencias Regionales.jpeg" alt="Competencias Regionales" title="Competencias Regionales" class="figure-img img-fluid shadow p-1 mb-5 bg-body rounded-4 wow fadeInUp">
                         <figcaption class="figure-caption text-end">Competencias Regionales</figcaption>
                     </figure>
                     <h2 class="fst-italic wow fadeInUp">Samsung Solve for Tomorrow</h2>
@@ -59,7 +59,7 @@
                                     <p>Y a sus profesores tutores Celisbeth Martínez, Lizzett Cornejo y José Tejeira</p>                                                                   
                                 </div>
                                 <div class="col-md-3 wow fadeInRight">
-                                    <img src="../Otras Actividades/img/proyecto/Preparación de esenarios.jpeg" class="img-fluid rounded-4 shadow mb-5 bg-body" alt="Preparación de las Ecesenarios" title="Preparación de los Escenarios ">
+                                    <img src="../Otras_Actividades/img/proyecto/Preparación de esenarios.jpeg" class="img-fluid rounded-4 shadow mb-5 bg-body" alt="Preparación de las Ecesenarios" title="Preparación de los Escenarios ">
                                 </div>
                             </div>     
                         </div>
@@ -91,7 +91,7 @@
                     <div class="row">
                         <div class="col-sm-6 wow fadeInLeft" id="cartas">
                             <div class="card">
-                                <img src="../Otras Actividades/img/proyecto/Equipo Medlars.jpeg" class="card-img-top" alt="Equipo Medlars" title="Equipo Medlars">
+                                <img src="../Otras_Actividades/img/proyecto/Equipo Medlars.jpeg" class="card-img-top" alt="Equipo Medlars" title="Equipo Medlars">
                                 <div class="card-body">
                                     <h5 class="card-title">MEDLARS</h5>
                                     <p class="card-text">Conformado por Edwar Aguilar, Mikelys Boy, Leonardo Delgado</p>
@@ -101,7 +101,7 @@
                         </div>
                         <div class="col-sm-6 wow fadeInRight" id="cartas">
                             <div class="card">
-                                <img src="../Otras Actividades/img/proyecto/Equipo ThinkBot2.jpeg" class="card-img-top" alt="Equipo Thinkbot" title="Equipo ThinkBot">
+                                <img src="../Otras_Actividades/img/proyecto/Equipo ThinkBot2.jpeg" class="card-img-top" alt="Equipo Thinkbot" title="Equipo ThinkBot">
                                 <div class="card-body">
                                     <h5 class="card-title">ThinkBot</h5>
                                     <p class="card-text">Conformado por María Vergara, Luis Cárdenas, y Boris González</p>
@@ -128,16 +128,16 @@
                         </ol>
                         <div class="carousel-inner rounded-3">
                             <div class="carousel-item active">
-                                <img src="../Otras Actividades/img/proyecto/Club de Robótica Angelinos.jpeg" class=" w-100 d-block" alt="First slide">
+                                <img src="../Otras_Actividades/img/proyecto/Club de Robótica Angelinos.jpeg" class=" w-100 d-block" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img src="../Otras Actividades/img/proyecto/Olimpiadas de Robótica 2.jpeg" class=" w-100 d-block" alt="Second slide">
+                                <img src="../Otras_Actividades/img/proyecto/Olimpiadas de Robótica 2.jpeg" class=" w-100 d-block" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img src="../Otras Actividades/img/proyecto/Construcción de Robot seguidor de Linea .jpeg" class=" w-100 d-block" alt="Second slide">
+                                <img src="../Otras_Actividades/img/proyecto/Construcción de Robot seguidor de Linea .jpeg" class=" w-100 d-block" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img src="../Otras Actividades/img/proyecto/Olimpiadas de Robótica.jpeg" class=" w-100 d-block" alt="Second slide">
+                                <img src="../Otras_Actividades/img/proyecto/Olimpiadas de Robótica.jpeg" class=" w-100 d-block" alt="Second slide">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
