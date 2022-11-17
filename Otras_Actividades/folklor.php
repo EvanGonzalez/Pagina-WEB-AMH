@@ -167,7 +167,7 @@
                                                 <div class="d-flex justify-content-center">
                                                     <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
                                                         <video src="../Otras_Actividades/img/conjunto/decima.mp4" controls ></video>
-                                                        <figcaption class="figure-caption text-end">Tamborito</figcaption>
+                                                        <figcaption class="figure-caption text-end">Decima</figcaption>
                                                     </figure>
                                                 </div>
                                             </div>
