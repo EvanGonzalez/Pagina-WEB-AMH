@@ -111,7 +111,6 @@
     <footer>
         <?php
         include("./Menu_Footer/footer.html");
-
         ?>
     </footer>
 

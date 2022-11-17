@@ -42,7 +42,7 @@
     <div class="container text-justify">
         <div class="animationIngles1">
             <div class="row">
-
+                <div class="col-md-12">
                 <div class="card my-4" style="background-color: #121b4f;color:white;">
                     <div class="card-body">
                         <div class="row">
@@ -68,13 +68,13 @@
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
 
         <div class="animationIngles3">
             <div class="row">
                 <div class="col-md-12" id="justify">
-
                     El Departamento de Inglés actualmente está integrado por nueve docentes en la jornada matutina y ocho, en la jornada vespertina, una docente puente que atiende ambas jornadas y un docente de la cátedra de francés. Todos juntos conforman el cuerpo de docentes del Departamento de Inglés cuyo objetivo primordial es que los estudiantes adquieran las bases del idioma tales como vocabulario, pronunciación, gramática, lectura comprensiva, así como el desarrollo de las habilidades comunicativas propias del idioma y éstos logren interactuar con diferentes personas en diferentes contextos.
 
                 </div>
