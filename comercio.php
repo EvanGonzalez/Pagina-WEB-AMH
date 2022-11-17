@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
-    <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
+    <link rel="stylesheet" href="./css/migapan.css" type="text/css">
     <link rel="stylesheet" href="./css/galeriadetexto.css" type="text/css">
     <link rel="stylesheet" href="./css/leermas.css" type="text/css">
     <link rel="stylesheet" href="/css/menutest.css" type="text/css">

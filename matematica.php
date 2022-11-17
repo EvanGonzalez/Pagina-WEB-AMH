@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
-    <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
+    <link rel="stylesheet" href="./css/migapan.css" type="text/css">
     <link rel="stylesheet" href="/css/menutest.css" type="text/css">
     <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <script src="js/scrollreveal.js"></script>

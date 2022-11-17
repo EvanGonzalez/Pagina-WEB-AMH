@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/Efectos2.css" type="text/css">
     <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
-    <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
+    <link rel="stylesheet" href="./css/migapan.css" type="text/css">
     <link rel="stylesheet" href="/css/menutest.css" type="text/css">
     <link rel="stylesheet" href="./css/infinitocarrusel.css" type="text/css">
     <link rel="stylesheet" href="/css/carruselPequeño.css" >
