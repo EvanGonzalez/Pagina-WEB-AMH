@@ -21,13 +21,13 @@
 
 <body id="fondoMain">
     <?php
-     include("./Menu_footer/head.html");
+     include("./Menu_Footer/head.html");
     ?>
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6">
                 <?php
                 include("Migas_Pan/MigaPan4.html")
                 ?>
@@ -97,49 +97,49 @@
 
                         <div class="row text-center text-lg-start">
 
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/20220930_101108.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0018.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0025.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
 
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0012.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0011.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0013.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
 
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0030.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0032.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-md-4">
                                 <a href="#" class="d-block mb-4 h-100">
                                     <img class="img-fluid img-thumbnail" src="img/Dpt Ingles/IMG-20221017-WA0033.jpg" alt="" style="background-color: #121b4f;">
                                 </a>
@@ -158,7 +158,7 @@
     ?>
     <footer>
         <?php
-        include("./Menu_footer/footer.html");
+        include("./Menu_Footer/footer.html");
         ?>
     </footer>
 

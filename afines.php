@@ -21,13 +21,13 @@
 
 <body id="fondoMain">
     <?php
-     include("./Menu_footer/head.html");
+     include("./Menu_Footer/head.html");
     ?>
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6">
                 <?php
                 include("Migas_Pan/MigaPan16.html")
                 ?>
@@ -163,7 +163,7 @@
     ?>
     <footer>
         <?php
-        include("./Menu_footer/footer.html");
+        include("./Menu_Footer/footer.html");
         ?>
     </footer>
 
