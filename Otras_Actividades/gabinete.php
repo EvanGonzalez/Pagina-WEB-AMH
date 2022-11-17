@@ -167,16 +167,35 @@
                                         <div class="col-md-5 wow fadeInRight">
                                             <img src="../Otras_Actividades/img/orientacion/Docentes de Educación Especial y Orientación 2.2.jpeg" alt="" class="img-fluid shadow  bg-body rounded-4">
                                         </div>
+                                        <div class="col-md-12 wow fadeInUp">
+                                            <p>
+                                                El Departamento de Orientación de la Escuela Secundaria Ángel María Herrera desempeña funciones de orientación grupal, 
+                                                atención individual, asesoramiento docente, orientación a la familia, mediación, actividades extracurriculares, 
+                                                auspiciados por la Dirección Nacional de Orientación o por otras instituciones, tales como: Policía Nacional, MITRADEL, 
+                                                MIDES, MINSA, C. S.S., Municipios y otros y apoyo a comisiones de trabajo que se relacionan con programas sensitivos, 
+                                                tales como la Comisión de Bienestar Estudiantil y Rendimiento Académico.  
+                                            </p>
+                                            <p>
+                                                El programa de necesidades educativas especiales (NEE) atiende a la población de alumnos con o sin discapacidad que presentan 
+                                                mayores dificultades que el resto de los estudiantes para acceder a los aprendizajes, con adecuaciones curriculares de acuerdo 
+                                                a la capacidad o necesidad del estudiante.  Se trabaja las modalidades de atención del Manual de Procedimiento del Decreto 
+                                                Ejecutivo No.1 del 4 de febrero de 2000 del MEDUCA, por el cual se establece la normativa para la educación inclusiva en 
+                                                una inclusión total a tiempo completo en el aula regular de las NEE permanentes y transitorias.
+                                            </p>
+                                            <p>
+
+                                            </p>
+                                        </div>
                                         <div class="row d-flex justify-content-around" id="negar">
-                                            <div class="col-md-4" id="img">
+                                            <div class="col-md-4 wow fadeInLeft" data-wow-delay="2s" id="img">
                                                 <img src="../Otras_Actividades/img/orientacion/Orientación a  la campaña de Gigantes de Fanlyc.jpeg" alt="" class="img-fluid rounded-4">
                                             </div>
                                             
-                                            <div class="col-md-4" id="img">
+                                            <div class="col-md-4 wow fadeInUp" data-wow-delay="2s" id="img">
                                                 <img src="../Otras_Actividades/img/orientacion/Orientación Vocacional-Profesional.jpeg" alt="" class="img-fluid rounded-4">
 
                                             </div>
-                                            <div class="col-md-4" id="img">
+                                            <div class="col-md-4 wow fadeInRight" data-wow-delay="2s" id="img">
                                                 <img src="../Otras_Actividades/img/orientacion/Charla salud mental 2.jpeg" alt="" class="img-fluid rounded-4">
                                             </div>
                                         </div>
