@@ -58,11 +58,15 @@ h1
 }
 .botondeintercambiar{
     width: 240px;
-    margin: 35px auto;
+    margin: 20px auto;
     position: relative;
-    box-shadow: 0 0 6px 0.5px black;
-    border-radius: 30px;
+    border-radius: 0px;
 }
+
+.colornegro{
+    color: black;
+}
+
 .botoncambiarcaja{
     padding: 10px 30px;
     cursor: pointer;
@@ -71,32 +75,20 @@ h1
     outline: none;
     position: relative;
 	font-weight: bold;
-	font-size:16px;
+	
 }
 
 .botoncambiarcaja2{
     padding: 10px 10px;
-    cursor: pointer;
     background: transparent;
     border: 0;
     outline: none;
     position: relative;
 	font-weight: bold;
-	font-size: 16px;
-    left: 45px;
+	font-size:30px;
+    left: 15px;
 }
 
-#btnvai{
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 240px;
-    height: 100%;
-	background-color: #0079be;
-    border-radius: 30px;
-	transition: .5s;
-	
-}
 .logovai
 {
     text-align: center;
