@@ -1,3 +1,4 @@
+<!-- RUTA CORREGIDA -->
 <?php
 /*obteniendo la fecha actual del sistema */
 $fechaActual = date('Y-m-d');
