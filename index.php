@@ -47,7 +47,7 @@
             <div class="col-md-8 contenidoderecho">
                 <h3 class="letra3"> Himno del plantel </h3>
                 <?php
-                include("inicio/colderechapag1.html");?>
+                include("Inicio/colderechaPag1.html");?>
                 <audio controls>
                     <source src="audio/audio_himno.mp3" type="audio/mp3">
                 </audio>   
