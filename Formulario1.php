@@ -1,7 +1,9 @@
 <?php
 /*obteniendo la fecha actual del sistema */
 $fechaActual = date('Y-m-d');
-
+if(isset($_POST['enviar'])){
+	include './FormNoticias/cargar_img.php';
+	}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -11,8 +13,8 @@ $fechaActual = date('Y-m-d');
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/estilo.css" type="text/css">
 	<link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
-	<link rel="stylesheet" href="./css/migapan.css" type="text/css">
-	<link rel="stylesheet" href="/css/menutest.css" type="text/css">
+	<link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
+	<link rel="stylesheet" href="./css/header-style.css" type="text/css">
 	<link rel="stylesheet" href="./FormNoticias/Noticias.css" type="text/css">
 	<!--paquete de complementos y dependecias de js para el dropzone-->
 	<link rel="stylesheet" href="node_modules/dropzone/dist/dropzone.css">
@@ -26,7 +28,7 @@ $fechaActual = date('Y-m-d');
 
 <body id="fondoMain">
 	<?php
-	include("./menu_footer/headAdmin.html");
+	include("./Menu_footer/headAdmin.html");
 	?>
 
 	<!--miga de pan-->
@@ -34,7 +36,7 @@ $fechaActual = date('Y-m-d');
 		<div class="row">
 			<div class="col-6">
 				<?php
-				include("migas_pan/migapan12.html")
+				include("Migas_Pan/MigaPan12.html")
 				?>
 			</div>
 		</div>
@@ -46,7 +48,7 @@ $fechaActual = date('Y-m-d');
 	<!--Inicia contenendor de informacion-->
 	<!--Inicio de la clase container..-->
 	<div class="container">
-		<form action="./FormNoticias/cargar_img.php" method="post" enctype="multipart/form-data"">
+	<form action="Formulario1.php" method="post" enctype="multipart/form-data">
 			<!--Inicio del Form..-->
 			<div class="row">
 				<!--Inicio de la clase Row..-->
@@ -124,7 +126,7 @@ $fechaActual = date('Y-m-d');
 	?>
 	<footer>
 		<?php
-		include("./menu_footer/footer.html");
+		include("./Menu_footer/footer.html");
 
 		?>
 	</footer>
@@ -138,3 +140,6 @@ $fechaActual = date('Y-m-d');
 </body>
 
 </html>
+<?php
+
+?>

@@ -98,7 +98,7 @@
                         <!--foto de los colaboradores-->
                         <center><img src="img/IMG_5971.JPG" alt="" width="100%"></center>
                         <br>
-                        De izq. a derecha: Profesor Jorge Marín, Profesora María Cedeño, Profesora María Elena Mendieta, Profesora Dayra Martínez, Profesora Erica Arias, Profesora Marisol Magallón, Licenciada Gladys Montero.
+                        De izq. a derecha profesores: Jorge Marín, María Cedeño, María Elena Mendieta, Dayra Martínez, Érica Arias, Marisol Magallón y licenciada Gladys Montero.
                     </div>
                 </div>
             </div>

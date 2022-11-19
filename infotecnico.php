@@ -40,7 +40,7 @@
     <div class="container text-center">
         <h3 class="letra3"> Subdirectora Técnico Docente </h3>
 
-        <div class="title h1 text-center">Erica Arias Quiroz</div>
+        <div class="title h1 text-center">Érica Arias Quiroz</div>
         <center><img src="img/Subdirectora Técnico Docente Magister Erica Arias.JPG" class="imgtecnicodocente" /></center><br>
         <ul class="textopaginatecnico2">
             <center>
@@ -60,7 +60,7 @@
                                 <h4 class="title h1 text-center" style="color: #ffff;">Formación Académica</h4>
                                 <p class="card-header">
                                 <ul class="textopaginatecnico">
-                                    <li>Magíster en Administración de Empresas con Énfasis en Recursos Humanos. Universidad de Panamá. 2010.
+                                    <li>Magíster en Administración de Empresas con Énfasis en Recursos Humanos. Universidad de Panamá, 2010.
                                     </li>
                                     <li>Especialista en Alta Gerencia. Universidad de Panamá 2009.</li>
                                     <li>Profesora de Educación Media con Especialización en Administración Pública. Universidad de Panamá 2001.

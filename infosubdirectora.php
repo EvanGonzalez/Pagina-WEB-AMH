@@ -40,7 +40,7 @@
     <div class="container text-center">
         <h3 class="letra3"> Subdirectora administrativa </h3>
 
-        <div class="title h1 text-center">Dra. Inelda Tuñon.</div>
+        <div class="title h1 text-center">Dra. Inelda Tuñón</div>
         <center><img src="img/subdirectora admistrativa Dra. Inelda Tuñón.jpg" class="imgtecnicodocente" /></center><br>
         <ul class="textopaginatecnico">
 
@@ -56,11 +56,12 @@
                                 <h4 class="title h1 text-center" style="color: #ffff;">Formación Académica</h4>
                                 <p class="card-header">
                                 <ul class="textopaginatecnico">
-                                    Inicio sus estudios primarios en la escuela Manuel José Hurtado, secundaria primer ciclo en el instituto América y su segundo ciclo en el colegio privado Instituto Istmeño, donde se le otorgó diploma de Bachiller en Ciencias.
+                                    Inició sus estudios primarios en la Escuela Manuel José Hurtado, primer ciclo en el Instituto América y su segundo ciclo en el Colegio privado Instituto Istmeño, donde se le otorgó diploma de Bachiller en Ciencias.
                                     <br><br>
-                                    Curso estudio universitario, en la Universidad de Panamá y obtuvo el título de Licenciada en Administración de empresa, después obtuvo el título de licenciada en Economía.
+                                    Cursó estudio universitario, en la Universidad de Panamá y obtuvo el título de licenciada en Administración de empresa, después obtuvo el título de licenciada en Economía.
                                     <br> <br>
-                                    Además, en la Universidad Santa María La Antigua, obtuvo el título de Maestría en ingeniería Económica, sus estudios se ampliaron cuando también participo en el curso de Economía para funcionarios públicos por la universidad de IOWA en la ciudad de Panamá, un crédito de postgrado. Logro postgrado y diplomados en administración de empresa.
+                                    Además, en la Universidad Santa María La Antigua, obtuvo el título de Maestría en Ingeniería Económica, sus estudios se ampliaron cuando también participó en el curso de Economía para funcionarios públicos por la universidad de IOWA en la ciudad de Panamá, un crédito de postgrado. 
+                                    Logró postgrado y diplomados en Administración de empresa.
                                     <br><br>
                                     <li>Doctora en Ciencias Económicas y Empresariales. </li>
                                 </ul>

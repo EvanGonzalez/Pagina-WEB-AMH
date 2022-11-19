@@ -21,7 +21,7 @@
 
 <body id="fondoMain">
     <?php
-    include("./menu_footer/menumain.html");
+    include("./Menu_Footer/menumain.html");
     ?>
 
     <!--miga de pan-->
@@ -163,7 +163,7 @@
     ?>
     <footer>
         <?php
-        include("./menu_footer/footer.html");
+        include("./Menu_Footer/footer.html");
         ?>
     </footer>
 

@@ -24,7 +24,7 @@
     <br>
     <section>
         <div class="container-fluid wow fadeInUp">
-            <h1 id="registre" class="text-center">Folklore</h1>
+            <h1 id="registre" class="text-center">Folclor</h1>
         </div>
         
         <div class="container">
@@ -42,7 +42,7 @@
                 <div class="col-md-8 wow fadeInRight">
                     <h1 class="text-center"> Conjunto Folclórico </h1>
                     <p>
-                        El Conjunto Típico de la Escuela Secundaria Herrera fue fundado el 26 de julio de 1983 y por iniciativa del conjunto y de los graduandos, 
+                        El Conjunto Típico de la Escuela Secundaria Ángel María Herrera fue fundado el 26 de julio de 1983 y por iniciativa del conjunto y de los graduandos, 
                         lo denominaron “Conjunto de Proyecciones Folclóricas Ángel María Herrera”. Durante un tiempo estuvo integrado hasta por 30 parejas y 70 integrantes.
                          
                     </p>
@@ -168,7 +168,7 @@
                                                 <div class="d-flex justify-content-center">
                                                     <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
                                                         <video src="../Otras_Actividades/img/conjunto/decima.mp4" controls ></video>
-                                                        <figcaption class="figure-caption text-end">Decima</figcaption>
+                                                        <figcaption class="figure-caption text-end">Décima por la estudiante María Herrera</figcaption>
                                                     </figure>
                                                 </div>
                                             </div>
@@ -176,7 +176,7 @@
                                                 <div class="d-flex justify-content-center">
                                                     <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
                                                         <video src="../Otras_Actividades/img/conjunto/Saloma.mp4" controls ></video>                                        
-                                                        <figcaption class="figure-caption text-end">Saloma</figcaption>
+                                                        <figcaption class="figure-caption text-end">Saloma por el estudiante </figcaption>
                                                     </figure>
                                                 </div>                                            
                                             </div>
@@ -209,11 +209,11 @@
                         Algunos bailes que interpreta el conjunto son: El Chogorro, La Iguana, Compadre Gallinazo, la Pachenda y otros.
                     </p>
                     <p class="wow fadeInLeft">
-                    Algunos vestuarios utilizados por los bailarines son: Montunas Coclesanas, Pollera Blanca Tradicional, Polleras Tiriada, Basquiñas, Camisillas Blancas, Coletas marcadas, Cutarras, Chinelas, Sombrero de Junco, sombrero Pintado, Cebaderas, Cabeza de tembleques.
+                    Algunos vestuarios utilizados por los bailarines son: Montunas Coclesanas, Pollera Blanca Tradicional, Polleras Tiriada, Basquiñas, Camisillas Blancas, Coletas marcadas, Cutarras, Chinelas, Sombrero de Junco, Sombrero Pintado, Cebaderas, Cabeza de tembleques.
                     </p>
-                    <h2 class="fst-italic text-center wow fadeInLeft">Personajes Destacados</h2>
+                    <h2 class="fst-italic text-center wow fadeInLeft">Personajes destacados</h2>
                     <p class="wow fadeInLeft">
-                        Como bailarines que se han destacado en el conjunto típico podemos mencionar a: Rosalinda Arosemena, Manuel Oliva, Luis Peñalba, Maycol Martínez, Dilcia Sambrano, Jesús Jaén y Jesica Sánchez.  
+                        Como bailarines que se han destacado en el conjunto típico podemos mencionar a: Rosalinda Arosemena, Manuel Oliva, Luis Peñalba, Michael Martínez, Dilcia Sambrano, Jesús Jaén y Jesica Sánchez.  
                         Tocador de tambor: Ricauter Villarreal como tocador de tambor. 
                     </p>
                 </div>

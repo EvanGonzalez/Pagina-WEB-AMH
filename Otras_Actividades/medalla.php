@@ -25,7 +25,7 @@
     <section>
         <div class="container">
             <br>
-            <h2 class="text-center wow fadeInUp" id="registre">MEDALLA A LA CULTURA – ESCUELA ANGEL MARIA HERRERA</h2>   
+            <h2 class="text-center wow fadeInUp" id="registre">MEDALLA A LA CULTURA – ESCUELA SECUNDARIA ÁNGEL MARÍA HERRERA</h2>   
             <br>
             <div class="row" id="negar">            
                 <div class="col-md-6 wow fadeInLeft">

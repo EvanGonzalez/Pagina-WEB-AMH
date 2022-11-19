@@ -17,7 +17,7 @@
     <script>
       new WOW().init();
     </script> 
-    <title>AMH: Gabinete Psicopadagógico, Orientacion y Educación Especial</title>
+    <title>AMH: Gabinete Psicopadagógico, Orientación y Educación Especial</title>
 </head>
 <body>
     <?php include ('../Menu_Footer/menumain.html'); ?>
@@ -25,7 +25,7 @@
         <!-- para la derecha -->
         <div class="container">
             <br>
-            <h2 class="text-center" id="registre">Gabinete Psicopadagógico, Orientacion y Educación especial</h2>
+            <h2 class="text-center" id="registre">Gabinete Psicopadagógico, Orientación y Educación Especial</h2>
             <div class="row" id="negar">
                 <div class="col-md-12">
                 <p class="text-center">
