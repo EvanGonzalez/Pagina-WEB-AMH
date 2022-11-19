@@ -1,3 +1,4 @@
+<!-- RUTA CORREGIDA -->
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -12,7 +13,7 @@
 </head>
 <body>
     <?php
-    include('./iniciosesion/formulario.html');
+    include('./Iniciosesion/formulario.html');
     ?>
 </body>
 </html>

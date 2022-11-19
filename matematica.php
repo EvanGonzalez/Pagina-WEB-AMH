@@ -1,3 +1,4 @@
+<!-- RUTA CORREGIDA -->
 <!DOCTYPE html>
 <html lang="es">
 
@@ -6,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
-    <link rel="stylesheet" href="./css/migapan.css" type="text/css">
+    <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="/css/menutest.css" type="text/css">
     <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <script src="js/scrollreveal.js"></script>
@@ -17,7 +18,7 @@
 
 <body id="fondoMain">
     <?php
-     include("./menu_footer/menumain.html");
+     include("./Menu_Footer/menumain.html");
     ?>
 
     <!--miga de pan-->
@@ -25,7 +26,7 @@
         <div class="row">
             <div class="col-md-6">
                 <?php
-                include("migas_pan/migapan5.html")
+                include("Migas_pan/MigaPan5.html")
                 ?>
             </div>
         </div>
@@ -44,16 +45,16 @@
                 <div id="" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="img/Dpt Matematicas/Docentes del Departamento de matemáticas.jpeg" class="d-block w-100" alt="...">
+                            <img src="img/Dpt Matematicas/Docentes del Departamento de matematicas.jpeg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Dpt Matematicas/Mural de las Estrellas de Matemáticas.jpeg" class="d-block w-100" alt="...">
+                            <img src="img/Dpt Matematicas/Mural de las Estrellas de Matematicas.jpeg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
                             <img src="img/Dpt Matematicas/trabajo en el aula 3.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Dpt Matematicas/Concurso de Murales de Matemáticas 3.jpeg" class="d-block w-100" alt="...">
+                            <img src="img/Dpt Matematicas/Concurso de Murales de Matematicas 3.jpeg" class="d-block w-100" alt="...">
                         </div>
                     </div>
                 </div>
@@ -111,12 +112,12 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-md-6">
                                 <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/Concurso de Murales de Matemáticas 1.jpeg" alt="" style="background-color: #121b4f;">
+                                    <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/Concurso de Murales de Matematicas 1.jpeg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
                             <div class="col-lg-6 col-md-6 col-md-6">
                                 <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/Concurso de Murales de Matemáticas 5.jpeg" alt="" style="background-color: #121b4f;">
+                                    <img class="img-fluid img-thumbnail" src="img/Dpt Matematicas/Concurso de Murales de Matematicas 5.jpeg" alt="" style="background-color: #121b4f;">
                                 </a>
                             </div>
 
@@ -128,7 +129,7 @@
     ?>
     <footer>
         <?php
-        include("./menu_footer/footer.html");
+        include("./Menu_Footer/footer.html");
         ?>
     </footer>
 

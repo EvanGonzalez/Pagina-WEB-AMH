@@ -1,3 +1,4 @@
+<!-- RUTA CORREGIDA -->
 <!DOCTYPE html>
 <html lang="es">
 
@@ -8,7 +9,7 @@
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/Efectos2.css" type="text/css">
     <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
-    <link rel="stylesheet" href="./css/migapan.css" type="text/css">
+    <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="/css/menutest.css" type="text/css">
     <link rel="stylesheet" href="./css/infinitocarrusel.css" type="text/css">
     <link rel="stylesheet" href="/css/carruselPequeño.css" >
@@ -24,7 +25,7 @@
 
 <body id="fondoMain">
     <?php
-     include("./menu_footer/menumain.html");
+     include("./Menu_Footer/menumain.html");
     ?>
 
     <!--miga de pan-->
@@ -32,7 +33,7 @@
         <div class="row">
             <div class="col-6">
                 <?php
-                include("migas_pan/migapan3.html")
+                include("Migas_Pan/MigaPan3.html")
                 ?>
             </div>
         </div>
@@ -50,7 +51,7 @@
                 <h3 class="letra3"> Oferta Académica: Bachilleres </h3>
 
                 <?php
-                include("oferta_academica/columIzquiPag3.html");
+                include("Oferta_Academica/columIzquiPag3.html");
                 ?>
             </div>
 
@@ -63,7 +64,7 @@
     ?>
     <footer>
         <?php
-        include("./menu_footer/footer.html");
+        include("./Menu_Footer/footer.html");
         ?>
     </footer>
 

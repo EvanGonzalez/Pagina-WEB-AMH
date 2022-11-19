@@ -1,3 +1,4 @@
+<!-- RUTA CORREGIDA -->
 <!DOCTYPE html>
 <html lang="es">
 
@@ -7,7 +8,7 @@
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
-    <link rel="stylesheet" href="./css/migapan.css" type="text/css">
+    <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="./css/galeriadetexto.css" type="text/css">
     <link rel="stylesheet" href="./css/leermas.css" type="text/css">
     <link rel="stylesheet" href="/css/menutest.css" type="text/css">
@@ -29,7 +30,7 @@
         <div class="row">
             <div class="col-md-6">
                 <?php
-                include("migas_pan/migapan6.html")
+                include("Migas_Pan/MigaPan6.html")
                 ?>
             </div>
         </div>
@@ -56,13 +57,13 @@
                                     <img src="img/Dpt Ciencias y Biologia/Laboratorio de Ciencias .JPG" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biología 1.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
+                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biologia 1.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biología 6.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
+                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biologia 6.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biología 4.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
+                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biologia 4.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
                                 </div>
                             </div>
                         </div>

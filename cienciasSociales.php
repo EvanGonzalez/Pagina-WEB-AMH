@@ -1,19 +1,20 @@
+<!-- RUTA CORREGIDA -->
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilo.css" type="text/css">
-    <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
-    <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
-    <link rel="stylesheet" href="./css/migapan.css" type="text/css">
-    <link rel="stylesheet" href="./css/galeriadetexto.css" type="text/css">
-    <link rel="stylesheet" href="./css/leermas.css" type="text/css">
-    <link rel="stylesheet" href="/css/menutest.css" type="text/css">
-    <link rel="stylesheet" href="./scss/cardsanimation.scss">
-    <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
-    <script src="js/scrollreveal.js"></script>
+    <link rel="stylesheet" href="./css/estilo.css" type="text/css"><!--  -->
+    <link rel="stylesheet" href="./css/footerstyle.css" type="text/css"><!--  -->
+    <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css"><!--  -->
+    <link rel="stylesheet" href="./css/MigaPan.css" type="text/css"><!--  -->
+    <link rel="stylesheet" href="./css/galeriadetexto.css" type="text/css"><!--  -->
+    <link rel="stylesheet" href="./css/leermas.css" type="text/css"><!--  -->
+    <link rel="stylesheet" href="/css/menutest.css" type="text/css"><!--  -->
+    <link rel="stylesheet" href="./scss/cardsanimation.scss"><!-- Esta ruta no la encontré se quedó igual -->
+    <link rel="shortcut icon" href="img/2.ico" type="image/x-icon"><!--  -->
+    <script src="js/scrollreveal.js"></script><!--  -->
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>AMH: Ciencias Sociales</title>
@@ -21,7 +22,7 @@
 
 <body id="fondoMain">
     <?php
-     include("./Menu_Footer/menumain.html");
+     include("./Menu_Footer/menumain.html");/*  */
     ?>
 
     <!--miga de pan-->
@@ -29,7 +30,7 @@
         <div class="row">
             <div class="col-md-6">
                 <?php
-                include("migas_pan/migapan15.html")
+                include("Migas_Pan/MigaPan15.html")/*  */
                 ?>
             </div>
         </div>
@@ -50,13 +51,13 @@
                         <div id="" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/Dpt Sociales/Capacitación Docentes de Ciencias Sociales.jpeg" class="d-block w-90 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="70%">
+                                    <img src="img/Dpt Sociales/Capacitacion Docentes de Ciencias Sociales.jpeg" class="d-block w-90 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="70%"><!--  -->
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/Dpt Sociales/Apoyo a la Administración.jpeg" class="d-block w-90 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="70%">
+                                    <img src="img/Dpt Sociales/Apoyo a la Administracion.jpeg" class="d-block w-90 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="70%"><!--  -->
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/Dpt Sociales/Inspección de Proyectos.jpeg" class="d-block w-90 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="70%">
+                                    <img src="img/Dpt Sociales/Inspeccion de Proyectos.jpeg" class="d-block w-90 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="70%"><!--  -->
                                 </div>
                             </div>
                         </div>
@@ -77,19 +78,19 @@
                                         <div id="" class="carousel slide" data-bs-ride="carousel">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                    <img src="img/Dpt Sociales/Diputado juvenil 1.jpeg" class="d-block w-100" alt="...">
+                                                    <img src="img/Dpt Sociales/Diputado juvenil 1.jpeg" class="d-block w-100" alt="..."><!--  -->
                                                     <div class="carousel-caption d-none d-md-block">
                                                         <h4 style="-webkit-text-stroke: 0.5px #121b4f;">Diputado Juvenil</h4>
                                                     </div>
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="img/Dpt Sociales/Diputado Juvenil 2.jpeg" class="d-block w-100" alt="...">
+                                                    <img src="img/Dpt Sociales/Diputado Juvenil 2.jpeg" class="d-block w-100" alt="..."><!--  -->
                                                     <div class="carousel-caption d-none d-md-block">
                                                         <h4 style="-webkit-text-stroke: 0.5px #121b4f;">Diputado Juvenil</h4>
                                                     </div>
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="img/Dpt Sociales/Semana de la Etnia.jpeg" class="d-block w-100" alt="" >
+                                                    <img src="img/Dpt Sociales/Semana de la Etnia.jpeg" class="d-block w-100" alt="" ><!--  -->
                                                     <div class="carousel-caption d-none d-md-block">
                                                         <h4 style="-webkit-text-stroke: 0.5px #121b4f;">Semana de la Etnia</h4>
                                                     </div>
@@ -198,11 +199,11 @@
        
     </div>
     <?php
-    include("botonArriba.html");
+    include("botonArriba.html");/*  */
     ?>
     <footer>
         <?php
-       include("./Menu_Footer/footer.html");
+       include("./Menu_Footer/footer.html");/*  */
         ?>
     </footer>
 
@@ -212,11 +213,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 
-    <script src="js/index.js"></script>
+    <script src="js/index.js"></script><!--  -->
     <!--scrip para la animacion de imagenes pagina 2-->
-    <script src="js/main.js"></script>
+    <script src="js/main.js"></script><!-- Esta ruta no existe la dejo igual -->
     <!--scrip para la galeria de imagenes pagina 2-->
-    <script src="js/boton_up.js"></script>
+    <script src="js/boton_up.js"></script><!--  -->
 
 </body>
 
