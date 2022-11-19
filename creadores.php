@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="/css/menutest.css" type="text/css">
-    <link rel="stylesheet" href="./css/migapan.css" type="text/css">
+    <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <script src="js/scrollreveal.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -16,7 +16,7 @@
 
 <body id="fondoMain">
     <?php
-    include("./menu_footer/menumain.html");
+    include("./Menu_Footer/menumain.html");
     ?>
     <!--miga de pan-->
     <div class="container text-center">
@@ -24,7 +24,7 @@
             <div class="col-md-6">
                 <?php
 
-                include("migas_pan/migapan8.html")
+                include("Migas_Pan/MigaPan8.html")
                 ?>
             </div>
         </div>
@@ -110,7 +110,7 @@
     ?>
     <footer>
         <?php
-        include("./menu_footer/footer.html");
+        include("./Menu_Footer/footer.html");
         ?>
     </footer>
 
