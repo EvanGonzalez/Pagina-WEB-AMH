@@ -1,3 +1,4 @@
+<!-- RUTA CORREGIDA -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
-    <link rel="stylesheet" href="./css/migapan.css" type="text/css">
+    <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="/css/menutest.css" type="text/css">
     <link rel="stylesheet" href="./css/Efectos2.css" type="text/css">
 
-    <link rel="stylesheet" href="./oferta_academica/premediaefect.css" type="text/css">
+    <link rel="stylesheet" href="./Oferta_Academica/PremediaEfect.css" type="text/css">
     <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <script src="js/scrollreveal.js"></script>
     
@@ -18,7 +19,7 @@
 </head>
 <body id="fondoMain">
     <?php
-     include("./menu_footer/menumain.html");
+     include("./Menu_Footer/menumain.html");
     ?>
 
     <!--miga de pan-->
@@ -26,7 +27,7 @@
         <div class="row">
             <div class="col-6">
                 <?php
-                include("migas_pan/migapan20.html")
+                include("Migas_Pan/migapan20.html")
                 ?>
             </div>
         </div>
@@ -45,7 +46,7 @@
                 <br>
                 <hr>
                 <?php
-                    include ("./oferta_academica/ofertaacademicapremedia.html");
+                    include ("./Oferta_Academica/OfertaAcademicaPremedia.html");
                 ?>
                 
             </div>
@@ -59,7 +60,7 @@
     ?>
     <footer>
         <?php
-        include("./menu_footer/footer.html");
+        include("./Menu_Footer/footer.html");
         ?>
     </footer>
     <!--termina contenendor de informacion-->
