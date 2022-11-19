@@ -1,3 +1,4 @@
+<!-- RUTA CORREGIDA -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -166,7 +167,7 @@
                                             </p>
                                         </div>
                                         <div class="col-md-5 wow fadeInRight">
-                                            <img src="../Otras_Actividades/img/orientacion/Docentes de Educación Especial y Orientación 2.2.jpeg" alt="" class="img-fluid shadow  bg-body rounded-4">
+                                            <img src="../Otras_Actividades/img/orientacion/Docentes de Educación Especial y Orientacion 2.2.jpeg" alt="" class="img-fluid shadow  bg-body rounded-4">
                                         </div>
                                         <div class="col-md-12 wow fadeInUp">
                                             <p>
@@ -189,11 +190,11 @@
                                         </div>
                                         <div class="row d-flex justify-content-around" id="negar">
                                             <div class="col-md-4 wow fadeInLeft" data-wow-delay="2s" id="img">
-                                                <img src="../Otras_Actividades/img/orientacion/Orientación a  la campaña de Gigantes de Fanlyc.jpeg" alt="" class="img-fluid rounded-4">
+                                                <img src="../Otras_Actividades/img/orientacion/Orientacion a  la campaña de Gigantes de Fanlyc.jpeg" alt="" class="img-fluid rounded-4">
                                             </div>
                                             
                                             <div class="col-md-4 wow fadeInUp" data-wow-delay="2s" id="img">
-                                                <img src="../Otras_Actividades/img/orientacion/Orientación Vocacional-Profesional.jpeg" alt="" class="img-fluid rounded-4">
+                                                <img src="../Otras_Actividades/img/orientacion/Orientacion Vocacional-Profesional.jpeg" alt="" class="img-fluid rounded-4">
 
                                             </div>
                                             <div class="col-md-4 wow fadeInRight" data-wow-delay="2s" id="img">
@@ -207,9 +208,9 @@
                                                 requerido de acuerdo a su condición.  
                                             </p>
                                             <div class="d-flex justify-content-around">
-                                                <img src="../Otras_Actividades/img/orientacion/Docente de Educación Especial.jpeg" class="img-thumbnail" alt="...">
+                                                <img src="../Otras_Actividades/img/orientacion/Docente de Educacion Especial.jpeg" class="img-thumbnail" alt="...">
                                                 <img src="../Otras_Actividades/img/orientacion/Docentes.jpeg" class="img-thumbnail" alt="...">
-                                                <img src="../Otras_Actividades/img/orientacion/Orientación .jpeg" class="img-thumbnail" alt="...">                                                
+                                                <img src="../Otras_Actividades/img/orientacion/Orientacion .jpeg" class="img-thumbnail" alt="...">                                                
                                             </div>
 
                                         </div>

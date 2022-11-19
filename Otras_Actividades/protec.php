@@ -1,3 +1,4 @@
+<!-- RUTA CORREGIDA -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,7 +61,7 @@
                                     <p>Y a sus profesores tutores Celisbeth Martínez, Lizzett Cornejo y José Tejeira</p>                                                                   
                                 </div>
                                 <div class="col-md-3 wow fadeInRight">
-                                    <img src="../Otras_Actividades/img/proyecto/Preparación de esenarios.jpeg" class="img-fluid rounded-4 shadow mb-5 bg-body" alt="Preparación de las Ecesenarios" title="Preparación de los Escenarios ">
+                                    <img src="../Otras_Actividades/img/proyecto/Preparacion de esenarios.jpeg" class="img-fluid rounded-4 shadow mb-5 bg-body" alt="Preparación de las Ecesenarios" title="Preparación de los Escenarios ">
                                 </div>
                             </div>     
                         </div>
@@ -129,16 +130,16 @@
                         </ol>
                         <div class="carousel-inner rounded-3">
                             <div class="carousel-item active">
-                                <img src="../Otras_Actividades/img/proyecto/Club de Robótica Angelinos.jpeg" class=" w-100 d-block" alt="First slide">
+                                <img src="../Otras_Actividades/img/proyecto/Club de Robotica Angelinos.jpeg" class=" w-100 d-block" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img src="../Otras_Actividades/img/proyecto/Olimpiadas de Robótica 2.jpeg" class=" w-100 d-block" alt="Second slide">
+                                <img src="../Otras_Actividades/img/proyecto/Olimpiadas de Robotica 2.jpeg" class=" w-100 d-block" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img src="../Otras_Actividades/img/proyecto/Construcción de Robot seguidor de Linea .jpeg" class=" w-100 d-block" alt="Second slide">
+                                <img src="../Otras_Actividades/img/proyecto/Construccion de Robot seguidor de Linea .jpeg" class=" w-100 d-block" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img src="../Otras_Actividades/img/proyecto/Olimpiadas de Robótica.jpeg" class=" w-100 d-block" alt="Second slide">
+                                <img src="../Otras_Actividades/img/proyecto/Olimpiadas de Robotica.jpeg" class=" w-100 d-block" alt="Second slide">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">

@@ -1,3 +1,4 @@
+<!-- RUTA CORREGIDA -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,7 +56,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="img2">
-                            <img src="../Otras_Actividades/img/banda/Banda de Música Bastón Mayor.jpeg" class="img-fluid" alt="Banda de Música del Colegio Ángel María Herrera">
+                            <img src="../Otras_Actividades/img/banda/Banda de Musica Baston Mayor.jpeg" class="img-fluid" alt="Banda de Música del Colegio Ángel María Herrera">
                         </div>
                     </div>
                     <br>
@@ -70,7 +71,7 @@
                         <div class="elotro">
                             <div class="carde wow fadeInUp">
                                 <div class="face front">
-                                    <img src="../Otras_Actividades/img/banda/México 2015-2.jpg" alt="Banda de Música" title="Banda de Música">
+                                    <img src="../Otras_Actividades/img/banda/Mexico 2015-2.jpg" alt="Banda de Música" title="Banda de Música">
                                     <h3>2015</h3>
                                 </div>
                                 <div class="face back">
@@ -97,7 +98,7 @@
 
                             <div class="carde wow fadeInUp">
                                 <div class="face front">
-                                    <img src="../Otras_Actividades/img/banda/México 2019-4.jpg" alt="Banda de Música" title="Banda de Música">
+                                    <img src="../Otras_Actividades/img/banda/Mexico 2019-4.jpg" alt="Banda de Música" title="Banda de Música">
                                     <h3>2019</h3>
                                 </div>
                                 <div class="face back">
