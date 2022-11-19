@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/animacionWeb.css" type="text/css">
-    <link rel="stylesheet" href="./css/migapan.css" type="text/css">
+    <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="./css/galeriadetexto.css" type="text/css">
     <link rel="stylesheet" href="./css/leermas.css" type="text/css">
     <link rel="stylesheet" href="/css/menutest.css" type="text/css">
@@ -29,7 +29,7 @@
         <div class="row">
             <div class="col-md-6">
                 <?php
-                include("migas_pan/migapan16.html")
+                include("Migas_Pan/MigaPan16.html")
                 ?>
             </div>
         </div>
@@ -57,7 +57,7 @@
                                             <img src="img/Dpt de afines/Banquete para bodas.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="img/Dpt de afines/Banquete para graduación.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                            <img src="img/Dpt de afines/Banquete para graduacion.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
                                         </div>
                                         <div class="carousel-item">
                                             <img src="img/Dpt de afines/costura.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
