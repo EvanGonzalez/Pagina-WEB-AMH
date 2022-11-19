@@ -1,3 +1,4 @@
+<!-- RUTA CORREGIDA -->
 <?php
     $iniciar = ($_GET['pagina']-1)*$productos_x_pag;    
 ?>
