@@ -1,4 +1,4 @@
-<!-- RUTA CORREGIDA -->
+<!-- RUTA CORREGIDA-->
 <!DOCTYPE html>
 <html lang="es">
 
