@@ -1,3 +1,4 @@
+<!-- RUTA CORREGIDA -->
 <!-- Productos-->
 <!DOCTYPE html>
 <html lang="es">
