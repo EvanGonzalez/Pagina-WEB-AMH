@@ -1,3 +1,4 @@
+<!-- RUTA CORREGIDA -->
 <?php
 /*obteniendo la fecha actual del sistema */
 $fechaActual = date('Y-m-d');
@@ -8,14 +9,14 @@ $fechaActual = date('Y-m-d');
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./css/estilo.css" type="text/css">
-	<link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
-	<link rel="stylesheet" href="./css/migapan.css" type="text/css">
-	<link rel="stylesheet" href="./css/header-style.css" type="text/css">
-	<link rel="stylesheet" href="./FormNoticias/Noticias.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--  -->
+	<link rel="stylesheet" href="./css/estilo.css" type="text/css"><!--  -->
+	<link rel="stylesheet" href="./css/footerstyle.css" type="text/css"><!--  -->
+	<link rel="stylesheet" href="./css/MigaPan.css" type="text/css"><!--  -->
+	<link rel="stylesheet" href="./css/header-style.css" type="text/css"><!--  -->
+	<link rel="stylesheet" href="./FormNoticias/Noticias.css" type="text/css"><!--  -->
 	<!--paquete de complementos y dependecias de js para el dropzone-->
-	<link rel="stylesheet" href="node_modules/dropzone/dist/dropzone.css">
+	<link rel="stylesheet" href="node_modules/dropzone/dist/dropzone.css"><!-- Esta ruta no se a donde lleva la dejaré igual -->
 	<script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
 	<link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
 	<!--paquete de complementos y dependecias de js para los elementos bootstrap-->
@@ -26,7 +27,7 @@ $fechaActual = date('Y-m-d');
 
 <body id="fondoMain">
 	<?php
-	include("./menu_footer/headAdmin.html");
+	include("./Menu_Footer/HeadAdmin.html");/*  */
 	?>
 
 	<!--miga de pan-->
@@ -34,7 +35,7 @@ $fechaActual = date('Y-m-d');
 		<div class="row">
 			<div class="col-6">
 				<?php
-				include("migas_pan/migapan12.html")
+				include("Migas_Pan/MigaPan12.html")/*  */
 				?>
 			</div>
 		</div>
@@ -46,7 +47,7 @@ $fechaActual = date('Y-m-d');
 	<!--Inicia contenendor de informacion-->
 	<!--Inicio de la clase container..-->
 	<div class="container">
-		<form action="./FormNoticias/cargar_img.php" method="post" enctype="multipart/form-data"">
+		<form action="./FormNoticias/cargar_img.php" method="post" enctype="multipart/form-data""><!--  -->
 			<!--Inicio del Form..-->
 			<div class="row">
 				<!--Inicio de la clase Row..-->
@@ -132,11 +133,11 @@ $fechaActual = date('Y-m-d');
 
 
 	<?php
-	include("botonArriba.html");
+	include("botonArriba.html");/*  */
 	?>
 	<footer>
 		<?php
-		include("./menu_footer/footer.html");
+		include("./Menu_Footer/footer.html");
 
 		?>
 	</footer>
@@ -144,7 +145,7 @@ $fechaActual = date('Y-m-d');
 	<!--termina contenendor de informacion-->
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-	<script src="js/boton_up.js"></script>
+	<script src="js/boton_up.js"></script><!--  -->
 
 
 </body>
