@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/migapan.css" type="text/css">
     <link rel="stylesheet" href="/css/menutest.css" type="text/css">
-    <link rel="stylesheet" href="/css/carruselp.css">
+    <link rel="stylesheet" href="/css/CarruselP.css">
     <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <script src="js/scrollreveal.js"></script>
     
@@ -21,18 +21,18 @@
 
 <body id="fondoMain">
     <?php
-        include("./menu_footer/menumain.html");
+        include("./Menu_Footer/menumain.html");
     ?>
     <div class="">
         <?php
-            include("./carruselmain/carruselprincipal.html");
+            include("./CarruselMain/CarruselPrincipal.html");
         ?>
     </div>
 
     <!--miga de pan-->
     <div class="container text-center">
             <?php
-            include("migas_pan/migapan1.html")
+            include("Migas_Pan/MigaPan1.html")
             ?>
     </div>
 
