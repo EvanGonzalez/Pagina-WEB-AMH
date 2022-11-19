@@ -56,7 +56,7 @@
                 <?php 
                     echo '<h2 id="textazul"> Galería de Fotos </h2>
                     <br>';
-                    include("inicio/GaleriaImg2.html");
+                    include("Inicio/galeriaImg2.html");
                 ?>
 
             </div>
@@ -65,7 +65,7 @@
                     <h2 class="letra2">Noticias</h2>
 
                     <?php
-                    include("inicio/colizquierP1.html");
+                    include("Inicio/colizquierP1.html");
 
                     ?>
                 </aside>
@@ -80,7 +80,7 @@
 
     <footer>
         <?php
-        include("./menu_footer/footer.html");
+        include("./Menu_Footer/footer.html");
         ?>
     </footer>
 
@@ -92,7 +92,7 @@
     <!--scrip para la galeria de imagenes pagina 2-->
     <script src="js/boton_up.js"></script>
     <!-- javascrip para carrusel -->
-    <script src="/carruselmain/carrusel.js"></script>
+    <script src="/CarruselMain/Carrusel.js"></script>
     
     
     
