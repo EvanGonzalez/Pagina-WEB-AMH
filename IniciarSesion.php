@@ -12,7 +12,7 @@
 </head>
 <body>
     <?php
-    include('./iniciosesion/formulario.html');
+    include('./Iniciosesion/formulario.html');
     ?>
 </body>
 </html>
