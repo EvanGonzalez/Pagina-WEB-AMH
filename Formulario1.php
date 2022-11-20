@@ -29,7 +29,7 @@ if(isset($_POST['enviar'])){
 
 <body id="fondoMain">
 	<?php
-	include("./Menu_footer/HeadAdmin.html");
+	include("./Menu_Footer/HeadAdmin.html");
 	?>
 
 	<!--miga de pan-->
