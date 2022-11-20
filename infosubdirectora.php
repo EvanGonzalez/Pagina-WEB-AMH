@@ -42,7 +42,7 @@
         <h3 class="letra3"> Subdirectora administrativa </h3>
 
         <div class="title h1 text-center">Dra. Inelda Tuñón</div>
-        <center><img src="img/subdirectora admistrativa Dra. Inelda Tuñon.jpg" class="imgtecnicodocente" /></center><br><!--  -->
+        <center><img src="img/subdirectora admistrativa Dra. Inelda Tunon.jpg" class="imgtecnicodocente" /></center><br><!--  -->
         <ul class="textopaginatecnico">
 
         </ul>
