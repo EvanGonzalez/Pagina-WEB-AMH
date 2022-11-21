@@ -177,7 +177,7 @@
                                                 <div class="d-flex justify-content-center">
                                                     <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
                                                         <video src="../Otras_Actividades/img/conjunto/Saloma.mp4" controls ></video>                                        
-                                                        <figcaption class="figure-caption text-end">Saloma por el estudiante </figcaption>
+                                                        <figcaption class="figure-caption text-end">Saloma por el estudiante Javier Bermúdez</figcaption>
                                                     </figure>
                                                 </div>                                            
                                             </div>
