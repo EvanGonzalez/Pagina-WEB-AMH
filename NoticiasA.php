@@ -1,4 +1,4 @@
-<!-- Noticias-->
+<!-- NoticiasA-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="./css/header-style.css" type="text/css">
-    <link rel="stylesheet" href="./FormNoticias/Noticias.css" type="text/css">
+    <link rel="stylesheet" href="./FormNoticiasA/NoticiasA.css" type="text/css">
      <!--Complemento para Imagen responsive-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
@@ -22,7 +22,7 @@
 
 <!-- HEADER -->
 <?php
-    include("./Menu_footer/head.html");
+    include("./Menu_footer/headAdmin.html");
     ?>
 
     <!--miga de pan-->
@@ -42,32 +42,33 @@ include("./BaseDeDatos/conexion_db.php");
     $query = conectar()->query("select * from noticia;")or die(conectar()->error);
     // (PRD_CATEGPROD = $filtro or $filtro is null)
     
-    //esto es para configurar los Noticias por paginas
-    $Noticia_x_pag = 3;
+    //esto es para configurar los NoticiasA por paginas
+    $Noticia_x_pag = 2;
 
     //contar articulos de la base de Datos
-    $total_Noticias_db = mysqli_num_rows($query);
-    if($total_Noticias_db>0){
+    $total_NoticiasA_db = mysqli_num_rows($query);
+    if($total_NoticiasA_db>0){
         //esto es necesario para configurar la cantidad de paginas que deben existir
-        $paginas = $total_Noticias_db/$Noticia_x_pag;
+        $paginas = $total_NoticiasA_db/$Noticia_x_pag;
         $paginas = ceil($paginas);
         //esto es para comprobar que el usuario no le quite el numero a la pagina o coloque algo innecesarios :D
         if (!isset($_GET['pagina'])) {
-            echo '<meta http-equiv="refresh" content="0;url=Noticias.php?pagina=1">';
+            echo '<meta http-equiv="refresh" content="0;url=NoticiasA.php?pagina=1">';
         }else{
             if ($_GET['pagina']>$paginas ||$_GET['pagina']<=0) {
-                echo '<meta http-equiv="refresh" content="0;url=Noticias.php?pagina=1">';
+                echo '<meta http-equiv="refresh" content="0;url=NoticiasA.php?pagina=1">';
             }else{
-                require_once("contenidoNoticias.php");
+                require_once("contenidoNoticiasA.php");
             }
         }
     }else{
         echo'<div class="container">
                 <div class="container">
                     <div class="alert alert-success" role="alert">
-                        <h4 class="alert-heading">Nota...</h4>
-                        <p>En este momento no se cuenta con noticias disponibles ..............................<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+                        <h4 class="alert-heading">Error 404.....</h4>
+                        <p>Aun no sean cargado NoticiasA para mostrar en el sitio..............................<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
                         <hr>
+                        
                     </div>
                 </div>
             </div>';
@@ -88,4 +89,4 @@ include("./BaseDeDatos/conexion_db.php");
     <script src="js/boton_up.js"></script>
 </body>
 </html>
-<!--Fin Noticias-->
+<!--Fin NoticiasA-->
