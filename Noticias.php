@@ -49,7 +49,7 @@
             <div class="col-12">
                 <div class="clearfix">
                      <!--Imagen Principal responsive-->
-                    <center><img src="..." class="bd-placeholder-img col-md-5 float-md-end mb-3 ms-md-3" height="400" width="90%"></center>
+                    <center><img src="..." alt="Error, No se puede cargar la imagen" class="bd-placeholder-img col-md-5 float-md-end mb-3 ms-md-3" height="400" width="90%"></center>
                     <!--Contenido de la noticia-->
                     <p>
                        
@@ -59,7 +59,7 @@
                    <!--Ultimas imagenes-->
                 <div  class="container text-center">
                         <div class="row">
-                            <div class="col-md-6"><img class="imgNot" src="..."></div>
+                            <div class="col-md-6"><img alt="Error, No se puede cargar la imagen" class="imgNot" src="..."></div>
                             <div class="col-md-6"><img class="imgNot3" src="..."></div>
                         </div>
                 </div>
