@@ -1,7 +1,8 @@
 <?php
-/*obteniendo la fecha actual del sistema */
-$fechaActual = date('Y-m-d');
-
+	/*obteniendo la fecha actual del sistema */
+	$fechaActual = date('Y-m-d');
+	$id = $_GET["titulo"];
+	include("./BaseDeDatos/conexion_db.php");
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -32,7 +33,7 @@ $fechaActual = date('Y-m-d');
 	<!--miga de pan-->
 	<div class="contenedorMigaPan text-center">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-6">
 				<?php
 				include("Migas_Pan/MigaPan12.html")
 				?>
@@ -59,10 +60,14 @@ $fechaActual = date('Y-m-d');
 						<div class="card-body">
 							<div class="container" id="minicontainer">
 								<div class="row">
+									<?php
+										$query = conectar()->query('Select * from imagenes_noticia, noticia where imagenes_noticia.titulo=noticia.titulo and imagenes_noticia.titulo="'.$id.'";')or die(conectar()->error);
+										$valores = $query->fetch_assoc();
+									?>
 									<!-- inicia fila -->
 									<div class="col-md-6">
 										<label for="" id="colorNombres">Titulo:</label>
-										<input type="text" class="form-control" name="Titulo" value="" placeholder=""><br>
+										<input type="text" class="form-control" name="Titulo" value="<?php echo $valores['titulo'];?>" placeholder=""><br>
 									</div>
 									<div class="col-md-3">
 										<label for="" id="colorNombres">Fecha:</label>
@@ -73,7 +78,7 @@ $fechaActual = date('Y-m-d');
 							<div class="col-md-12" id="Descripcion">
 								<label for="">Descripción:</label>
 								<div class="form-floating">
-									<textarea for="inlineRadio5" name="enfermedadDescrip" class="form-control" placeholder="Deja tu respuesta" id="floatingTextarea2" style="height: 100px" spellcheck="false" data-ms-editor="true" require></textarea><br>
+									<textarea for="inlineRadio5" name="enfermedadDescrip" class="form-control" placeholder="Deja tu respuesta" id="floatingTextarea2" style="height: 100px" spellcheck="false" data-ms-editor="true" require><?php echo $valores['descripcion']?></textarea><br>
 								</div>
 							</div>
 
@@ -82,7 +87,6 @@ $fechaActual = date('Y-m-d');
 									<div class="">
 										<h4 class="text-center">Cargar Imagen de Noticia</h4>
 										<div class="form-group">
-
 											<div class="col-12 ">
 												<input type="file" class="form-control" name="imagenes[]" accept="image/jpeg,image/jpg,image/png" multiple>
 											</div>
