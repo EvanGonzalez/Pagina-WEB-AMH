@@ -1,4 +1,3 @@
-<!-- RUTA CORREGIDA -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -183,8 +182,7 @@
                                             </div>
                                         </div>
                                     </div>                      
-                                </div>
-                                    
+                                </div>   
                         </div>
                 </div>
                     <p class="d-flex justify-content-center">
