@@ -9,7 +9,7 @@
         <div class = "catalogo"> <!--catalogo -->
         <?php
 
-            $query = conectar()->query("SELECT * FROM noticia order by fecha DESC LIMIT $iniciar, $Noticia_x_pag");     
+            $query = conectar()->query("SELECT * FROM noticia order by id_titulo DESC, fecha DESC LIMIT  $iniciar, $Noticia_x_pag");     
 // (PRD_CATEGPROD = $filtro or $filtro is null)
             
             WHILE ($valores = $query->fetch_assoc()){ 
