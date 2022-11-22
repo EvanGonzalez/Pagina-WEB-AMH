@@ -58,7 +58,7 @@ if ($contar === 0) {
                 }
                 closedir($dir); //Cerramos la conexion con la carpeta destino
 
-                header("Location: ../Formulario1.php");
+                header("Location: ../NoticiasA.php");
 
 
 

@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    $_SESSION["Vas"]=0;
+?>
 <!-- NoticiasA-->
 <!DOCTYPE html>
 <html lang="es">

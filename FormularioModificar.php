@@ -4,6 +4,8 @@ $fechaActual = date('Y-m-d');
 $id = $_GET["titulo"];
 include("./BaseDeDatos/conexion_db.php");
 session_start();
+$Validacion = $_SESSION["Vas"];
+unset($_SESSION["Vas"]);
 $query_imagen = ("SELECT imagen,titulo FROM imagenes_noticia WHERE titulo ='".$id."'");
 $LV_EXEC = conectar()->query($query_imagen)
 	or die(conectar()->error);
@@ -65,6 +67,19 @@ while ($LV_IMAGEN = $LV_EXEC->fetch_assoc()) {
 			<center>
 				<h1 class="my-4" id="titulo1">Noticias.</h1>
 			</center>
+			<?php
+				if($Validacion==1){
+					echo '<div class="container">
+					<div class="container">
+						<div class="alert alert-success" role="alert">
+							<h4 class="alert-heading">Error 405.....</h4>
+							<p>Las Noticias deben Contener al menos una imagen.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+							<hr>
+						</div>
+					</div>
+				</div>';
+				}
+			?>
 			<div class="col-md-12">
 				<div class="card my-4" id="card1" style="background-color: #121b4f; color: white;">
 					<h5 class="card-header" style="background-color: #0079be;"> <b>Datos de la noticia</b></h5>
@@ -78,7 +93,7 @@ while ($LV_IMAGEN = $LV_EXEC->fetch_assoc()) {
 								<!-- inicia fila -->
 								<div class="col-md-6">
 									<label for="" id="colorNombres">Titulo:</label>
-									<input type="text" class="form-control" name="Titulo" value="<?php echo $valores['titulo']; ?>" placeholder=""><br>
+									<input type="text" class="form-control" name="Titulo" value="<?php echo $valores['titulo']; ?>" placeholder="" required="required"><br>
 								</div>
 								<div class="col-md-3">
 									<label for="" id="colorNombres">Fecha:</label>
@@ -89,7 +104,7 @@ while ($LV_IMAGEN = $LV_EXEC->fetch_assoc()) {
 						<div class="col-md-12" id="Descripcion">
 							<label for="">Descripción:</label>
 							<div class="form-floating">
-								<textarea for="inlineRadio5" name="enfermedadDescrip" class="form-control" placeholder="Deja tu respuesta" id="floatingTextarea2" style="height: 100px" spellcheck="false" data-ms-editor="true" require><?php echo $valores['descripcion'] ?></textarea><br>
+								<textarea for="inlineRadio5" name="enfermedadDescrip" class="form-control" placeholder="Deja tu respuesta" id="floatingTextarea2" style="height: 100px" spellcheck="false" data-ms-editor="true" required="required"><?php echo $valores['descripcion'] ?></textarea><br>
 							</div>
 						</div>
 
@@ -173,31 +188,15 @@ while ($LV_IMAGEN = $LV_EXEC->fetch_assoc()) {
 
 						</div>
 						<br><br>
-						<div class="container">
-							<div class="card text-start">
-								<center>
-									<br><br>
-									<div class="col-6">
-										<button type="submit" name="Guardar" class="btn btn-success">Guardar Cambios</button>&nbsp;&nbsp;
-										<button type="submit" name="Descartar" class="btn btn-secondary">Descartar Cambios</button>
-									</div>
-									<br><br>
-								</center>
-							</div>
-
-						</div>
-						<br>
-
-						<!-- <div class="" id="myimagenes">
-								<div class="dz-default dz-message">
-									<input type="file" name="archivo_img" id="">
-									<button class="dz-button" type="button"><img src="img/upload.png" alt=""></button>
-								</div>
-							</div> -->
+						
+						
 
 						<div class="button">
-							<button name="enviar" type="submit" id="send">Enviar</button>
+						<button type="submit" name="Guardar" class="btn btn-primary">Guardar Cambios</button>&nbsp;&nbsp;
+										<button type="submit" name="Descartar" class="btn btn-secondary">Descartar Cambios</button>
+									
 						</div>
+						<br><br>
 					</div>
 				</div>
 			</div>

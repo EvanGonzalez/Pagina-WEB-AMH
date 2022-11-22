@@ -62,7 +62,7 @@ $fechaActual = date('Y-m-d');
 									<!-- inicia fila -->
 									<div class="col-md-6">
 										<label for="" id="colorNombres">Titulo:</label>
-										<input type="text" class="form-control" name="Titulo" value="" placeholder=""><br>
+										<input type="text" class="form-control" name="Titulo" value="" placeholder="" required="required"><br>
 									</div>
 									<div class="col-md-3">
 										<label for="" id="colorNombres">Fecha:</label>
@@ -73,7 +73,7 @@ $fechaActual = date('Y-m-d');
 							<div class="col-md-12" id="Descripcion">
 								<label for="">Descripción:</label>
 								<div class="form-floating">
-									<textarea for="inlineRadio5" name="enfermedadDescrip" class="form-control" placeholder="Deja tu respuesta" id="floatingTextarea2" style="height: 100px" spellcheck="false" data-ms-editor="true" require></textarea><br>
+									<textarea for="inlineRadio5" name="enfermedadDescrip" class="form-control" placeholder="Deja tu respuesta" id="floatingTextarea2" style="height: 100px" spellcheck="false" data-ms-editor="true" required="required"></textarea><br>
 								</div>
 							</div>
 
@@ -84,7 +84,7 @@ $fechaActual = date('Y-m-d');
 										<div class="form-group">
 
 											<div class="col-12 ">
-												<input type="file" class="form-control" name="imagenes[]" accept="image/jpeg,image/jpg,image/png" multiple>
+												<input type="file" class="form-control" name="imagenes[]" accept="image/jpeg,image/jpg,image/png" multiple required="required">
 											</div>
 										</div>
 
