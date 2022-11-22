@@ -189,3 +189,19 @@ sr.reveal('.familia2', {
     origin: 'right',
     distance: '-100px'
 });
+
+
+
+
+sr.reveal('.matematica', {
+    duration: 4000,
+    origin: 'right',
+    distance: '-100px'
+});
+
+
+sr.reveal('.matematicasgaleria', {
+    duration: 6000,
+    origin: 'top',
+    distance: '-100px'
+});
