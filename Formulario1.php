@@ -1,10 +1,7 @@
-<!-- RUTA CORREGIDA -->
 <?php
 /*obteniendo la fecha actual del sistema */
 $fechaActual = date('Y-m-d');
-if(isset($_POST['enviar'])){
-	include './FormNoticias/cargar_img.php';
-	}
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -29,13 +26,13 @@ if(isset($_POST['enviar'])){
 
 <body id="fondoMain">
 	<?php
-	include("./Menu_Footer/HeadAdmin.html");
+	include("./Menu_footer/headAdmin.html");
 	?>
 
 	<!--miga de pan-->
 	<div class="contenedorMigaPan text-center">
 		<div class="row">
-			<div class="col-6">
+			<div class="col-md-12">
 				<?php
 				include("Migas_Pan/MigaPan12.html")
 				?>
@@ -49,7 +46,7 @@ if(isset($_POST['enviar'])){
 	<!--Inicia contenendor de informacion-->
 	<!--Inicio de la clase container..-->
 	<div class="container">
-	<form action="Formulario1.php" method="post" enctype="multipart/form-data">
+		<form action="./FormNoticias/cargar_img.php" method="post" enctype="multipart/form-data"">
 			<!--Inicio del Form..-->
 			<div class="row">
 				<!--Inicio de la clase Row..-->
@@ -141,6 +138,3 @@ if(isset($_POST['enviar'])){
 </body>
 
 </html>
-<?php
-
-?>

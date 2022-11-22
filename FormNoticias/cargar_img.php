@@ -1,8 +1,8 @@
 <?php
 session_start();
-include 'BaseDeDatos/conexion_db.php';
+include '../BaseDeDatos/conexion_db.php';
 $contar = 0;
-foreach ($_FILES["imagenes"]["name"] as $key => $tmp_name) {
+foreach ($_FILES["imagenes"]['name'] as $key => $tmp_name) {
     $con = conectar();
     $query = $con->prepare("Select COUNT(*) as contar from imagenes_noticia where imagen = ?");
     $query->bind_param('s', $_FILES["imagenes"]["name"][$key]);
@@ -36,7 +36,7 @@ if ($contar === 0) {
                 $archivonombre = $_FILES["imagenes"]["name"][$key];
                 $fuente = $_FILES["imagenes"]["tmp_name"][$key];
 
-                $carpeta = 'FormNoticias/uploads/'; //Declaramos el nombre de la carpeta que guardara los archivos
+                $carpeta = 'uploads/'; //Declaramos el nombre de la carpeta que guardara los archivos
 
                 if (!file_exists($carpeta)) {
                     mkdir($carpeta, 0777) or die("Hubo un error al crear el directorio de almacenamiento");
@@ -58,7 +58,7 @@ if ($contar === 0) {
                 }
                 closedir($dir); //Cerramos la conexion con la carpeta destino
 
-
+                header("Location: ../Formulario1.php");
 
 
 

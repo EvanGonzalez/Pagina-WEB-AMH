@@ -26,7 +26,7 @@
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-12">
                 <?php
                 include("Migas_Pan/MigaPan11.html")
                 ?>
@@ -42,7 +42,7 @@
         <h3 class="letra3"> Subdirectora Técnico Docente </h3>
 
         <div class="title h1 text-center">Érica Arias Quiroz</div>
-        <center><img src="img/Subdirectora Técnico Docente Magister Erica Arias.JPG" class="imgtecnicodocente" /></center><br>
+        <center><img src="img/Subdirectora Tecnico Docente Magister Erica Arias.JPG" class="imgtecnicodocente" /></center><br>
         <ul class="textopaginatecnico2">
             <center>
             <li>Cédula 2-157-931</li>
