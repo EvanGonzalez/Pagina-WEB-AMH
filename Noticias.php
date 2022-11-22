@@ -78,9 +78,8 @@ include("./BaseDeDatos/conexion_db.php");
     include("botonArriba.html");
     ?>
     <footer>
-        <?php
-        include("./Menu_footer/footer.html");
-
+    <?php
+        include("./Menu_Footer/footer.html");
         ?>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
