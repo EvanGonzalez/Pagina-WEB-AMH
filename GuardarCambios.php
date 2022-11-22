@@ -1,9 +1,17 @@
 <?php
 include './BaseDeDatos/conexion_db.php';
 session_start();
+;
 if (isset($_POST['Guardar'])) {
 
-
+    $con = conectar();
+    $tit=$_POST["Titulo"];
+    $fecha=$_POST["FechaActual"];
+    $desc=$_POST["enfermedadDescrip"];
+    $query = $con->prepare("UPDATE noticia set fecha=?, descripcion=?, usuario=? where titulo = ?");
+    $query->bind_param('ssss',$fecha,$desc, $_SESSION["username"],$_SESSION['titulo']);
+    $query->execute();
+    mysqli_close($con);
     if ($_FILES["file1"]["name"] != null || $_FILES["file2"]["name"] != null || $_FILES["file3"]["name"] != null) {
 
         if ($_FILES["file1"]["name"]) {
