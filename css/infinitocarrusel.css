@@ -144,6 +144,9 @@
 	box-shadow: 0 0 5px 1px #ddd;
 	margin-top: 0.5rem;
 }
+#textobachiller{
+	text-align: justify;
+}
 .card-html .card-header:after {
 	right: 100%;
 	border: solid transparent;
@@ -155,6 +158,7 @@
 	border-right-color: #121b4f;
 	border-width: 10px;
 	top: 10px;
+	
 }
 .card-css .card-header:after {
 	right: 100%;
@@ -210,6 +214,7 @@
 	font-size: 22px;
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
+	
 }
 
 .card-css .card-header, .card-css .btn-success{
