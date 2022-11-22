@@ -32,7 +32,7 @@ $fechaActual = date('Y-m-d');
 	<!--miga de pan-->
 	<div class="contenedorMigaPan text-center">
 		<div class="row">
-			<div class="col-6">
+			<div class="col-md-12">
 				<?php
 				include("Migas_Pan/MigaPan12.html")
 				?>

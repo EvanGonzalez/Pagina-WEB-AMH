@@ -20,13 +20,13 @@
 
 <body id="fondoMain">
     <?php
-   include("./Menu_Footer/menumain.html"); /*  */
+    include("./Menu_Footer/menumain.html"); /*  */
     ?>
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-12">
                 <?php
                 include("Migas_Pan/MigaPan10.html");/*  */
                 ?>
@@ -41,7 +41,7 @@
     <div class="container text-center">
         <h3 class="letra3"> Subdirectora administrativa </h3>
 
-        <div class="title h1 text-center">Dra. Inelda Tuñón</div>
+        <div class="title h1 text-center">Dra. Inelda Tuñón Diez</div>
         <center><img src="img/subdirectora admistrativa Dra. Inelda Tunon.jpg" class="imgtecnicodocente" /></center><br><!--  -->
         <ul class="textopaginatecnico">
 
@@ -57,14 +57,12 @@
                                 <h4 class="title h1 text-center" style="color: #ffff;">Formación Académica</h4>
                                 <p class="card-header">
                                 <ul class="textopaginatecnico">
-                                    Inició sus estudios primarios en la Escuela Manuel José Hurtado, primer ciclo en el Instituto América y su segundo ciclo en el Colegio privado Instituto Istmeño, donde se le otorgó diploma de Bachiller en Ciencias.
+                                    Realizó sus estudios primarios en la Escuela Manuel José Hurtado, su primer ciclo en el Instituto América y su segundo ciclo en el colegio privado Instituto Istmeño, donde se le otorgó diploma de Bachiller en Ciencias.
                                     <br><br>
-                                    Cursó estudio universitario, en la Universidad de Panamá y obtuvo el título de licenciada en Administración de empresa, después obtuvo el título de licenciada en Economía.
+                                    Unos años más tarde obtuvo en la Universidad de Panamá el título de Licenciada en Administración de empresa y el título de licenciada en Economía. 
                                     <br> <br>
-                                    Además, en la Universidad Santa María La Antigua, obtuvo el título de Maestría en Ingeniería Económica, sus estudios se ampliaron cuando también participó en el curso de Economía para funcionarios públicos por la universidad de IOWA en la ciudad de Panamá, un crédito de postgrado. 
-                                    Logró postgrado y diplomados en Administración de empresa.
+                                    Posteriormente, en la Universidad Santa María La Antigua obtuvo el título de Maestría en Ingeniería Económica. Además, participó en el curso de Economía para funcionarios públicos por la Universidad de IOWA en la ciudad de Panamá, por lo que se le otorgó un crédito de postgrado. Más adelante, adquirió postgrado y diplomados en administración de empresa. Por último, alcanzó a graduarse en Doctora en Ciencias Económicas y Empresariales. 
                                     <br><br>
-                                    <li>Doctora en Ciencias Económicas y Empresariales. </li>
                                 </ul>
                                 </p>
                             </div>
@@ -87,8 +85,8 @@
                                 <ul class="textopaginatecnico">
                                     <li>Docente en el Primer Ciclo Santa Rita, provincia de Colón </li>
                                     <li>Docente Colegio Benigno Jiménez Garay, provincia de Colón </li>
-                                    <li>Escuela Isabel Herrera de Obaldía como Profesora de Contabilidad, y en especialidad de Finanzas y Banca. </li>
-                                    <li>Sub directora técnica Administrativa Colegio Ángel María Herrera. </li>
+                                    <li>Profesora de Contabilidad y de Finanzas y Banca en la Escuela Isabel Herrera de Obaldía </li>
+                                    <li>Subdirectora Técnica Administrativa en Colegio Ángel María Herrera</li>
                                 </ul>
                                 </p>
                             </div>

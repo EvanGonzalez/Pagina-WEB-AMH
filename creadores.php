@@ -22,7 +22,7 @@
     <!--miga de pan-->
     <div class="container text-center">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <?php
 
                 include("Migas_Pan/MigaPan8.html")
@@ -48,7 +48,7 @@
                             La Universidad Tecnológica de Panamá, Centro Regional de Coclé y los estudiantes
                             de tercer año de la carrera de Licenciatura en Desarrollo de Software - 2022,
                             agradece el apoyo de los colaboradores de la Escuela Secundaria Ángel María Herrera,
-                            en el desarrollo del portal web dinámico https://nombreweb.com/.
+                            en el desarrollo del portal web dinámico https://escuelasecundariaangelmariaherrera.com/
                             Este sitio web, es el proyecto final de la asignatura de Desarrollo de Software VII,
                             a cargo de la docente Ing. María Yahaira Tejedor M. de Fernández.
                         </p>
@@ -100,6 +100,10 @@
                         <center><img src="img/IMG_5971.JPG" alt="" width="100%"></center>
                         <br>
                         De izq. a derecha profesores: Jorge Marín, María Cedeño, María Elena Mendieta, Dayra Martínez, Érica Arias, Marisol Magallón y licenciada Gladys Montero.
+                        <br><br>
+                        <center><img src="img/Profesores.jpeg" alt="" width="60%"></center>
+                        <br>
+                        De izq. a derecha profesores: Eleyda Rojas, Fermín Santana, Lilibeth Comparaz y Celisbeth Martínez
                     </div>
                 </div>
             </div>
