@@ -45,7 +45,7 @@
                         <br>       
                         <br>             
                     <div class="img2">
-                        <img src="../Otras_Actividades/img/conjunto/conjunto 2.jpeg" alt="" class="img-fluid">                        
+                        <img src="../Otras_Actividades/img/conjunto/conjunto 2.jpeg" alt="Conjunto Folclorico" title="Conjunto Folclorico" class="img-fluid">                        
                     </div>
 
                 </div>
@@ -218,17 +218,42 @@
                         Algunos bailes que interpreta el conjunto son: El Chogorro, La Iguana, Compadre Gallinazo, la Pachenda y otros.
                     </p>
                     <p class="wow fadeInLeft">
-                    Algunos vestuarios utilizados por los bailarines son: Montunas Coclesanas, Pollera Blanca Tradicional, Polleras Tiriada, Basquiñas, Camisillas Blancas, Coletas marcadas, Cutarras, Chinelas, Sombrero de Junco, Sombrero Pintado, Cebaderas, Cabeza de tembleques.
+                        Algunos vestuarios utilizados por los bailarines son: Montunas Coclesanas, Pollera Blanca Tradicional, Polleras Tiriada, 
+                        Basquiñas, Camisillas Blancas, Coletas marcadas, Cutarras, Chinelas, Sombrero de Junco, Sombrero Pintado, Cebaderas, 
+                        Cabeza de tembleques.
                     </p>
                     <h2 class="fst-italic text-center wow fadeInLeft">Personajes destacados</h2>
                     <p class="wow fadeInLeft">
                         Como bailarines que se han destacado en el conjunto típico podemos mencionar a: Rosalinda Arosemena, Manuel Oliva, Luis Peñalba, Michael Martínez, Dilcia Sambrano, Jesús Jaén y Jesica Sánchez.  
                         Tocador de tambor: Ricauter Villarreal como tocador de tambor. 
                     </p>
+                    <p class="wow fadeInLeft">
+                        Otros estudiantes destacados en el folclore podemos mencionar: 
+                    </p>
+                    <ul class="wow fadeInLeft">
+                        <li>
+                            Ricauter Villarreal como tocador de tambor.
+                        </li>
+                        <li>
+                            Angelica González se destacó en décima, saloma y tamborito 
+                        </li>
+                        <li>
+                            María Santana en tambor y cumbia 
+                        </li>
+                        <li>
+                            Lirieth Gonzáles en cumbia y canto religioso 
+                        </li>
+                        <li>
+                            Meydelin Hay en cumbia 
+                        </li>
+                        <li>
+                            Mayuris Vargas en decima 
+                        </li>
+                    </ul>
                 </div>
                 <br>
                 <div class="col-md-6 wow fadeInRight">
-                    <img src="../Otras_Actividades/img/conjunto/conjunto.jpeg" alt="Conjunto Folclorico" title="Conjunto Folclorico" class="img-fluid rounded-4">
+                    <img src="../Otras_Actividades/img/conjunto/conjunto4.jpeg" alt="Conjunto Folclorico" title="Conjunto Folclorico" class="img-fluid rounded-4">
                 </div>
    
 
