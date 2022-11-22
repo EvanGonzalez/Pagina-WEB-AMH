@@ -73,7 +73,7 @@
                     <div class="container-fluid ">
                         <h2 class="text-center">Galardones</h2>
                         <hr>
-                        <p class="text-center">
+                        <p>
                             A través de su accionar por el mundo de la música, ha sido galardonada con diversos premios en competencias a nivel regional y nacional.
                         </p>
                         <div class="elotro">

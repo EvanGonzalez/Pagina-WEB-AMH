@@ -96,10 +96,14 @@
             <hr>
             <h2 class="fst-italic text-center">Información</h2>            
             <div class="row" id="negar">
-                <div class="d-flex justify-content-around">
-                    <img src="../Otras_Actividades/img/medalla/Imagen1.jpg" alt="" class="img-fluid rounded-4 shadow p-2 ms-2"">
-                    <img src="../Otras_Actividades/img/medalla/Imagen2.png" alt="" class="img-fluid rounded-4 shadow p-2 ms-2">
-                </div>
+                <!-- <div class="d-flex justify-content-around"> -->
+                    <div class="col-md-6">
+                        <img src="../Otras_Actividades/img/medalla/Imagen1.jpg" alt="" class="img-fluid rounded-4 shadow p-2 ms-2">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="../Otras_Actividades/img/medalla/Imagen2.png" alt="" class="img-fluid rounded-4 shadow p-2 ms-2">
+                    </div>
+                <!-- </div> -->
             </div>
         </div>
     </section>
