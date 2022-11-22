@@ -1,8 +1,19 @@
 <?php
-	/*obteniendo la fecha actual del sistema */
-	$fechaActual = date('Y-m-d');
-	$id = $_GET["titulo"];
-	include("./BaseDeDatos/conexion_db.php");
+/*obteniendo la fecha actual del sistema */
+$fechaActual = date('Y-m-d');
+$id = $_GET["titulo"];
+include("./BaseDeDatos/conexion_db.php");
+session_start();
+$query_imagen = ("SELECT imagen,titulo FROM imagenes_noticia WHERE titulo ='".$id."'");
+$LV_EXEC = conectar()->query($query_imagen)
+	or die(conectar()->error);
+$i = 0;
+while ($LV_IMAGEN = $LV_EXEC->fetch_assoc()) {
+	$arr[$i] = $LV_IMAGEN["imagen"];
+	$_SESSION['imagenes[' . $i . ']'] = $LV_IMAGEN["imagen"];
+	$_SESSION['titulo'] = $LV_IMAGEN["titulo"];
+	$i++;
+}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -47,73 +58,153 @@
 	<!--Inicia contenendor de informacion-->
 	<!--Inicio de la clase container..-->
 	<div class="container">
-		<form action="./FormNoticias/cargar_img.php" method="post" enctype="multipart/form-data"">
+		<form action="GuardarCambios.php" method="post" enctype="multipart/form-data"">
 			<!--Inicio del Form..-->
-			<div class="row">
-				<!--Inicio de la clase Row..-->
-				<center>
-					<h1 class="my-4" id="titulo1">Noticias.</h1>
-				</center>
-				<div class="col-md-12">
-					<div class="card my-4" id="card1" style="background-color: #121b4f; color: white;">
-						<h5 class="card-header" style="background-color: #0079be;"> <b>Datos de la noticia</b></h5>
-						<div class="card-body">
-							<div class="container" id="minicontainer">
-								<div class="row">
+			<div class=" row">
+			<!--Inicio de la clase Row..-->
+			<center>
+				<h1 class="my-4" id="titulo1">Noticias.</h1>
+			</center>
+			<div class="col-md-12">
+				<div class="card my-4" id="card1" style="background-color: #121b4f; color: white;">
+					<h5 class="card-header" style="background-color: #0079be;"> <b>Datos de la noticia</b></h5>
+					<div class="card-body">
+						<div class="container" id="minicontainer">
+							<div class="row">
+								<?php
+								$query = conectar()->query('Select * from noticia where titulo="' . $id . '";') or die(conectar()->error);
+								$valores = $query->fetch_assoc();
+								?>
+								<!-- inicia fila -->
+								<div class="col-md-6">
+									<label for="" id="colorNombres">Titulo:</label>
+									<input type="text" class="form-control" name="Titulo" value="<?php echo $valores['titulo']; ?>" placeholder=""><br>
+								</div>
+								<div class="col-md-3">
+									<label for="" id="colorNombres">Fecha:</label>
+									<input type="text" class="form-control" name="FechaActual" <?php echo 'value="' . $fechaActual . '"' ?> required="required" readonly><br>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12" id="Descripcion">
+							<label for="">Descripción:</label>
+							<div class="form-floating">
+								<textarea for="inlineRadio5" name="enfermedadDescrip" class="form-control" placeholder="Deja tu respuesta" id="floatingTextarea2" style="height: 100px" spellcheck="false" data-ms-editor="true" require><?php echo $valores['descripcion'] ?></textarea><br>
+							</div>
+						</div>
+
+						<div class="card-group">
+
+
+
+							<div class="card">
+
+								<div class="card-body" id="elim">
+									<h4 class="card-title">Title</h4>
 									<?php
-										$query = conectar()->query('Select * from imagenes_noticia, noticia where imagenes_noticia.titulo=noticia.titulo and imagenes_noticia.titulo="'.$id.'";')or die(conectar()->error);
-										$valores = $query->fetch_assoc();
+									if (empty($arr[0])) {
 									?>
-									<!-- inicia fila -->
-									<div class="col-md-6">
-										<label for="" id="colorNombres">Titulo:</label>
-										<input type="text" class="form-control" name="Titulo" value="<?php echo $valores['titulo'];?>" placeholder=""><br>
-									</div>
-									<div class="col-md-3">
-										<label for="" id="colorNombres">Fecha:</label>
-										<input type="text" class="form-control" name="FechaActual" <?php echo 'value="' . $fechaActual . '"' ?> required="required" readonly><br>
-									</div>
+										<img class="card-img-top" src="/FormNoticias/uploads/SIN-IMAGEN.jpg" height="200px" width="70px" id="imagen1" alt="Card image cap">
+									<?php
+									} else {
+									?>
+										<img class="card-img-top" src="FormNoticias/uploads/<?php echo $arr[0] ?>" height="200px" width="70px" id="imagen1" alt="Card image cap">
+									<?php
+
+									}
+									?>
+
+
+									<input class="form-control" type="file" name="file1" id="img1">
+									<center>
+										<br>
+
+										<button class="btn btn-danger" onclick="Eliminar('#imagen1','#img1')" type="button">Eliminar</button>
+									</center>
 								</div>
 							</div>
-							<div class="col-md-12" id="Descripcion">
-								<label for="">Descripción:</label>
-								<div class="form-floating">
-									<textarea for="inlineRadio5" name="enfermedadDescrip" class="form-control" placeholder="Deja tu respuesta" id="floatingTextarea2" style="height: 100px" spellcheck="false" data-ms-editor="true" require><?php echo $valores['descripcion']?></textarea><br>
+							<div class="card">
+
+								<div class="card-body">
+									<h4 class="card-title">Title</h4>
+
+									<?php
+									if (empty($arr[1])) {
+									?>
+										<img class="card-img-top" src="FormNoticias/uploads/SIN-IMAGEN.jpg" height="200px" width="70px" alt="Card image cap" id="imagen2">
+									<?php
+									} else {
+									?>
+										<img class="card-img-top" src="FormNoticias/uploads/<?php echo $arr[1] ?>" height="200px" width="70px" alt="Card image cap" id="imagen2">
+									<?php
+
+									}
+									?>
+									<input class="form-control" type="file" name="file2" id="img2">
+									<center>
+										<br>
+										<button class="btn btn-danger" type="button" onclick="Eliminar('#imagen2','#img2')">Eliminar</button>
+									</center>
+								</div>
+							</div>
+							<div class="card">
+
+								<div class="card-body">
+									<h4 class="card-title">Title</h4>
+									<?php
+									if (empty($arr[2])) {
+									?>
+										<img class="card-img-top" src="FormNoticias/uploads/SIN-IMAGEN.jpg" id="imagen3" height="200px" width="70px" alt="Card image cap">
+									<?php
+									} else {
+									?>
+										<img class="card-img-top" src="FormNoticias/uploads/<?php echo $arr[2] ?>" id="imagen3" height="200px" width="70px" alt="Card image cap">
+									<?php
+
+									}
+									?>
+									<input class="form-control" type="file" id="img3" name="file3" id="formFileMultiple">
+									<center>
+										<br>
+										<button class="btn btn-danger" onclick="Eliminar('#imagen3','#img3')" type="button">Eliminar</button>
+									</center>
 								</div>
 							</div>
 
-							<div class="">
-								<div class="">
-									<div class="">
-										<h4 class="text-center">Cargar Imagen de Noticia</h4>
-										<div class="form-group">
-											<div class="col-12 ">
-												<input type="file" class="form-control" name="imagenes[]" accept="image/jpeg,image/jpg,image/png" multiple>
-											</div>
-										</div>
-
+						</div>
+						<br><br>
+						<div class="container">
+							<div class="card text-start">
+								<center>
+									<br><br>
+									<div class="col-6">
+										<button type="submit" name="Guardar" class="btn btn-success">Guardar Cambios</button>&nbsp;&nbsp;
+										<button type="submit" name="Descartar" class="btn btn-secondary">Descartar Cambios</button>
 									</div>
-								</div>
+									<br><br>
+								</center>
 							</div>
-							<br>
 
-							<!-- <div class="" id="myimagenes">
+						</div>
+						<br>
+
+						<!-- <div class="" id="myimagenes">
 								<div class="dz-default dz-message">
 									<input type="file" name="archivo_img" id="">
 									<button class="dz-button" type="button"><img src="img/upload.png" alt=""></button>
 								</div>
 							</div> -->
 
-							<div class="button">
-								<button name="enviar" type="submit" id="send">Enviar</button>
-							</div>
+						<div class="button">
+							<button name="enviar" type="submit" id="send">Enviar</button>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!--Fin de la clase row..-->
-		</form>
-		<!--Fin del Form..-->
+	</div>
+	<!--Fin de la clase row..-->
+	</form>
+	<!--Fin del Form..-->
 	</div>
 	<!--Fin de la clase container..-->
 
@@ -137,6 +228,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 	<script src="js/boton_up.js"></script>
+	
+    <script src="/js/JS.js"></script>
 
 
 </body>
