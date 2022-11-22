@@ -48,13 +48,13 @@
                         <div id="" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/Dpt Sociales/Capacitacion Docentes de Ciencias Sociales.jpeg" class="d-block w-90 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%" height="105%"><!--  -->
+                                    <img src="img/Dpt Quimica y Fisica/motivando la investigacion en las escuelas primarias.jpeg" class="d-block w-90 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%" height="105%"><!--  -->
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/Dpt Sociales/Apoyo a la Administracion.jpeg" class="d-block w-90 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%"><!--  -->
+                                    <img src="img/Dpt Quimica y Fisica/Concurso Nacional Quimica en la Cocina 2012.jpeg" class="d-block w-90 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%"><!--  -->
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/Dpt Sociales/Inspeccion de Proyectos.jpeg" class="d-block w-90 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%"><!--  -->
+                                    <img src="img/Dpt Quimica y Fisica/Concurso Nacional de Dibujo - Tema Quimica Guardian del Tesoro en extincion - Estudiante Jenny Kuang Zen 2012.jpeg" class="d-block w-90 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%"><!--  -->
                                 </div>
                             </div>
                         </div>
@@ -135,8 +135,7 @@
                                     <div class="carta-content">
                                         <div class="carta-txt">
                                             <ul class="textopagina2">
-                                                <li>Apoyo a robótica</li>
-                                                <li></li>
+                                                <li>Apoyo a Robótica</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -156,13 +155,24 @@
                         <div class="card-body" id="justify">
                             <p class="estiloapoyotexto" style="color: white;">El Club Científico Investigadores Angelinos (INVAN), fundada el 30 de octubre de 1999 en el laboratorio de química, asesorado por el profesor Walter Ortega, bajo la administración de la profesora Lastenia de Castillo (Q.P.D).</p>
                             <p class="estiloapoyotexto" style="color: white;">Desde entonces el Club a ganado muchos premios regionales y nacionales. Este año representó a la provincia en Astronomía y en Química de la Cocina.</p>
-                            <p class="estiloapoyotexto" style="color: white;">El día 28 de octubre de 2022, se estará desarrollando el Certamen Nacional de Nacional de Química en la Cocina en la ciudad del Saber, en donde estaremos participando, representando a la provincia.</p>
+                            <p class="estiloapoyotexto" style="color: white;">El día 28 de octubre de 2022, se desarrolló el Certamen Nacional de Química en la Cocina en la ciudad del Saber, en donde participamos, representando a la provincia.</p>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <img src="img/Dpt Quimica y Fisica/Grupo INVAN que participara de la Competencia Nacional Química en la Cocina 2022.jpeg" alt="" width="100%">
+                                    <div class="card my-4" style="background-color: white; color:white;">
+                                        <h5 class="card-header" style="background-color:#0079be;"><center>Concurso Nacional de Astronomía</center></h5>
+                                        <div class="card-body">
+                                            <img src="img/Dpt Quimica y Fisica/Concurso Nacional de Astronomia.jpeg" alt="" width="100%">
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-md-6">
-
+                                    <div class="card my-4" style="background-color: white; color:white;">
+                                        <h5 class="card-header" style="background-color:#0079be;"><center>Grupo INVAN 2022</center></h5>
+                                        <div class="card-body">
+                                            <img src="img/Dpt Quimica y Fisica/Grupo INVAN que participara de la Competencia Nacional Quimica en la Cocina 2022.jpeg" alt="" width="100%">
+                                        </div>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
