@@ -592,7 +592,7 @@ td {
 }
 /*efecto al pasar el cursor sobre cada fila*/
 tr:hover td {
-  background: #2071b2;
+  background: #c6e6ff;
   color: rgb(75, 188, 208);
 }
 

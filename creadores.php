@@ -100,6 +100,10 @@
                         <center><img src="img/IMG_5971.JPG" alt="" width="100%"></center>
                         <br>
                         De izq. a derecha profesores: Jorge Marín, María Cedeño, María Elena Mendieta, Dayra Martínez, Érica Arias, Marisol Magallón y licenciada Gladys Montero.
+                        <br><br>
+                        <center><img src="img/Profesores.jpeg" alt="" width="60%"></center>
+                        <br>
+                        De izq. a derecha profesores: Eleyda Rojas, Fermín Santana, Lilibeth Comparaz y Celisbeth Martínez
                     </div>
                 </div>
             </div>
