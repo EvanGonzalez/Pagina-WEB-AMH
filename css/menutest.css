@@ -74,7 +74,7 @@
 .nav-links li:hover .mega-box,
 .nav-links li:hover .dropmenu1 {
     transition: all 0.10s ease;
-    top: 70px;
+    top: 60px;
     opacity: 1;
     visibility: visible;
 }
