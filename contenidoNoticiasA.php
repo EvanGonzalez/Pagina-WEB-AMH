@@ -25,8 +25,8 @@
                                 </div>
                                 <div class="col-md-3">
                                     <form action="" method="post">
-                                        <a href="FormularioModificar.php?titulo=<?php echo $valores['titulo']?>" class="btn btn-primary">Modificar</a>
-                                        <a href="" class="btn btn-primary">Eliminar</a>                                              
+                                        <a href="FormularioModificar.php?titulo=<?php echo $valores['titulo']?>" class="btn btn-warning">Modificar</a>
+                                        <a href="FormularioEliminar.php?titulo=<?php echo $valores['titulo']?>" class="btn btn-warning">Eliminar</a>                                              
                                     </form>
                                 </div>
                             </div>
