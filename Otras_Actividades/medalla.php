@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../Otras_Actividades/css/gabinete.css">
     <link rel="stylesheet" href="../css/menutest.css">
     <link rel="stylesheet" href="../Otras_Actividades/css/boton.css">
+    <link rel="stylesheet" href="../css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -22,7 +23,15 @@
 </head>
 <body>
     <?php include ('../Menu_Footer/menumain.html'); ?>
-
+    <div class="contenedorMigaPan text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <?php
+                    include("../Migas_Pan/MigaPan25.html")
+                ?>
+            </div>
+        </div>
+    </div>
     <section>
         <div class="container">
             <br>
@@ -41,7 +50,7 @@
                     </p>
                 </div>
                 <div class="col-md-6 wow fadeInRight">
-                    <img src="../Otras_Actividades/img/medalla/Imagen1.jpg" alt="" class="img-fluid rounded-4 shadow p-3 mb-5 bg-body">
+                    <img src="../Otras_Actividades/img/medalla/Medalladelacultura2021.jpeg" alt="" class="img-fluid rounded-4 shadow">
                 </div>
             </div>                 
         </div>
@@ -53,22 +62,43 @@
             <h2 class="text-center wow fadeInUp">Medalla Ángel María Herrera</h2>
             <div class="row" id="negar">
                 <div class="col-md-6 wow fadeInLeft">
-                    <img src="../Otras_Actividades/img/medalla/Imagen2.png" alt="" class="img-fluid rounded-4 shadow p-3 mb-5 bg-body">
+                    <img src="../Otras_Actividades/img/medalla/Medalladelacultura2021-1.jpeg" alt="" class="img-fluid rounded-4 shadow ">
                 </div>
                 <div class="col-md-6 wow fadeInRight">
                     <h2 class="text-center fst-italic">Premio a la cultura en Penonomé</h2>
                     <p>
-Los medallistas hasta el presente 2021 son: Alicia Brennan, Ana González, Aquiles Martínez, Arístides Rodríguez, Arnulfo Franco, Carmen Madrid, César Galástica, Clara Arosemena, Crescencio Fernández, Cristian Cárdenas, Chao Wen Liu, Desiree Del Rosario, Edgardo Suárez, Edmond Espinosa, Elia Pérez, Elixenia Martínez, Evelia Quiroz, Gladis Lam, Gloria Grimaldo, Hilda Sánchez, Ibeth Rojas, Irania Agrazal, Itzel Lombardo, Ivonne de la Guardia, José Luque, Josefa González, Josefa Martínez, Juan Corro, Julio Lombardo, Karen Yau, Kaven Spark, Lelany Urriola, Lidda Harari, Magdamelcina Ayala, María Eugenia Gómez, María Morales, Marinelda Varela, Marlene Jaén, Minerva Jiménez de Batista, Néstor Martínez, Olmedo Carles, Oxdalia Luna, Rafael Eysseric, Ricaurte Tuñón, Rita Jaén, Rodrigo Guardia, Sergio de León, Teresita Jaén, Yared Cruz y Yarelis Tuñón.
+                        Los medallistas hasta el presente 2021 son: Alicia Brennan, Ana González, Aquiles Martínez, Arístides Rodríguez, 
+                        Arnulfo Franco, Carmen Madrid, César Galástica, Clara Arosemena, Crescencio Fernández, Cristian Cárdenas, Chao Wen Liu, 
+                        Desiree Del Rosario, Edgardo Suárez, Edmond Espinosa, Elia Pérez, Elixenia Martínez, Evelia Quiroz, Gladis Lam, 
+                        Gloria Grimaldo, Hilda Sánchez, Ibeth Rojas, Irania Agrazal, Itzel Lombardo, Ivonne de la Guardia, José Luque, 
+                        Josefa González, Josefa Martínez, Juan Corro, Julio Lombardo, Karen Yau, Kaven Spark, Lelany Urriola, Lidda Harari, 
+                        Magdamelcina Ayala, María Eugenia Gómez, María Morales, Marinelda Varela, Marlene Jaén, Minerva Jiménez de Batista, 
+                        Néstor Martínez, Olmedo Carles, Oxdalia Luna, Rafael Eysseric, Ricaurte Tuñón, Rita Jaén, Rodrigo Guardia, Sergio de León, 
+                        Teresita Jaén, Yared Cruz y Yarelis Tuñón.
                     </p>
                     <p>
-Los medallistas desde 2009 al 2011 son: Ricaurter Henríquez, Judith Jaén, Eyra Herrera y Rosibel Ayala Vásquez.  
+                        Los medallistas desde 2009 al 2011 son: Ricaurter Henríquez, Judith Jaén, Eyra Herrera y Rosibel Ayala Vásquez.  
                     </p>
                     <p>
-Del 2012 al 2018 son: Anazaria Ortega, Juliana Altamiranda, Enrique Campos Escobar, Franklin Barnett, Paola M. Hidalgo Franco, Adriana Valdés, Aurora Osorio Pinzón.
+                        Del 2012 al 2018 son: Anazaria Ortega, Juliana Altamiranda, Enrique Campos Escobar, Franklin Barnett, Paola M. Hidalgo Franco, 
+                        Adriana Valdés, Aurora Osorio Pinzón.
                     </p>
                     <p>
-Del 2019 al 2021:  Victoria Lombardo, Angélica González, Rubén Bernal
+                        Del 2019 al 2021:  Victoria Lombardo, Angélica González, Rubén Bernal
                     </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container-fluid">
+            <hr>
+            <h2 class="fst-italic text-center">Información</h2>            
+            <div class="row" id="negar">
+                <div class="d-flex justify-content-around">
+                    <img src="../Otras_Actividades/img/medalla/Imagen1.jpg" alt="" class="img-fluid rounded-4 shadow p-2 ms-2"">
+                    <img src="../Otras_Actividades/img/medalla/Imagen2.png" alt="" class="img-fluid rounded-4 shadow p-2 ms-2">
                 </div>
             </div>
         </div>
