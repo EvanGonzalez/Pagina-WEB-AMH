@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
-    <link rel="stylesheet" href="./css/header-style.css" type="text/css">
+    <link rel="stylesheet" href="./css/menutest.css" type="text/css">
     <link rel="stylesheet" href="./FormNoticias/Noticias.css" type="text/css">
      <!--Complemento para Imagen responsive-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +22,7 @@
 
 <!-- HEADER -->
 <?php
-    include("./Menu_footer/head.html");
+    include("./Menu_footer/menumain.html");
     ?>
 
     <!--miga de pan-->
