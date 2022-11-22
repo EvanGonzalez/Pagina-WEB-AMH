@@ -22,7 +22,6 @@
 <body>
     <?php include ('../Menu_Footer/menumain.html'); ?>
     <section>
-
         <div class="container-fluid" id="principal">
             <br>
             <br>
@@ -55,7 +54,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="img2">
-                            <img src="../Otras_Actividades/img/banda/Banda de Musica Baston Mayor.jpeg" class="img-fluid" alt="Banda de Música del Colegio Ángel María Herrera">
+                            <img src="../Otras_Actividades/img/banda/Banda de Musica Baston Mayor.jpeg" class="img-fluid" alt="Banda de Música del Colegio Ángel María Herrera" title="Banda de Música del Colegio Ángel María Herrera">
                         </div>
                     </div>
                     <br>
@@ -80,7 +79,6 @@
                                     </p>
                                 </div>
                             </div>
-
                             <div class="carde wow fadeInUp">
                                 <div class="face front">
                                     <img src="../Otras_Actividades/img/banda/Colombia1.jpeg" alt="Banda de Música" title="Banda de Música">
@@ -94,7 +92,6 @@
                                     </p>
                                 </div>
                             </div>
-
                             <div class="carde wow fadeInUp">
                                 <div class="face front">
                                     <img src="../Otras_Actividades/img/banda/Mexico 2019-4.jpg" alt="Banda de Música" title="Banda de Música">
@@ -108,7 +105,6 @@
                                     </p>
                                 </div>
                             </div>
-
                             <div class="carde wow fadeInUpf">
                                 <div class="face front">
                                     <img src="../Otras_Actividades/img/banda/PXL_20221018_132837626.jpg" alt="Banda" title="Banda">
@@ -125,7 +121,7 @@
                     </div>
                 </div>                
             </div>
-                    
+        </div>           
     </section>
     <?php include '../botonArriba.html'; ?>
 
