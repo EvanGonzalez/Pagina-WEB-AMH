@@ -1,4 +1,3 @@
-<!-- RUTA CORREGIDA -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +10,7 @@
     <link rel="stylesheet" href="../Otras_Actividades/css/animate.css">
     <link rel="stylesheet" href="../Otras_Actividades/css/folklor.css">
     <link rel="stylesheet" href="../Otras_Actividades/css/boton.css">
+    <link rel="stylesheet" href="../css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -22,12 +22,21 @@
 </head>
 <body >
     <?php include ('../Menu_Footer/menumain.html'); ?>
+    <div class="contenedorMigaPan text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <?php
+                    include("../Migas_Pan/MigaPan23.html")
+                ?>
+            </div>
+        </div>
+    </div>
     <br>
     <section>
         <div class="container-fluid wow fadeInUp">
             <h1 id="registre" class="text-center">Folclor</h1>
         </div>
-        
+
         <div class="container">
             <div class="row">
                 <div class="col-md-4 wow fadeInLeft">
@@ -36,7 +45,7 @@
                         <br>       
                         <br>             
                     <div class="img2">
-                        <img src="../Otras_Actividades/img/conjunto/conjunto 2.jpeg" alt="" class="img-fluid">                        
+                        <img src="../Otras_Actividades/img/conjunto/conjunto 2.jpeg" alt="Conjunto Folclorico" title="Conjunto Folclorico" class="img-fluid">                        
                     </div>
 
                 </div>
@@ -183,8 +192,7 @@
                                             </div>
                                         </div>
                                     </div>                      
-                                </div>
-                                    
+                                </div>   
                         </div>
                 </div>
                     <p class="d-flex justify-content-center">
@@ -210,17 +218,42 @@
                         Algunos bailes que interpreta el conjunto son: El Chogorro, La Iguana, Compadre Gallinazo, la Pachenda y otros.
                     </p>
                     <p class="wow fadeInLeft">
-                    Algunos vestuarios utilizados por los bailarines son: Montunas Coclesanas, Pollera Blanca Tradicional, Polleras Tiriada, Basquiñas, Camisillas Blancas, Coletas marcadas, Cutarras, Chinelas, Sombrero de Junco, Sombrero Pintado, Cebaderas, Cabeza de tembleques.
+                        Algunos vestuarios utilizados por los bailarines son: Montunas Coclesanas, Pollera Blanca Tradicional, Polleras Tiriada, 
+                        Basquiñas, Camisillas Blancas, Coletas marcadas, Cutarras, Chinelas, Sombrero de Junco, Sombrero Pintado, Cebaderas, 
+                        Cabeza de tembleques.
                     </p>
                     <h2 class="fst-italic text-center wow fadeInLeft">Personajes destacados</h2>
                     <p class="wow fadeInLeft">
                         Como bailarines que se han destacado en el conjunto típico podemos mencionar a: Rosalinda Arosemena, Manuel Oliva, Luis Peñalba, Michael Martínez, Dilcia Sambrano, Jesús Jaén y Jesica Sánchez.  
                         Tocador de tambor: Ricauter Villarreal como tocador de tambor. 
                     </p>
+                    <p class="wow fadeInLeft">
+                        Otros estudiantes destacados en el folclore podemos mencionar: 
+                    </p>
+                    <ul class="wow fadeInLeft">
+                        <li>
+                            Ricauter Villarreal como tocador de tambor.
+                        </li>
+                        <li>
+                            Angelica González se destacó en décima, saloma y tamborito 
+                        </li>
+                        <li>
+                            María Santana en tambor y cumbia 
+                        </li>
+                        <li>
+                            Lirieth Gonzáles en cumbia y canto religioso 
+                        </li>
+                        <li>
+                            Meydelin Hay en cumbia 
+                        </li>
+                        <li>
+                            Mayuris Vargas en decima 
+                        </li>
+                    </ul>
                 </div>
                 <br>
                 <div class="col-md-6 wow fadeInRight">
-                    <img src="../Otras_Actividades/img/conjunto/conjunto.jpeg" alt="Conjunto Folclorico" title="Conjunto Folclorico" class="img-fluid rounded-4">
+                    <img src="../Otras_Actividades/img/conjunto/conjunto4.jpeg" alt="Conjunto Folclorico" title="Conjunto Folclorico" class="img-fluid rounded-4">
                 </div>
    
 

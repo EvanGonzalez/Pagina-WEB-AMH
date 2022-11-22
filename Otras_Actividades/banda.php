@@ -1,4 +1,3 @@
-<!-- RUTA CORREGIDA -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +10,7 @@
     <link rel="stylesheet" href="../Otras_Actividades/css/banda.css">
     <link rel="stylesheet" href="../css/menutest.css">
     <link rel="stylesheet" href="../Otras_Actividades/css/boton.css">
+    <link rel="stylesheet" href="../css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -22,8 +22,16 @@
 </head>
 <body>
     <?php include ('../Menu_Footer/menumain.html'); ?>
+    <div class="contenedorMigaPan text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <?php
+                    include("../Migas_Pan/MigaPan22.html")
+                ?>
+            </div>
+        </div>
+    </div>
     <section>
-
         <div class="container-fluid" id="principal">
             <br>
             <br>
@@ -56,7 +64,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="img2">
-                            <img src="../Otras_Actividades/img/banda/Banda de Musica Baston Mayor.jpeg" class="img-fluid" alt="Banda de Música del Colegio Ángel María Herrera">
+                            <img src="../Otras_Actividades/img/banda/Banda de Musica Baston Mayor.jpeg" class="img-fluid" alt="Banda de Música del Colegio Ángel María Herrera" title="Banda de Música del Colegio Ángel María Herrera">
                         </div>
                     </div>
                     <br>
@@ -81,7 +89,6 @@
                                     </p>
                                 </div>
                             </div>
-
                             <div class="carde wow fadeInUp">
                                 <div class="face front">
                                     <img src="../Otras_Actividades/img/banda/Colombia1.jpeg" alt="Banda de Música" title="Banda de Música">
@@ -95,7 +102,6 @@
                                     </p>
                                 </div>
                             </div>
-
                             <div class="carde wow fadeInUp">
                                 <div class="face front">
                                     <img src="../Otras_Actividades/img/banda/Mexico 2019-4.jpg" alt="Banda de Música" title="Banda de Música">
@@ -109,7 +115,6 @@
                                     </p>
                                 </div>
                             </div>
-
                             <div class="carde wow fadeInUpf">
                                 <div class="face front">
                                     <img src="../Otras_Actividades/img/banda/PXL_20221018_132837626.jpg" alt="Banda" title="Banda">
@@ -126,7 +131,7 @@
                     </div>
                 </div>                
             </div>
-                    
+        </div>           
     </section>
     <?php include '../botonArriba.html'; ?>
 

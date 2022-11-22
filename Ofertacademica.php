@@ -31,7 +31,7 @@
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-12">
                 <?php
                 include("Migas_Pan/MigaPan3.html")
                 ?>
@@ -48,7 +48,7 @@
 
         <div class="row">
             <div class="col-md-12 contenidoderecho">
-                <h3 class="letra3"> Oferta Académica: Bachilleres </h3>
+                <h3 class="letra3"> Oferta Académica: Bachilleres </h3><br>
 
                 <?php
                 include("Oferta_Academica/columIzquiPag3.html");
