@@ -36,7 +36,7 @@
         </div>
     </div>
     <br>
-    <h3 class="letra3 text-center" style="color: #0079be;"> Departamento de Ciencias Naturales y Biología </h3>
+    <h3 class="letra3 text-center" style="color: #0079be;"> Departamento de Ciencias Naturales y Biología </h3><br>
     <!--termina miga de pan-->
 
     <!--Inicia contenendor de información-->
@@ -69,7 +69,7 @@
                         </div>
                     </center>
             </div>
-            <div>
+            <div><br>
                 Durante algún tiempo fuimos parte del proyecto Globe en la que los estudiantes tomaban datos atmosféricos para medir como se estaba desarrollando el Cambio Climático en ese momento (2008-2009). </p>
             Fuimos centro de intercambio de becarios y voluntarios del programa JICA de la Embajada de Japón, voluntarios éstos que han compartido sus experiencias de éxito con docentes y estudiantes de nuestro centro educativo.</p>
             </div>
@@ -119,10 +119,10 @@
                                         <div class="carta-content">
                                             <div class="carta-txt">
                                                 <ul class="textopagina2 text-justify">
-                                                    <li>Conmemoración de fechas ecológicas y sucesos científicos importantes como el día del Agua, el día de la Tierra, el día del Árbol, el mes de los Recursos Naturales, entre otras efemérides destacadas.</li>
-                                                    <li>Confección de Murales alusivos a hechos sobresalientes.</li>
-                                                    <li>Desarrollo de Charlas científicas en el marco de la Semana de la Ciencia. </li>
-                                                    <li>Mantenimiento del Parque Forestal Angelino.</li>
+                                                    <li>Conmemoración de fechas ecológicas y sucesos científicos importantes como el día del Agua, el día de la Tierra, el día del Árbol, el mes de los Recursos Naturales, entre otras efemérides destacadas.</li><br>
+                                                    <li>Confección de Murales alusivos a hechos sobresalientes.</li><br>
+                                                    <li>Desarrollo de Charlas científicas en el marco de la Semana de la Ciencia. </li><br>
+                                                    <li>Mantenimiento del Parque Forestal Angelino.</li><br>
                                                     <li>Concienciación entre la comunidad angelina sobre el rol en el mantenimiento de la salud del planeta.</li>
                                                 </ul>
                                             </div>

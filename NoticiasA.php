@@ -27,7 +27,7 @@
 
 <!-- HEADER -->
 <?php
-    include("./Menu_footer/headAdmin.html");
+    include("./Menu_Footer/headAdmin.html");
     ?>
 
     <!--miga de pan-->
@@ -85,7 +85,7 @@ include("./BaseDeDatos/conexion_db.php");
     ?>
     <footer>
         <?php
-        include("./Menu_footer/footer.html");
+        include("./Menu_Footer/footer.html");
 
         ?>
     </footer>

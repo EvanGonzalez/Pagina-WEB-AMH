@@ -44,7 +44,7 @@
         <div class="animationsociales1">
             <div class="row">
                 <div class="col-md-6" id="justify">
-                    <p class="estiloapoyotexto">Es un departamento que está comprometido con la investigación y enseñanza interdisciplinaria en los niveles de Premedia y media, formando a los discentes para que sean críticos y valoren el pasado y presente de los pueblos; resaltando las tradiciones y se conviertan en ente activo dentro de la sociedad.</p>
+                    <p class="estiloapoyotexto"><br> Es un departamento que está comprometido con la investigación y enseñanza interdisciplinaria en los niveles de premedia y media, formando a los discentes para que sean críticos y valoren el pasado y presente de los pueblos; resaltando las tradiciones y se conviertan en ente activo dentro de la sociedad.</p>
                 </div>
                 <div class="col-md-6">
                     <center>
@@ -70,7 +70,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="card my-4" style="background-color: #121b4f;color:white;">
-                        <h5 class="card-header" style="background-color:#0079be; text-align:center"><b>Actividades</b></h5>
+                        <h5 class="card-header" style="background-color:#0079be; text-align:center; font-size: 36px;"><b>Actividades</b></h5>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-6">
@@ -80,19 +80,19 @@
                                                 <div class="carousel-item active">
                                                     <img src="img/Dpt Sociales/Diputado juvenil 1.jpeg" class="d-block w-100" alt="..."><!--  -->
                                                     <div class="carousel-caption d-none d-md-block">
-                                                        <h4 style="-webkit-text-stroke: 0.5px #121b4f;">Diputado Juvenil</h4>
+                                                        <h4 style="-webkit-text-stroke: 0.5px #121b4f; font-size: 30px;">Diputado Juvenil</h4>
                                                     </div>
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img src="img/Dpt Sociales/Diputado Juvenil 2.jpeg" class="d-block w-100" alt="..."><!--  -->
                                                     <div class="carousel-caption d-none d-md-block">
-                                                        <h4 style="-webkit-text-stroke: 0.5px #121b4f;">Diputado Juvenil</h4>
+                                                        <h4 style="-webkit-text-stroke: 0.5px #121b4f; font-size: 30px;">Diputado Juvenil</h4>
                                                     </div>
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img src="img/Dpt Sociales/Semana de la Etnia.jpeg" class="d-block w-100" alt="" ><!--  -->
                                                     <div class="carousel-caption d-none d-md-block">
-                                                        <h4 style="-webkit-text-stroke: 0.5px #121b4f;">Semana de la Etnia</h4>
+                                                        <h4 style="-webkit-text-stroke: 0.5px #121b4f; font-size: 30px;">Semana de la Etnia</h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -101,10 +101,10 @@
                                 </div>
                                 <div class="col-md-6">
                                     <ul class="textopagina2">
-                                        <li>Diputado juvenil</li>
-                                        <li>Confección de murales con los diferentes hechos históricos.</li>
-                                        <li>Conferencias.</li>
-                                        <li>Trabajos de investigación.</li>
+                                        <li>Diputado juvenil</li><br> 
+                                        <li>Confección de murales con los diferentes hechos históricos.</li><br> 
+                                        <li>Conferencias.</li><br> 
+                                        <li>Trabajos de investigación.</li><br> 
                                         <li>Debates.</li>
                                     </ul>
                                 </div>
@@ -154,8 +154,8 @@
                                         <div class="carta-content">
                                             <div class="carta-txt">
                                                 <ul class="textopagina2">
-                                                    <li>Semana de la Cívica Electoral .</li>
-                                                    <li>Semana de la Democracia .</li>
+                                                    <li>Semana de la Cívica Electoral.</li>
+                                                    <li>Semana de la Democracia.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -175,7 +175,7 @@
         <div class="row">
             <div class="col-md-12">
                 <center>
-                    <h3>Medalla Omar Gallardo</h3>
+                    <h3><br>Medalla Omar Gallardo</h3>
                     <h2></h2>
                 </center>
                 <div id="CARRUSEL">
