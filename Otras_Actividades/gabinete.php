@@ -41,7 +41,7 @@
                 <div class="col-md-12">
                 <p class="text-center">
                     <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" style="margin: 2.5px; color: white;">Gabinete Psicopadagógico</a>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" style="margin: 2.5px";>Orientacion y Educación Especial</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" style="margin: 2.5px";>Orientación y Educación Especial</button>
                 </p>
                 </div>
                 <div class="col-md-12">
