@@ -26,7 +26,7 @@
                             <center>
                                 <div class = "imagen_producto"> <!-- imagen_producto -->
                                     <?php
-                                        $query_imagen = ("SELECT * FROM imagenes_noticia WHERE titulo = '".$valores['titulo']."'");
+                                        $query_imagen = ("SELECT * FROM imagenes_noticia WHERE id_titulo = '".$valores['id_titulo']."'");
 
                                         $LV_EXEC = conectar()->query($query_imagen)
                                         or die(conectar()->error);
