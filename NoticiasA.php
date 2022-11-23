@@ -1,6 +1,16 @@
 <?php
     session_start();
     $_SESSION["Vas"]=0;
+    unset($_SESSION["delete[0]"]);
+    unset($_SESSION["delete[1]"]);
+    unset($_SESSION["delete[2]"]);
+    $_SESSION["cont"]=0;
+    $_SESSION["delete[0]"]=0;
+    $_SESSION["delete[1]"]=0;
+    $_SESSION["delete[2]"]=0;
+    $_SESSION["imagenes[0]"]=0;
+    $_SESSION["imagenes[1]"]=0;
+    $_SESSION["imagenes[2]"]=0;
 ?>
 <!-- NoticiasA-->
 <!DOCTYPE html>

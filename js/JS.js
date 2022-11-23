@@ -61,7 +61,7 @@ $imagenPrevisualizacion3.src = objectURL;
 function Eliminar(id, id2) {
 const $imagenPrevisualizacion1 = document.querySelector(id);
 // Y a la fuente de la imagen le ponemos el objectURL
-$imagenPrevisualizacion1.src = "SIN-IMAGEN.jpg";
+$imagenPrevisualizacion1.src = "./FormNoticias/uploads/SIN-IMAGEN.jpg";
 const $elemento = document.querySelector(id2);
 $elemento.value = "";
 if(id=="#imagen1"){

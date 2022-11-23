@@ -5,23 +5,72 @@ $id = $_GET["idtitulo"];
 include("./BaseDeDatos/conexion_db.php");
 session_start();
 $_SESSION["idtitulo"] = $id;
-$Validacion = $_SESSION["Vas"];
-unset($_SESSION["Vas"]);
-$query_imagen = ("SELECT imagen,id_titulo FROM imagenes_noticia WHERE id_titulo ='" . $id . "'");
-$LV_EXEC = conectar()->query($query_imagen)
-	or die(conectar()->error);
-$i = 0;
-while ($LV_IMAGEN = $LV_EXEC->fetch_assoc()) {
-	$arr[$i] = $LV_IMAGEN["imagen"];
-	$_SESSION['imagenes[' . $i . ']'] = $LV_IMAGEN["imagen"];
-	$idtit = $LV_IMAGEN["id_titulo"];
-	$i++;
+/* $Validacion = $_SESSION["Vas"];
+unset($_SESSION["Vas"]); */
+if ($_SESSION["cont"] == 0) {
+	$query_imagen = ("SELECT imagen,id_titulo FROM imagenes_noticia WHERE id_titulo ='" . $id . "'");
+	$LV_EXEC = conectar()->query($query_imagen)
+		or die(conectar()->error);
+	$i = 0;
+	while ($LV_IMAGEN = $LV_EXEC->fetch_assoc()) {
+		$arr[$i] = $LV_IMAGEN["imagen"];
+		$_SESSION['imagenes[' . $i . ']'] = $LV_IMAGEN["imagen"];
+		$idtit = $LV_IMAGEN["id_titulo"];
+		$i++;
+	}
+	$_SESSION["cont"] = 1;
+	$query_imagen = ("SELECT titulo FROM noticia WHERE id_titulo ='" . $idtit . "'");
+	$LV_EXEC = conectar()->query($query_imagen)
+		or die(conectar()->error);
+	$LV_IMAGEN = $LV_EXEC->fetch_assoc();
+	$_SESSION["titulo"] = $LV_IMAGEN["titulo"];
 }
-$query_imagen = ("SELECT titulo FROM noticia WHERE id_titulo ='" . $idtit . "'");
-$LV_EXEC = conectar()->query($query_imagen)
-	or die(conectar()->error);
-$LV_IMAGEN = $LV_EXEC->fetch_assoc();
-$_SESSION["titulo"] = $LV_IMAGEN["titulo"];
+if ($_SESSION["imagenes[0]"] != 0) {
+	$i = 1;
+}
+if ($_SESSION["imagenes[1]"] != 0) {
+	$i = 2;
+}
+if ($_SESSION["imagenes[2]"] != 0) {
+	$i = 3;
+}
+
+$e = 0;
+while ($e < $i) {
+	$a = 0;
+	while ($a < $i) {
+		if ($_SESSION["imagenes[" . $e . "]"] == $_SESSION["delete[" . $a . "]"]) {
+			$o = $e;
+			while ($o < $i) {
+				if ($o == $i - 1) {
+					$_SESSION["imagenes[" . $o . "]"] = 0;
+					$i--;
+				} else {
+					$_SESSION["imagenes[" . $o . "]"] = $_SESSION["imagenes[" . ($o + 1) . "]"];
+				}
+				$o++;
+			}
+		}
+		$a++;
+	}
+
+	$e++;
+}
+/* while ($e < $i) {
+	if ($_SESSION["imagenes[" . $e . "]"] == $_SESSION["delete[" . $e . "]"]) {
+		$a = $e;
+		while ($a < count($arr)) {
+			if ($a == count($arr) - 1) {
+				unset($arr[$a]);
+			} else {
+				$arr[$a] = $arr[$a + 1];
+			}
+			$a++;
+		}
+	}
+	$e++;
+} */
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -74,6 +123,7 @@ $_SESSION["titulo"] = $LV_IMAGEN["titulo"];
 				<h1 class="my-4" id="titulo1">Noticias.</h1>
 			</center>
 			<?php
+			/* 
 			if ($Validacion == 1) {
 				echo '<div class="container">
 					<div class="container">
@@ -84,7 +134,7 @@ $_SESSION["titulo"] = $LV_IMAGEN["titulo"];
 						</div>
 					</div>
 				</div>';
-			}
+			} */
 			?>
 			<div class="col-md-12">
 				<div class="card my-4" id="card1" style="background-color: #121b4f; color: white;">
@@ -123,13 +173,13 @@ $_SESSION["titulo"] = $LV_IMAGEN["titulo"];
 								<div class="card-body" id="elim">
 									<h4 class="card-title">Title</h4>
 									<?php
-									if (empty($arr[0])) {
+									if ($_SESSION["imagenes[0]"]==0) {
 									?>
 										<img class="card-img-top" src="/FormNoticias/uploads/SIN-IMAGEN.jpg" height="200px" width="70px" id="imagen1" alt="Card image cap">
 									<?php
 									} else {
 									?>
-										<img class="card-img-top" src="FormNoticias/uploads/<?php echo $arr[0] ?>" height="200px" width="70px" id="imagen1" alt="Card image cap">
+										<img class="card-img-top" src="FormNoticias/uploads/<?php echo $_SESSION["imagenes[0]"] ?>" height="200px" width="70px" id="imagen1" alt="Card image cap">
 									<?php
 
 									}
@@ -138,7 +188,7 @@ $_SESSION["titulo"] = $LV_IMAGEN["titulo"];
 
 									<input class="form-control" type="file" name="file1" id="img1">
 									<?php
-									if (isset($_SESSION["imagenes[1]"])) {
+									if ($_SESSION["imagenes[1]"]!=0) {
 
 									?>
 
@@ -146,7 +196,7 @@ $_SESSION["titulo"] = $LV_IMAGEN["titulo"];
 										<center>
 											<br>
 
-											<button class="btn btn-danger" onclick="Eliminar('#imagen1','#img1')" type="button">Eliminar</button>
+											<button class="btn btn-danger" id="elim1" onclick="Eliminar('#imagen1','#img1')" type="button">Eliminar</button>
 										</center>
 									<?php
 									}
@@ -159,20 +209,20 @@ $_SESSION["titulo"] = $LV_IMAGEN["titulo"];
 									<h4 class="card-title">Title</h4>
 
 									<?php
-									if (empty($arr[1])) {
+									if ($_SESSION["imagenes[1]"]==0) {
 									?>
 										<img class="card-img-top" src="FormNoticias/uploads/SIN-IMAGEN.jpg" height="200px" width="70px" alt="Card image cap" id="imagen2">
 									<?php
 									} else {
 									?>
-										<img class="card-img-top" src="FormNoticias/uploads/<?php echo $arr[1] ?>" height="200px" width="70px" alt="Card image cap" id="imagen2">
+										<img class="card-img-top" src="FormNoticias/uploads/<?php echo $_SESSION["imagenes[1]"] ?>" height="200px" width="70px" alt="Card image cap" id="imagen2">
 									<?php
 
 									}
 									?>
 									<input class="form-control" type="file" name="file2" id="img2">
 									<?php
-									if (isset($_SESSION["imagenes[1]"])) {
+									if ($_SESSION["imagenes[1]"]!=0) {
 
 									?>
 
@@ -190,20 +240,20 @@ $_SESSION["titulo"] = $LV_IMAGEN["titulo"];
 								<div class="card-body">
 									<h4 class="card-title">Title</h4>
 									<?php
-									if (empty($arr[2])) {
+									if ($_SESSION["imagenes[2]"]==0) {
 									?>
 										<img class="card-img-top" src="FormNoticias/uploads/SIN-IMAGEN.jpg" id="imagen3" height="200px" width="70px" alt="Card image cap">
 									<?php
 									} else {
 									?>
-										<img class="card-img-top" src="FormNoticias/uploads/<?php echo $arr[2] ?>" id="imagen3" height="200px" width="70px" alt="Card image cap">
+										<img class="card-img-top" src="FormNoticias/uploads/<?php echo $_SESSION["imagenes[2]"] ?>" id="imagen3" height="200px" width="70px" alt="Card image cap">
 									<?php
 
 									}
 									?>
 									<input class="form-control" type="file" id="img3" name="file3" id="formFileMultiple">
 									<?php
-									if (isset($_SESSION["imagenes[2]"])) {
+									if ($_SESSION["imagenes[2]"]!=0) {
 
 									?>
 										<center>

@@ -1,7 +1,20 @@
 <?php
 include './BaseDeDatos/conexion_db.php';
 session_start();
-$query = conectar()->query('Select * from noticia, imagenes_noticia where noticia.id_titulo=imagenes_noticia.id_titulo and noticia.id_titulo="'.$_SESSION['idtitulo'].'";')or die(conectar()->error);
+$idimagen = $_GET["vari"];
+if ($_SESSION["delete[0]"] == 0) {
+    $_SESSION["delete[0]"] = $_SESSION["imagenes[" . $idimagen . "]"];
+} else {
+    if ($_SESSION["delete[1]"] == 0) {
+        $_SESSION["delete[1]"] = $_SESSION["imagenes[" . $idimagen . "]"];
+    } else {
+        if ($_SESSION["delete[2]"] == 0) {
+            $_SESSION["delete[2]"] = $_SESSION["imagenes[" . $idimagen . "]"];
+        }
+    }
+}
+
+/* $query = conectar()->query('Select * from noticia, imagenes_noticia where noticia.id_titulo=imagenes_noticia.id_titulo and noticia.id_titulo="'.$_SESSION['idtitulo'].'";')or die(conectar()->error);
 $images = mysqli_num_rows($query);
 if($images>1){
     $idimagen = $_GET["vari"];
@@ -17,8 +30,8 @@ if($images>1){
     echo '<script>alert("La noticia debe contener al menos una imagen")</script>';
     header("Location: FormularioModificar.php?idtitulo=".$_SESSION["idtitulo"].'');
     $_SESSION["Vas"]=1;
-}
-
-unset($_SESSION["imagenes[0]"]);
+} */
+header("Location: FormularioModificar.php?idtitulo=" . $_SESSION["idtitulo"]);
+/* unset($_SESSION["imagenes[0]"]);
 unset($_SESSION["imagenes[1]"]);
-unset($_SESSION["imagenes[2]"]);
+unset($_SESSION["imagenes[2]"]); */
