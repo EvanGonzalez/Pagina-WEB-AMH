@@ -25,8 +25,8 @@
                                 </div>
                                 <div class="col-md-3">
                                     <form action="" method="post">
-                                        <a href="FormularioModificar.php?titulo=<?php echo $valores['titulo']?>" class="btn btn-warning">Modificar</a>
-                                        <a href="FormularioEliminar.php?titulo=<?php echo $valores['titulo']?>" class="btn btn-warning">Eliminar</a>                                              
+                                        <a href="FormularioModificar.php?idtitulo=<?php echo $valores['id_titulo']?>" class="btn btn-warning">Modificar</a>
+                                        <a href="FormularioEliminar.php?idtitulo=<?php echo $valores['id_titulo']?>" class="btn btn-warning">Eliminar</a>                                              
                                     </form>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@
                             <center>
                                 <div class = "imagen_producto"> <!-- imagen_producto -->
                                     <?php
-                                        $query_imagen = ("SELECT * FROM imagenes_noticia WHERE titulo = '".$valores['titulo']."'");
+                                        $query_imagen = ("SELECT * FROM imagenes_noticia WHERE id_titulo = '".$valores['id_titulo']."'");
 
                                         $LV_EXEC = conectar()->query($query_imagen)
                                         or die(conectar()->error);

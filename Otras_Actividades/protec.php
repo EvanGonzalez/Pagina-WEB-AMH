@@ -32,7 +32,7 @@
     </div>
     <br>
     <div class="container-fluid">
-        <h2 class="text-center" id="registre">PROYECTOS TECNOLÓGICOS</h2>         
+        <h1 class="text-center">PROYECTOS TECNOLÓGICOS</h1><br>       
     </div>
    
     <!-- seccion de entrada -->
@@ -44,39 +44,53 @@
                         <img src="../Otras_Actividades/img/proyecto/Competencias Regionales.jpeg" alt="Competencias Regionales" title="Competencias Regionales" class="figure-img img-fluid shadow p-1 mb-5 bg-body rounded-4 wow fadeInUp">
                         <figcaption class="figure-caption text-end">Competencias Regionales</figcaption>
                     </figure>
-                    <h2 class="fst-italic wow fadeInUp">Samsung Solve for Tomorrow</h2>
+                    <h2 class="wow fadeInUp">Samsung Solve for Tomorrow</h2>
                     <p class="wow fadeInUp">
                         Dentro de los proyectos tecnológicos nuestro colegio a participado en diferentes proyectos que promueven la participación, creatividad e innovación de nuestros estudiantes 
-                        angelinos entre los que podemos mencionar el proyecto de Soluciones para el futuro de Samsung, <b>“Samsung Solve for Tomorrow”</b> , el cual esta enfocado en que los estudiantes 
+                        angelinos entre los que podemos mencionar el proyecto de Soluciones para el futuro de Samsung, <b>“Samsung Solve for Tomorrow”</b>, el cual esta enfocado en que los estudiantes 
                         desarrollen soluciones STEAM para los problemas que afectan a las comunidades, soluciones utilizando la ciencia, la matemática, la tecnología y el arte.
                     </p>
                     <div class="collapse" id="collapseExample">
                         <div class="">
-                            <p>
+                            <p style="text-align: center;">
                                 A nivel nacional 
                                 se seleccionan los 10 mejores proyectos, de estos 5 proyectos fueron planteados por estudiantes de nuestro plantel, en donde se hicieron participes de un curso junto a sus 
-                                asesores, curso dictado por docentes de la Universidad del Rosario de Colombia, son ellos:                                
+                                asesores, curso dictado por docentes de la Universidad del Rosario de Colombia                            
                             </p>
                             <div class="row" id="negar">
-                                <div class="col-md-8 wow fadeInLeft">
-                                    <ol>
-                                        <li>Diego Bermúdez, Daniel Pinto, Dayaris Tuñón y Yenieris Cámira con su proyecto Dispositivo Administrador de Agua</li>
-                                        <li>Lineth Sánchez, Fátima Rojas, Gabriel Polanco, Oliver Moran, y Boris González su proyecto MMES-Recycling</li>
-                                        <li>Daniela Arauz, Dayelis Arauz, Abigail Ibarra y Melani Rodríguez su proyecto Water mill saving mother nature</li>
-                                        <li>Megan Córdoba, Abdiel Lanzas, Andrea Gálvez, Melva Martinez su proyecto Sistema de riego a distancia</li>
-                                        <li>María M. Martínez G., Jahir A. Saldaña Vargas, Ricardo Villareal G., Carol A. Fernández L., Karla P. Rosas T., su proyecto Carencia de agua potable</li>
-                                    </ol>
-                                    <p>Y a sus profesores tutores Celisbeth Martínez, Lizzett Cornejo y José Tejeira</p>                                                                   
+                                <div class="col-md-8 wow fadeInLeft" >
+                                        <br><p style="color: black; font-size: 18px;">1. Proyecto Dispositivo Administrador de Agua por:<br>
+                                        <i style="color: black; font-size: 14px;">Diego Bermúdez, Daniel Pinto, Dayaris Tuñón y Yenieris Cámira.</i><br></p>
+                                        
+                                        <p style="color: black; font-size: 18px;">2. Proyecto MMES-Recycling por:<br>
+                                        <i style="color: black; font-size: 14px;">Lineth Sánchez, Fátima Rojas, Gabriel Polanco, Oliver Moran, y Boris González.</i><br></p>
+                                        
+
+                                        <p style="color: black; font-size: 18px;">3. Proyecto Water mill saving mother nature por:<br>
+                                        <i style="color: black; font-size: 14px;">Daniela Arauz, Dayelis Arauz, Abigail Ibarra y Melani Rodríguez.</i><br></p>
+                                        
+
+                                        <p style="color: black; font-size: 18px;">4. Proyecto Sistema de riego a distancia por:<br>
+                                        <i style="color: black; font-size: 14px;">Megan Córdoba, Abdiel Lanzas, Andrea Gálvez, Melva Martinez.</i><br></p>
+                                        
+
+                                        <p style="color: black; font-size: 18px;">5. Proyecto Carencia de agua potable por:<br>
+                                        <i style="color: black; font-size: 14px;">María M. Martínez G., Jahir A. Saldaña Vargas, Ricardo Villareal G., Carol A. Fernández L., Karla P. Rosas T.</i><br></p>
+                                        
+
+                                        <p style="color: black; font-size: 18px;">Profesores tutores<br>
+                                        <i style="color: black; font-size: 14px;">Celisbeth Martínez, Lizzett Cornejo y José Tejeira</i><br></p>
+                                                                                                         
                                 </div>
                                 <div class="col-md-3 wow fadeInRight">
-                                    <img src="../Otras_Actividades/img/proyecto/Preparacion de esenarios.jpeg" class="img-fluid rounded-4 shadow mb-5 bg-body" alt="Preparación de las Ecesenarios" title="Preparación de los Escenarios ">
+                                    <br><br><img src="../Otras_Actividades/img/proyecto/Preparacion de esenarios.jpeg" class="img-fluid rounded-4 shadow mb-5 bg-body" alt="Preparación de las Ecesenarios" title="Preparación de los Escenarios ">
                                 </div>
                             </div>     
                         </div>
                     </div>
                     <p>
                     <center>
-                        <a class="btn btn-primary bi bi-card-text" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <a class="btn btn-primary bi bi-card-text" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style="color:white;">
                             Leer más
                         </a>
                     </center>
@@ -91,19 +105,19 @@
         <div class="container">
             <div class="row" id="negar">
                 <div class="col-md-12">
-                    <h2 class="fst-italic text-center">VIII Olimpiada Nacional De Robótica</h2>
+                    <h2 class=" text-center">VIII Olimpiada Nacional De Robótica</h2>
                     <p class="wow fadeInUp">
                         Este año nuestra escuela participo con 2 equipos en las Olimpiadas Nacional de Robótica, organizado por Fundasteam y MEDUCA. 
                         Un evento donde participaron miles de niños y adolescentes de diferentes regiones del país para demostrar su talento en Programación y Robótica. 
                         La participación regional le permitió clasificar a la final en la categoría de Futuros Innovadores.
                     </p>
-                    <p class="wow fadeInUp">Destacamos la participación de los estudiantes en esta competencia:</p>
+                    <p class="wow fadeInUp" style="font-size: 25px; text-align: center;">Destacamos la participación de los estudiantes en esta competencia</p>
                     <div class="row">
                         <div class="col-sm-6 wow fadeInLeft" id="cartas">
                             <div class="card">
                                 <img src="../Otras_Actividades/img/proyecto/Equipo Medlars.jpeg" class="card-img-top" alt="Equipo Medlars" title="Equipo Medlars">
                                 <div class="card-body">
-                                    <h5 class="card-title">MEDLARS</h5>
+                                    <h5 class="card-title" style="text-align: center;">MEDLARS</h5>
                                     <p class="card-text">Conformado por Edwar Aguilar, Mikelys Boy, Leonardo Delgado</p>
                             
                                 </div>
@@ -113,7 +127,7 @@
                             <div class="card">
                                 <img src="../Otras_Actividades/img/proyecto/Equipo ThinkBot2.jpeg" class="card-img-top" alt="Equipo Thinkbot" title="Equipo ThinkBot">
                                 <div class="card-body">
-                                    <h5 class="card-title">ThinkBot</h5>
+                                    <h5 class="card-title" style="text-align: center;">ThinkBot</h5>
                                     <p class="card-text">Conformado por María Vergara, Luis Cárdenas, y Boris González</p>
                                 </div>
                             </div>
@@ -126,7 +140,7 @@
     <!-- fin seccion media -->
     <section>
         <div class="container">
-            <h2 class="fst-italic text-center">VIII Competencia RoboCupJunior Panamá 2022 y el VI Torneo RoboTIC</h2>
+            <h2 class="text-center"><br>VIII Competencia RoboCupJunior Panamá 2022 y el VI Torneo RoboTIC</h2>
             <div class="row" id="negar">
                 <div class="col-md-12">
                     <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
@@ -167,7 +181,6 @@
                         regional se llevará en CESORE, el día 23 de noviembre de 2022.
                     </p>
                 </div>
-                <hr>
             </div>
         </div>
     </section>

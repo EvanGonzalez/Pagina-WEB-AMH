@@ -36,14 +36,14 @@
             <br>
             <br>
             <center>
-                <h1 class="wow zoomIn" id="registre">Banda de Música Ángel María Herrera</h1>
+                <h1 class="text-center">Banda de Música Ángel María Herrera</h1>
             </center>
             <br>
             <br>
             <div class="container wow fadeInUp">
                 <div class="row" id="negar">
                     <div class="col-md-7 wow fadeInLeft" data-wow-delay="1,0s" id="bminicio">
-                        <h2 id="registre">Inicios</h2>
+                        <center><h4 style="font-size: 30px;">Inicios</h4></center>
                         <br>
                         <p>
                             La Banda de Música de la escuela secundaria Ángel María Herrera de Penonomé se ha caracterizado por las grandiosas
@@ -71,10 +71,10 @@
                     <br>
                     <br>
                     <div class="container-fluid ">
-                        <h2 class="text-center">Galardones</h2>
+                        <br><br><h1 class="text-center">Galardones</h1>
                         <hr>
-                        <p>
-                            A través de su accionar por el mundo de la música, ha sido galardonada con diversos premios en competencias a nivel regional y nacional.
+                        <p style="font-size: 20px; text-align: center;">
+                            A través de su accionar por el mundo de la música, ha sido galardonada con<br> diversos premios en competencias a nivel regional y nacional
                         </p>
                         <div class="elotro">
                             <div class="carde wow fadeInUp">
@@ -89,6 +89,7 @@
                                     </p>
                                 </div>
                             </div>
+                            <!--2-->
                             <div class="carde wow fadeInUp">
                                 <div class="face front">
                                     <img src="../Otras_Actividades/img/banda/Colombia1.jpeg" alt="Banda de Música" title="Banda de Música">
@@ -101,7 +102,8 @@
                                         En septiembre de 2017, se realizó un intercambio cultural la hermana República de Colombia, llevando nuestra música y representando a Panamá.
                                     </p>
                                 </div>
-                            </div>
+                            </div>  
+                            <!--3-->
                             <div class="carde wow fadeInUp">
                                 <div class="face front">
                                     <img src="../Otras_Actividades/img/banda/Mexico 2019-4.jpg" alt="Banda de Música" title="Banda de Música">
@@ -115,6 +117,7 @@
                                     </p>
                                 </div>
                             </div>
+                            <!--4-->
                             <div class="carde wow fadeInUpf">
                                 <div class="face front">
                                     <img src="../Otras_Actividades/img/banda/PXL_20221018_132837626.jpg" alt="Banda" title="Banda">

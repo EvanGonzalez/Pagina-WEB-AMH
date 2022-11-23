@@ -1,21 +1,27 @@
 <?php
 /*obteniendo la fecha actual del sistema */
 $fechaActual = date('Y-m-d');
-$id = $_GET["titulo"];
+$id = $_GET["idtitulo"];
 include("./BaseDeDatos/conexion_db.php");
 session_start();
+$_SESSION["idtitulo"] = $id;
 $Validacion = $_SESSION["Vas"];
 unset($_SESSION["Vas"]);
-$query_imagen = ("SELECT imagen,titulo FROM imagenes_noticia WHERE titulo ='" . $id . "'");
+$query_imagen = ("SELECT imagen,id_titulo FROM imagenes_noticia WHERE id_titulo ='" . $id . "'");
 $LV_EXEC = conectar()->query($query_imagen)
 	or die(conectar()->error);
 $i = 0;
 while ($LV_IMAGEN = $LV_EXEC->fetch_assoc()) {
 	$arr[$i] = $LV_IMAGEN["imagen"];
 	$_SESSION['imagenes[' . $i . ']'] = $LV_IMAGEN["imagen"];
-	$_SESSION['titulo'] = $LV_IMAGEN["titulo"];
+	$idtit = $LV_IMAGEN["id_titulo"];
 	$i++;
 }
+$query_imagen = ("SELECT titulo FROM noticia WHERE id_titulo ='" . $idtit . "'");
+$LV_EXEC = conectar()->query($query_imagen)
+	or die(conectar()->error);
+$LV_IMAGEN = $LV_EXEC->fetch_assoc();
+$_SESSION["titulo"] = $LV_IMAGEN["titulo"];
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -85,7 +91,7 @@ while ($LV_IMAGEN = $LV_EXEC->fetch_assoc()) {
 						<div class="container" id="minicontainer">
 							<div class="row">
 								<?php
-								$query = conectar()->query('Select * from noticia where titulo="' . $id . '";') or die(conectar()->error);
+								$query = conectar()->query('Select * from noticia where titulo="' . $_SESSION["titulo"] . '";') or die(conectar()->error);
 								$valores = $query->fetch_assoc();
 								?>
 								<!-- inicia fila -->
@@ -129,11 +135,20 @@ while ($LV_IMAGEN = $LV_EXEC->fetch_assoc()) {
 
 
 									<input class="form-control" type="file" name="file1" id="img1">
-									<center>
-										<br>
+									<?php
+									if (isset($_SESSION["imagenes[1]"])) {
 
-										<button class="btn btn-danger" onclick="Eliminar('#imagen1','#img1')" type="button">Eliminar</button>
-									</center>
+									?>
+
+
+										<center>
+											<br>
+
+											<button class="btn btn-danger" onclick="Eliminar('#imagen1','#img1')" type="button">Eliminar</button>
+										</center>
+									<?php
+									}
+									?>
 								</div>
 							</div>
 							<div class="card">
@@ -154,10 +169,18 @@ while ($LV_IMAGEN = $LV_EXEC->fetch_assoc()) {
 									}
 									?>
 									<input class="form-control" type="file" name="file2" id="img2">
-									<center>
-										<br>
-										<button class="btn btn-danger" type="button" onclick="Eliminar('#imagen2','#img2')">Eliminar</button>
-									</center>
+									<?php
+									if (isset($_SESSION["imagenes[1]"])) {
+
+									?>
+
+										<center>
+											<br>
+											<button class="btn btn-danger" type="button" onclick="Eliminar('#imagen2','#img2')">Eliminar</button>
+										</center>
+									<?php
+									}
+									?>
 								</div>
 							</div>
 							<div class="card">
@@ -177,10 +200,17 @@ while ($LV_IMAGEN = $LV_EXEC->fetch_assoc()) {
 									}
 									?>
 									<input class="form-control" type="file" id="img3" name="file3" id="formFileMultiple">
-									<center>
-										<br>
-										<button class="btn btn-danger" onclick="Eliminar('#imagen3','#img3')" type="button">Eliminar</button>
-									</center>
+									<?php
+									if (isset($_SESSION["imagenes[2]"])) {
+
+									?>
+										<center>
+											<br>
+											<button class="btn btn-danger" onclick="Eliminar('#imagen3','#img3')" type="button">Eliminar</button>
+										</center>
+									<?php
+									}
+									?>
 								</div>
 							</div>
 

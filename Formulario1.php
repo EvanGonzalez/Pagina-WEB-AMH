@@ -47,25 +47,26 @@ $fechaActual = date('Y-m-d');
 	<div class="container">
 		<form action="./FormNoticias/cargar_img.php" method="post" enctype="multipart/form-data"">
 			<!--Inicio del Form..-->
-			<div class=" row">
-			<!--Inicio de la clase Row..-->
-			<center>
-				<h1 class="my-4" id="titulo1">Noticias.</h1>
-			</center>
-			<div class="col-md-12">
-				<div class="card my-4" id="card1" style="background-color: #121b4f; color: white;">
-					<h5 class="card-header" style="background-color: #0079be;"> <b>Datos de la noticia</b></h5>
-					<div class="card-body">
-						<div class="container" id="minicontainer">
-							<div class="row">
-								<!-- inicia fila -->
-								<div class="col-md-6">
-									<label for="" id="colorNombres">Titulo:</label>
-									<input type="text" class="form-control" name="Titulo" value="" placeholder="" required="required"><br>
-								</div>
-								<div class="col-md-3">
-									<label for="" id="colorNombres">Fecha:</label>
-									<input type="text" class="form-control" name="FechaActual" <?php echo 'value="' . $fechaActual . '"' ?> required="required" readonly><br>
+			<div class="row">
+				<!--Inicio de la clase Row..-->
+				<center>
+					<h1 class="my-4" id="titulo1">Noticias</h1>
+				</center>
+				<div class="col-md-12">
+					<div class="card my-4" id="card1" style="background-color: #121b4f; color: white;">
+						<h5 class="card-header" style="background-color: #0079be;"> <b>Datos de la noticia</b></h5>
+						<div class="card-body">
+							<div class="container" id="minicontainer">
+								<div class="row">
+									<!-- inicia fila -->
+									<div class="col-md-6">
+										<label for="" id="colorNombres">Titulo:</label>
+										<input type="text" class="form-control" name="Titulo" value="" placeholder="" required="required"><br>
+									</div>
+									<div class="col-md-3">
+										<label for="" id="colorNombres">Fecha:</label>
+										<input type="text" class="form-control" name="FechaActual" <?php echo 'value="' . $fechaActual . '"' ?> required="required" readonly><br>
+									</div>
 								</div>
 							</div>
 						</div>

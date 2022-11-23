@@ -48,8 +48,17 @@ if ($contar === 0) {
 
                 if (move_uploaded_file($fuente, $target_path)) {
                     $con = conectar();
-                    $query = $con->prepare("Insert into imagenes_noticia(titulo,imagen) Values (?, ?)");
-                    $query->bind_param('ss', $tit, $archivonombre);
+                    $query = $con->prepare("Select id_titulo from noticia where titulo = ?");
+                    $query->bind_param('s', $tit);
+                    $query->execute();
+                   
+                    $result = $query->get_result();
+                    $fila = $result->fetch_assoc();
+                    $idtitulo=$fila['id_titulo'];
+
+                    $con = conectar();
+                    $query = $con->prepare("Insert into imagenes_noticia(id_titulo,imagen) Values (?, ?)");
+                    $query->bind_param('ss', $idtitulo, $archivonombre);
                     $query->execute();
                     mysqli_close($con);
                    

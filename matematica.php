@@ -30,7 +30,7 @@
         </div>
     </div>
     <br>
-    <h3 class="letra3 text-center" id=textazul> Departamento de Matemáticas</h3>
+    <h3 class="letra3 text-center" id=textazul>Departamento de Matemáticas</h3><br>
 
     <!--termina miga de pan-->
 
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                 </div>
-                <p>La escuela secundaria Ángel María Herrera siempre ha sido conmemorada como un centro un centro educativo de gran prestigio y porvenir.</p>
+                <center><p>La escuela secundaria Ángel María Herrera siempre ha sido conmemorada como un centro un centro educativo de gran prestigio y porvenir.</p></center>
                 <h3></h3>
 
             </div>
@@ -64,10 +64,10 @@
         <div class="row">
             <div class="col-md-6" style="text-align: justify;">
                 <div class="card my-4" style="height: 90%;background-color: #121b4f;color:white;">
-                    <h3 class="card-header" style="background-color:#0079be;">Actividades realizadas actualmente</h3>
+                    <h3 class="card-header" style="background-color:#0079be; text-align: center;">Actividades realizadas<br> actualmente</h3>
                     <div class="card-body">
                         <ul>
-                            <li>Confección de murales por trimestre, con el propósito de resaltar estudiantes con índice académico que oscile entre 4.7 y 5.0. De esta manera, se les estimula hacia un estudio científico y entusiasta.</li>
+                            <li>Confección de murales por trimestre, con el propósito de resaltar estudiantes con índice académico que oscile entre 4.7 y 5.0. De esta manera, se les estimula hacia un estudio científico y entusiasta.</li><br>
                             <li>Premiación para los mejores estudiantes, denominados estrellas de matemáticas de 9° y 12° grado. Esto se ha realizado en cada promoción durante los años 2019 y 2021.</li>
                         </ul>
                     </div>
@@ -75,10 +75,10 @@
             </div>
             <div class="col-md-6" style="text-align: justify;">
                 <div class="card my-4" style="height: 90%; background-color: #121b4f; color:white;">
-                    <h3 class="card-header" style="background-color:#0079be;">Actividades realizadas antes de la pandemia</h3>
+                    <h3 class="card-header" style="background-color:#0079be; text-align: center;">Actividades realizadas antes de la pandemia</h3>
                     <div class="card-body">
                         <ul>
-                            <li>Competencias o cursos a nivel interno e intercolegial entre paralelos.</li>
+                            <li>Competencias o cursos a nivel interno e intercolegial entre paralelos.</li><br>
                             <li>Se creó un club denominado Unión de Matemáticos Angelinos (UMA) que participaban integrado por alumnos de alto índice académico, quienes eran considerados como modelo en las clases y ayudaban a los compañeros con que tenían dificultades en matemáticas.  </li> 
                         </ul>
                     </div>
