@@ -336,16 +336,17 @@
   #image img {
     margin-top: 12px;
     width: 100%;
+    margin-bottom: 12px;
   }
   .cotenidoMain{
       background-color: #121b4f;
+      
   }
   
   /*Styling Buttons*/
   .loginWEB{
     background-color:#fbb03b;
     border: 1.5px solid #f2f5f7;
-    
     border-radius: 2em;
     padding: 0.6rem 0.8rem;
     margin-left: 2vw;
@@ -355,7 +356,7 @@
   }
   
   .loginWEB:hover {
-    color: #131418;
+    color: #ffffff;
     background-color: #f2f5f7;
     border:1.5px solid #f2f5f7;
     transition: all ease-in-out 350ms;
@@ -364,9 +365,8 @@
   
   /* estilo de boton cerrar sesión */
   .loginWEBEND{
-    background-color:#fe442c;
+    background-color:#ff1e00;
     border: 1.5px solid #f2f5f7;
-    
     border-radius: 2em; 
     padding: 0.6rem 0.8rem;
     margin-left: 2vw;
@@ -376,7 +376,7 @@
   }
   
   .loginWEBEND:hover {
-    color: #131418;
+    color: #ffffff;
     background-color: #f2f5f7;
     border:1.5px solid #f2f5f7;
     transition: all ease-in-out 350ms;

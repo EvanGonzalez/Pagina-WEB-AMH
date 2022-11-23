@@ -2,7 +2,7 @@
     function conectar(){
         $host = "localhost:3306";
         $usuario = "root";
-        $contraseña = "admin";
+        $contraseña = "";
         $db = "db_amh";
         $conexion = mysqli_connect($host, $usuario, $contraseña, $db);
         return $conexion;
