@@ -4,7 +4,7 @@ $fechaActual = date('Y-m-d');
 $id = $_GET["idtitulo"];
 include("./BaseDeDatos/conexion_db.php");
 session_start();
-$_SESSION["idtitulo"]=$id;
+$_SESSION["idtitulo"] = $id;
 $Validacion = $_SESSION["Vas"];
 unset($_SESSION["Vas"]);
 $query_imagen = ("SELECT imagen,id_titulo FROM imagenes_noticia WHERE id_titulo ='" . $id . "'");
@@ -137,11 +137,20 @@ $_SESSION["titulo"] = $LV_IMAGEN["titulo"];
 
 
 									<input class="form-control" type="file" name="file1" id="img1">
-									<center>
-										<br>
+									<?php
+									if (isset($_SESSION["imagenes[1]"])) {
 
-										<button class="btn btn-danger" onclick="Eliminar('#imagen1','#img1')" type="button">Eliminar</button>
-									</center>
+									?>
+
+
+										<center>
+											<br>
+
+											<button class="btn btn-danger" onclick="Eliminar('#imagen1','#img1')" type="button">Eliminar</button>
+										</center>
+									<?php
+									}
+									?>
 								</div>
 							</div>
 							<div class="card">
@@ -162,10 +171,18 @@ $_SESSION["titulo"] = $LV_IMAGEN["titulo"];
 									}
 									?>
 									<input class="form-control" type="file" name="file2" id="img2">
-									<center>
-										<br>
-										<button class="btn btn-danger" type="button" onclick="Eliminar('#imagen2','#img2')">Eliminar</button>
-									</center>
+									<?php
+									if (isset($_SESSION["imagenes[1]"])) {
+
+									?>
+
+										<center>
+											<br>
+											<button class="btn btn-danger" type="button" onclick="Eliminar('#imagen2','#img2')">Eliminar</button>
+										</center>
+									<?php
+									}
+									?>
 								</div>
 							</div>
 							<div class="card">
@@ -185,10 +202,17 @@ $_SESSION["titulo"] = $LV_IMAGEN["titulo"];
 									}
 									?>
 									<input class="form-control" type="file" id="img3" name="file3" id="formFileMultiple">
-									<center>
-										<br>
-										<button class="btn btn-danger" onclick="Eliminar('#imagen3','#img3')" type="button">Eliminar</button>
-									</center>
+									<?php
+									if (isset($_SESSION["imagenes[2]"])) {
+
+									?>
+										<center>
+											<br>
+											<button class="btn btn-danger" onclick="Eliminar('#imagen3','#img3')" type="button">Eliminar</button>
+										</center>
+									<?php
+									}
+									?>
 								</div>
 							</div>
 
