@@ -8,8 +8,8 @@ if (isset($_POST['Guardar'])) {
     $tit=$_POST["Titulo"];
     $fecha=$_POST["FechaActual"];
     $desc=$_POST["enfermedadDescrip"];
-    $query = $con->prepare("UPDATE noticia set fecha=?, descripcion=?, usuario=? where titulo = ?");
-    $query->bind_param('ssss',$fecha,$desc, $_SESSION["username"],$_SESSION['titulo']);
+    $query = $con->prepare("UPDATE noticia set titulo=?, fecha=?, descripcion=?, usuario=? where titulo = ?");
+    $query->bind_param('sssss',$tit,$fecha,$desc, $_SESSION["username"],$_SESSION['titulo']);
     $query->execute();
     mysqli_close($con);
     if ($_FILES["file1"]["name"] != null || $_FILES["file2"]["name"] != null || $_FILES["file3"]["name"] != null) {
@@ -47,8 +47,8 @@ if (isset($_POST['Guardar'])) {
 
                     if (move_uploaded_file($fuente, $target_path)) {
                         $con = conectar();
-                        $query = $con->prepare("Insert into imagenes_noticia(imagen,titulo) values(?,?)");
-                        $query->bind_param('ss', $archivonombre, $_SESSION["titulo"]);
+                        $query = $con->prepare("Insert into imagenes_noticia(imagen,id_titulo) values(?,?)");
+                        $query->bind_param('ss', $archivonombre, $_SESSION["idtitulo"]);
                         $query->execute();
                         mysqli_close($con);
                     } else {
@@ -91,8 +91,8 @@ if (isset($_POST['Guardar'])) {
 
                     if (move_uploaded_file($fuente, $target_path)) {
                         $con = conectar();
-                        $query = $con->prepare("Insert into imagenes_noticia(imagen,titulo) values(?,?)");
-                        $query->bind_param('ss', $archivonombre, $_SESSION["titulo"]);
+                        $query = $con->prepare("Insert into imagenes_noticia(imagen,id_titulo) values(?,?)");
+                        $query->bind_param('ss', $archivonombre, $_SESSION["idtitulo"]);
                         $query->execute();
                         mysqli_close($con);
                     } else {
@@ -136,8 +136,8 @@ if (isset($_POST['Guardar'])) {
 
                     if (move_uploaded_file($fuente, $target_path)) {
                         $con = conectar();
-                        $query = $con->prepare("Insert into imagenes_noticia(imagen,titulo) values(?,?)");
-                        $query->bind_param('ss', $archivonombre, $_SESSION["titulo"]);
+                        $query = $con->prepare("Insert into imagenes_noticia(imagen,id_titulo) values(?,?)");
+                        $query->bind_param('ss', $archivonombre, $_SESSION["idtitulo"]);
                         $query->execute();
                         mysqli_close($con);
                     } else {
