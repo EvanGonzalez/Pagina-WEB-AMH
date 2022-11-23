@@ -24,7 +24,7 @@
 <body>
     <?php include ('../Menu_Footer/menumain.html'); ?>
     <div class="contenedorMigaPan text-center">
-        <div class="row">
+        <div >
             <div class="col-md-12">
                 <?php
                     include("../Migas_Pan/MigaPan24.html")
@@ -179,7 +179,7 @@
                                             </p>
                                         </div>
                                         <div class="col-md-5 wow fadeInRight">
-                                            <img src="../Otras_Actividades/img/orientacion/Docentes de Educación Especial y Orientacion 2.2.jpeg" alt="" class="img-fluid shadow  bg-body rounded-4">
+                                            <img src="../Otras_Actividades/img/orientacion/Docentes de Educacion Especial y Orientacion 2.2.jpeg" alt="" class="img-fluid shadow  bg-body rounded-4">
                                         </div>
                                         <div class="col-md-12 wow fadeInUp">
                                             <p>
@@ -201,15 +201,15 @@
                                             </p>
                                         </div>
                                         <div class="row d-flex justify-content-around" id="negar">
-                                            <div class="col-md-4 wow fadeInLeft" data-wow-delay="2s" id="img">
-                                                <img src="../Otras_Actividades/img/orientacion/Orientacion a  la campaña de Gigantes de Fanlyc.jpeg" alt="" class="img-fluid rounded-4">
+                                            <div class="col-md-4 wow fadeInLeft" data-wow-delay="1.5s" id="img">
+                                                <img src="../Otras_Actividades/img/orientacion/Orientacion a  la campana de Gigantes de Fanlyc.jpeg" alt="" class="img-fluid rounded-4">
                                             </div>
                                             
-                                            <div class="col-md-4 wow fadeInUp" data-wow-delay="2s" id="img">
+                                            <div class="col-md-4 wow fadeInUp" data-wow-delay="1.5s" id="img">
                                                 <img src="../Otras_Actividades/img/orientacion/Orientacion Vocacional-Profesional.jpeg" alt="" class="img-fluid rounded-4">
 
                                             </div>
-                                            <div class="col-md-4 wow fadeInRight" data-wow-delay="2s" id="img">
+                                            <div class="col-md-4 wow fadeInRight" data-wow-delay="1.5s" id="img">
                                                 <img src="../Otras_Actividades/img/orientacion/Charla salud mental 2.jpeg" alt="" class="img-fluid rounded-4">
                                             </div>
                                         </div>
@@ -219,10 +219,22 @@
                                                 brinda atención a estudiantes con discapacidad; los estudiantes se mantienen en el aula regular y la docente les brinda el apoyo 
                                                 requerido de acuerdo a su condición.  
                                             </p>
+
                                             <div class="d-flex justify-content-around">
+                                                <div class="row" id="negar">
+                                                    <div class="col-md-4">
+
                                                 <img src="../Otras_Actividades/img/orientacion/Docente de Educacion Especial.jpeg" class="img-thumbnail" alt="...">
+                                                    </div>
+                                                    <div class="col-md-4">
+
                                                 <img src="../Otras_Actividades/img/orientacion/Docentes.jpeg" class="img-thumbnail" alt="...">
+                                                    </div>
+                                                    <div class="col-md-4">
+
                                                 <img src="../Otras_Actividades/img/orientacion/Orientacion .jpeg" class="img-thumbnail" alt="...">                                                
+                                                    </div>
+                                                </div>
                                             </div>
 
                                         </div>

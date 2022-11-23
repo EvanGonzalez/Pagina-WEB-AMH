@@ -23,7 +23,7 @@
 <body>
     <?php include ('../Menu_Footer/menumain.html'); ?>
     <div class="contenedorMigaPan text-center">
-        <div class="row">
+        <div>
             <div class="col-md-12">
                 <?php
                     include("../Migas_Pan/MigaPan22.html")
