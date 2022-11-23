@@ -71,7 +71,7 @@ include("./BaseDeDatos/conexion_db.php");
                 <div class="container">
                     <div class="alert alert-success" role="alert">
                         <h4 class="alert-heading">Error 404.....</h4>
-                        <p>Aun no sean cargado NoticiasA para mostrar en el sitio..............................<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+                        <p>Aún no se han cargado noticias para mostrar en el sitio..............................<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
                         <hr>
                         
                     </div>
