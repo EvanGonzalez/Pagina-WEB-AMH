@@ -32,12 +32,10 @@ $fechaActual = date('Y-m-d');
 
 	<!--miga de pan-->
 	<div class="contenedorMigaPan text-center">
-		<div class="row">
-			<div class="col-md-12">
-				<?php
-				include("Migas_Pan/MigaPan12.html")/*  */
-				?>
-			</div>
+		<div class="col-md-12">
+			<?php
+			include("Migas_Pan/MigaPan12.html")/*  */
+			?>
 		</div>
 	</div>
 	<br>
@@ -49,80 +47,82 @@ $fechaActual = date('Y-m-d');
 	<div class="container">
 		<form action="./FormNoticias/cargar_img.php" method="post" enctype="multipart/form-data""><!--  -->
 			<!--Inicio del Form..-->
+			<div class=" row">
+			<!--Inicio de la clase Row..-->
+			<center>
+				<h1 class="my-4" id="titulo1">Noticias.</h1>
+			</center>
 			<div class="row">
-				<!--Inicio de la clase Row..-->
-				<center>
-					<h1 class="my-4" id="titulo1">Noticias.</h1>
-				</center>
-                <div class="row">
-                    <div class="col-md-3">
-                        <form action="" method="post">
-                            <a href="actualizar.php?id=<?php echo $row["CedulaEstudiante"];?>" class="btn btn-primary">Modificar</a>
-                            <a href="procesareliminar.php?id=<?php echo $row["CedulaEstudiante"];?>" class="btn btn-primary">Eliminar</a> </div></td>                                               
-                        </form>
-                    </div>
-                    <div class="col-md-3">
-                        <form action="" method="post">
-                        
-                        </form>
-                    </div>
-                </div>
-				<div class="col-md-12">
-					<div class="card my-4" id="card1" style="background-color: #121b4f; color: white;">
-						<h5 class="card-header" style="background-color: #0079be;"> <b>Datos de la noticia</b></h5>
-						<div class="card-body">
-							<div class="container" id="minicontainer">
-								<div class="row">
-									<!-- inicia fila -->
-									<div class="col-md-6">
-										<label for="" id="colorNombres">Titulo:</label>
-										<input type="text" class="form-control" name="Titulo" value="" placeholder=""><br>
-									</div>
-									<div class="col-md-3">
-										<label for="" id="colorNombres">Fecha:</label>
-										<input type="text" class="form-control" name="FechaActual" <?php echo 'value="' . $fechaActual . '"' ?> required="required" readonly><br>
-									</div>
+				<div class="col-md-3">
+					<form action="" method="post">
+						<a href="actualizar.php?id=<?php echo $row["CedulaEstudiante"]; ?>" class="btn btn-primary">Modificar</a>
+						<a href="procesareliminar.php?id=<?php echo $row["CedulaEstudiante"]; ?>" class="btn btn-primary">Eliminar</a>
+				</div>
+				</td>
+		</form>
+	</div>
+	<div class="col-md-3">
+		<form action="" method="post">
+
+		</form>
+	</div>
+	</div>
+	<div class="col-md-12">
+		<div class="card my-4" id="card1" style="background-color: #121b4f; color: white;">
+			<h5 class="card-header" style="background-color: #0079be;"> <b>Datos de la noticia</b></h5>
+			<div class="card-body">
+				<div class="container" id="minicontainer">
+					<div class="row">
+						<!-- inicia fila -->
+						<div class="col-md-6">
+							<label for="" id="colorNombres">Titulo:</label>
+							<input type="text" class="form-control" name="Titulo" value="" placeholder=""><br>
+						</div>
+						<div class="col-md-3">
+							<label for="" id="colorNombres">Fecha:</label>
+							<input type="text" class="form-control" name="FechaActual" <?php echo 'value="' . $fechaActual . '"' ?> required="required" readonly><br>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12" id="Descripcion">
+					<label for="">Descripción:</label>
+					<div class="form-floating">
+						<textarea for="inlineRadio5" name="enfermedadDescrip" class="form-control" placeholder="Deja tu respuesta" id="floatingTextarea2" style="height: 100px" spellcheck="false" data-ms-editor="true" require></textarea><br>
+					</div>
+				</div>
+
+				<div class="">
+					<div class="">
+						<div class="">
+							<h4 class="text-center">Cargar Imagen de Noticia</h4>
+							<div class="form-group">
+
+								<div class="col-12 ">
+									<input type="file" class="form-control" name="imagenes[]" accept="image/jpeg,image/jpg,image/png" multiple>
 								</div>
 							</div>
-							<div class="col-md-12" id="Descripcion">
-								<label for="">Descripción:</label>
-								<div class="form-floating">
-									<textarea for="inlineRadio5" name="enfermedadDescrip" class="form-control" placeholder="Deja tu respuesta" id="floatingTextarea2" style="height: 100px" spellcheck="false" data-ms-editor="true" require></textarea><br>
-								</div>
-							</div>
 
-							<div class="">
-								<div class="">
-									<div class="">
-										<h4 class="text-center">Cargar Imagen de Noticia</h4>
-										<div class="form-group">
+						</div>
+					</div>
+				</div>
+				<br>
 
-											<div class="col-12 ">
-												<input type="file" class="form-control" name="imagenes[]" accept="image/jpeg,image/jpg,image/png" multiple>
-											</div>
-										</div>
-
-									</div>
-								</div>
-							</div>
-							<br>
-
-							<!--<div class="" id="myimagenes">
+				<!--<div class="" id="myimagenes">
 								<div class="dz-default dz-message">
 									<input type="file" name="archivo_img" id="">
 									<button class="dz-button" type="button"><img src="img/upload.png" alt=""></button>
 								</div>
 							</div>-->
-							<div class="button">
-								<button name="aceptar" type="submit" id="send">Aceptar</button>
-							</div>
-						</div>
-					</div>
+				<div class="button">
+					<button name="aceptar" type="submit" id="send">Aceptar</button>
 				</div>
 			</div>
-			<!--Fin de la clase row..-->
-		</form>
-		<!--Fin del Form..-->
+		</div>
+	</div>
+	</div>
+	<!--Fin de la clase row..-->
+	</form>
+	<!--Fin del Form..-->
 	</div>
 	<!--Fin de la clase container..-->
 

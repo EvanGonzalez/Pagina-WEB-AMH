@@ -21,13 +21,10 @@
     ?>
     <!--miga de pan-->
     <div class="container text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <?php
-
-                include("Migas_Pan/MigaPan8.html")
-                ?>
-            </div>
+        <div class="col-md-12">
+            <?php
+            include("Migas_Pan/MigaPan8.html")
+            ?>
         </div>
     </div>
     <br>

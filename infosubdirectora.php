@@ -25,12 +25,10 @@
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <?php
-                include("Migas_Pan/MigaPan10.html");/*  */
-                ?>
-            </div>
+        <div class="col-md-12">
+            <?php
+            include("Migas_Pan/MigaPan10.html");/*  */
+            ?>
         </div>
     </div>
     <br>
@@ -59,9 +57,9 @@
                                 <ul class="textopaginatecnico">
                                     Realizó sus estudios primarios en la Escuela Manuel José Hurtado, su primer ciclo en el Instituto América y su segundo ciclo en el colegio privado Instituto Istmeño, donde se le otorgó diploma de Bachiller en Ciencias.
                                     <br><br>
-                                    Unos años más tarde obtuvo en la Universidad de Panamá el título de Licenciada en Administración de empresa y el título de licenciada en Economía. 
+                                    Unos años más tarde obtuvo en la Universidad de Panamá el título de Licenciada en Administración de empresa y el título de licenciada en Economía.
                                     <br> <br>
-                                    Posteriormente, en la Universidad Santa María La Antigua obtuvo el título de Maestría en Ingeniería Económica. Además, participó en el curso de Economía para funcionarios públicos por la Universidad de IOWA en la ciudad de Panamá, por lo que se le otorgó un crédito de postgrado. Más adelante, adquirió postgrado y diplomados en administración de empresa. Por último, alcanzó a graduarse en Doctora en Ciencias Económicas y Empresariales. 
+                                    Posteriormente, en la Universidad Santa María La Antigua obtuvo el título de Maestría en Ingeniería Económica. Además, participó en el curso de Economía para funcionarios públicos por la Universidad de IOWA en la ciudad de Panamá, por lo que se le otorgó un crédito de postgrado. Más adelante, adquirió postgrado y diplomados en administración de empresa. Por último, alcanzó a graduarse en Doctora en Ciencias Económicas y Empresariales.
                                     <br><br>
                                 </ul>
                                 </p>

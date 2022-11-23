@@ -32,12 +32,10 @@ $fechaActual = date('Y-m-d');
 
 	<!--miga de pan-->
 	<div class="contenedorMigaPan text-center">
-		<div class="row">
-			<div class="col-md-12">
-				<?php
-				include("Migas_Pan/MigaPan12.html")
-				?>
-			</div>
+		<div class="col-md-12">
+			<?php
+			include("Migas_Pan/MigaPan12.html")
+			?>
 		</div>
 	</div>
 	<br>
@@ -52,7 +50,7 @@ $fechaActual = date('Y-m-d');
 			<div class="row">
 				<!--Inicio de la clase Row..-->
 				<center>
-					<h1 class="my-4" id="titulo1">Noticias.</h1>
+					<h1 class="my-4" id="titulo1">Noticias</h1>
 				</center>
 				<div class="col-md-12">
 					<div class="card my-4" id="card1" style="background-color: #121b4f; color: white;">
@@ -71,46 +69,47 @@ $fechaActual = date('Y-m-d');
 									</div>
 								</div>
 							</div>
-							<div class="col-md-12" id="Descripcion">
-								<label for="">Descripción:</label>
-								<div class="form-floating">
-									<textarea for="inlineRadio5" name="enfermedadDescrip" class="form-control" placeholder="Deja tu respuesta" id="floatingTextarea2" style="height: 100px" spellcheck="false" data-ms-editor="true" required="required"></textarea><br>
-								</div>
+						</div>
+						<div class="col-md-12" id="Descripcion">
+							<label for="">Descripción:</label>
+							<div class="form-floating">
+								<textarea for="inlineRadio5" name="enfermedadDescrip" class="form-control" placeholder="Deja tu respuesta" id="floatingTextarea2" style="height: 100px" spellcheck="false" data-ms-editor="true" required="required"></textarea><br>
 							</div>
+						</div>
 
+						<div class="">
 							<div class="">
 								<div class="">
-									<div class="">
-										<h4 class="text-center">Cargar Imagen de Noticia</h4>
-										<div class="form-group">
+									<h4 class="text-center">Cargar Imagen de Noticia</h4>
+									<div class="form-group">
 
-											<div class="col-12 ">
-												<input type="file" class="form-control" name="imagenes[]" accept="image/jpeg,image/jpg,image/png" multiple required="required">
-											</div>
+										<div class="col-12 ">
+											<input type="file" class="form-control" name="imagenes[]" accept="image/jpeg,image/jpg,image/png" multiple required="required">
 										</div>
-
 									</div>
+
 								</div>
 							</div>
-							<br>
+						</div>
+						<br>
 
-							<!-- <div class="" id="myimagenes">
+						<!-- <div class="" id="myimagenes">
 								<div class="dz-default dz-message">
 									<input type="file" name="archivo_img" id="">
 									<button class="dz-button" type="button"><img src="img/upload.png" alt=""></button>
 								</div>
 							</div> -->
 
-							<div class="button">
-								<button name="enviar" type="submit" id="send">Enviar</button>
-							</div>
+						<div class="button">
+							<button name="enviar" type="submit" id="send">Enviar</button>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!--Fin de la clase row..-->
-		</form>
-		<!--Fin del Form..-->
+	</div>
+	<!--Fin de la clase row..-->
+	</form>
+	<!--Fin del Form..-->
 	</div>
 	<!--Fin de la clase container..-->
 

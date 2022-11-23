@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,19 +17,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="js/wow.min.js"></script>
     <script>
-      new WOW().init();
-    </script> 
+        new WOW().init();
+    </script>
     <title>AMH: Banda de Música</title>
 </head>
+
 <body>
-    <?php include ('../Menu_Footer/menumain.html'); ?>
+    <?php include('../Menu_Footer/menumain.html'); ?>
     <div class="contenedorMigaPan text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <?php
-                    include("../Migas_Pan/MigaPan22.html")
-                ?>
-            </div>
+        <div class="col-md-12">
+            <?php
+            include("../Migas_Pan/MigaPan22.html")
+            ?>
         </div>
     </div>
     <section>
@@ -36,29 +36,29 @@
             <br>
             <br>
             <center>
-                <h1 class="wow zoomIn" id="registre">Banda de Música Ángel María Herrera</h1>
+                <h1 class="text-center">Banda de Música Ángel María Herrera</h1>
             </center>
             <br>
             <br>
-            <div class="container wow fadeInUp" >
+            <div class="container wow fadeInUp">
                 <div class="row" id="negar">
                     <div class="col-md-7 wow fadeInLeft" data-wow-delay="1,0s" id="bminicio">
-                        <h2 id="registre">Inicios</h2>
+                        <center><h4 style="font-size: 30px;">Inicios</h4></center>
                         <br>
                         <p>
-                            La Banda de Música de la escuela secundaria Ángel María Herrera de Penonomé se ha caracterizado por las grandiosas 
-                            presentaciones que ha realizado a nivel provincial y nacional, logros que han obtenido, precisamente contrabajo, 
+                            La Banda de Música de la escuela secundaria Ángel María Herrera de Penonomé se ha caracterizado por las grandiosas
+                            presentaciones que ha realizado a nivel provincial y nacional, logros que han obtenido, precisamente contrabajo,
                             esfuerzo y dedicación.
-                        </p>                        
+                        </p>
                         <p>
-                            Se inició como una pequeña banda de tambores hace más de 40 años dirigida por el profesor Porfirio Méndez, 
-                            que en contrabajo y algunos años de esfuerzo fue incorporando clarinetes, liras, y algunos instrumentos musicales 
+                            Se inició como una pequeña banda de tambores hace más de 40 años dirigida por el profesor Porfirio Méndez,
+                            que en contrabajo y algunos años de esfuerzo fue incorporando clarinetes, liras, y algunos instrumentos musicales
                             con el afán de crear una banda de prestigio y renombre.
-                            La Banda de Música tuvo su génesis en 1996, bajo la dirección del profesor Juan Erasmo Salazar. A través de la música 
+                            La Banda de Música tuvo su génesis en 1996, bajo la dirección del profesor Juan Erasmo Salazar. A través de la música
                             en el desarrollo espiritual e intelectual del estudiantado angelino y de la juventud penonomeña.
                         </p>
                         <p>
-                            Esta prestigiosa banda, actualmente dirigida por el profesor Elvis Somarriba, cuenta con 150 integrantes entre porta banderas, 
+                            Esta prestigiosa banda, actualmente dirigida por el profesor Elvis Somarriba, cuenta con 150 integrantes entre porta banderas,
                             ballet folclórico, músicos instrumentales y abre calles. Cabe destacar que todos estos estudiantes están debidamente matriculados.
                         </p>
                     </div>
@@ -71,10 +71,10 @@
                     <br>
                     <br>
                     <div class="container-fluid ">
-                        <h2 class="text-center">Galardones</h2>
+                        <br><br><h1 class="text-center">Galardones</h1>
                         <hr>
-                        <p>
-                            A través de su accionar por el mundo de la música, ha sido galardonada con diversos premios en competencias a nivel regional y nacional.
+                        <p style="font-size: 20px; text-align: center;">
+                            A través de su accionar por el mundo de la música, ha sido galardonada con<br> diversos premios en competencias a nivel regional y nacional
                         </p>
                         <div class="elotro">
                             <div class="carde wow fadeInUp">
@@ -89,6 +89,7 @@
                                     </p>
                                 </div>
                             </div>
+                            <!--2-->
                             <div class="carde wow fadeInUp">
                                 <div class="face front">
                                     <img src="../Otras_Actividades/img/banda/Colombia1.jpeg" alt="Banda de Música" title="Banda de Música">
@@ -101,7 +102,8 @@
                                         En septiembre de 2017, se realizó un intercambio cultural la hermana República de Colombia, llevando nuestra música y representando a Panamá.
                                     </p>
                                 </div>
-                            </div>
+                            </div>  
+                            <!--3-->
                             <div class="carde wow fadeInUp">
                                 <div class="face front">
                                     <img src="../Otras_Actividades/img/banda/Mexico 2019-4.jpg" alt="Banda de Música" title="Banda de Música">
@@ -110,11 +112,12 @@
                                 <div class="face back">
                                     <h3>2019</h3>
                                     <p class="text-white">
-                                        En el mes de mayo del 2019, una vez más fue invitada a una gira internacional a través del intercambio intercultural en la República de México, 
+                                        En el mes de mayo del 2019, una vez más fue invitada a una gira internacional a través del intercambio intercultural en la República de México,
                                         participando en la ciudad de Hidalgo, Tepeji del Río Ocampo, Tula entre otros.
                                     </p>
                                 </div>
                             </div>
+                            <!--4-->
                             <div class="carde wow fadeInUpf">
                                 <div class="face front">
                                     <img src="../Otras_Actividades/img/banda/PXL_20221018_132837626.jpg" alt="Banda" title="Banda">
@@ -129,17 +132,18 @@
                             </div>
                         </div>
                     </div>
-                </div>                
+                </div>
             </div>
-        </div>           
+        </div>
     </section>
     <?php include '../botonArriba.html'; ?>
 
     <?php
-        include '../Menu_Footer/footer.html'; 
+    include '../Menu_Footer/footer.html';
     ?>
     <script src="../js/boton_up.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
+
 </html>

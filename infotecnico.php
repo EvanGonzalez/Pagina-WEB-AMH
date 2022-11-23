@@ -25,12 +25,10 @@
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <?php
-                include("Migas_Pan/MigaPan11.html")
-                ?>
-            </div>
+        <div class="col-md-12">
+            <?php
+            include("Migas_Pan/MigaPan11.html")
+            ?>
         </div>
     </div>
     <br>
@@ -45,10 +43,10 @@
         <center><img src="img/Subdirectora Tecnico Docente Magister Erica Arias.JPG" class="imgtecnicodocente" /></center><br>
         <ul class="textopaginatecnico2">
             <center>
-            <li>Cédula 2-157-931</li>
+                <li>Cédula 2-157-931</li>
                 <li><a href="mailto:erica19arias@gmail.com?">Contactar por correo: erica19arias@gmail.com</a></li>
             </center>
-            </ul>
+        </ul>
 
 
 

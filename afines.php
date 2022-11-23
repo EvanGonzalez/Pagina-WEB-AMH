@@ -27,12 +27,10 @@
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <?php
-                include("Migas_Pan/MigaPan16.html")
-                ?>
-            </div>
+        <div class="col-md-12">
+            <?php
+            include("Migas_Pan/MigaPan16.html")
+            ?>
         </div>
     </div>
     <br>
@@ -43,119 +41,133 @@
     <div class="container text-justify">
         <div class="row">
             <div class="col-md-12" id="justify">
-                <h3>DESCRIPCIÓN</h3>
-                El departamento de afines está formado por trece (13) profesores de diversas asignaturas, cada uno dedicado a su especialidad. La mayoría trabaja con estudiantes de Premedia y el resto con estudiante de media. Tiene un coordinador para todo el departamento que se elige cada dos años.</p>
+                <br><center><h3>DESCRIPCIÓN</h3></center>
+                El departamento de afines está formado por trece (13) profesores de diversas asignaturas, cada uno dedicado a su especialidad. La mayoría trabaja con estudiantes de premedia y el resto con estudiante de media. Tiene un coordinador para todo el departamento que se elige cada dos años.</p>
                 Este departamento se distingue por su diversidad de talentos, competencias, destrezas. Esta inmerso en toda las actividades curriculares y extracurriculares del plantel. Potencia en los estudiantes el desarrollo de las habilidades duras y blandas.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6" id="justify">
                 <div class="card my-4" style="background-color: #121b4f;color:white;">
-                    <div class="card-body">  
-                                <div id="" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="img/Dpt de afines/Banquete para bodas.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/Dpt de afines/Banquete para graduacion.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/Dpt de afines/costura.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/Dpt de afines/preparación de dulces y frutas .jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
-                                        </div>
-                                    </div>
+                    <div class="card-body">
+                        <div id="" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/Dpt de afines/Banquete para bodas.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
                                 </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dpt de afines/Banquete para graduacion.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dpt de afines/costura.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dpt de afines/preparación de dulces y frutas .jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6" id="justify">
-                <div class="card my-4" style="background-color: #121b4f;color:white;">  
-                    <div class="card-body">  
-                                <div id="" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="img/Dpt de afines/manualidades1.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/Dpt de afines/manualidades2.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/Dpt de afines/manualidades3.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
-                                        </div>
-                                    </div>
+                <div class="card my-4" style="background-color: #121b4f;color:white;">
+                    <div class="card-body">
+                        <div id="" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/Dpt de afines/manualidades1.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
                                 </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dpt de afines/manualidades2.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Dpt de afines/manualidades3.jpeg" class="d-block w-100" alt="..." style="width: 500px;height:300px;">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            
+
         </div>
         <div class="row">
             <div class="col-md-12">
-            <table id="bordetabla">
-                <tr>
-                    <td class="text-center" id="cabeceras"><h3>FAMILIA Y DESARROLLO COMUNITARIO</h3></td>
-                    <td>
-                        <div class="tdtext">
-                            La materia de familia y desarrollo comunitario, desde su inicio, ha tratado de cumplir los planes y programas establecidos por el Ministerio de Educación.
-                            Proporcionamos al estudiante los conocimientos requeridos en las diferentes áreas que la asignatura exige.
-                            Durante el desarrollo de nuestras clases despertamos el interés de los estudiantes a través de la realización de proyectos manuales que luego se exponen en la feria del departamento, que se realiza en el mes de octubre, dónde se conmemora la semana de la alimentación.
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-center" id="cabeceras"><h3>RELIGIÓN</h3></td>
-                    <td>
-                        <div class="tdtext">
-                            Esta materia se brinda a estudiantes de séptimo, octavo y noveno. Se fomentan los valores principales como el respeto, el compañerismo y la responsabilidad.
-                            Se desarrolla un conjunto de cualidades propias de las condiciones religiosa de una persona.
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-center" id="cabeceras"><h3>ÉTICA Y VALORES</h3></td>
-                    <td>
-                        <div class="tdtext">
-                            Esta asignatura tiene como pretensión formar a los estudiantes en valores universales y personales, que le ayuden a desarrollar sus competencias blandas. además, se precisa , la importancia que tienen los valores , como principios que orientan y determinan la conducta humana.
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-center" id="cabeceras"><h3>MÚSICA</h3></td>
-                    <td>
-                        <div class="tdtext">
-                            A través de esta disciplina, se dedicaron al estudio más técnico de la música.
-                            Estos profesores han seguido formando nuevos músicos, utilizando las técnicas aprendidas en sus raíces.
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-center" id="cabeceras"><h3>AGRICULTURA </h3></td>
-                    <td>
-                        <div class="tdtext">
-                            En esta asignatura despierta en el estudiante, el interés por las actividades agrícolas. Recibe conocimientos sobre preparación de la tierra para la siembra; calidad y diversidad de semillas, el mantenimiento de los cultivos entre otros.
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-center" id="cabeceras"><h3>ARTES INDUSTRIALES</h3></td>
-                    <td>
-                        <div class="tdtext">
-                            En esta asignatura se proporciona al estudiante conocimientos básicos en las  artes técnicas como lo son, soldadura, electricidad, ebanistería y albañilería.
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-center" id="cabeceras"><h3>BELLAS ARTES/ ARTÍSTICA</h3></td>
-                    <td>
-                        <div class="tdtext">
-                            Esta asignatura facilita al estudiante, iniciarse en el fascinante mundo de las artes plásticas y artes gráficas. Promueve en el estudiante el gusto y destrezas por las artes, su desarrollo, diversidad, representantes.
-                        </div>
-                    </td>
-                </tr>
-            </table>
+                <table id="bordetabla">
+                    <tr>
+                        <td class="text-center" id="cabeceras">
+                            <h3>FAMILIA Y DESARROLLO COMUNITARIO</h3>
+                        </td>
+                        <td>
+                            <div class="tdtext">
+                                La materia de familia y desarrollo comunitario, desde su inicio, ha tratado de cumplir los planes y programas establecidos por el Ministerio de Educación.
+                                Proporcionamos al estudiante los conocimientos requeridos en las diferentes áreas que la asignatura exige.
+                                Durante el desarrollo de nuestras clases despertamos el interés de los estudiantes a través de la realización de proyectos manuales que luego se exponen en la feria del departamento, que se realiza en el mes de octubre, dónde se conmemora la semana de la alimentación.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center" id="cabeceras">
+                            <h3>RELIGIÓN</h3>
+                        </td>
+                        <td>
+                            <div class="tdtext">
+                                Esta materia se brinda a estudiantes de séptimo, octavo y noveno. Se fomentan los valores principales como el respeto, el compañerismo y la responsabilidad.
+                                Se desarrolla un conjunto de cualidades propias de las condiciones religiosa de una persona.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center" id="cabeceras">
+                            <h3>ÉTICA Y VALORES</h3>
+                        </td>
+                        <td>
+                            <div class="tdtext">
+                                Esta asignatura tiene como pretensión formar a los estudiantes en valores universales y personales, que le ayuden a desarrollar sus competencias blandas. además, se precisa , la importancia que tienen los valores , como principios que orientan y determinan la conducta humana.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center" id="cabeceras">
+                            <h3>MÚSICA</h3>
+                        </td>
+                        <td>
+                            <div class="tdtext">
+                                A través de esta disciplina, se dedicaron al estudio más técnico de la música.
+                                Estos profesores han seguido formando nuevos músicos, utilizando las técnicas aprendidas en sus raíces.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center" id="cabeceras">
+                            <h3>AGRICULTURA </h3>
+                        </td>
+                        <td>
+                            <div class="tdtext">
+                                En esta asignatura despierta en el estudiante, el interés por las actividades agrícolas. Recibe conocimientos sobre preparación de la tierra para la siembra; calidad y diversidad de semillas, el mantenimiento de los cultivos entre otros.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center" id="cabeceras">
+                            <h3>ARTES INDUSTRIALES</h3>
+                        </td>
+                        <td>
+                            <div class="tdtext">
+                                En esta asignatura se proporciona al estudiante conocimientos básicos en las  artes técnicas como lo son, soldadura, electricidad, ebanistería y albañilería.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center" id="cabeceras">
+                            <h3>BELLAS ARTES/ ARTÍSTICA</h3>
+                        </td>
+                        <td>
+                            <div class="tdtext">
+                                Esta asignatura facilita al estudiante, iniciarse en el fascinante mundo de las artes plásticas y artes gráficas. Promueve en el estudiante el gusto y destrezas por las artes, su desarrollo, diversidad, representantes.
+                            </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
