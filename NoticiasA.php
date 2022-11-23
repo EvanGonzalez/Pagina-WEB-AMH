@@ -12,7 +12,7 @@ $_SESSION["Vas"] = 0;
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
-    <link rel="stylesheet" href="./css/header-style.css" type="text/css">
+    <link rel="stylesheet" href="./css/menutest.css" type="text/css">
     <link rel="stylesheet" href="./FormNoticiasA/NoticiasA.css" type="text/css">
     <link rel="shortcut icon" href="img/2.ico" type="image/x-icon"><!--  -->
     <!--Complemento para Imagen responsive-->
@@ -29,8 +29,8 @@ $_SESSION["Vas"] = 0;
 
     <!-- HEADER -->
     <?php
-    include("./Menu_footer/headAdmin.html");
-    ?>
+	include("./Menu_footer/menuadmin.html");
+	?>
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
