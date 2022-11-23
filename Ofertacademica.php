@@ -30,16 +30,14 @@
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
-        <div class="row">
-            <div class="col-md-12">
+        <div class="col-md-12">
                 <?php
                 include("Migas_Pan/MigaPan3.html")
                 ?>
-            </div>
-        </div>
-    </div>
+            </div> 
+    </div> 
     <br>
-
+        
     <!--termina miga de pan-->
 
 
@@ -57,8 +55,8 @@
 
         </div>
     </div>
-
-    <br><br>
+        
+    <br><br> 
     <?php
     include("botonArriba.html");
     ?>

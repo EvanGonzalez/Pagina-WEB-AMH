@@ -27,12 +27,10 @@
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <?php
-                include("Migas_Pan/MigaPan7.html")
-                ?>
-            </div>
+        <div class="col-md-12">
+            <?php
+            include("Migas_Pan/MigaPan7.html")
+            ?>
         </div>
     </div>
     <br>
@@ -45,7 +43,7 @@
 
         <div class="row">
             <p>
-                
+
             </p>
             <div class="col-md-6 matematica " style="text-align: justify;">
                 <p>En 1895, en la Escuela Secundaria Ángel María Herrera, se crea el bachillerato de comercio que brinda la oportunidad a jóvenes estudiantes de nuestra comunidad, de lograr una preparación profesional que le permite grandes salidas en el mercado de trabajo.</p>
@@ -53,54 +51,55 @@
                 <p>Nuestra primera promoción fue en 1987 y posteriormente se   más, todas ellas con especialización en contabilidad. y así los egresados podrán convertirse en profesionales claves dentro de una organización pública o privada.  </p>
             </div>
             <div class="col-md-6 matematica " style="text-align: justify;"><br><br>
-                <div><img src="img/Dpt comercio/WhatsApp Image 2022-09-23 at 2.12.44 PM.jpeg" alt="" width="100%" ></div>
+                <div><img src="img/Dpt comercio/WhatsApp Image 2022-09-23 at 2.12.44 PM.jpeg" alt="" width="100%"></div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6 matematica " style="text-align: justify;">
-                
+
                 <p>Durante todo el año escolar el departamento de comercio realiza diversas actividades, tales como:</p>
                 <center>
-                        <h3>Conmemoración de la semana de la secretaria:</h3>
+                    <h3>Conmemoración de la semana de la secretaria:</h3>
                 </center>
                 <div id="CARRUSEL">
-                        <div>
-                            <div class="carta">
-                                <div class="carta-body">
-                                    <div class="carta-content">
-                                        <div class="carta-txt">
-                                            <ul class="textopagina2">
-                                                <li>Alocución a la secretaría.</li>
-                                                <li>Confección de murales alusivos a la fecha.</li>
-                                                <li>Entrega de ramos de flores.</li>
-                                            </ul>
-                                        </div>
+                    <div>
+                        <div class="carta">
+                            <div class="carta-body">
+                                <div class="carta-content">
+                                    <div class="carta-txt">
+                                        <ul class="textopagina2">
+                                            <li>Alocución a la secretaría.</li>
+                                            <li>Confección de murales alusivos a la fecha.</li>
+                                            <li>Entrega de ramos de flores.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <center>
-                        <br><h3>La semana del comercio se realiza en el mes de agosto y se realizan las siguientes actividades:</h3>
+                </div>
+                <center>
+                    <br>
+                    <h3>La semana del comercio se realiza en el mes de agosto y se realizan las siguientes actividades:</h3>
                 </center>
                 <div id="CARRUSEL">
-                        <div>
-                            <div class="carta">
-                                <div class="carta-body">
-                                    <div class="carta-content">
-                                        <div class="carta-txt">
-                                            <ul class="textopagina2">
-                                                <li>Presentación de murales.</li>
-                                                <li>Exposición de equipo utilizado en laboratorio.</li>
-                                                <li>Concurso interno de mecanografía, estenografía y manejo de máquina.</li>
-                                                <li>Promoción de bachiller en comercio y contabilidad a los estudiantes de Premedia.</li>
-                                            </ul>
-                                        </div>
+                    <div>
+                        <div class="carta">
+                            <div class="carta-body">
+                                <div class="carta-content">
+                                    <div class="carta-txt">
+                                        <ul class="textopagina2">
+                                            <li>Presentación de murales.</li>
+                                            <li>Exposición de equipo utilizado en laboratorio.</li>
+                                            <li>Concurso interno de mecanografía, estenografía y manejo de máquina.</li>
+                                            <li>Promoción de bachiller en comercio y contabilidad a los estudiantes de Premedia.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
             <div class="col-md-6 matematica " style="text-align: justify;">
                 <img src="img/Dpt comercio/Departamento de Comercio.jpeg" alt="" width="100%"> <br><br>
@@ -122,7 +121,7 @@
     ?>
     <footer>
         <?php
-       include("./Menu_Footer/footer.html");
+        include("./Menu_Footer/footer.html");
 
         ?>
     </footer>

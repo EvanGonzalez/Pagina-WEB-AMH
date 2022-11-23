@@ -22,17 +22,15 @@
 
 <body id="fondoMain">
     <?php
-     include("./Menu_Footer/menumain.html");
+    include("./Menu_Footer/menumain.html");
     ?>
 
     <!--miga de pan-->
     <div class="container text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <?php
-                include("Migas_Pan/MigaPan6.html")
-                ?>
-            </div>
+        <div class="col-md-12">
+            <?php
+            include("Migas_Pan/MigaPan6.html")
+            ?>
         </div>
     </div>
     <br>
@@ -49,82 +47,85 @@
                 Hicieron actividades durante más de 10 años de reciclaje de papel y de latas de aluminio como una manera de hacer conciencia y docencia sobre la tala indiscriminada y la contaminación por desechos no biológicos.</p>
             </div>
             <div class="col-md-6">
-                    <center>
-                        
-                        <div id="" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Ciencias .JPG" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biologia 1.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biologia 6.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biologia 4.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
-                                </div>
+                <center>
+
+                    <div id="" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/Dpt Ciencias y Biologia/Laboratorio de Ciencias .JPG" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biologia 1.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biologia 6.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Dpt Ciencias y Biologia/Laboratorio de Biologia 4.jpeg" class="d-block w-80 img-fluid img-thumbnail" alt="..." style="background-color: #121b4f;" width="100%">
                             </div>
                         </div>
-                    </center>
+                    </div>
+                </center>
             </div>
             <div>
                 Durante algún tiempo fuimos parte del proyecto Globe en la que los estudiantes tomaban datos atmosféricos para medir como se estaba desarrollando el Cambio Climático en ese momento (2008-2009). </p>
-            Fuimos centro de intercambio de becarios y voluntarios del programa JICA de la Embajada de Japón, voluntarios éstos que han compartido sus experiencias de éxito con docentes y estudiantes de nuestro centro educativo.</p>
+                Fuimos centro de intercambio de becarios y voluntarios del programa JICA de la Embajada de Japón, voluntarios éstos que han compartido sus experiencias de éxito con docentes y estudiantes de nuestro centro educativo.</p>
             </div>
-            
+
         </div>
         <div class="row">
             <div class="col-md-12">
-            <div class="animationsociales3">
-            <div class="row">
-                <div class="col-md-12">
-                    <center>
-                        <h3>Misión</h3>
-                        <br>
-                    </center>
-                    <div id="CARRUSEL">
-                        <div>
-                            <div class="carta">
-                                <div class="carta-body">
-                                    <div class="carta-content">
-                                        <div class="carta-txt">
-                                            <ul class="textopagina2">
-                                                <li>Desarrollar el pensamiento investigativo y crítico entre los estudiantes, desde que inician su actividad escolar en séptimo grado y que se mantenga durante su vida.</li>
-                                            </ul>
+                <div class="animationsociales3">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <center>
+                                <h3>Misión</h3>
+                                <br>
+                            </center>
+                            <div id="CARRUSEL">
+                                <div>
+                                    <div class="carta">
+                                        <div class="carta-body">
+                                            <div class="carta-content">
+                                                <div class="carta-txt">
+                                                    <ul class="textopagina2">
+                                                        <li>Desarrollar el pensamiento investigativo y crítico entre los estudiantes, desde que inician su actividad escolar en séptimo grado y que se mantenga durante su vida.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                </div>
 
-                <br><div class="row" style="text-align: justify;">
-                <!--<div class="col-md-2 matematica" style="text-align: justify;">
+                    <br>
+                    <div class="row" style="text-align: justify;">
+                        <!--<div class="col-md-2 matematica" style="text-align: justify;">
                     <br><br><img src="img/Dpt Ciencias y Biologia/Instrumentos2.jpeg" alt="" width="100%">
                 </div>-->
-                <div class="col-md-12">
-                    <div class="animationsociales4">
-                        <center>
-                            <h3>Actividades</h3>
-                            <h2></h2>
-                        </center>
-                        <div id="CARRUSEL">
-                            <div>
-                                <div class="carta">
-                                    <div class="carta-body">
-                                        <div class="carta-content">
-                                            <div class="carta-txt">
-                                                <ul class="textopagina2 text-justify">
-                                                    <li>Conmemoración de fechas ecológicas y sucesos científicos importantes como el día del Agua, el día de la Tierra, el día del Árbol, el mes de los Recursos Naturales, entre otras efemérides destacadas.</li>
-                                                    <li>Confección de Murales alusivos a hechos sobresalientes.</li>
-                                                    <li>Desarrollo de Charlas científicas en el marco de la Semana de la Ciencia. </li>
-                                                    <li>Mantenimiento del Parque Forestal Angelino.</li>
-                                                    <li>Concienciación entre la comunidad angelina sobre el rol en el mantenimiento de la salud del planeta.</li>
-                                                </ul>
+                        <div class="col-md-12">
+                            <div class="animationsociales4">
+                                <center>
+                                    <h3>Actividades</h3>
+                                    <h2></h2>
+                                </center>
+                                <div id="CARRUSEL">
+                                    <div>
+                                        <div class="carta">
+                                            <div class="carta-body">
+                                                <div class="carta-content">
+                                                    <div class="carta-txt">
+                                                        <ul class="textopagina2 text-justify">
+                                                            <li>Conmemoración de fechas ecológicas y sucesos científicos importantes como el día del Agua, el día de la Tierra, el día del Árbol, el mes de los Recursos Naturales, entre otras efemérides destacadas.</li>
+                                                            <li>Confección de Murales alusivos a hechos sobresalientes.</li>
+                                                            <li>Desarrollo de Charlas científicas en el marco de la Semana de la Ciencia. </li>
+                                                            <li>Mantenimiento del Parque Forestal Angelino.</li>
+                                                            <li>Concienciación entre la comunidad angelina sobre el rol en el mantenimiento de la salud del planeta.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -133,8 +134,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
             </div>
         </div>
     </div>

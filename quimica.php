@@ -21,17 +21,15 @@
 
 <body id="fondoMain">
     <?php
-     include("./Menu_Footer/menumain.html");/*  */
+    include("./Menu_Footer/menumain.html");/*  */
     ?>
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <?php
-                include("Migas_Pan/MigaPan21.html")/*  */
-                ?>
-            </div>
+        <div class="col-md-12">
+            <?php
+            include("Migas_Pan/MigaPan21.html")/*  */
+            ?>
         </div>
     </div>
     <br>
@@ -42,7 +40,7 @@
     <div class="container text-justify">
         <div class="animationsociales1">
             <div class="row">
-                <div class="col-md-6" >
+                <div class="col-md-6">
                     <center>
                         <div id="" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -70,11 +68,11 @@
 
         <div class="animationsociales3">
             <div class="row">
-                    <center>
-                        <br>
-                        <h3>Entre las participaciones del departamento se encuentran:</h3>
-                        <br>
-                    </center>
+                <center>
+                    <br>
+                    <h3>Entre las participaciones del departamento se encuentran:</h3>
+                    <br>
+                </center>
                 <div class="col-md-3">
                     <div id="CARRUSEL">
                         <div>
@@ -147,31 +145,36 @@
         </div>
 
         <div class="animationsociales5">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="card my-4" style="background-color: #121b4f; color:white;">
-                        <div class="card-body" id="justify">
-                            <p class="estiloapoyotexto" style="color: white;">El Club Científico Investigadores Angelinos (INVAN), fundada el 30 de octubre de 1999 en el laboratorio de química, asesorado por el profesor Walter Ortega, bajo la administración de la profesora Lastenia de Castillo (Q.P.D).</p>
-                            <p class="estiloapoyotexto" style="color: white;">Desde entonces el Club a ganado muchos premios regionales y nacionales. Este año representó a la provincia en Astronomía y en Química de la Cocina.</p>
-                            <p class="estiloapoyotexto" style="color: white;">El día 28 de octubre de 2022, se desarrolló el Certamen Nacional de Química en la Cocina en la ciudad del Saber, en donde participamos, representando a la provincia.</p>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="card my-4" style="background-color: white; color:white;">
-                                        <h5 class="card-header" style="background-color:#0079be;"><center>Concurso Nacional de Astronomía</center></h5>
-                                        <div class="card-body">
-                                            <img src="img/Dpt Quimica y Fisica/Concurso Nacional de Astronomia.jpeg" alt="" width="100%">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="card my-4" style="background-color: #121b4f; color:white;">
+                            <div class="card-body" id="justify">
+                                <p class="estiloapoyotexto" style="color: white;">El Club Científico Investigadores Angelinos (INVAN), fundada el 30 de octubre de 1999 en el laboratorio de química, asesorado por el profesor Walter Ortega, bajo la administración de la profesora Lastenia de Castillo (Q.P.D).</p>
+                                <p class="estiloapoyotexto" style="color: white;">Desde entonces el Club a ganado muchos premios regionales y nacionales. Este año representó a la provincia en Astronomía y en Química de la Cocina.</p>
+                                <p class="estiloapoyotexto" style="color: white;">El día 28 de octubre de 2022, se desarrolló el Certamen Nacional de Química en la Cocina en la ciudad del Saber, en donde participamos, representando a la provincia.</p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="card my-4" style="background-color: white; color:white;">
+                                            <h5 class="card-header" style="background-color:#0079be;">
+                                                <center>Concurso Nacional de Astronomía</center>
+                                            </h5>
+                                            <div class="card-body">
+                                                <img src="img/Dpt Quimica y Fisica/Concurso Nacional de Astronomia.jpeg" alt="" width="100%">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card my-4" style="background-color: white; color:white;">
-                                        <h5 class="card-header" style="background-color:#0079be;"><center>Grupo INVAN 2022</center></h5>
-                                        <div class="card-body">
-                                            <img src="img/Dpt Quimica y Fisica/Grupo INVAN que participara de la Competencia Nacional Quimica en la Cocina 2022.jpeg" alt="" width="100%">
+                                    <div class="col-md-6">
+                                        <div class="card my-4" style="background-color: white; color:white;">
+                                            <h5 class="card-header" style="background-color:#0079be;">
+                                                <center>Grupo INVAN 2022</center>
+                                            </h5>
+                                            <div class="card-body">
+                                                <img src="img/Dpt Quimica y Fisica/Grupo INVAN que participara de la Competencia Nacional Quimica en la Cocina 2022.jpeg" alt="" width="100%">
+                                            </div>
                                         </div>
+
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>
@@ -179,15 +182,14 @@
                 </div>
             </div>
         </div>
-        </div>
-       
+
     </div>
     <?php
     include("botonArriba.html");/*  */
     ?>
     <footer>
         <?php
-       include("./Menu_Footer/footer.html");/*  */
+        include("./Menu_Footer/footer.html");/*  */
         ?>
     </footer>
 

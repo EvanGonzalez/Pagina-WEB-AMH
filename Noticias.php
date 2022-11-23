@@ -1,15 +1,16 @@
 <!-- Noticias-->
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
     <link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
     <link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
     <link rel="stylesheet" href="./css/menutest.css" type="text/css">
     <link rel="stylesheet" href="./FormNoticias/Noticias.css" type="text/css">
-     <!--Complemento para Imagen responsive-->
+    <!--Complemento para Imagen responsive-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -18,51 +19,50 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Pagina Web</title>
 </head>
+
 <body id="fondoMain">
 
-<!-- HEADER -->
-<?php
+    <!-- HEADER -->
+    <?php
     include("./Menu_footer/menumain.html");
     ?>
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <?php
-                include("Migas_Pan/MigaPan19.html")
-                ?>
-            </div>
+        <div class="col-md-12">
+            <?php
+            include("Migas_Pan/MigaPan19.html")
+            ?>
         </div>
     </div>
     <br>
 
-<?php
-include("./BaseDeDatos/conexion_db.php");
-    $query = conectar()->query("select * from noticia;")or die(conectar()->error);
+    <?php
+    include("./BaseDeDatos/conexion_db.php");
+    $query = conectar()->query("select * from noticia;") or die(conectar()->error);
     // (PRD_CATEGPROD = $filtro or $filtro is null)
-    
+
     //esto es para configurar los Noticias por paginas
     $Noticia_x_pag = 3;
 
     //contar articulos de la base de Datos
     $total_Noticias_db = mysqli_num_rows($query);
-    if($total_Noticias_db>0){
+    if ($total_Noticias_db > 0) {
         //esto es necesario para configurar la cantidad de paginas que deben existir
-        $paginas = $total_Noticias_db/$Noticia_x_pag;
+        $paginas = $total_Noticias_db / $Noticia_x_pag;
         $paginas = ceil($paginas);
         //esto es para comprobar que el usuario no le quite el numero a la pagina o coloque algo innecesarios :D
         if (!isset($_GET['pagina'])) {
             echo '<meta http-equiv="refresh" content="0;url=Noticias.php?pagina=1">';
-        }else{
-            if ($_GET['pagina']>$paginas ||$_GET['pagina']<=0) {
+        } else {
+            if ($_GET['pagina'] > $paginas || $_GET['pagina'] <= 0) {
                 echo '<meta http-equiv="refresh" content="0;url=Noticias.php?pagina=1">';
-            }else{
+            } else {
                 require_once("contenidoNoticias.php");
             }
         }
-    }else{
-        echo'<div class="container">
+    } else {
+        echo '<div class="container">
                 <div class="container">
                     <div class="alert alert-success" role="alert">
                         <h4 class="alert-heading">Nota...</h4>
@@ -72,13 +72,13 @@ include("./BaseDeDatos/conexion_db.php");
                 </div>
             </div>';
     }
-    
-?>
-<?php
+
+    ?>
+    <?php
     include("botonArriba.html");
     ?>
     <footer>
-    <?php
+        <?php
         include("./Menu_Footer/footer.html");
         ?>
     </footer>
@@ -86,5 +86,6 @@ include("./BaseDeDatos/conexion_db.php");
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     <script src="js/boton_up.js"></script>
 </body>
+
 </html>
 <!--Fin Noticias-->

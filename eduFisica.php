@@ -22,17 +22,15 @@
 
 <body id="fondoMain">
     <?php
-     include("./Menu_Footer/menumain.html");
+    include("./Menu_Footer/menumain.html");
     ?>
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <?php
-                include("Migas_Pan/MigaPan18.html")
-                ?>
-            </div>
+        <div class="col-md-12">
+            <?php
+            include("Migas_Pan/MigaPan18.html")
+            ?>
         </div>
     </div>
     <br>
@@ -42,24 +40,24 @@
     <!--Inicia contenendor de información-->
     <div class="container text-justify">
         <div class="animationsociales1">
-            
+
             <div class="row">
-            
+
                 <div class="col-md-6" id="justify">
                     <div class="card my-4" style="height: 90%;background-color: #121b4f;color: white;">
                         <div class="card-body">
-                        <img src="img/Dpt Edu Fisica/Gimnasio 1.JPG" alt="" style="width: 100%;">
-                        <p style="color:white;">Grandes logros se han obtenido en el departamento de Educación Física en la labor educativa realizada en centro educativo. </p>
-                        <p style="color:white;">El objetivo primordial de la Educación Física es lograr el desarrollo integral del alumno, tanto en el aspecto físico como psicológico. </p>
+                            <img src="img/Dpt Edu Fisica/Gimnasio 1.JPG" alt="" style="width: 100%;">
+                            <p style="color:white;">Grandes logros se han obtenido en el departamento de Educación Física en la labor educativa realizada en centro educativo. </p>
+                            <p style="color:white;">El objetivo primordial de la Educación Física es lograr el desarrollo integral del alumno, tanto en el aspecto físico como psicológico. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6" id="justify">
                     <div class="card my-4" style="height: 90%;background-color: #121b4f;color: white;">
-                        <div class="card-body" >
-                        <img src="img/Dpt Edu Fisica//IMG_5071.JPG" alt="" style="width: 100%;">
-                        <p style="color:white;">Además de cumplir con sus principales objetivos, el departamento de Educación Física ha dejado huellas indelebles en nuestra comunidad penonomeña a través de actividades deportivas.  </p>
-                        <p style="color:white;">Nuestra escuela ha participado en muchos certámenes intercolegiales, nacionales e internacionales en diferentes disciplinas tales como el baloncesto, atletismo, futbol. </p>
+                        <div class="card-body">
+                            <img src="img/Dpt Edu Fisica//IMG_5071.JPG" alt="" style="width: 100%;">
+                            <p style="color:white;">Además de cumplir con sus principales objetivos, el departamento de Educación Física ha dejado huellas indelebles en nuestra comunidad penonomeña a través de actividades deportivas. </p>
+                            <p style="color:white;">Nuestra escuela ha participado en muchos certámenes intercolegiales, nacionales e internacionales en diferentes disciplinas tales como el baloncesto, atletismo, futbol. </p>
                         </div>
                     </div>
                 </div>
@@ -69,72 +67,72 @@
         <div class="animationsociales2">
             <div class="row">
                 <div class="col-md-12">
-                <div class="container">
+                    <div class="container">
 
-<div class="row text-center text-lg-start">
+                        <div class="row text-center text-lg-start">
 
-    <div class="col-lg-4 col-md-4 col-md-4">
-        <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/image0 (2).jpeg" alt="" style="background-color: #121b4f;">
-        </a>
-    </div>
-    <div class="col-lg-4 col-md-4 col-md-4">
-        <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/image1 (1).jpeg" alt="" style="background-color: #121b4f;">
-        </a>
-    </div>
-    <div class="col-lg-4 col-md-4 col-md-4">
-        <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/image2 (4).jpeg" alt="" style="background-color: #121b4f;">
-        </a>
-    </div>
+                            <div class="col-lg-4 col-md-4 col-md-4">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/image0 (2).jpeg" alt="" style="background-color: #121b4f;">
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-md-4">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/image1 (1).jpeg" alt="" style="background-color: #121b4f;">
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-md-4">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/image2 (4).jpeg" alt="" style="background-color: #121b4f;">
+                                </a>
+                            </div>
 
-    <div class="col-lg-4 col-md-4 col-md-4">
-        <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/IMG_5089.JPG" alt="" style="background-color: #121b4f;">
-        </a>
-    </div>
-    <div class="col-lg-4 col-md-4 col-md-4">
-        <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/IMG_5074.JPG" alt="" style="background-color: #121b4f;">
-        </a>
-    </div>
-    <div class="col-lg-4 col-md-4 col-md-4">
-        <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/Trofeos de deporte.JPG" alt="" style="background-color: #121b4f;">
-        </a>
-    </div>
+                            <div class="col-lg-4 col-md-4 col-md-4">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/IMG_5089.JPG" alt="" style="background-color: #121b4f;">
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-md-4">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/IMG_5074.JPG" alt="" style="background-color: #121b4f;">
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-md-4">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/Trofeos de deporte.JPG" alt="" style="background-color: #121b4f;">
+                                </a>
+                            </div>
 
-    <div class="col-lg-4 col-md-4 col-md-12">
-        <a href="#" class="d-block mb-4 h-100">
-            <video class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/Video (1).mov" controls style="background-color: #121b4f;"></video>
-        </a>
-    </div>
-    <div class="col-lg-4 col-md-4 col-md-12">
-        <a href="#" class="d-block mb-4 h-100">
-            <video class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/Video.mov" controls style="background-color: #121b4f;"></video>
-        </a>
-    </div>
-    <div class="col-lg-4 col-md-4 col-md-12">
-        <a href="#" class="d-block mb-4 h-100">
-            <video class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/Video_1.mov" controls style="background-color: #121b4f;"></video>
-        </a>
-    </div>
+                            <div class="col-lg-4 col-md-4 col-md-12">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <video class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/Video (1).mov" controls style="background-color: #121b4f;"></video>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-md-12">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <video class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/Video.mov" controls style="background-color: #121b4f;"></video>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-md-12">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <video class="img-fluid img-thumbnail" src="img/Dpt Edu Fisica/Video_1.mov" controls style="background-color: #121b4f;"></video>
+                                </a>
+                            </div>
 
-</div>
+                        </div>
 
-</div>
+                    </div>
                 </div>
             </div>
         </div>
-       
+
     </div>
     <?php
     include("botonArriba.html");
     ?>
     <footer>
         <?php
-       include("./Menu_Footer/footer.html");
+        include("./Menu_Footer/footer.html");
 
         ?>
     </footer>

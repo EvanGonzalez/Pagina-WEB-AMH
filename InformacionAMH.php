@@ -27,12 +27,10 @@
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <?php
-                include("Migas_Pan/MigaPan2.html")
-                ?>
-            </div>
+        <div class="col-md-12">
+            <?php
+            include("Migas_Pan/MigaPan2.html")
+            ?>
         </div>
     </div>
     <br>
@@ -56,12 +54,12 @@
     ?>
     <footer>
         <?php
-       include("./Menu_Footer/footer.html");
+        include("./Menu_Footer/footer.html");
         ?>
     </footer>
 
     <!--termina contenendor de informacion-->
-    
+
 
     <script src="js/index.js"></script>
     <!--scrip para la animacion de imagenes pagina 2-->

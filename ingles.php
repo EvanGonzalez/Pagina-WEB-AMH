@@ -26,12 +26,10 @@
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <?php
-                include("Migas_Pan/MigaPan4.html")
-                ?>
-            </div>
+        <div class="col-md-12">
+            <?php
+            include("Migas_Pan/MigaPan4.html")
+            ?>
         </div>
     </div>
     <br>
@@ -43,31 +41,31 @@
         <div class="animationIngles1">
             <div class="row">
                 <div class="col-md-12">
-                <div class="card my-4" style="background-color: #121b4f;color:white;">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div id="" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="img/Dpt Ingles/20221004_122600.jpg" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/Dpt Ingles/IMG-20221017-WA0016.jpg" class="d-block w-100" alt="...">
+                    <div class="card my-4" style="background-color: #121b4f;color:white;">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div id="" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="img/Dpt Ingles/20221004_122600.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/Dpt Ingles/IMG-20221017-WA0016.jpg" class="d-block w-100" alt="...">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="col-md-6" id="justify">
-                                <div class="animationIngles2">
-                                    El Departamento de Inglés desde sus inicios ha estado integrado por docentes con conocimiento amplio y sólido sobre el idioma inglés, capaces de identificar las necesidades de los estudiantes, capaces de valorar las destrezas lingüísticas que poseen los alumnos; docentes innovadores, creativos, capaces de adaptarse a los cambios y formas de aprendizajes de los estudiantes, razón por la cual, ajustan los contenidos de las clases de acuerdo a las necesidades y exigencias de los estudiantes para desarrollar en ellos las cuatros destrezas propias de cada idioma como los son la parte auditiva, expresión oral, lectura y escritura.
+                                <div class="col-md-6" id="justify">
+                                    <div class="animationIngles2">
+                                        El Departamento de Inglés desde sus inicios ha estado integrado por docentes con conocimiento amplio y sólido sobre el idioma inglés, capaces de identificar las necesidades de los estudiantes, capaces de valorar las destrezas lingüísticas que poseen los alumnos; docentes innovadores, creativos, capaces de adaptarse a los cambios y formas de aprendizajes de los estudiantes, razón por la cual, ajustan los contenidos de las clases de acuerdo a las necesidades y exigencias de los estudiantes para desarrollar en ellos las cuatros destrezas propias de cada idioma como los son la parte auditiva, expresión oral, lectura y escritura.
+                                    </div>
+
                                 </div>
-
                             </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>

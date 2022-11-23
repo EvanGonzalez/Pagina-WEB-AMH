@@ -18,17 +18,15 @@
 
 <body id="fondoMain">
     <?php
-     include("./Menu_Footer/menumain.html");
+    include("./Menu_Footer/menumain.html");
     ?>
 
     <!--miga de pan-->
     <div class="container text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <?php
-                include("Migas_Pan/MigaPan17.html")
-                ?>
-            </div>
+        <div class="col-md-12">
+            <?php
+            include("Migas_Pan/MigaPan17.html")
+            ?>
         </div>
     </div>
     <br>
@@ -61,15 +59,15 @@
 
                 <div class="col-md-6 matematica">
                     <div class="animationespañol4">
-                    <div class="card my-4" style="text-align: justify; background-color:#121b4f; color:white;">
-                        <div class="card-body">
-                            <p>El Departamento de español de la Escuela Secundaria Ángel María Herrera, consciente de que nuestra lengua debe ser utilizada con propiedad, fluidez y pulcritud, aplica variadas técnicas metodológicas para que el estudiante considere el idioma como un ente vivo. </p>
-                            <p>Es responsabilidad del Departamento planificar y ejecutar actividades que permitan descubrir valores y destrezas entre nuestros alumnos y también, enriquecer su nivel cultural.</p>
-                            <p>Año tras año, al aproximarse el 23 de abril, Día universal del idioma español, organizamos exposiciones de murales, afiches, alocuciones, separadores de libros, con la finalidad de rendirle homenaje al padre de las letras españolas, Don Miguel de Cervantes Saavedra y, por consiguiente, para ensalzar a la segunda lengua más hablada del mundo.</p>
+                        <div class="card my-4" style="text-align: justify; background-color:#121b4f; color:white;">
+                            <div class="card-body">
+                                <p>El Departamento de español de la Escuela Secundaria Ángel María Herrera, consciente de que nuestra lengua debe ser utilizada con propiedad, fluidez y pulcritud, aplica variadas técnicas metodológicas para que el estudiante considere el idioma como un ente vivo. </p>
+                                <p>Es responsabilidad del Departamento planificar y ejecutar actividades que permitan descubrir valores y destrezas entre nuestros alumnos y también, enriquecer su nivel cultural.</p>
+                                <p>Año tras año, al aproximarse el 23 de abril, Día universal del idioma español, organizamos exposiciones de murales, afiches, alocuciones, separadores de libros, con la finalidad de rendirle homenaje al padre de las letras españolas, Don Miguel de Cervantes Saavedra y, por consiguiente, para ensalzar a la segunda lengua más hablada del mundo.</p>
+                            </div>
                         </div>
                     </div>
-                    </div>
-                   
+
 
                 </div>
 
@@ -120,7 +118,7 @@
     ?>
     <footer>
         <?php
-       include("./Menu_Footer/footer.html");
+        include("./Menu_Footer/footer.html");
 
         ?>
     </footer>

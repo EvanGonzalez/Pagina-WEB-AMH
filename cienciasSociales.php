@@ -22,17 +22,15 @@
 
 <body id="fondoMain">
     <?php
-     include("./Menu_Footer/menumain.html");/*  */
+    include("./Menu_Footer/menumain.html");/*  */
     ?>
 
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <?php
-                include("Migas_Pan/MigaPan15.html")/*  */
-                ?>
-            </div>
+        <div class="col-md-12">
+            <?php
+            include("Migas_Pan/MigaPan15.html")/*  */
+            ?>
         </div>
     </div>
     <br>
@@ -90,7 +88,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img src="img/Dpt Sociales/Semana de la Etnia.jpeg" class="d-block w-100" alt="" ><!--  -->
+                                                    <img src="img/Dpt Sociales/Semana de la Etnia.jpeg" class="d-block w-100" alt=""><!--  -->
                                                     <div class="carousel-caption d-none d-md-block">
                                                         <h4 style="-webkit-text-stroke: 0.5px #121b4f;">Semana de la Etnia</h4>
                                                     </div>
@@ -172,21 +170,22 @@
         </div>
 
         <div class="animationsociales5">
-        <div class="row">
-            <div class="col-md-12">
-                <center>
-                    <h3>Medalla Omar Gallardo</h3>
-                    <h2></h2>
-                </center>
-                <div id="CARRUSEL">
-                    <div>
-                        <div class="carta">
-                            <div class="carta-body">
-                                <div class="carta-content">
-                                    <div class="carta-txt">
-                                        <ul class="textopagina2">
-                                            <li>Se distingue al estudiante con el mayor índice académico en las asignaturas de Ciencias Sociales.</li>
-                                        </ul>
+            <div class="row">
+                <div class="col-md-12">
+                    <center>
+                        <h3>Medalla Omar Gallardo</h3>
+                        <h2></h2>
+                    </center>
+                    <div id="CARRUSEL">
+                        <div>
+                            <div class="carta">
+                                <div class="carta-body">
+                                    <div class="carta-content">
+                                        <div class="carta-txt">
+                                            <ul class="textopagina2">
+                                                <li>Se distingue al estudiante con el mayor índice académico en las asignaturas de Ciencias Sociales.</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -195,15 +194,14 @@
                 </div>
             </div>
         </div>
-        </div>
-       
+
     </div>
     <?php
     include("botonArriba.html");/*  */
     ?>
     <footer>
         <?php
-       include("./Menu_Footer/footer.html");/*  */
+        include("./Menu_Footer/footer.html");/*  */
         ?>
     </footer>
 
