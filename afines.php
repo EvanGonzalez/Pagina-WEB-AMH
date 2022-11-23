@@ -43,8 +43,8 @@
     <div class="container text-justify">
         <div class="row">
             <div class="col-md-12" id="justify">
-                <h3>DESCRIPCIÓN</h3>
-                El departamento de afines está formado por trece (13) profesores de diversas asignaturas, cada uno dedicado a su especialidad. La mayoría trabaja con estudiantes de Premedia y el resto con estudiante de media. Tiene un coordinador para todo el departamento que se elige cada dos años.</p>
+                <br><center><h3>DESCRIPCIÓN</h3></center>
+                El departamento de afines está formado por trece (13) profesores de diversas asignaturas, cada uno dedicado a su especialidad. La mayoría trabaja con estudiantes de premedia y el resto con estudiante de media. Tiene un coordinador para todo el departamento que se elige cada dos años.</p>
                 Este departamento se distingue por su diversidad de talentos, competencias, destrezas. Esta inmerso en toda las actividades curriculares y extracurriculares del plantel. Potencia en los estudiantes el desarrollo de las habilidades duras y blandas.</p>
             </div>
         </div>
@@ -98,61 +98,61 @@
                 <tr>
                     <td class="text-center" id="cabeceras"><h3>FAMILIA Y DESARROLLO COMUNITARIO</h3></td>
                     <td>
-                        <div class="tdtext">
+                        <div class="tdtext"><hr>
                             La materia de familia y desarrollo comunitario, desde su inicio, ha tratado de cumplir los planes y programas establecidos por el Ministerio de Educación.
                             Proporcionamos al estudiante los conocimientos requeridos en las diferentes áreas que la asignatura exige.
                             Durante el desarrollo de nuestras clases despertamos el interés de los estudiantes a través de la realización de proyectos manuales que luego se exponen en la feria del departamento, que se realiza en el mes de octubre, dónde se conmemora la semana de la alimentación.
-                        </div>
+                        <hr></div>
                     </td>
                 </tr>
                 <tr>
                     <td class="text-center" id="cabeceras"><h3>RELIGIÓN</h3></td>
                     <td>
                         <div class="tdtext">
-                            Esta materia se brinda a estudiantes de séptimo, octavo y noveno. Se fomentan los valores principales como el respeto, el compañerismo y la responsabilidad.
+                            <hr>Esta materia se brinda a estudiantes de séptimo, octavo y noveno. Se fomentan los valores principales como el respeto, el compañerismo y la responsabilidad.
                             Se desarrolla un conjunto de cualidades propias de las condiciones religiosa de una persona.
-                        </div>
+                        <hr></div>
                     </td>
                 </tr>
                 <tr>
                     <td class="text-center" id="cabeceras"><h3>ÉTICA Y VALORES</h3></td>
                     <td>
-                        <div class="tdtext">
+                        <div class="tdtext"><hr>
                             Esta asignatura tiene como pretensión formar a los estudiantes en valores universales y personales, que le ayuden a desarrollar sus competencias blandas. además, se precisa , la importancia que tienen los valores , como principios que orientan y determinan la conducta humana.
-                        </div>
+                            <hr></div>
                     </td>
                 </tr>
                 <tr>
                     <td class="text-center" id="cabeceras"><h3>MÚSICA</h3></td>
                     <td>
-                        <div class="tdtext">
+                        <div class="tdtext"><hr>
                             A través de esta disciplina, se dedicaron al estudio más técnico de la música.
                             Estos profesores han seguido formando nuevos músicos, utilizando las técnicas aprendidas en sus raíces.
-                        </div>
+                            <hr></div>
                     </td>
                 </tr>
                 <tr>
                     <td class="text-center" id="cabeceras"><h3>AGRICULTURA </h3></td>
                     <td>
-                        <div class="tdtext">
+                        <div class="tdtext"><hr>
                             En esta asignatura despierta en el estudiante, el interés por las actividades agrícolas. Recibe conocimientos sobre preparación de la tierra para la siembra; calidad y diversidad de semillas, el mantenimiento de los cultivos entre otros.
-                        </div>
+                            <hr></div>
                     </td>
                 </tr>
                 <tr>
                     <td class="text-center" id="cabeceras"><h3>ARTES INDUSTRIALES</h3></td>
                     <td>
-                        <div class="tdtext">
+                        <div class="tdtext"><hr>
                             En esta asignatura se proporciona al estudiante conocimientos básicos en las  artes técnicas como lo son, soldadura, electricidad, ebanistería y albañilería.
-                        </div>
+                            <hr></div>
                     </td>
                 </tr>
                 <tr>
                     <td class="text-center" id="cabeceras"><h3>BELLAS ARTES/ ARTÍSTICA</h3></td>
                     <td>
-                        <div class="tdtext">
+                        <div class="tdtext"><hr>
                             Esta asignatura facilita al estudiante, iniciarse en el fascinante mundo de las artes plásticas y artes gráficas. Promueve en el estudiante el gusto y destrezas por las artes, su desarrollo, diversidad, representantes.
-                        </div>
+                            <hr></div>
                     </td>
                 </tr>
             </table>

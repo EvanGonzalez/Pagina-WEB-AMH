@@ -36,11 +36,11 @@
         <!-- para la derecha -->
         <div class="container">
             <br>
-            <h2 class="text-center" id="registre">Gabinete Psicopadagógico, Orientación y Educación Especial</h2>
+            <h1 class="text-center">Gabinete Psicopadagógico, Orientación y<br>Educación Especial</h1>
             <div class="row" id="negar">
                 <div class="col-md-12">
                 <p class="text-center">
-                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" style="margin: 2.5px;">Gabinete Psicopadagógico</a>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" style="margin: 2.5px; color: white;">Gabinete Psicopadagógico</a>
                     <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" style="margin: 2.5px";>Orientacion y Educación Especial</button>
                 </p>
                 </div>
@@ -50,7 +50,7 @@
                         <div class="col-md-12">
                             <div class="collapse multi-collapse" id="multiCollapseExample1">
                             <div class="" >
-                                <h2 id="registre" class="text-center">BENEFICIOS DEL SERVICIO DEL GABINETE PSICOPEDÓGICO A LA POBLACIÓN ESTUDIANTIL ANGELINA</h2>
+                                <h2 class="text-center"><br>Beneficios del servicio del gabinete psicopedógico a la población estudiantil angelina</h2>
                                 <div class="row" id="negar">
                                     <div class="col-md-12">
                                         <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
@@ -83,7 +83,7 @@
                                                 <span class="visually-hidden">Siguiente</span>
                                             </button>
                                         </div>
-                                        <h2 class="fst-italic">BENEFICIOS PSICOSOCIALES:</h2>
+                                        <h2 class="text-center">Beneficios psicosociales:</h2>
                                         
                                     </div>
                                     <div class="col-md-3">
@@ -141,10 +141,12 @@
                                             </li>
                                         </ol>
                                     </div>
+                                    <center>
                                     <h4>Integrantes del Equipo:</h4>
-                                    <p>Licda. Zelideth Ortíz, Psicóloga</p>
-                                    <p>Licda. Elizabel Lorenzo, Trabajadora Social</p>
-                                    <p>Licda. Dasheza Torres, Psicóloga</p>
+                                    <p style="text-align: center;">Licda. Zelideth Ortíz, Psicóloga</p>
+                                    <p style="text-align: center;">Licda. Elizabel Lorenzo, Trabajadora Social</p>
+                                    <p style="text-align: center;">Licda. Dasheza Torres, Psicóloga</p>
+                                    </center>
                                 </div>
                                 <hr>
                             </div>

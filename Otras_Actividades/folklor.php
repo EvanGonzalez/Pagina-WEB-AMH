@@ -34,23 +34,20 @@
     <br>
     <section>
         <div class="container-fluid wow fadeInUp">
-            <h1 id="registre" class="text-center">Folclor</h1>
+            <h1 class="text-center">Folclor</h1>
         </div>
 
         <div class="container">
             <div class="row">
                 <div class="col-md-4 wow fadeInLeft">
-                        <br>
-                        <br>
-                        <br>       
-                        <br>             
+                        <br>  <br>         
                     <div class="img2">
                         <img src="../Otras_Actividades/img/conjunto/conjunto 2.jpeg" alt="Conjunto Folclorico" title="Conjunto Folclorico" class="img-fluid">                        
                     </div>
 
                 </div>
                 <div class="col-md-8 wow fadeInRight">
-                    <h1 class="text-center"> Conjunto Folclórico </h1>
+                    <h1 class="text-center" style="font-size: 25px;">Conjunto Folclórico </h1>
                     <p>
                         El Conjunto Típico de la Escuela Secundaria Ángel María Herrera fue fundado el 26 de julio de 1983 y por iniciativa del conjunto y de los graduandos, 
                         lo denominaron “Conjunto de Proyecciones Folclóricas Ángel María Herrera”. Durante un tiempo estuvo integrado hasta por 30 parejas y 70 integrantes.
@@ -67,7 +64,7 @@
             <br>
             <div class="row"></div>
                 <div class="card border-white mb-3 wow fadeInLeft" id="ramon" style="width: 100%;">
-                    <div class="card-header">Profesor Ramón Cepeda</div>
+                    <center><div class="card-header" style="font-size: 25px; color: white;">Profesor Ramón Cepeda</div></center>
                     <div class="card-body">
                         <p class="card-text text-white">
                             Fue uno de los fundadores del Conjunto Típico, tiene 65 años de enseñar danza panameña y dirigió el Conjunto Típico de la escuela por 27 años. 
@@ -84,7 +81,7 @@
                                     <div class="col-md-6 wow fadeInLeft">
                                         <div class=" wow fadeInLeft" style="width: 100%;">
                                             <h2 class="text-center fst-italic">Eventos Nacionales</h2>
-                                            <p class="card-text">
+                                            <p class="card-text"><br>
                                                 Entre los eventos nacionales en que ha participado podemos mencionar: Festival Toro Guapo de Antón, 
                                                 Festival de la Mejorana de Guararé, La Feria de la Chorrera, Feria de Azuero en Los Santos, Feria San José en David, 
                                                 Feria de la Concepción en Chiriquí y El Desfile de las Polleras en la ciudad capital. 
@@ -107,12 +104,11 @@
                                             <div class="img2" style="width: 100%;">
                                                 <img src="../Otras_Actividades/img/conjunto/Premiacion1.jpeg" alt="" class="img-fluid">
                                             </div>                    
-                                    </div>                                   
+                                    </div>  <br>                                 
                                     <div class="col-md-6 wow fadeInLeft" style="padding-top: 10px;">
                                         <div class="card border-dark mb-3 p-y-3 wow fadeInLeft" style="width: 100%;">
-                                            <div class="card-header">Premios Alcanzados</div>
+                                            <h2 style="font-size: 28px; text-align: center;">Premios Alcanzados</h2>
                                                 <div class="card-body text-dark">
-                                                   
                                                     <p class="card-text">
                                                     Entre los premios alcanzados por esta agrupación podemos mencionar que el Ministerio de Educación organizó el concurso 
                                                     de baile para aquellas escuelas que tenían conjuntos y durante los tres años que lo realizaron 
@@ -163,7 +159,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <h2 class="text-center fst-italic">Muestra de algunas presentaciones</h2>
+                                        <h2 class="text-center fst-italic"><br>Videos de muestra de algunas presentaciones</h2>
                                         <div class="d-flex justify-content-center" id="videos">
                                             <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
                                                 <video src="../Otras_Actividades/img/conjunto/Tamborito.mp4" controls ></video>
@@ -197,14 +193,14 @@
                 </div>
                     <p class="d-flex justify-content-center">
       
-                            <a class="btn btn-primary bi bi-card-text" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <a style="color: white;" class="btn btn-primary bi bi-card-text" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                                 Leer más
                             </a>
                               
-                    </p>          
+                    </p>   <br>       
             </div>
 
-        <hr>
+
         </div>
 
     </section>
@@ -213,7 +209,7 @@
         <div class="container">
             <div class="row" id="negar">
                 <div class="col-md-6">
-                    <h2 class="fst-italic text-center wow fadeInLeft" >Bailes y vestuarios</h2>
+                    <h2 class=" text-center wow fadeInLeft" ><br>Bailes y vestuarios</h2>
                     <p class="wow fadeInLeft">
                         Algunos bailes que interpreta el conjunto son: El Chogorro, La Iguana, Compadre Gallinazo, la Pachenda y otros.
                     </p>
@@ -222,7 +218,7 @@
                         Basquiñas, Camisillas Blancas, Coletas marcadas, Cutarras, Chinelas, Sombrero de Junco, Sombrero Pintado, Cebaderas, 
                         Cabeza de tembleques.
                     </p>
-                    <h2 class="fst-italic text-center wow fadeInLeft">Personajes destacados</h2>
+                    <h2 class=" text-center wow fadeInLeft"><br>Personajes destacados</h2>
                     <p class="wow fadeInLeft">
                         Como bailarines que se han destacado en el conjunto típico podemos mencionar a: Rosalinda Arosemena, Manuel Oliva, Luis Peñalba, Michael Martínez, Dilcia Sambrano, Jesús Jaén y Jesica Sánchez.  
                         Tocador de tambor: Ricauter Villarreal como tocador de tambor. 

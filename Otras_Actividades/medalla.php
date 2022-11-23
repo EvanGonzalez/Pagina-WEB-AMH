@@ -33,9 +33,8 @@
         </div>
     </div>
     <section>
-        <div class="container">
-            <br>
-            <h2 class="text-center wow fadeInUp" id="registre">MEDALLA A LA CULTURA – ESCUELA SECUNDARIA ÁNGEL MARÍA HERRERA</h2>   
+        <div class="container"><br>
+            <h1 class="text-center">Medalla a la cultura<br>Escuela Secundaria Ángel María Herrera</h1> 
             <br>
             <div class="row" id="negar">            
                 <div class="col-md-6 wow fadeInLeft">
@@ -49,7 +48,7 @@
     La escogencia del Medallista está definida por una serie de criterios desarrollados por doña Magdalena, notables penonomeños y autoridades de educación. De estos criterios se destaca que el escogido sería un joven con una mente y personalidad balanceada entre su aplicación al estudio y sus contribuciones a la comunidad que incluye familia, amistades y patria. Sabemos que esa fue la línea de pensamiento de su gestora Magdalena.                    
                     </p>
                 </div>
-                <div class="col-md-6 wow fadeInRight">
+                <div class="col-md-6 wow fadeInRight"><br>
                     <img src="../Otras_Actividades/img/medalla/Medalladelacultura2021.jpeg" alt="" class="img-fluid rounded-4 shadow">
                 </div>
             </div>                 
@@ -58,33 +57,78 @@
 
     </section>
     <section>
-        <div class="container">
-            <h2 class="text-center wow fadeInUp">Medalla Ángel María Herrera</h2>
+        <div class="container"><br>
+            <h1 class="text-center wow fadeInUp">Medalla Ángel María Herrera</h1>
+            <h2 class="text-center" style="font-size: 28px;">Premio a la cultura en Penonomé</h2>
             <div class="row" id="negar">
                 <div class="col-md-6 wow fadeInLeft">
-                    <img src="../Otras_Actividades/img/medalla/Medalladelacultura2021-1.jpeg" alt="" class="img-fluid rounded-4 shadow ">
+                    <br><br><br><img src="../Otras_Actividades/img/medalla/Medalladelacultura2021-1.jpeg" alt="" class="img-fluid rounded-4 shadow ">
                 </div>
                 <div class="col-md-6 wow fadeInRight">
-                    <h2 class="text-center fst-italic">Premio a la cultura en Penonomé</h2>
+                    
                     <p>
-                        Los medallistas hasta el presente 2021 son: Alicia Brennan, Ana González, Aquiles Martínez, Arístides Rodríguez, 
-                        Arnulfo Franco, Carmen Madrid, César Galástica, Clara Arosemena, Crescencio Fernández, Cristian Cárdenas, Chao Wen Liu, 
-                        Desiree Del Rosario, Edgardo Suárez, Edmond Espinosa, Elia Pérez, Elixenia Martínez, Evelia Quiroz, Gladis Lam, 
-                        Gloria Grimaldo, Hilda Sánchez, Ibeth Rojas, Irania Agrazal, Itzel Lombardo, Ivonne de la Guardia, José Luque, 
-                        Josefa González, Josefa Martínez, Juan Corro, Julio Lombardo, Karen Yau, Kaven Spark, Lelany Urriola, Lidda Harari, 
-                        Magdamelcina Ayala, María Eugenia Gómez, María Morales, Marinelda Varela, Marlene Jaén, Minerva Jiménez de Batista, 
-                        Néstor Martínez, Olmedo Carles, Oxdalia Luna, Rafael Eysseric, Ricaurte Tuñón, Rita Jaén, Rodrigo Guardia, Sergio de León, 
-                        Teresita Jaén, Yared Cruz y Yarelis Tuñón.
+                    <center>Los medallistas hasta el presente 2021<br>Nombres en orden alfabético</center>
+                        <b>(A)</b>
+                        Alicia Brennan, Ana González, Aquiles Martínez, Arístides Rodríguez, 
+                        Arnulfo Franco.<br></center>
+                        
+                        <b>(C)</b>
+                        Carmen Madrid, César Galástica, Clara Arosemena, Crescencio Fernández, Cristian Cárdenas, Chao Wen Liu.<br>
+                        
+                        <b>(D)</b>
+                        Desiree Del Rosario.<br>
+                        
+                        <b>(E)</b>
+                        Edgardo Suárez, Edmond Espinosa, Elia Pérez, Elixenia Martínez, Evelia Quiroz.<br>
+                        
+                        <b>(G)</b>
+                        Gladis Lam, Gloria Grimaldo. <br>
+
+                        <b>(H)</b>
+                        Hilda Sánchez.<br>
+                        
+                        <b>(I)</b>
+                        Ibeth Rojas, Irania Agrazal, Itzel Lombardo, Ivonne de la Guardia.<br>
+                        
+                        <b>(J)</b>
+                        José Luque, Josefa González, Josefa Martínez, Juan Corro, Julio Lombardo.<br> 
+                        
+                        <b>(K)</b>
+                        Karen Yau, Kaven Spark.  <br>
+
+                        <b>(L)</b>
+                        Lelany Urriola, Lidda Harari.<br>
+                        
+                        <b>(M)</b>
+                        Magdamelcina Ayala, María Eugenia Gómez, María Morales, Marinelda Varela, Marlene Jaén, Minerva Jiménez de Batista.<br>
+                        
+                        <b>(N)</b>
+                        Néstor Martínez. <br>
+
+                        <b>(O)</b>
+                        Olmedo Carles, Oxdalia Luna.<br>
+                        
+                        <b>(R)</b>
+                        Rafael Eysseric, Ricaurte Tuñón, Rita Jaén, Rodrigo Guardia.<br>
+                        
+                        <b>(S)</b>
+                        Sergio de León. <br>
+
+                        <b>(T)</b>
+                        Teresita Jaén. <br>
+
+                        <b>(Y)</b>
+                        Yared Cruz, Yarelis Tuñón.
                     </p>
                     <p>
-                        Los medallistas desde 2009 al 2011 son: Ricaurter Henríquez, Judith Jaén, Eyra Herrera y Rosibel Ayala Vásquez.  
+                    <center>Los medallistas desde 2009 al 2011</center> Ricaurter Henríquez, Judith Jaén, Eyra Herrera y Rosibel Ayala Vásquez.  
                     </p>
                     <p>
-                        Del 2012 al 2018 son: Anazaria Ortega, Juliana Altamiranda, Enrique Campos Escobar, Franklin Barnett, Paola M. Hidalgo Franco, 
+                    <center>Del 2012 al 2018</center> Anazaria Ortega, Juliana Altamiranda, Enrique Campos Escobar, Franklin Barnett, Paola M. Hidalgo Franco, 
                         Adriana Valdés, Aurora Osorio Pinzón.
                     </p>
                     <p>
-                        Del 2019 al 2021:  Victoria Lombardo, Angélica González, Rubén Bernal
+                    <center>Del 2019 al 2021</center>  Victoria Lombardo, Angélica González, Rubén Bernal
                     </p>
                 </div>
             </div>
@@ -93,8 +137,8 @@
     
     <section>
         <div class="container-fluid">
-            <hr>
-            <h2 class="fst-italic text-center">Información</h2>            
+            <br>
+            <h1 class="text-center">Información</h1>            
             <div class="row" id="negar">
                 <!-- <div class="d-flex justify-content-around"> -->
                     <div class="col-md-6">
