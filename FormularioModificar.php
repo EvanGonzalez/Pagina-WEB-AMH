@@ -214,7 +214,7 @@ if($_SESSION["delete[2]"]!=0){
 									?>
 
 
-									<input class="form-control" type="file" name="file1" id="img1">
+									<input class="form-control" type="file" accept="image/jpeg,image/jpg,image/png" name="file1" id="img1">
 									<?php
 									if ($_SESSION["imagenes[0]"]!=0) {
 
@@ -248,7 +248,7 @@ if($_SESSION["delete[2]"]!=0){
 
 									}
 									?>
-									<input class="form-control" type="file" name="file2" id="img2">
+									<input class="form-control" type="file" accept="image/jpeg,image/jpg,image/png" name="file2" id="img2">
 									<?php
 									if ($_SESSION["imagenes[1]"]!=0) {
 
@@ -279,7 +279,7 @@ if($_SESSION["delete[2]"]!=0){
 
 									}
 									?>
-									<input class="form-control" type="file" id="img3" name="file3" id="formFileMultiple">
+									<input class="form-control" type="file" id="img3" accept="image/jpeg,image/jpg,image/png" name="file3" id="formFileMultiple">
 									<?php
 									if ($_SESSION["imagenes[2]"]!=0) {
 
