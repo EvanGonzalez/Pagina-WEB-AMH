@@ -2,6 +2,8 @@
 /*obteniendo la fecha actual del sistema */
 $fechaActual = date('Y-m-d');
 $id = $_GET["idtitulo"];
+$Validacion=$_GET["var"];
+$nom=$_GET["nom"];
 include("./BaseDeDatos/conexion_db.php");
 session_start();
 $_SESSION["idtitulo"] = $id;
@@ -34,6 +36,9 @@ if ($_SESSION["imagenes[1]"] != 0) {
 if ($_SESSION["imagenes[2]"] != 0) {
 	$i = 3;
 }
+if ($_SESSION["imagenes[0]"] == 0) {
+	$i = 0;
+}
 
 $e = 0;
 while ($e < $i) {
@@ -44,7 +49,7 @@ while ($e < $i) {
 			while ($o < $i) {
 				if ($o == $i - 1) {
 					$_SESSION["imagenes[" . $o . "]"] = 0;
-					$i--;
+					
 				} else {
 					$_SESSION["imagenes[" . $o . "]"] = $_SESSION["imagenes[" . ($o + 1) . "]"];
 				}
@@ -55,6 +60,9 @@ while ($e < $i) {
 	}
 
 	$e++;
+}
+if($_SESSION["delete[2]"]!=0){
+	$_SESSION["imagenes[0]"]=0;
 }
 /* while ($e < $i) {
 	if ($_SESSION["imagenes[" . $e . "]"] == $_SESSION["delete[" . $e . "]"]) {
@@ -121,18 +129,40 @@ while ($e < $i) {
 				<h1 class="my-4" id="titulo1">Noticias.</h1>
 			</center>
 			<?php
-			/* 
+			
 			if ($Validacion == 1) {
 				echo '<div class="container">
 					<div class="container">
-						<div class="alert alert-success" role="alert">
+						<div class="alert alert-danger" role="alert">
 							<h4 class="alert-heading">Error 405.....</h4>
-							<p>Las Noticias deben Contener al menos una imagen.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+							<p>La imagen '.$nom.' ya existe en la base de datos .............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
 							<hr>
 						</div>
 					</div>
 				</div>';
-			} */
+			}
+			if ($Validacion == 2) {
+				echo '<div class="container">
+					<div class="container">
+						<div class="alert alert-danger" role="alert">
+							<h4 class="alert-heading">Error 405.....</h4>
+							<p>Ha insertado una imagen duplicada .............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+							<hr>
+						</div>
+					</div>
+				</div>';
+			}
+			if ($Validacion == 3) {
+				echo '<div class="container">
+					<div class="container">
+						<div class="alert alert-danger" role="alert">
+							<h4 class="alert-heading">Error 405.....</h4>
+							<p>Debe haber por lo menos una imagen en la noticia .............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+							<hr>
+						</div>
+					</div>
+				</div>';
+			}
 			?>
 			<div class="col-md-12">
 				<div class="card my-4" id="card1" style="background-color: #121b4f; color: white;">
@@ -186,7 +216,7 @@ while ($e < $i) {
 
 									<input class="form-control" type="file" name="file1" id="img1">
 									<?php
-									if ($_SESSION["imagenes[1]"]!=0) {
+									if ($_SESSION["imagenes[0]"]!=0) {
 
 									?>
 
