@@ -56,7 +56,7 @@
                                         </div>
                                     </div>
                                 </div>
-
+                            </div>
                             <div class="col-md-6" id="justify">
                                 <div class="animationIngles2"><br><br>
                                     El Departamento de Inglés desde sus inicios ha estado integrado por docentes con conocimiento amplio y sólido sobre el idioma inglés, capaces de identificar las necesidades de los estudiantes, capaces de valorar las destrezas lingüísticas que poseen los alumnos; docentes innovadores, creativos, capaces de adaptarse a los cambios y formas de aprendizajes de los estudiantes, razón por la cual, ajustan los contenidos de las clases de acuerdo a las necesidades y exigencias de los estudiantes para desarrollar en ellos las cuatros destrezas propias de cada idioma como los son la parte auditiva, expresión oral, lectura y escritura.
