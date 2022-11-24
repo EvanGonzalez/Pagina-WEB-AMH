@@ -21,7 +21,8 @@
                         <h5 class="card-header" style="background-color: #0079be; font-size: 30px;"> <b><?php echo $valores['titulo']?></b></h5>
                         <div class="card-body">
                             <h5 style="text-align: right;"><?php echo $valores['fecha']?></h5>
-                            
+                            <br>
+                            <?php echo $valores['descripcion']?>
                             <br>
                             <center>
                                 <div class = "imagen_producto"> <!-- imagen_producto -->
@@ -40,8 +41,6 @@
                                         ?>
                                 </div>    
                             </center>
-                            <br>
-                            <?php echo $valores['descripcion']?>
                         </div>
                     </div>
                 </div>
