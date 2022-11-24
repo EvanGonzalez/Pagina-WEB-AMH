@@ -17,8 +17,8 @@
                 ?>
                 <!-- AQUI SE REPITE LOS Noticias  EN recuadro_producto -->
                 <div class="container">
-                    <div class="card my-4" id="card1" style="background-color: #121b4f; color: white;">
-                        <h5 class="card-header" style="background-color: #0079be;"> <b><?php echo $valores['titulo']?></b></h5>
+                    <div class="card my-4" id="card1" style="background-color: #121b4f; color: white; font-size: 25px;">
+                        <h5 class="card-header" style="background-color: #0079be; font-size: 30px;"> <b><?php echo $valores['titulo']?></b></h5>
                         <div class="card-body">
                             <h5 style="text-align: right;"><?php echo $valores['fecha']?></h5>
                             

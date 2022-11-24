@@ -50,7 +50,7 @@ $fechaActual = date('Y-m-d');
 			<div class=" row">
 			<!--Inicio de la clase Row..-->
 			<center>
-				<h1 class="my-4" id="titulo1">Noticias.</h1>
+				<h1 class="my-4" id="titulo1">Noticias</h1>
 			</center>
 			<div class="row">
 				<div class="col-md-3">
@@ -68,8 +68,8 @@ $fechaActual = date('Y-m-d');
 	</div>
 	</div>
 	<div class="col-md-12">
-		<div class="card my-4" id="card1" style="background-color: #121b4f; color: white;">
-			<h5 class="card-header" style="background-color: #0079be;"> <b>Datos de la noticia</b></h5>
+		<div class="card my-4" id="card1" style="background-color: #121b4f; color: white;font-size: 25px;">
+			<h5 class="card-header" style="background-color: #0079be;font-size: 30px;"> <b>Datos de la noticia</b></h5>
 			<div class="card-body">
 				<div class="container" id="minicontainer">
 					<div class="row">
