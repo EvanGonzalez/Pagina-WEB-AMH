@@ -224,13 +224,13 @@
                                             <div class="d-flex justify-content-around">
                                                 <div class="row">
                                                     <div class="col-md-4 d-flex justify-content-center p-2">
-                                                        <img src="../Otras_Actividades/img/orientacion/Docente de Educacion Especial.jpeg" class="img-thumbnail" alt="...">
+                                                        <img src="../Otras_Actividades/img/orientacion/Docente de Educacion Especial.jpeg" class="img-thumbnail" alt="Docente de Educacion Especial" title="Docente de Educacion Especial">
                                                     </div>
                                                     <div class="col-md-4 d-flex justify-content-center p-2">
-                                                        <img src="../Otras_Actividades/img/orientacion/Docentes.jpeg" class="img-thumbnail" alt="...">
+                                                        <img src="../Otras_Actividades/img/orientacion/Docentes.jpeg" class="img-thumbnail" alt="Docentes" title="Docentes">
                                                     </div>
                                                     <div class="col-md-4 d-flex justify-content-center p-2">
-                                                        <img src="../Otras_Actividades/img/orientacion/Orientacion .jpeg" class="img-thumbnail" alt="...">                                                    
+                                                        <img src="../Otras_Actividades/img/orientacion/Orientacion.jpeg" class="img-thumbnail" alt="Orientacion" title="Orientacion">                                                    
                                                     </div>
                                                 </div>
                                             </div>
