@@ -51,7 +51,7 @@ sr.reveal('.animacionespañol', {
 sr.reveal('.animationespañol2', {
     duration: 4000,
     origin: 'left',
-    distance: '-1000px'
+    distance: '-100px'
 });
 sr.reveal('.animationespañol3', {
     duration: 5000,
@@ -61,13 +61,13 @@ sr.reveal('.animationespañol3', {
 sr.reveal('.animationespañol4', {
     duration: 5000,
     origin: 'top',
-    distance: '-1000px'
+    distance: '-100px'
 });
 
 sr.reveal('.anumationcomunidadEdu1', {
     duration: 5000,
     origin: 'top',
-    distance: '-1000px'
+    distance: '-100px'
 });
 
 sr.reveal('.ComunidadEdu', {
@@ -136,35 +136,35 @@ sr.reveal('.animationIngles4', {
 sr.reveal('.animationsociales1', {
     scale: 0.89,
     duration: 6000,
-    distances: '-1000px'
+    distances: '-100px'
     
 
 });
 sr.reveal('.animationsociales2', {
     scale: 0.95,
     duration: 4000,
-    distances: '-1000px'
+    distances: '-100px'
     
 
 });
 sr.reveal('.animationsociales3', {
     scale: 0.75,
     duration: 4000,
-    distances: '-1000px'
+    distances: '-100px'
     
 
 });
 sr.reveal('.animationsociales5', {
     scale: 0.95,
     duration: 4000,
-    distances: '-1000px'
+    distances: '-100px'
     
 
 });
 sr.reveal('.GaleriaFotosPremedia', {
     scale: 0.95,
     duration: 4000,
-    distances: '-1000px'
+    distances: '-100px'
 });
 
 

@@ -176,7 +176,7 @@
                                                 Vocacional – Profesional.
                                             </p>
                                         </div>
-                                        <div class="col-md-5 wow fadeInRight">
+                                        <div class="col-md-5 wow fadeInRight p-2">
                                             <img src="../Otras_Actividades/img/orientacion/Docentes de Educacion Especial y Orientacion 2.2.jpeg" alt="" class="img-fluid shadow  bg-body rounded-4">
                                         </div>
                                         <div class="col-md-12 wow fadeInUp">
@@ -198,18 +198,21 @@
 
                                             </p>
                                         </div>
-                                        <div class="row d-flex justify-content-around" id="negar">
-                                            <div class="col-md-4 wow fadeInLeft" data-wow-delay="1.5s" id="img">
-                                                <img src="../Otras_Actividades/img/orientacion/Orientacion a  la campana de Gigantes de Fanlyc.jpeg" alt="" class="img-fluid rounded-4">
+                                        <div class="d-flex justify-content-around">
+                                            <div class="row">
+                                                <div class="col-md-4 wow fadeInLeft d-flex justify-content-center p-2" data-wow-delay="1.5s" id="img">
+                                                    <img src="../Otras_Actividades/img/orientacion/Orientacion a  la campana de Gigantes de Fanlyc.jpeg" alt="" class="img-fluid rounded-4">
+                                                </div>
+
+                                                <div class="col-md-4 wow fadeInUp d-flex justify-content-center p-2" data-wow-delay="2s" id="img">
+                                                    <img src="../Otras_Actividades/img/orientacion/Orientacion Vocacional-Profesional.jpeg" alt="" class="img-fluid rounded-4">
+
+                                                </div>
+                                                <div class="col-md-4 wow fadeInRight d-flex justify-content-center p-2" data-wow-delay="1.5s" id="img">
+                                                    <img src="../Otras_Actividades/img/orientacion/Charla salud mental 2.jpeg" alt="" class="img-fluid rounded-4">
+                                                </div>                                                
                                             </div>
 
-                                            <div class="col-md-4 wow fadeInUp" data-wow-delay="2s" id="img">
-                                                <img src="../Otras_Actividades/img/orientacion/Orientacion Vocacional-Profesional.jpeg" alt="" class="img-fluid rounded-4">
-
-                                            </div>
-                                            <div class="col-md-4 wow fadeInRight" data-wow-delay="1.5s" id="img">
-                                                <img src="../Otras_Actividades/img/orientacion/Charla salud mental 2.jpeg" alt="" class="img-fluid rounded-4">
-                                            </div>
                                         </div>
                                         <div class="col-md-12">
                                             <p>
@@ -219,17 +222,18 @@
                                             </p>
 
                                             <div class="d-flex justify-content-around">
-                                                <div class="row" id="negar">
-                                                    <div class="col-md-4">
-
-                                                <img src="../Otras_Actividades/img/orientacion/Docente de Educacion Especial.jpeg" class="img-thumbnail" alt="...">
+                                                <div class="row">
+                                                    <div class="col-md-4 d-flex justify-content-center p-2">
+                                                        <img src="../Otras_Actividades/img/orientacion/Docente de Educacion Especial.jpeg" class="img-thumbnail" alt="Docente de Educacion Especial" title="Docente de Educacion Especial">
                                                     </div>
-                                                    <div class="col-md-4">
-
-                                                <img src="../Otras_Actividades/img/orientacion/Docentes.jpeg" class="img-thumbnail" alt="...">
-                                                <img src="../Otras_Actividades/img/orientacion/Orientacion .jpeg" class="img-thumbnail" alt="...">
+                                                    <div class="col-md-4 d-flex justify-content-center p-2">
+                                                        <img src="../Otras_Actividades/img/orientacion/Docentes.jpeg" class="img-thumbnail" alt="Docentes" title="Docentes">
+                                                    </div>
+                                                    <div class="col-md-4 d-flex justify-content-center p-2">
+                                                        <img src="../Otras_Actividades/img/orientacion/Orientacion .jpeg" class="img-thumbnail" alt="Orientacion" title="Orientacion">                                                    
+                                                    </div>
+                                                </div>
                                             </div>
-
                                         </div>
                                     </div>
 

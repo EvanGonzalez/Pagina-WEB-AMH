@@ -17,10 +17,10 @@
                 ?>
                 <!-- AQUI SE REPITE LOS NoticiasA  EN recuadro_producto -->
                 <div class="container">
-                    <div class="card my-4" id="card1" style="background-color: #121b4f; color: white;">
+                    <div class="card my-4" id="card1" style="background-color: #121b4f; color: white;font-size: 25px;">
                         <h5 class="card-header" style="background-color: #0079be;">
                             <div class="row">
-                                <div class="col-md-9">
+                                <div class="col-md-9" style="font-size: 25px;">
                                     <b><?php echo $valores['titulo']?></b>
                                 </div>
                                 <div class="col-md-3">

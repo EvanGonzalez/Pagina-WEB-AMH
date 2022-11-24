@@ -19,7 +19,6 @@
     <title>AMH: Nuestra Institución</title>
 </head>
 
-
 <body id="fondoMain">
     <?php
     include("./Menu_Footer/menumain.html");
@@ -28,7 +27,7 @@
     <!--miga de pan-->
     <div class="contenedorMigaPan text-center">
         <div class="col-md-12">
-            <?php
+            <?php 
             include("Migas_Pan/MigaPan2.html")
             ?>
         </div>
