@@ -37,6 +37,8 @@ if (isset($_POST['Guardar'])) {
         }
     } elseif ($existe1 || $existe2 || $existe3) {
         $valid = true;
+    }else{
+        $valid = true;
     }
 
 
