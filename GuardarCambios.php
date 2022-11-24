@@ -1,3 +1,5 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	
 <?php
 include './BaseDeDatos/conexion_db.php';
 session_start();
@@ -97,7 +99,7 @@ if (isset($_POST['Guardar'])) {
                         $_SESSION["Vas"] = 0;
                         $i++;
                     }
-                   
+
                     if ($_FILES["file1"]["name"] != null || $_FILES["file2"]["name"] != null || $_FILES["file3"]["name"] != null) {
 
                         if ($_FILES["file1"]["name"]) {
@@ -221,18 +223,29 @@ if (isset($_POST['Guardar'])) {
                                 }
                             }
                         }
+
                         unset($_SESSION["imagenes[0]"]);
                         unset($_SESSION["imagenes[1]"]);
                         unset($_SESSION["imagenes[2]"]);
                         unset($_SESSION["delete[0]"]);
-                unset($_SESSION["delete[1]"]);
-                unset($_SESSION["delete[2]"]);
+                        unset($_SESSION["delete[1]"]);
+                        unset($_SESSION["delete[2]"]);
+                       
                     }
+                    echo '<div class="container">
+                    <div class="container">
+                        <div class="alert alert-success" role="alert">
+                            <h4 class="alert-heading">Error 201.....</h4>
+                            <p>Se han realizado los cambios correctamente en la noticia.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>';
+            header("refresh:3;url=../NoticiasA.php");
                 } catch (Exception $e) {
                     @$_SESSION["Vasf3"] = 1;
                     header('Location: FormularioModificar.php?var=4&nom=' . $nom . '&idtitulo=' . $_SESSION["idtitulo"] . '');
                 }
-                
             }
         } else {
             header('Location: FormularioModificar.php?var=2&nom=' . $nom . '&idtitulo=' . $_SESSION["idtitulo"] . '');
@@ -242,6 +255,6 @@ if (isset($_POST['Guardar'])) {
     }
 }
 
-echo "<meta http-equiv='refresh' content='0;url=NoticiasA.php'";
+
 ?>
 <!-- <meta http-equiv="refresh" content="0;url=NoticiasA.php"> -->
