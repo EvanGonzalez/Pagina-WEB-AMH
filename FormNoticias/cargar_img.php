@@ -1,3 +1,5 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	
 <?php
 session_start();
 include '../BaseDeDatos/conexion_db.php';
@@ -68,10 +70,20 @@ if ($contar === 0) {
                 }
                 closedir($dir); //Cerramos la conexion con la carpeta destino
 
-                header("Location: ../NoticiasA.php");
+                
             }
+            
         }
-
+        echo '<div class="container">
+							<div class="container">
+								<div class="alert alert-success" role="alert">
+									<h4 class="alert-heading">Error 201.....</h4>
+									<p>Se ha insertado correctamente la noticia.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+									<hr>
+								</div>
+							</div>
+						</div>';
+                header( "refresh:5;url=../NoticiasA.php" );
     } else {
         header("Location: ../Formulario1.php");
         @$_SESSION["Vasf1"]=1;
