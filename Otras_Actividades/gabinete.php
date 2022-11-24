@@ -176,7 +176,7 @@
                                                 Vocacional – Profesional.
                                             </p>
                                         </div>
-                                        <div class="col-md-5 wow fadeInRight">
+                                        <div class="col-md-5 wow fadeInRight p-2">
                                             <img src="../Otras_Actividades/img/orientacion/Docentes de Educacion Especial y Orientacion 2.2.jpeg" alt="" class="img-fluid shadow  bg-body rounded-4">
                                         </div>
                                         <div class="col-md-12 wow fadeInUp">
@@ -230,7 +230,7 @@
                                                         <img src="../Otras_Actividades/img/orientacion/Docentes.jpeg" class="img-thumbnail" alt="Docentes" title="Docentes">
                                                     </div>
                                                     <div class="col-md-4 d-flex justify-content-center p-2">
-                                                        <img src="../Otras_Actividades/img/orientacion/Orientacion.jpeg" class="img-thumbnail" alt="Orientacion" title="Orientacion">                                                    
+                                                        <img src="../Otras_Actividades/img/orientacion/Orientacion .jpeg" class="img-thumbnail" alt="Orientacion" title="Orientacion">                                                    
                                                     </div>
                                                 </div>
                                             </div>
