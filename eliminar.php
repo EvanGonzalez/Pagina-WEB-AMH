@@ -31,7 +31,7 @@ if($images>1){
     header("Location: FormularioModificar.php?idtitulo=".$_SESSION["idtitulo"].'');
     $_SESSION["Vas"]=1;
 } */
-header("Location: FormularioModificar.php?idtitulo=" . $_SESSION["idtitulo"]);
+header("Location: FormularioModificar.php?idtitulo=" . $_SESSION["idtitulo"]."&var=0&nom=0");
 /* unset($_SESSION["imagenes[0]"]);
 unset($_SESSION["imagenes[1]"]);
 unset($_SESSION["imagenes[2]"]); */
