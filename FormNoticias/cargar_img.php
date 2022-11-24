@@ -18,17 +18,18 @@ foreach ($_FILES["imagenes"]['name'] as $key => $tmp_name) {
 }
 
 if ($contar === 0) {
-
-    $tit = $_POST['Titulo'];
-    $fech = $_POST['FechaActual'];
-    $des = $_POST['enfermedadDescrip'];
-    $con = conectar();
-    $query = $con->prepare("Insert into noticia(titulo,fecha,descripcion,usuario) Values (?, ?, ?, ?)");
-    $query->bind_param('ssss', $tit, $fech, $des, $_SESSION['username']);
-    $query->execute();
-    mysqli_close($con);
     if (count($_FILES['imagenes']['tmp_name']) <= 3) {
-
+        try{
+            $tit = $_POST['Titulo'];
+            $fech = $_POST['FechaActual'];
+            $des = $_POST['enfermedadDescrip'];
+            $query = conectar()->query('Insert into noticia(titulo,fecha,descripcion,usuario) Values ("'.$tit.'","'.$fech.'","'.$des.'","'.$_SESSION['username'].'")')or die(conectar()->error);
+            $con = conectar();
+        }catch(Exception $e){
+            @$_SESSION["Vasf3"]=1;
+            header("Location: ../Formulario1.php");
+        }
+        mysqli_close($con);
         foreach ($_FILES["imagenes"]['tmp_name'] as $key => $tmp_name) {
 
             //condicional si el fuchero existe
@@ -68,15 +69,16 @@ if ($contar === 0) {
                 closedir($dir); //Cerramos la conexion con la carpeta destino
 
                 header("Location: ../NoticiasA.php");
-
-
-
             }
         }
 
     } else {
-        echo "<script>alert('Error, la cantidad máxima de imágenes es 3')</script>";
+        header("Location: ../Formulario1.php");
+        @$_SESSION["Vasf1"]=1;
+        @$_SESSION["Vasf2"]=0;
     }
 } else {
-    echo "<script>alert('Error, por favor renombre el archivo, porque ya hay un archivo con ese nombre')</script>";
+    @$_SESSION["Vasf1"]=0;
+    @$_SESSION["Vasf2"]=1;
+    header("Location: ../Formulario1.php");
 }

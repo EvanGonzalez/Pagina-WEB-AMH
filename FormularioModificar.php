@@ -6,6 +6,12 @@ $Validacion=$_GET["var"];
 $nom=$_GET["nom"];
 include("./BaseDeDatos/conexion_db.php");
 session_start();
+
+@$_SESSION["idtitulo"] = $id;
+@$Validacion1 = $_SESSION["Vas"];
+@$Validacion3 = $_SESSION["Vasf3"];
+unset($_SESSION["Vas"]);
+unset($_SESSION["Vasf3"]);
 $_SESSION["idtitulo"] = $id;
 /* $Validacion = $_SESSION["Vas"];
 unset($_SESSION["Vas"]); */
@@ -158,6 +164,17 @@ if($_SESSION["delete[2]"]!=0){
 						<div class="alert alert-danger" role="alert">
 							<h4 class="alert-heading">Error 405.....</h4>
 							<p>Debe haber por lo menos una imagen en la noticia .............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+							<hr>
+						</div>
+					</div>
+				</div>';
+			}
+			if ($Validacion == 4) {
+				echo '<div class="container">
+					<div class="container">
+						<div class="alert alert-danger" role="alert">
+							<h4 class="alert-heading">Error 201.....</h4>
+							<p>Ya existe una noticia con ese título.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
 							<hr>
 						</div>
 					</div>
