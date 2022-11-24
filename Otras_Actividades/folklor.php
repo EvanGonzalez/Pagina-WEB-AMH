@@ -62,149 +62,138 @@
                 </div>
             </div>
             <br>
-            <div class="row"></div>
-                <div class="card border-white mb-3 wow fadeInLeft" id="ramon" style="width: 100%;">
-                    <center><div class="card-header" style="font-size: 25px; color: white;">Profesor Ramón Cepeda</div></center>
-                    <div class="card-body">
-                        <p class="card-text text-white">
-                            Fue uno de los fundadores del Conjunto Típico, tiene 65 años de enseñar danza panameña y dirigió el Conjunto Típico de la escuela por 27 años. 
-                            Él llegó en el año 1983 a la escuela y el mismo año tuvo la iniciativa de crear el conjunto, ya que las demás instituciones le preguntaban si 
-                            la escuela contaba con un Conjunto Típico y como no había, le preguntaban si se podía crear uno. 
-                        </p>
-                    </div>
+            <div class="card border-white mb-3 wow fadeInLeft" id="ramon" style="width: 100%;">
+                <center><div class="card-header" style="font-size: 25px; color: white;">Profesor Ramón Cepeda</div></center>
+                <div class="card-body">
+                    <p class="card-text text-white">
+                        Fue uno de los fundadores del Conjunto Típico, tiene 65 años de enseñar danza panameña y dirigió el Conjunto Típico de la escuela por 27 años. 
+                        Él llegó en el año 1983 a la escuela y el mismo año tuvo la iniciativa de crear el conjunto, ya que las demás instituciones le preguntaban si 
+                        la escuela contaba con un Conjunto Típico y como no había, le preguntaban si se podía crear uno. 
+                    </p>
                 </div>
             </div>
             <br>
             <div class="collapse" id="collapseExample">
-                <div class="">
+                <div class="container">
                     <div class="row" id="negar">
-
-                                    <div class="col-md-6 wow fadeInLeft">
-                                        <div class=" wow fadeInLeft" style="width: 100%;">
-                                            <h2 class="text-center fst-italic">Eventos Nacionales</h2>
-                                            <p class="card-text"><br>
-                                                Entre los eventos nacionales en que ha participado podemos mencionar: Festival Toro Guapo de Antón, 
-                                                Festival de la Mejorana de Guararé, La Feria de la Chorrera, Feria de Azuero en Los Santos, Feria San José en David, 
-                                                Feria de la Concepción en Chiriquí y El Desfile de las Polleras en la ciudad capital. 
-                                            </p>
-                                            <p class="card-text">
-                                                En el 2019 el conjunto folclórico participo en diferentes presentaciones tales como: feria de la naranja, 
-                                                feria de Santa Fe, desfile folclórico de Guararé, desfile folclórico de Ocú, desfile folclórico del Torito Guapo 
-                                                en Antón y el desfile folclórico del Sombrero Pintado.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 wow fadeInRight">
-                                        <div class="card border-dark mb-3" style="width: 100%;">
-                                            <img src="../Otras_Actividades/img/conjunto/conjunto3.jpeg" alt="Conjunto Folcloriko" class="img-fluid">
-                                        </div>                    
-                                    </div>
+                        <div class="col-md-6 wow fadeInLeft">
+                            <div class=" wow fadeInLeft" style="width: 100%;">
+                                <h2 class="text-center fst-italic">Eventos Nacionales</h2>
+                                <p class="card-text"><br>
+                                    Entre los eventos nacionales en que ha participado podemos mencionar: Festival Toro Guapo de Antón, 
+                                    Festival de la Mejorana de Guararé, La Feria de la Chorrera, Feria de Azuero en Los Santos, Feria San José en David, 
+                                    Feria de la Concepción en Chiriquí y El Desfile de las Polleras en la ciudad capital. 
+                                </p>
+                                <p class="card-text">
+                                    En el 2019 el conjunto folclórico participo en diferentes presentaciones tales como: feria de la naranja, 
+                                    feria de Santa Fe, desfile folclórico de Guararé, desfile folclórico de Ocú, desfile folclórico del Torito Guapo 
+                                    en Antón y el desfile folclórico del Sombrero Pintado.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow fadeInRight">
+                            <div class="card border-dark mb-3" style="width: 100%;">
+                                <img src="../Otras_Actividades/img/conjunto/conjunto3.jpeg" alt="Conjunto Folcloriko" class="img-fluid">
+                            </div>                    
+                        </div>
                                         
                                         <!-- ---- -->
-                                    <div class="col-md-6 wow fadeInRight">
-                                            <div class="img2" style="width: 100%;">
-                                                <img src="../Otras_Actividades/img/conjunto/Premiacion1.jpeg" alt="" class="img-fluid">
-                                            </div>                    
-                                    </div>  <br>                                 
-                                    <div class="col-md-6 wow fadeInLeft" style="padding-top: 10px;">
-                                        <div class="card border-dark mb-3 p-y-3 wow fadeInLeft" style="width: 100%;">
-                                            <h2 style="font-size: 28px; text-align: center;">Premios Alcanzados</h2>
-                                                <div class="card-body text-dark">
-                                                    <p class="card-text">
-                                                    Entre los premios alcanzados por esta agrupación podemos mencionar que el Ministerio de Educación organizó el concurso 
-                                                    de baile para aquellas escuelas que tenían conjuntos y durante los tres años que lo realizaron 
-                                                    (Colón, Los Santos y la Cuidad de Panamá) el conjunto de la AMH ganó un primer lugar y dos segundos lugares.
-                                                    </p>
-                                                    <ul>
-                                                        <li>
-                                                            <p>
-                                                                En 2017 el conjunto folclórico obtuvo el primer lugar en tambor 
-                                                            </p>
-                                                        </li>
-                                                        <li>
-                                                            <p>
-                                                                En el 2018 participaron y ganaron concursos obteniendo: 
-                                                                Primer lugar en cumbia, en decima 
-                                                                Segundo lugar en tambor 
-                                                            </p>
-                                                        </li>
-                                                        <li>
-                                                            <p>
-                                                                En el 2019 se participaron de diferentes concursos obteniendo: 
-                                                                Primer lugar en saloma 
-                                                                Segundo lugar en Tambor, y en cumbia    
-
-                                                            </p>
-                                                        </li>
-                                                        <li>
-                                                            <p>
-                                                                En el 2020 por pandemia de la COVID-19, solo se realizaron presentaciones del conjunto folclórico 
-                                                            </p>
-                                                        </li>
-                                                        <li>
-                                                            <p>
-                                                                En 2021 ganaron diferentes concursos entre ellos: 
-                                                                Primer lugar en saloma. 
-                                                                Primer lugar en toque de tambor. 
-                                                                Primer lugar en pareja de baile 
-                                                            </p>
-                                                        </li>
-                                                        <li>
-                                                            <p>
-                                                                Durante este año 2022, el conjunto folclórico fue el primer lugar en tamborera, tambor, saloma. 
-                                                                Segundo lugar en cumbia. Tercer lugar en decima 
-                                                            </p>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                        </div>
+                        <div class="col-md-6 wow fadeInRight">
+                            <div class="img2" style="width: 100%;">
+                                <img src="../Otras_Actividades/img/conjunto/Premiacion1.jpeg" alt="" class="img-fluid">
+                            </div>                    
+                        </div>  <br>                                 
+                        <div class="col-md-6 wow fadeInLeft" style="padding-top: 10px;">
+                            <div class="card border-dark mb-3 p-y-3 wow fadeInLeft" style="width: 100%;">
+                                <h2 style="font-size: 28px; text-align: center;">Premios Alcanzados</h2>
+                                    <div class="card-body text-dark">
+                                        <p class="card-text">
+                                        Entre los premios alcanzados por esta agrupación podemos mencionar que el Ministerio de Educación organizó el concurso 
+                                        de baile para aquellas escuelas que tenían conjuntos y durante los tres años que lo realizaron 
+                                        (Colón, Los Santos y la Cuidad de Panamá) el conjunto de la AMH ganó un primer lugar y dos segundos lugares.
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <p>
+                                                    En 2017 el conjunto folclórico obtuvo el primer lugar en tambor 
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    En el 2018 participaron y ganaron concursos obteniendo: 
+                                                    Primer lugar en cumbia, en decima 
+                                                    Segundo lugar en tambor 
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    En el 2019 se participaron de diferentes concursos obteniendo: 
+                                                    Primer lugar en saloma 
+                                                    Segundo lugar en Tambor, y en cumbia  
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    En el 2020 por pandemia de la COVID-19, solo se realizaron presentaciones del conjunto folclórico 
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    En 2021 ganaron diferentes concursos entre ellos: 
+                                                    Primer lugar en saloma. 
+                                                    Primer lugar en toque de tambor. 
+                                                    Primer lugar en pareja de baile 
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    Durante este año 2022, el conjunto folclórico fue el primer lugar en tamborera, tambor, saloma. 
+                                                    Segundo lugar en cumbia. Tercer lugar en decima 
+                                                </p>
+                                            </li>
+                                        </ul>
                                     </div>
-                                    <div class="col-md-12">
-                                        <h2 class="text-center fst-italic"><br>Videos de muestra de algunas presentaciones</h2>
-                                        <div class="d-flex justify-content-center" id="videos">
-                                            <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
-                                                <video src="../Otras_Actividades/img/conjunto/Tamborito.mp4" controls ></video>
-                                                <figcaption class="figure-caption text-end">Participacion el XXXVI Festival Nacional Manuel F. Zarate</figcaption>
-                                            </figure>
-                                        </div>                                          
-                                    </div>
-            
-                                    <div id="videos">
-                                        <div class="row" id="negar">
-                                            <div class="col-md-6">
-                                                <div class="d-flex justify-content-center">
-                                                    <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
-                                                        <video src="../Otras_Actividades/img/conjunto/decima.mp4" controls ></video>
-                                                        <figcaption class="figure-caption text-end">Décima por la estudiante María Herrera</figcaption>
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="d-flex justify-content-center">
-                                                    <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
-                                                        <video src="../Otras_Actividades/img/conjunto/Saloma.mp4" controls ></video>                                        
-                                                        <figcaption class="figure-caption text-end">Saloma por el estudiante Javier Bermúdez</figcaption>
-                                                    </figure>
-                                                </div>                                            
-                                            </div>
-                                        </div>
-                                    </div>                      
-                                </div>   
+                            </div>
                         </div>
-                    </div>
+                        <div class="col-md-12">
+                            <h2 class="text-center fst-italic"><br>Videos de muestra de algunas presentaciones</h2>
+                            <div class="d-flex justify-content-center" id="videos">
+                                <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
+                                    <video src="../Otras_Actividades/img/conjunto/Tamborito.mp4" controls ></video>
+                                    <figcaption class="figure-caption text-end">Participacion el XXXVI Festival Nacional Manuel F. Zarate</figcaption>
+                                </figure>
+                            </div>                                          
+                        </div>
+            
+                        <div id="videos">
+                            <div class="row" id="negar">
+                                <div class="col-md-6">
+                                    <div class="d-flex justify-content-center">
+                                        <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
+                                            <video src="../Otras_Actividades/img/conjunto/decima.mp4" controls ></video>
+                                            <figcaption class="figure-caption text-end">Décima por la estudiante María Herrera</figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex justify-content-center">
+                                        <figure class="figure shadow p-3 mb-5 bg-body rounded-4">
+                                            <video src="../Otras_Actividades/img/conjunto/Saloma.mp4" controls ></video>                                        
+                                            <figcaption class="figure-caption text-end">Saloma por el estudiante Javier Bermúdez</figcaption>
+                                        </figure>
+                                    </div>                                            
+                                </div>
+                            </div>
+                        </div>                      
+                    </div>   
                 </div>
-                    <p class="d-flex justify-content-center">
-      
-                            <a style="color: white;" class="btn btn-primary bi bi-card-text" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                Leer más
-                            </a>
-                              
-                    </p>   <br>       
             </div>
-
-
         </div>
-
+        <p class="d-flex justify-content-center">
+            <a style="color: white;" class="btn btn-primary bi bi-card-text" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Leer más
+            </a>     
+        </p>   <br>       
     </section>
     <!-- Segunda Mitada de la pagina  -->
     <section>
@@ -251,11 +240,8 @@
                 </div>
                 <br>
                 <div class="col-md-6 wow fadeInRight">
-                    <img src="../Otras_Actividades/img/conjunto/conjunto4.jpeg" alt="Conjunto Folclorico" title="Conjunto Folclorico" class="img-fluid rounded-4">
+                    <img src="../Otras_Actividades/img/conjunto/conjunto4.jpeg" alt="Conjunto Folclorico" title="Conjunto Folclorico" class="img-fluid rounded-4 wow fadeInLeft">
                 </div>
-
-
-
             </div>
         </div>
     </section>
