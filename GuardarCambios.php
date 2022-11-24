@@ -3,6 +3,20 @@
 <?php
 include './BaseDeDatos/conexion_db.php';
 session_start();
+if(empty($_SESSION["username"])){
+	
+	echo '<div class="container">
+	<div class="container">
+		<div class="alert alert-danger" role="alert">
+			<h4 class="alert-heading">Error 201.....</h4>
+			<p>No has iniciado sesión.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+			<hr>
+		</div>
+	</div>
+</div>';
+header("refresh:3;url=../IniciarSesion.php");
+}else{
+
 if (isset($_POST['Guardar'])) {
     $existeunaimagen = true;
     if ($_SESSION["imagenes[0]"] == 0) {
@@ -254,7 +268,7 @@ if (isset($_POST['Guardar'])) {
         header('Location: FormularioModificar.php?var=3&nom=' . $nom . '&idtitulo=' . $_SESSION["idtitulo"] . '');
     }
 }
-
+}
 
 ?>
 <!-- <meta http-equiv="refresh" content="0;url=NoticiasA.php"> -->

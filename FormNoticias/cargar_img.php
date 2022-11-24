@@ -2,6 +2,19 @@
 
 <?php
 session_start();
+if(empty($_SESSION["username"])){
+	
+	echo '<div class="container">
+	<div class="container">
+		<div class="alert alert-danger" role="alert">
+			<h4 class="alert-heading">Error 201.....</h4>
+			<p>No has iniciado sesión.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+			<hr>
+		</div>
+	</div>
+</div>';
+header("refresh:3;url=../IniciarSesion.php");
+}else{
 include '../BaseDeDatos/conexion_db.php';
 $contar = 0;
 foreach ($_FILES["imagenes"]['name'] as $key => $tmp_name) {
@@ -90,4 +103,5 @@ if ($contar === 0) {
     @$_SESSION["Vasf1"] = 0;
     @$_SESSION["Vasf2"] = 1;
     header("Location: ../Formulario1.php");
+}
 }

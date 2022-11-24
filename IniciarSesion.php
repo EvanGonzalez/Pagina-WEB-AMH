@@ -13,6 +13,8 @@
 </head>
 <body>
     <?php
+    session_start();
+    unset($_SESSION["username"]);
     include('./Iniciosesion/formulario.html');
     ?>
 </body>
