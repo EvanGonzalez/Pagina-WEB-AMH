@@ -1,7 +1,29 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
 <?php
+
 /*obteniendo la fecha actual del sistema */
 $fechaActual = date('Y-m-d');
-
+session_start();
+if(empty($_SESSION["username"])){
+	
+	echo '<div class="container">
+	<div class="container">
+		<div class="alert alert-danger" role="alert">
+			<h4 class="alert-heading">Error 201.....</h4>
+			<p>No has iniciado sesión.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+			<hr>
+		</div>
+	</div>
+</div>';
+header("refresh:3;url=IniciarSesion.php");
+}else{
+@$Validacion1 = $_SESSION["Vasf1"];
+@$Validacion2 = $_SESSION["Vasf2"];
+@$Validacion3 = $_SESSION["Vasf3"];
+unset($_SESSION["Vasf1"]);
+unset($_SESSION["Vasf2"]);
+unset($_SESSION["Vasf3"]);
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -45,13 +67,48 @@ $fechaActual = date('Y-m-d');
 	<!--Inicia contenendor de informacion-->
 	<!--Inicio de la clase container..-->
 	<div class="container">
-		<form action="./FormNoticias/cargar_img.php" method="post" enctype="multipart/form-data"">
+		<form action="./FormNoticias/cargar_img.php" method="post" enctype="multipart/form-data">
 			<!--Inicio del Form..-->
 			<div class="row">
 				<!--Inicio de la clase Row..-->
 				<center>
 					<h1 class="my-4" id="titulo1">Noticias</h1>
 				</center>
+				<?php
+					if ($Validacion1 == 1) {
+						echo '<div class="container">
+							<div class="container">
+								<div class="alert alert-danger" role="alert">
+									<h4 class="alert-heading">Error 406.....</h4>
+									<p>La cantidad máxima de imágenes es 3.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+									<hr>
+								</div>
+							</div>
+						</div>';
+					}
+					if ($Validacion2 == 1) {
+						echo '<div class="container">
+							<div class="container">
+								<div class="alert alert-danger" role="alert">
+									<h4 class="alert-heading">Error 117.....</h4>
+									<p>Por favor renombre el archivo, porque ya hay un archivo con ese nombre.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+									<hr>
+								</div>
+							</div>
+						</div>';
+					}
+					if ($Validacion3 == 1) {
+						echo '<div class="container">
+							<div class="container">
+								<div class="alert alert-danger" role="alert">
+									<h4 class="alert-heading">Error 201.....</h4>
+									<p>Ya existe una noticia con ese título.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+									<hr>
+								</div>
+							</div>
+						</div>';
+					}
+				?>
 				<div class="col-md-12">
 					<div class="card my-4" id="card1" style="background-color: #121b4f; color: white;font-size: 25px;">
 						<h5 class="card-header" style="background-color: #0079be;font-size: 30px;"> <b>Datos de la noticia</b></h5>
@@ -138,3 +195,4 @@ $fechaActual = date('Y-m-d');
 </body>
 
 </html>
+<?php }?>

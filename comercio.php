@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="./css/galeriadetexto.css" type="text/css">
     <link rel="stylesheet" href="./css/leermas.css" type="text/css">
     <link rel="stylesheet" href="/css/menutest.css" type="text/css">
-    <link rel="stylesheet" href="./scss/cardsanimation.scss">
     <link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
     <script src="js/scrollreveal.js"></script>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>

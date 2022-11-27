@@ -1,3 +1,5 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
 <?php
 /*obteniendo la fecha actual del sistema */
 $fechaActual = date('Y-m-d');
@@ -6,6 +8,24 @@ $Validacion=$_GET["var"];
 $nom=$_GET["nom"];
 include("./BaseDeDatos/conexion_db.php");
 session_start();
+if(empty($_SESSION["username"])){
+	
+	echo '<div class="container">
+	<div class="container">
+		<div class="alert alert-danger" role="alert">
+			<h4 class="alert-heading">Error 201.....</h4>
+			<p>No has iniciado sesión.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+			<hr>
+		</div>
+	</div>
+</div>';
+header("refresh:3;url=IniciarSesion.php");
+}else{
+@$_SESSION["idtitulo"] = $id;
+@$Validacion1 = $_SESSION["Vas"];
+@$Validacion3 = $_SESSION["Vasf3"];
+unset($_SESSION["Vas"]);
+unset($_SESSION["Vasf3"]);
 $_SESSION["idtitulo"] = $id;
 /* $Validacion = $_SESSION["Vas"];
 unset($_SESSION["Vas"]); */
@@ -163,6 +183,17 @@ if($_SESSION["delete[2]"]!=0){
 					</div>
 				</div>';
 			}
+			if ($Validacion == 4) {
+				echo '<div class="container">
+					<div class="container">
+						<div class="alert alert-danger" role="alert">
+							<h4 class="alert-heading">Error 201.....</h4>
+							<p>Ya existe una noticia con ese título.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+							<hr>
+						</div>
+					</div>
+				</div>';
+			}
 			?>
 			<div class="col-md-12">
 				<div class="card my-4" id="card1" style="background-color: #121b4f; color: white;">
@@ -214,7 +245,7 @@ if($_SESSION["delete[2]"]!=0){
 									?>
 
 
-									<input class="form-control" type="file" name="file1" id="img1">
+									<input class="form-control" type="file" accept="image/jpeg,image/jpg,image/png" name="file1" id="img1">
 									<?php
 									if ($_SESSION["imagenes[0]"]!=0) {
 
@@ -248,7 +279,7 @@ if($_SESSION["delete[2]"]!=0){
 
 									}
 									?>
-									<input class="form-control" type="file" name="file2" id="img2">
+									<input class="form-control" type="file" accept="image/jpeg,image/jpg,image/png" name="file2" id="img2">
 									<?php
 									if ($_SESSION["imagenes[1]"]!=0) {
 
@@ -279,7 +310,7 @@ if($_SESSION["delete[2]"]!=0){
 
 									}
 									?>
-									<input class="form-control" type="file" id="img3" name="file3" id="formFileMultiple">
+									<input class="form-control" type="file" id="img3" accept="image/jpeg,image/jpg,image/png" name="file3" id="formFileMultiple">
 									<?php
 									if ($_SESSION["imagenes[2]"]!=0) {
 
@@ -342,3 +373,4 @@ if($_SESSION["delete[2]"]!=0){
 </body>
 
 </html>
+<?php }?>

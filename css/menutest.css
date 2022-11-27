@@ -157,7 +157,7 @@
 
 
 /*Media Query*/
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1246px) {
     .wrapper .logo {
         font-size: 30px;
     }

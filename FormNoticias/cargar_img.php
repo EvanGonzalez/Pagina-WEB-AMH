@@ -1,5 +1,20 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
 <?php
 session_start();
+if(empty($_SESSION["username"])){
+	
+	echo '<div class="container">
+	<div class="container">
+		<div class="alert alert-danger" role="alert">
+			<h4 class="alert-heading">Error 201.....</h4>
+			<p>No has iniciado sesión.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+			<hr>
+		</div>
+	</div>
+</div>';
+header("refresh:3;url=../IniciarSesion.php");
+}else{
 include '../BaseDeDatos/conexion_db.php';
 $contar = 0;
 foreach ($_FILES["imagenes"]['name'] as $key => $tmp_name) {
@@ -7,9 +22,9 @@ foreach ($_FILES["imagenes"]['name'] as $key => $tmp_name) {
     $query = $con->prepare("Select COUNT(*) as contar from imagenes_noticia where imagen = ?");
     $query->bind_param('s', $_FILES["imagenes"]["name"][$key]);
     $query->execute();
-   
+
     $result = $query->get_result();
-    if($fila = $result->fetch_assoc()) {
+    if ($fila = $result->fetch_assoc()) {
         if ($fila['contar'] > 0) {
             $contar++;
         }
@@ -18,17 +33,18 @@ foreach ($_FILES["imagenes"]['name'] as $key => $tmp_name) {
 }
 
 if ($contar === 0) {
-
-    $tit = $_POST['Titulo'];
-    $fech = $_POST['FechaActual'];
-    $des = $_POST['enfermedadDescrip'];
-    $con = conectar();
-    $query = $con->prepare("Insert into noticia(titulo,fecha,descripcion,usuario) Values (?, ?, ?, ?)");
-    $query->bind_param('ssss', $tit, $fech, $des, $_SESSION['username']);
-    $query->execute();
-    mysqli_close($con);
     if (count($_FILES['imagenes']['tmp_name']) <= 3) {
-
+        try {
+            $tit = $_POST['Titulo'];
+            $fech = $_POST['FechaActual'];
+            $des = $_POST['enfermedadDescrip'];
+            $query = conectar()->query('Insert into noticia(titulo,fecha,descripcion,usuario) Values ("' . $tit . '","' . $fech . '","' . $des . '","' . $_SESSION['username'] . '")') or die(conectar()->error);
+            $con = conectar();
+        } catch (Exception $e) {
+            @$_SESSION["Vasf3"] = 1;
+            header("Location: ../Formulario1.php");
+        }
+        mysqli_close($con);
         foreach ($_FILES["imagenes"]['tmp_name'] as $key => $tmp_name) {
 
             //condicional si el fuchero existe
@@ -51,32 +67,41 @@ if ($contar === 0) {
                     $query = $con->prepare("Select id_titulo from noticia where titulo = ?");
                     $query->bind_param('s', $tit);
                     $query->execute();
-                   
+
                     $result = $query->get_result();
                     $fila = $result->fetch_assoc();
-                    $idtitulo=$fila['id_titulo'];
+                    $idtitulo = $fila['id_titulo'];
 
                     $con = conectar();
                     $query = $con->prepare("Insert into imagenes_noticia(id_titulo,imagen) Values (?, ?)");
                     $query->bind_param('ss', $idtitulo, $archivonombre);
                     $query->execute();
                     mysqli_close($con);
-                   
                 } else {
-                   
                 }
                 closedir($dir); //Cerramos la conexion con la carpeta destino
-
-                header("Location: ../NoticiasA.php");
-
 
 
             }
         }
-
+        echo '<div class="container">
+							<div class="container">
+								<div class="alert alert-success" role="alert">
+									<h4 class="alert-heading">Error 201.....</h4>
+									<p>Se ha insertado correctamente la noticia.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+									<hr>
+								</div>
+							</div>
+						</div>';
+        header("refresh:3;url=../NoticiasA.php");
     } else {
-        echo "<script>alert('Error, la cantidad máxima de imágenes es 3')</script>";
+        header("Location: ../Formulario1.php");
+        @$_SESSION["Vasf1"] = 1;
+        @$_SESSION["Vasf2"] = 0;
     }
 } else {
-    echo "<script>alert('Error, por favor renombre el archivo, porque ya hay un archivo con ese nombre')</script>";
+    @$_SESSION["Vasf1"] = 0;
+    @$_SESSION["Vasf2"] = 1;
+    header("Location: ../Formulario1.php");
+}
 }

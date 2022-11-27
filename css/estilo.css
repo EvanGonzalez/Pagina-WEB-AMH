@@ -611,14 +611,12 @@ tr:hover td {
   line-height: 1.8;
   text-align: justify; 
 }
+
 #circle-shape-example .curve { 
-  width: 30%; height: auto;
+  width: 40%; height: auto;
   min-width: 150px;
   float: left;
-  margin-right:8rem; 
-  border-radius: 50%;
-  -webkit-shape-outside:circle();
-  shape-outside:circle();
+  margin-right:1rem; 
 }
 
 
