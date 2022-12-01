@@ -235,11 +235,11 @@ unset($_SESSION["Vas"]); */
 										<?php
 										if ($_SESSION["imagenes[0]"] == 0) {
 										?>
-											<img class="card-img-top" src="/FormNoticias/uploads/SIN-IMAGEN.jpg" height="200px" width="70px" id="imagen1" alt="Card image cap">
+											<img class="card-img-top" src="./FormNoticias/uploads/SIN-IMAGEN.jpg" height="200px" width="70px" id="imagen1" alt="Card image cap">
 										<?php
 										} else {
 										?>
-											<img class="card-img-top" src="/FormNoticias/uploads/<?php echo $_SESSION["imagenes[0]"] ?>" height="200px" width="70px" id="imagen1" alt="Card image cap">
+											<img class="card-img-top" src="./FormNoticias/uploads/<?php echo $_SESSION["imagenes[0]"]; ?>" height="200px" width="70px" id="imagen1" alt="Card image cap">
 										<?php
 
 										}
@@ -271,11 +271,11 @@ unset($_SESSION["Vas"]); */
 										<?php
 										if ($_SESSION["imagenes[1]"] == 0) {
 										?>
-											<img class="card-img-top" src="FormNoticias/uploads/SIN-IMAGEN.jpg" height="200px" width="70px" alt="Card image cap" id="imagen2">
+											<img class="card-img-top" src="./FormNoticias/uploads/SIN-IMAGEN.jpg" height="200px" width="70px" alt="Card image cap" id="imagen2">
 										<?php
 										} else {
 										?>
-											<img class="card-img-top" src="FormNoticias/uploads/<?php echo $_SESSION["imagenes[1]"] ?>" height="200px" width="70px" alt="Card image cap" id="imagen2">
+											<img class="card-img-top" src="./FormNoticias/uploads/<?php echo $_SESSION["imagenes[1]"] ;?>" height="200px" width="70px" alt="Card image cap" id="imagen2">
 										<?php
 
 										}
@@ -302,11 +302,11 @@ unset($_SESSION["Vas"]); */
 										<?php
 										if ($_SESSION["imagenes[2]"] == 0) {
 										?>
-											<img class="card-img-top" src="FormNoticias/uploads/SIN-IMAGEN.jpg" id="imagen3" height="200px" width="70px" alt="Card image cap">
+											<img class="card-img-top" src="./FormNoticias/uploads/SIN-IMAGEN.jpg" id="imagen3" height="200px" width="70px" alt="Card image cap">
 										<?php
 										} else {
 										?>
-											<img class="card-img-top" src="FormNoticias/uploads/<?php echo $_SESSION["imagenes[2]"] ?>" id="imagen3" height="200px" width="70px" alt="Card image cap">
+											<img class="card-img-top" src="./FormNoticias/uploads/<?php echo $_SESSION["imagenes[2]"] ;?>" id="imagen3" height="200px" width="70px" alt="Card image cap">
 										<?php
 
 										}
