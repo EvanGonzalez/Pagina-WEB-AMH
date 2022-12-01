@@ -21,7 +21,6 @@ if(empty($_SESSION["username"])){
 </div>';
 header("refresh:3;url=IniciarSesion.php");
 }else{
-@$_SESSION["idtitulo"] = $id;
 @$Validacion1 = $_SESSION["Vas"];
 @$Validacion3 = $_SESSION["Vasf3"];
 unset($_SESSION["Vas"]);
@@ -238,7 +237,7 @@ if($_SESSION["delete[2]"]!=0){
 									<?php
 									} else {
 									?>
-										<img class="card-img-top" src="FormNoticias/uploads/<?php echo $_SESSION["imagenes[0]"] ?>" height="200px" width="70px" id="imagen1" alt="Card image cap">
+										<img class="card-img-top" src="/FormNoticias/uploads/<?php echo $_SESSION["imagenes[0]"] ?>" height="200px" width="70px" id="imagen1" alt="Card image cap">
 									<?php
 
 									}

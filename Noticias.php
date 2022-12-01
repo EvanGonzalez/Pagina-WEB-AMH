@@ -24,7 +24,7 @@
 
     <!-- HEADER -->
     <?php
-    include("./Menu_footer/menumain.html");
+    include("./Menu_Footer/menumain.html");
     ?>
 
     <!--miga de pan-->

@@ -54,7 +54,7 @@ header("refresh:3;url=IniciarSesion.php");
 
     <!-- HEADER -->
     <?php
-	include("./Menu_footer/menuadmin.html");
+	include("./Menu_Footer/menuadmin.html");
 	?>
 
     <!--miga de pan-->

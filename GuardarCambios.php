@@ -1,11 +1,11 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-	
+
 <?php
 include './BaseDeDatos/conexion_db.php';
 session_start();
-if(empty($_SESSION["username"])){
-	
-	echo '<div class="container">
+if (empty($_SESSION["username"])) {
+
+    echo '<div class="container">
 	<div class="container">
 		<div class="alert alert-danger" role="alert">
 			<h4 class="alert-heading">Error 201.....</h4>
@@ -14,239 +14,238 @@ if(empty($_SESSION["username"])){
 		</div>
 	</div>
 </div>';
-header("refresh:3;url=../IniciarSesion.php");
-}else{
+    header("refresh:3;url=../IniciarSesion.php");
+} else {
 
-if (isset($_POST['Guardar'])) {
-    $existeunaimagen = true;
-    if ($_SESSION["imagenes[0]"] == 0) {
-        $existeunaimagen = false;
-    }
-    $existe1 = false;
-    $existe2 = false;
-    $existe3 = false;
-    if ($_FILES["file1"]["name"] != null) {
-        $existe1 = true;
-    }
-    if ($_FILES["file2"]["name"] != null) {
-        $existe2 = true;
-    }
-    if ($_FILES["file3"]["name"] != null) {
-        $existe3 = true;
-    }
-    $valid = false;
-    if ($existe1 && $existe2 && $existe3) {
-        if ($_FILES["file1"]["name"] != $_FILES["file2"]["name"] && $_FILES["file1"]["name"] != $_FILES["file3"]["name"] && $_FILES["file2"]["name"] != $_FILES["file3"]["name"]) {
+    if (isset($_POST['Guardar'])) {
+        $existeunaimagen = true;
+        if ($_SESSION["imagenes[0]"] == 0) {
+            $existeunaimagen = false;
+        }
+        $existe1 = false;
+        $existe2 = false;
+        $existe3 = false;
+        if ($_FILES["file1"]["name"] != null) {
+            $existe1 = true;
+        }
+        if ($_FILES["file2"]["name"] != null) {
+            $existe2 = true;
+        }
+        if ($_FILES["file3"]["name"] != null) {
+            $existe3 = true;
+        }
+        $valid = false;
+        if ($existe1 && $existe2 && $existe3) {
+            if ($_FILES["file1"]["name"] != $_FILES["file2"]["name"] && $_FILES["file1"]["name"] != $_FILES["file3"]["name"] && $_FILES["file2"]["name"] != $_FILES["file3"]["name"]) {
+                $valid = true;
+            }
+        } elseif ($existe1 && $existe2) {
+            if ($_FILES["file1"]["name"] != $_FILES["file2"]["name"]) {
+                $valid = true;
+            }
+        } elseif ($existe1 && $existe3) {
+            if ($_FILES["file1"]["name"] != $_FILES["file3"]["name"]) {
+                $valid = true;
+            }
+        } elseif ($existe2 && $existe3) {
+            if ($_FILES["file2"]["name"] != $_FILES["file3"]["name"]) {
+                $valid = true;
+            }
+        } elseif ($existe1 || $existe2 || $existe3) {
+            $valid = true;
+        } else {
             $valid = true;
         }
-    } elseif ($existe1 && $existe2) {
-        if ($_FILES["file1"]["name"] != $_FILES["file2"]["name"]) {
-            $valid = true;
-        }
-    } elseif ($existe1 && $existe3) {
-        if ($_FILES["file1"]["name"] != $_FILES["file3"]["name"]) {
-            $valid = true;
-        }
-    } elseif ($existe2 && $existe3) {
-        if ($_FILES["file2"]["name"] != $_FILES["file3"]["name"]) {
-            $valid = true;
-        }
-    } elseif ($existe1 || $existe2 || $existe3) {
-        $valid = true;
-    } else {
-        $valid = true;
-    }
 
 
 
-    if ($existe1 || $existe2 || $existe3 || $existeunaimagen) {
+        if ($existe1 || $existe2 || $existe3 || $existeunaimagen) {
 
-        if ($valid) {
-            $r = 1;
-            $existArchi = false;
-            while ($r <= 3) {
-                $query_imagen = ("SELECT count(*) as 'contar', imagen FROM imagenes_noticia WHERE imagen ='" . $_FILES["file" . $r]["name"] . "'");
-                $LV_EXEC = conectar()->query($query_imagen)
-                    or die(conectar()->error);
-                $i = 0;
-                if ($img = $LV_EXEC->fetch_assoc()) {
-                    if ($img["contar"] > 0) {
-                        if ($img["imagen"] == $_SESSION["delete[0]"]) {
-                        } elseif ($img["imagen"] == $_SESSION["delete[1]"]) {
-                        } elseif ($img["imagen"] == $_SESSION["delete[2]"]) {
-                        } else {
-                            $existArchi = true;
-                            $p = $r;
-                            break;
+            if ($valid) {
+                $r = 1;
+                $existArchi = false;
+                while ($r <= 3) {
+                    $query_imagen = ("SELECT count(*) as 'contar', imagen FROM imagenes_noticia WHERE imagen ='" . $_FILES["file" . $r]["name"] . "'");
+                    $LV_EXEC = conectar()->query($query_imagen)
+                        or die(conectar()->error);
+                    $i = 0;
+                    if ($img = $LV_EXEC->fetch_assoc()) {
+                        if ($img["contar"] > 0) {
+                            if ($img["imagen"] == $_SESSION["delete[0]"]) {
+                            } elseif ($img["imagen"] == $_SESSION["delete[1]"]) {
+                            } elseif ($img["imagen"] == $_SESSION["delete[2]"]) {
+                            } else {
+                                $existArchi = true;
+                                $p = $r;
+                                break;
+                            }
                         }
                     }
+
+                    $r++;
                 }
 
-                $r++;
-            }
+                if ($existArchi) {
 
-            if ($existArchi) {
-
-                $nom = $_FILES["file" . $p]["name"];
+                    $nom = $_FILES["file" . $p]["name"];
 
 
 
-                header('Location: FormularioModificar.php?var=1&nom=' . $nom . '&idtitulo=' . $_SESSION["idtitulo"] . '');
-            } else {
-                try {
-                    $con = conectar();
-                    $tit = $_POST["Titulo"];
-                    $fecha = $_POST["FechaActual"];
-                    $desc = $_POST["enfermedadDescrip"];
-                    $query = $con->prepare("UPDATE noticia set titulo=?, fecha=?, descripcion=?, usuario=? where titulo = ?");
-                    $query->bind_param('sssss', $tit, $fecha, $desc, $_SESSION["username"], $_SESSION['titulo']);
-                    $query->execute();
-                    mysqli_close($con);
-                    $i = 0;
-                    while (!empty($_SESSION["delete[" . $i . "]"]) || $_SESSION["delete[" . $i . "]"] != 0) {
+                    header('Location: FormularioModificar.php?var=1&nom=' . $nom . '&idtitulo=' . $_SESSION["idtitulo"] . '');
+                } else {
+                    try {
                         $con = conectar();
-                        $query = $con->prepare("DELETE FROM imagenes_noticia WHERE imagen=?;");
-                        $query->bind_param("s", $_SESSION["delete[" . $i . "]"]);
+                        $tit = $_POST["Titulo"];
+                        $fecha = $_POST["FechaActual"];
+                        $desc = $_POST["enfermedadDescrip"];
+                        $query = $con->prepare("UPDATE noticia set titulo=?, fecha=?, descripcion=?, usuario=? where titulo = ?");
+                        $query->bind_param('sssss', $tit, $fecha, $desc, $_SESSION["username"], $_SESSION['titulo']);
                         $query->execute();
                         mysqli_close($con);
-                        unlink("FormNoticias/uploads/" . $_SESSION["delete[" . $i . "]"]);
-                        $_SESSION["Vas"] = 0;
-                        $i++;
-                    }
+                        $i = 0;
+                        while (!empty($_SESSION["delete[" . $i . "]"]) || $_SESSION["delete[" . $i . "]"] != 0) {
+                            $con = conectar();
+                            $query = $con->prepare("DELETE FROM imagenes_noticia WHERE imagen=?;");
+                            $query->bind_param("s", $_SESSION["delete[" . $i . "]"]);
+                            $query->execute();
+                            mysqli_close($con);
+                            unlink("FormNoticias/uploads/" . $_SESSION["delete[" . $i . "]"]);
+                            $_SESSION["Vas"] = 0;
+                            $i++;
+                        }
 
-                    if ($_FILES["file1"]["name"] != null || $_FILES["file2"]["name"] != null || $_FILES["file3"]["name"] != null) {
+                        if ($_FILES["file1"]["name"] != null || $_FILES["file2"]["name"] != null || $_FILES["file3"]["name"] != null) {
 
-                        if ($_FILES["file1"]["name"]) {
-                            if ($_SESSION["imagenes[0]"] != 0) {
+                            if ($_FILES["file1"]["name"]) {
+                                if ($_SESSION["imagenes[0]"] != 0) {
 
-                                $archivonombre = $_FILES["file1"]["name"];
-                                $fuente = $_FILES["file1"]["tmp_name"];
-
-
-                                $target_path = "FormNoticias/uploads/" . $archivonombre; //indicamos la ruta de destino de los archivos
-                                unlink("FormNoticias/uploads/" . $_SESSION["imagenes[0]"]);
-                                // file was successfully deleted
-
-                                if (move_uploaded_file($fuente, $target_path)) {
-                                    $con = conectar();
-                                    $query = $con->prepare("UPDATE imagenes_noticia set imagen = ? where imagen = ?");
-                                    $query->bind_param('ss', $archivonombre, $_SESSION["imagenes[0]"]);
-                                    $query->execute();
-                                    mysqli_close($con);
-                                } else {
-                                }
-                            } else {
-                                if ($_FILES["file1"]["name"]) {
                                     $archivonombre = $_FILES["file1"]["name"];
                                     $fuente = $_FILES["file1"]["tmp_name"];
 
 
                                     $target_path = "FormNoticias/uploads/" . $archivonombre; //indicamos la ruta de destino de los archivos
-
-
+                                    unlink("FormNoticias/uploads/" . $_SESSION["imagenes[0]"]);
+                                    // file was successfully deleted
 
                                     if (move_uploaded_file($fuente, $target_path)) {
                                         $con = conectar();
-                                        $query = $con->prepare("Insert into imagenes_noticia(imagen,id_titulo) values(?,?)");
-                                        $query->bind_param('ss', $archivonombre, $_SESSION["idtitulo"]);
+                                        $query = $con->prepare("UPDATE imagenes_noticia set imagen = ? where imagen = ?");
+                                        $query->bind_param('ss', $archivonombre, $_SESSION["imagenes[0]"]);
                                         $query->execute();
                                         mysqli_close($con);
                                     } else {
                                     }
+                                } else {
+                                    if ($_FILES["file1"]["name"]) {
+                                        $archivonombre = $_FILES["file1"]["name"];
+                                        $fuente = $_FILES["file1"]["tmp_name"];
+
+
+                                        $target_path = "FormNoticias/uploads/" . $archivonombre; //indicamos la ruta de destino de los archivos
+
+
+
+                                        if (move_uploaded_file($fuente, $target_path)) {
+                                            $con = conectar();
+                                            $query = $con->prepare("Insert into imagenes_noticia(imagen,id_titulo) values(?,?)");
+                                            $query->bind_param('ss', $archivonombre, $_SESSION["idtitulo"]);
+                                            $query->execute();
+                                            mysqli_close($con);
+                                        } else {
+                                        }
+                                    }
                                 }
                             }
-                        }
-                        if ($_FILES["file2"]["name"]) {
-                            if ($_SESSION["imagenes[1]"] != 0) {
+                            if ($_FILES["file2"]["name"]) {
+                                if ($_SESSION["imagenes[1]"] != 0) {
 
-                                $archivonombre = $_FILES["file2"]["name"];
-                                $fuente = $_FILES["file2"]["tmp_name"];
-
-
-                                $target_path = "FormNoticias/uploads/" . $archivonombre; //indicamos la ruta de destino de los archivos
-                                unlink("FormNoticias/uploads/" . $_SESSION["imagenes[1]"]);
-                                // file was successfully deleted
-
-                                if (move_uploaded_file($fuente, $target_path)) {
-                                    $con = conectar();
-                                    $query = $con->prepare("UPDATE imagenes_noticia set imagen = ? where imagen = ?");
-                                    $query->bind_param('ss', $archivonombre, $_SESSION["imagenes[1]"]);
-                                    $query->execute();
-                                    mysqli_close($con);
-                                } else {
-                                }
-                            } else {
-                                if ($_FILES["file2"]["name"]) {
                                     $archivonombre = $_FILES["file2"]["name"];
                                     $fuente = $_FILES["file2"]["tmp_name"];
 
 
                                     $target_path = "FormNoticias/uploads/" . $archivonombre; //indicamos la ruta de destino de los archivos
-
-
+                                    unlink("FormNoticias/uploads/" . $_SESSION["imagenes[1]"]);
+                                    // file was successfully deleted
 
                                     if (move_uploaded_file($fuente, $target_path)) {
                                         $con = conectar();
-                                        $query = $con->prepare("Insert into imagenes_noticia(imagen,id_titulo) values(?,?)");
-                                        $query->bind_param('ss', $archivonombre, $_SESSION["idtitulo"]);
+                                        $query = $con->prepare("UPDATE imagenes_noticia set imagen = ? where imagen = ?");
+                                        $query->bind_param('ss', $archivonombre, $_SESSION["imagenes[1]"]);
                                         $query->execute();
                                         mysqli_close($con);
                                     } else {
                                     }
+                                } else {
+                                    if ($_FILES["file2"]["name"]) {
+                                        $archivonombre = $_FILES["file2"]["name"];
+                                        $fuente = $_FILES["file2"]["tmp_name"];
+
+
+                                        $target_path = "FormNoticias/uploads/" . $archivonombre; //indicamos la ruta de destino de los archivos
+
+
+
+                                        if (move_uploaded_file($fuente, $target_path)) {
+                                            $con = conectar();
+                                            $query = $con->prepare("Insert into imagenes_noticia(imagen,id_titulo) values(?,?)");
+                                            $query->bind_param('ss', $archivonombre, $_SESSION["idtitulo"]);
+                                            $query->execute();
+                                            mysqli_close($con);
+                                        } else {
+                                        }
+                                    }
                                 }
                             }
-                        }
 
-                        if ($_FILES["file3"]["name"]) {
-                            if ($_SESSION["imagenes[2]"] != 0) {
+                            if ($_FILES["file3"]["name"]) {
+                                if ($_SESSION["imagenes[2]"] != 0) {
 
-                                $archivonombre = $_FILES["file3"]["name"];
-                                $fuente = $_FILES["file3"]["tmp_name"];
-
-
-                                $target_path = "FormNoticias/uploads/" . $archivonombre; //indicamos la ruta de destino de los archivos
-                                unlink("FormNoticias/uploads/" . $_SESSION["imagenes[2]"]);
-                                // file was successfully deleted
-
-                                if (move_uploaded_file($fuente, $target_path)) {
-                                    $con = conectar();
-                                    $query = $con->prepare("UPDATE imagenes_noticia set imagen = ? where imagen = ?");
-                                    $query->bind_param('ss', $archivonombre, $_SESSION["imagenes[2]"]);
-                                    $query->execute();
-                                    mysqli_close($con);
-                                } else {
-                                }
-                            } else {
-                                if ($_FILES["file3"]["name"]) {
                                     $archivonombre = $_FILES["file3"]["name"];
                                     $fuente = $_FILES["file3"]["tmp_name"];
 
 
                                     $target_path = "FormNoticias/uploads/" . $archivonombre; //indicamos la ruta de destino de los archivos
-
-
+                                    unlink("FormNoticias/uploads/" . $_SESSION["imagenes[2]"]);
+                                    // file was successfully deleted
 
                                     if (move_uploaded_file($fuente, $target_path)) {
                                         $con = conectar();
-                                        $query = $con->prepare("Insert into imagenes_noticia(imagen,id_titulo) values(?,?)");
-                                        $query->bind_param('ss', $archivonombre, $_SESSION["idtitulo"]);
+                                        $query = $con->prepare("UPDATE imagenes_noticia set imagen = ? where imagen = ?");
+                                        $query->bind_param('ss', $archivonombre, $_SESSION["imagenes[2]"]);
                                         $query->execute();
                                         mysqli_close($con);
                                     } else {
                                     }
+                                } else {
+                                    if ($_FILES["file3"]["name"]) {
+                                        $archivonombre = $_FILES["file3"]["name"];
+                                        $fuente = $_FILES["file3"]["tmp_name"];
+
+
+                                        $target_path = "FormNoticias/uploads/" . $archivonombre; //indicamos la ruta de destino de los archivos
+
+
+
+                                        if (move_uploaded_file($fuente, $target_path)) {
+                                            $con = conectar();
+                                            $query = $con->prepare("Insert into imagenes_noticia(imagen,id_titulo) values(?,?)");
+                                            $query->bind_param('ss', $archivonombre, $_SESSION["idtitulo"]);
+                                            $query->execute();
+                                            mysqli_close($con);
+                                        } else {
+                                        }
+                                    }
                                 }
                             }
-                        }
 
-                        unset($_SESSION["imagenes[0]"]);
-                        unset($_SESSION["imagenes[1]"]);
-                        unset($_SESSION["imagenes[2]"]);
-                        unset($_SESSION["delete[0]"]);
-                        unset($_SESSION["delete[1]"]);
-                        unset($_SESSION["delete[2]"]);
-                       
-                    }
-                    echo '<div class="container">
+                            unset($_SESSION["imagenes[0]"]);
+                            unset($_SESSION["imagenes[1]"]);
+                            unset($_SESSION["imagenes[2]"]);
+                            unset($_SESSION["delete[0]"]);
+                            unset($_SESSION["delete[1]"]);
+                            unset($_SESSION["delete[2]"]);
+                        }
+                        echo '<div class="container">
                     <div class="container">
                         <div class="alert alert-success" role="alert">
                             <h4 class="alert-heading">Error 201.....</h4>
@@ -255,20 +254,20 @@ if (isset($_POST['Guardar'])) {
                         </div>
                     </div>
                 </div>';
-            header("refresh:3;url=../NoticiasA.php");
-                } catch (Exception $e) {
-                    @$_SESSION["Vasf3"] = 1;
-                    header('Location: FormularioModificar.php?var=4&nom=' . $nom . '&idtitulo=' . $_SESSION["idtitulo"] . '');
+                        header("refresh:3;url=../NoticiasA.php");
+                    } catch (Exception $e) {
+                        @$_SESSION["Vasf3"] = 1;
+                        header('Location: FormularioModificar.php?var=4&nom=' . $nom . '&idtitulo=' . $_SESSION["idtitulo"] . '');
+                    }
                 }
+            } else {
+                header('Location: FormularioModificar.php?var=2&nom=' . $nom . '&idtitulo=' . $_SESSION["idtitulo"] . '');
             }
         } else {
-            header('Location: FormularioModificar.php?var=2&nom=' . $nom . '&idtitulo=' . $_SESSION["idtitulo"] . '');
+            header('Location: FormularioModificar.php?var=3&nom=' . $nom . '&idtitulo=' . $_SESSION["idtitulo"] . '');
         }
-    } else {
-        header('Location: FormularioModificar.php?var=3&nom=' . $nom . '&idtitulo=' . $_SESSION["idtitulo"] . '');
     }
-}
 }
 
 ?>
-<!-- <meta http-equiv="refresh" content="0;url=NoticiasA.php"> -->
+ <meta http-equiv="refresh" content="0;url=NoticiasA.php">

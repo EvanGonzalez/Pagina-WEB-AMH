@@ -49,7 +49,7 @@ unset($_SESSION["Vasf3"]);
 
 <body id="fondoMain">
 	<?php
-	include("./Menu_footer/menuadmin.html");
+	include("./Menu_Footer/menuadmin.html");
 	?>
 
 	<!--miga de pan-->
@@ -181,7 +181,7 @@ unset($_SESSION["Vasf3"]);
 	?>
 	<footer>
 		<?php
-		include("./Menu_footer/footer.html");
+		include("./Menu_Footer/footer.html");
 
 		?>
 	</footer>

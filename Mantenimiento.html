@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En mantenimiento...</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+          }
+          
+          .message-wrapper{
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+                background: linear-gradient(270deg, #0f1e64, #7d46a0);
+              background-size: 400% 400%;
+              -webkit-animation: message-background 30s ease infinite;
+              -moz-animation: message-background 30s ease infinite;
+              -o-animation: message-background 30s ease infinite;
+              animation: message-background 30s ease infinite;
+          }
+          
+            @-webkit-keyframes message-background {
+              0% {
+                background-position: 0% 50%;
+              }
+              50% {
+                background-position: 100% 50%;
+              }
+              100% {
+                background-position: 0% 50%;
+              }
+            }
+            @-moz-keyframes message-background {
+              0% {
+                background-position: 0% 50%;
+              }
+              50% {
+                background-position: 100% 50%;
+              }
+              100% {
+                background-position: 0% 50%;
+              }
+            }
+            @-o-keyframes message-background {
+              0% {
+                background-position: 0% 50%;
+              }
+              50% {
+                background-position: 100% 50%;
+              }
+              100% {
+                background-position: 0% 50%;
+              }
+            }
+            @keyframes message-background {
+              0% {
+                background-position: 0% 50%;
+              }
+              50% {
+                background-position: 100% 50%;
+              }
+              100% {
+                background-position: 0% 50%;
+              }
+            }
+          
+          .message-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+          }
+          
+          .message-container img {
+          position: relative;
+            width: 100%;
+            max-width: 130px;
+            margin: 10px auto 20px;
+          }
+          
+          .message-container h2 {
+          position: relative;
+            width: 100%;
+            max-width: 80%;
+            margin: 10px auto 20px;
+            color: #7d46a0;
+              font-family: "FocoCCBold", "Trebuchet MS", Helvetica, sans-serif;
+          }
+          
+          .message-container p {
+          position: relative;
+            width: 100%;
+            max-width: 80%;
+            margin: 10px auto 20px;
+            color: #000;
+            font-family: "FocoCCLight", "helvetica neue", helvetica, arial, sans-serif;
+            font-size: 16px;
+          }
+          
+          @media only screen and (max-width: 800px) {
+            .message-container {
+           width: 90%;
+          }
+          }
+    </style>
+</head>
+<body>
+    <div class="message-wrapper">
+        <div class="message-container">
+          <img src="" alt="">
+          <h2>This website is currently in maintenance mode</h2>
+          <p>This site is currently being updates. We'll be back up and running again before long, so please try again soon. </p>
+             <p>Thank you for your patience. </p>
+        </div>
+      </div>
+</body>
+</html>
