@@ -119,7 +119,7 @@ if (empty($_SESSION["username"])) {
                             if ($_FILES["file1"]["name"]) {
                                 if ($_SESSION["imagenes[0]"] != 0) {
 
-                                    $archivonombre = $_FILES["file1"]["name"];
+                                    $archivonombre = "1".$_FILES["file1"]["name"];
                                     $fuente = $_FILES["file1"]["tmp_name"];
 
 
@@ -137,7 +137,7 @@ if (empty($_SESSION["username"])) {
                                     }
                                 } else {
                                     if ($_FILES["file1"]["name"]) {
-                                        $archivonombre = $_FILES["file1"]["name"];
+                                        $archivonombre ="1". $_FILES["file1"]["name"];
                                         $fuente = $_FILES["file1"]["tmp_name"];
 
 
@@ -159,7 +159,7 @@ if (empty($_SESSION["username"])) {
                             if ($_FILES["file2"]["name"]) {
                                 if ($_SESSION["imagenes[1]"] != 0) {
 
-                                    $archivonombre = $_FILES["file2"]["name"];
+                                    $archivonombre = "1".$_FILES["file2"]["name"];
                                     $fuente = $_FILES["file2"]["tmp_name"];
 
 
@@ -177,7 +177,7 @@ if (empty($_SESSION["username"])) {
                                     }
                                 } else {
                                     if ($_FILES["file2"]["name"]) {
-                                        $archivonombre = $_FILES["file2"]["name"];
+                                        $archivonombre = "1".$_FILES["file2"]["name"];
                                         $fuente = $_FILES["file2"]["tmp_name"];
 
 
@@ -200,7 +200,7 @@ if (empty($_SESSION["username"])) {
                             if ($_FILES["file3"]["name"]) {
                                 if ($_SESSION["imagenes[2]"] != 0) {
 
-                                    $archivonombre = $_FILES["file3"]["name"];
+                                    $archivonombre ="1". $_FILES["file3"]["name"];
                                     $fuente = $_FILES["file3"]["tmp_name"];
 
 
@@ -218,7 +218,7 @@ if (empty($_SESSION["username"])) {
                                     }
                                 } else {
                                     if ($_FILES["file3"]["name"]) {
-                                        $archivonombre = $_FILES["file3"]["name"];
+                                        $archivonombre = "1".$_FILES["file3"]["name"];
                                         $fuente = $_FILES["file3"]["tmp_name"];
 
 
