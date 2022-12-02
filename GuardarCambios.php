@@ -248,7 +248,7 @@ if (empty($_SESSION["username"])) {
                         echo '<div class="container">
                     <div class="container">
                         <div class="alert alert-success" role="alert">
-                            <h4 class="alert-heading">Error 201.....</h4>
+                            <h4 class="alert-heading">Protocolo 533.....</h4>
                             <p>Se han realizado los cambios correctamente en la noticia.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
                             <hr>
                         </div>
