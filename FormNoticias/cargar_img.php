@@ -59,8 +59,8 @@ if ($contar === 0) {
                 }
 
                 $dir = opendir($carpeta);
-                $target_path = $carpeta . '/' . $archivonombre; //indicamos la ruta de destino de los archivos
-
+                $target_path = $carpeta . '/' .'1'. $archivonombre; //indicamos la ruta de destino de los archivos
+                $archivonombre="1".$archivonombre;
 
                 if (move_uploaded_file($fuente, $target_path)) {
                     $con = conectar();
