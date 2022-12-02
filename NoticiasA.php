@@ -26,6 +26,7 @@ header("refresh:3;url=IniciarSesion.php");
     $_SESSION["imagenes[0]"]=0;
     $_SESSION["imagenes[1]"]=0;
     $_SESSION["imagenes[2]"]=0;
+    // Aquí se inicializan todas las variables de sesión que utilizaremos en la interfaz de modificar
 ?>
 <!-- NoticiasA-->
 <!DOCTYPE html>

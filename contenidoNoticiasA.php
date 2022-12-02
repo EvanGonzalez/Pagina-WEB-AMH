@@ -25,6 +25,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <form action="" method="post">
+                                        <!-- Se deben llevar las variables var y nom inicializadas en cero, para que no dé problemas y para identificar que es la primera vez que se entra a la interfaz. -->
                                         <a href="FormularioModificar.php?idtitulo=<?php echo $valores['id_titulo']?>&var=0&nom=0" class="btn btn-warning">Modificar</a>
                                         <a href="FormularioEliminar.php?idtitulo=<?php echo $valores['id_titulo']?>" class="btn btn-warning">Eliminar</a>                                              
                                     </form>
