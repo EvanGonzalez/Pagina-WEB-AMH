@@ -31,7 +31,7 @@ header("refresh:3;url=../IniciarSesion.php");
 	echo '<div class="container">
 	<div class="container">
 		<div class="alert alert-success" role="alert">
-			<h4 class="alert-heading">Error 201.....</h4>
+			<h4 class="alert-heading">Protocolo 434.....</h4>
 			<p>Se ha eliminado correctamente la noticia.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
 			<hr>
 		</div>
