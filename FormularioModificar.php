@@ -39,9 +39,6 @@ unset($_SESSION["Vas"]); */
 			$idtit = $LV_IMAGEN["id_titulo"];
 			$i++;
 		}
-		echo $_SESSION['imagenes[0]'] . "<br/>";
-		echo $_SESSION['imagenes[1]'] . "<br/>";
-		echo $_SESSION['imagenes[2]'];
 		$_SESSION["cont"] = 1;
 		$query_imagen = ("SELECT titulo FROM noticia WHERE id_titulo ='" . $idtit . "'");
 		$LV_EXEC = conectar()->query($query_imagen)
@@ -111,6 +108,7 @@ unset($_SESSION["Vas"]); */
 		<link rel="stylesheet" href="./css/footerstyle.css" type="text/css">
 		<link rel="stylesheet" href="./css/MigaPan.css" type="text/css">
 		<link rel="stylesheet" href="./css/header-style.css" type="text/css">
+		<link rel="stylesheet" href="/css/menutest.css" type="text/css">
 		<link rel="stylesheet" href="./FormNoticias/Noticias.css" type="text/css">
 		<!--paquete de complementos y dependecias de js para el dropzone-->
 		<link rel="stylesheet" href="node_modules/dropzone/dist/dropzone.css">
@@ -124,7 +122,7 @@ unset($_SESSION["Vas"]); */
 
 	<body id="fondoMain">
 		<?php
-		include("./Menu_footer/headAdmin.html");
+		include("./Menu_Footer/menuadmin.html");
 		?>
 
 		<!--miga de pan-->
@@ -332,10 +330,7 @@ unset($_SESSION["Vas"]); */
 
 
 							<div class="button">
-								<?php echo
-								$_SESSION['imagenes[0]'] . "<br/>";
-								echo $_SESSION['imagenes[1]'] . "<br/>";
-								echo $_SESSION['imagenes[2]']; ?>
+
 								<button type="submit" name="Guardar" class="btn btn-primary">Guardar Cambios</button>&nbsp;&nbsp;
 								<button type="submit" name="Descartar" class="btn btn-secondary">Descartar Cambios</button>
 
@@ -362,7 +357,7 @@ unset($_SESSION["Vas"]); */
 		?>
 		<footer>
 			<?php
-			include("./Menu_footer/footer.html");
+			include("./Menu_Footer/footer.html");
 
 			?>
 		</footer>
