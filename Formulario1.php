@@ -5,7 +5,7 @@
 /*obteniendo la fecha actual del sistema */
 $fechaActual = date('Y-m-d');
 session_start();
-//Veriicacion de Usuario en tal caso de no haber inciado sesion se recarga la pagina no sin antes mostrarle este mensaje
+//Verificacion de Usuario en tal caso de no haber inciado sesion se recarga la pagina no sin antes mostrarle este mensaje
 if(empty($_SESSION["username"])){
 	
 	echo '<div class="container">
@@ -80,7 +80,8 @@ unset($_SESSION["Vasf3"]);
 							<div class="container">
 								<div class="alert alert-danger" role="alert">
 									<h4 class="alert-heading">Error 406.....</h4>
-									<p>La cantidad máxima de imágenes es 3.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+									<p>La cantidad máxima de imágenes es 3.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+									</button></p>
 									<hr>
 								</div>
 							</div>
