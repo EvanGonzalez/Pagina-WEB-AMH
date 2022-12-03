@@ -79,8 +79,8 @@ unset($_SESSION["Vasf3"]);
 						echo '<div class="container">
 							<div class="container">
 								<div class="alert alert-danger" role="alert">
-									<h4 class="alert-heading">Error 406.....</h4>
-									<p>La cantidad máxima de imágenes es 3.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+									<h4 class="alert-heading">Error 406</h4>
+									<p>La cantidad máxima de imágenes es 3....<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
 									</button></p>
 									<hr>
 								</div>
@@ -92,8 +92,9 @@ unset($_SESSION["Vasf3"]);
 						echo '<div class="container">
 							<div class="container">
 								<div class="alert alert-danger" role="alert">
-									<h4 class="alert-heading">Error 117.....</h4>
-									<p>Por favor renombre el archivo, porque ya hay un archivo con ese nombre.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+									<h4 class="alert-heading">Error 117</h4>
+									<p>Por favor renombre el archivo, porque ya hay un archivo con ese nombre....
+									<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
 									<hr>
 								</div>
 							</div>
@@ -104,8 +105,8 @@ unset($_SESSION["Vasf3"]);
 						echo '<div class="container">
 							<div class="container">
 								<div class="alert alert-danger" role="alert">
-									<h4 class="alert-heading">Error 201.....</h4>
-									<p>Ya existe una noticia con ese título.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+									<h4 class="alert-heading">Error 201</h4>
+									<p>Ya existe una noticia con ese título....<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
 									<hr>
 								</div>
 							</div>
