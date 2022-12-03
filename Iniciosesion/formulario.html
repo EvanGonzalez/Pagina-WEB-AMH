@@ -1,34 +1,50 @@
-
+<!--Se llama a la propia hoja de estilo del login dentro de head-->
 <head>
-     <link rel="stylesheet" href="./Iniciosesion/login.css">   
+    <link rel="stylesheet" href="./Iniciosesion/login.css">   
 </head>
+<!--div 1 que nos hace crear la caja de formulario y la posiciona donde queremos-->
 <div class="cajafuera">
-    <div class="formulariocaja">
-        <div class="botondeintercambiar">
-            <div id="btnvai"></div>
-             <button type="button" class="botoncambiarcaja2" onclick="loginvai()" id="vaibtnlogin"><p class="colornegro">Iniciar sesión</p></button>
-		</div>
-        
+   <!--este div 2 es el que me permite poner el titulo del formulario el cual inicio siendo un boton-->
+   <div class="formulariocaja">
+       <!--empieza div 3 para intercambiar entre formularios, pero solo se decidio que fuera un solo formulario-->
+       <div class="botondeintercambiar">
+           <!--este div no hace nada, ya que se elimino el otro formulario de registrar-->
+           <div id="btnvai"></div>
+            <!--Este boton muestra el texto de Iniciar Sesión pero no redirige a nada-->
+            <button type="button" class="botoncambiarcaja2" onclick="loginvai()" id="vaibtnlogin"><p class="colornegro">Iniciar sesión</p></button>
+       </div>
+       <!--termina div 3-->
+       
 
-		<!--Formulario para el login -->
-        <form id="frmlogin" class="grupo-entradas" method="POST" action="./BaseDeDatos/loguear.php">
-		    <!--IMAGEN -->
-            <div class="logovai"><img src="img/2.png"></div>
-            <!--TEXTO PARA usuario -->
-            <b>&#128100; Usuario</b>
-            <input type="usuario" class="cajaentradatexto" name="txtusuario" required>
-            <!--TEXTO PARA CONTRASEÑA-->
-            <b>&#128274; Contraseña</b>
-            <input type="password" class="cajaentradatexto" name="txtpassword" required>
-            <br>
-            <!--BOTON ENVIAR -->
-            <button type="submit" class="botonenviar" name="btnloginx">Enviar</button>
-            <br>
-            <button type="reset" class="botonenviar" name="btnregresar"><a style="text-decoration: none; color:white;" href="index.php">Regresar</a></button>
-        </form>
-        
-        <div>
-    </div>
+       <!--Formulario para el login -->
+       <form id="frmlogin" class="grupo-entradas" method="POST" action="./BaseDeDatos/loguear.php">
+           <!-- div para IMAGEN de logo-->
+           <div class="logovai"><img src="img/2.png"></div>
+
+           <!--TEXTO PARA usuario -->
+           <b>&#128100; Usuario</b>
+           <!--input que pide usuario requerido-->
+           <input type="usuario" class="cajaentradatexto" name="txtusuario" required>
+           
+           <!--TEXTO PARA CONTRASEÑA-->
+           <b>&#128274; Contraseña</b>
+           <!--input que pide contraseña requerido-->
+           <input type="password" class="cajaentradatexto" name="txtpassword" required>
+           
+           <br>
+
+           <!--BOTON ENVIAR -->
+           <button type="submit" class="botonenviar" name="btnloginx">Enviar</button>
+           
+           <br>
+           <!--BOTON REGRESAR -->
+           <button type="reset" class="botonenviar" name="btnregresar"><a style="text-decoration: none; color:white;" href="index.php">Regresar</a></button>
+       </form>
+       
+   <div>
+   <!--termina div 2-->
+</div>
+<!--termina div 1-->
     
     
     <script>

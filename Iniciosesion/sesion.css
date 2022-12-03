@@ -1,9 +1,20 @@
+/*-------------------------------------------------------------*\
+    HOJA DE ESTILO PARA EL ARCHIVO IniciarSesion.php
+\*-------------------------------------------------------------*/
+
+/**
+ * configuraciones para todo el archivo INDEX del formulario
+ */
 *
 {
 	box-sizing: border-box;
 	font-family: sans-serif;
 	
 }
+
+/**
+ * configuraciones para el cuerpo del archivo IniciarSesion.php
+ */
 body
 {
 	margin: 0;
@@ -11,11 +22,19 @@ body
 	background: url(/img/portada1min.JPG) no-repeat center top;
 	background-size: cover;	
 }
+
+/**
+ * configuraciones de etiqueta af
+ */
 .af
 {
 	margin-right:10%;
 	margin-top:5%;
 }
+
+/**
+ * configuraciones de etiqueta img para el ancho de imagen
+ */
 img
 {
 	width: 120px;

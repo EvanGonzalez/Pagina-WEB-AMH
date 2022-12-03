@@ -1,37 +1,25 @@
 <?php
-include './BaseDeDatos/conexion_db.php';
+// Se inicia la sesión
 session_start();
+// Obtengo el id de imagen que viene del archivo JS.js de JavaScript
 $idimagen = $_GET["vari"];
+// Si en la variable de sesión delete en  la posición 0 es igual a cero 
 if ($_SESSION["delete[0]"] == 0) {
+    // El archivo de la imagen se pasa a las imágenes eliminadas
     $_SESSION["delete[0]"] = $_SESSION["imagenes[" . $idimagen . "]"];
 } else {
+    // Si ya hay una imagen eliminada en la posición 0
+    // Se verifica que delete en la posición 1 sea igual a cero
     if ($_SESSION["delete[1]"] == 0) {
+        // Si está disponible se guarda la eliminación de esta imagen en esta posición
         $_SESSION["delete[1]"] = $_SESSION["imagenes[" . $idimagen . "]"];
     } else {
+        // Si tampoco está disponible la posición 1, pasa a la posición 2
         if ($_SESSION["delete[2]"] == 0) {
+            // Se añaden la última imagen eliminada a las eliminadas en la posición 2
             $_SESSION["delete[2]"] = $_SESSION["imagenes[" . $idimagen . "]"];
         }
     }
 }
-
-/* $query = conectar()->query('Select * from noticia, imagenes_noticia where noticia.id_titulo=imagenes_noticia.id_titulo and noticia.id_titulo="'.$_SESSION['idtitulo'].'";')or die(conectar()->error);
-$images = mysqli_num_rows($query);
-if($images>1){
-    $idimagen = $_GET["vari"];
-    $con = conectar();
-    $query = $con->prepare("DELETE FROM imagenes_noticia WHERE imagen=?;");
-    $query->bind_param("s", $_SESSION["imagenes[" . $idimagen . "]"]);
-    $query->execute();
-    mysqli_close($con);
-    unlink("FormNoticias/uploads/" . $_SESSION["imagenes[" . $idimagen . "]"]);
-    header("Location: FormularioModificar.php?idtitulo=".$_SESSION["idtitulo"]);
-    $_SESSION["Vas"]=0;
-}else{
-    echo '<script>alert("La noticia debe contener al menos una imagen")</script>';
-    header("Location: FormularioModificar.php?idtitulo=".$_SESSION["idtitulo"].'');
-    $_SESSION["Vas"]=1;
-} */
+// Por último se redirige a FormularioModificar.php
 header("Location: FormularioModificar.php?idtitulo=" . $_SESSION["idtitulo"]."&var=0&nom=0");
-/* unset($_SESSION["imagenes[0]"]);
-unset($_SESSION["imagenes[1]"]);
-unset($_SESSION["imagenes[2]"]); */

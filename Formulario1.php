@@ -5,6 +5,7 @@
 /*obteniendo la fecha actual del sistema */
 $fechaActual = date('Y-m-d');
 session_start();
+//Veriicacion de Usuario en tal caso de no haber inciado sesion se recarga la pagina no sin antes mostrarle este mensaje
 if(empty($_SESSION["username"])){
 	
 	echo '<div class="container">
@@ -18,6 +19,7 @@ if(empty($_SESSION["username"])){
 </div>';
 header("refresh:3;url=IniciarSesion.php");
 }else{
+	//Estas validaciones se crean en tal caso exista un error.
 @$Validacion1 = $_SESSION["Vasf1"];
 @$Validacion2 = $_SESSION["Vasf2"];
 @$Validacion3 = $_SESSION["Vasf3"];
@@ -38,9 +40,6 @@ unset($_SESSION["Vasf3"]);
 	<link rel="stylesheet" href="./FormNoticias/Noticias.css" type="text/css">
 	<link rel="shortcut icon" href="img/2.ico" type="image/x-icon">
 	<!--paquete de complementos y dependecias de js para el dropzone-->
-	<link rel="stylesheet" href="node_modules/dropzone/dist/dropzone.css">
-	<script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
-	<link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
 	<!--paquete de complementos y dependecias de js para los elementos bootstrap-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 	<title>Formulario Noticia</title>
@@ -75,6 +74,7 @@ unset($_SESSION["Vasf3"]);
 					<h1 class="my-4" id="titulo1">Noticias</h1>
 				</center>
 				<?php
+					//La primera validacion es para verificar la cantidad maxima de las imagenes
 					if ($Validacion1 == 1) {
 						echo '<div class="container">
 							<div class="container">
@@ -86,6 +86,7 @@ unset($_SESSION["Vasf3"]);
 							</div>
 						</div>';
 					}
+					//La sengunda es para verificar que las imagenes tengan nombres unicos
 					if ($Validacion2 == 1) {
 						echo '<div class="container">
 							<div class="container">
@@ -97,6 +98,7 @@ unset($_SESSION["Vasf3"]);
 							</div>
 						</div>';
 					}
+					//La tercera es para verificar que el titulo sea unico
 					if ($Validacion3 == 1) {
 						echo '<div class="container">
 							<div class="container">
@@ -109,6 +111,7 @@ unset($_SESSION["Vasf3"]);
 						</div>';
 					}
 				?>
+				<!-- Se crea un card para anidar los campos de requeridos de las noticias-->
 				<div class="col-md-12">
 					<div class="card my-4" id="card1" style="background-color: #121b4f; color: white;font-size: 25px;">
 						<h5 class="card-header" style="background-color: #0079be;font-size: 30px;"> <b>Datos de la noticia</b></h5>
@@ -133,7 +136,7 @@ unset($_SESSION["Vasf3"]);
 								<textarea for="inlineRadio5" name="enfermedadDescrip" class="form-control" placeholder="Deja tu respuesta" id="floatingTextarea2" style="height: 100px" spellcheck="false" data-ms-editor="true" required="required"></textarea><br>
 							</div>
 						</div>
-
+						<!--esta seccion del codigo es para el input de las imagenes-->
 						<div class="">
 							<div class="">
 								<div class="">
@@ -149,13 +152,6 @@ unset($_SESSION["Vasf3"]);
 							</div>
 						</div>
 						<br>
-
-						<!-- <div class="" id="myimagenes">
-								<div class="dz-default dz-message">
-									<input type="file" name="archivo_img" id="">
-									<button class="dz-button" type="button"><img src="img/upload.png" alt=""></button>
-								</div>
-							</div> -->
 
 						<div class="button">
 							<button name="enviar" type="submit" id="send">Enviar</button>
