@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,7 +43,6 @@
                     <div class="img2">
                         <img src="../Otras_Actividades/img/conjunto/conjunto 2.jpeg" alt="Conjunto Folclorico" title="Conjunto Folclorico" class="img-fluid">
                     </div>
-
                 </div>
                 <div class="col-md-8 wow fadeInRight">
                     <h1 class="text-center" style="font-size: 25px;">Conjunto Folclórico </h1>
@@ -73,7 +71,8 @@
                 </div>
             </div>
             <br>
-            <div class="collapse" id="collapseExample">
+            <!-- aqui quede  -->
+            <div class="collapse" id="collapseExample"> 
                 <div class="container">
                     <div class="row" id="negar">
                         <div class="col-md-6 wow fadeInLeft">
@@ -106,53 +105,53 @@
                         <div class="col-md-6 wow fadeInLeft" style="padding-top: 10px;">
                             <div class="card border-dark mb-3 p-y-3 wow fadeInLeft" style="width: 100%;">
                                 <h2 style="font-size: 28px; text-align: center;">Premios Alcanzados</h2>
-                                    <div class="card-body text-dark">
-                                        <p class="card-text">
+                                <div class="card-body text-dark">
+                                    <p class="card-text">
                                         Entre los premios alcanzados por esta agrupación podemos mencionar que el Ministerio de Educación organizó el concurso 
                                         de baile para aquellas escuelas que tenían conjuntos y durante los tres años que lo realizaron 
                                         (Colón, Los Santos y la Cuidad de Panamá) el conjunto de la AMH ganó un primer lugar y dos segundos lugares.
-                                        </p>
-                                        <ul>
-                                            <li>
-                                                <p>
-                                                    En 2017 el conjunto folclórico obtuvo el primer lugar en tambor 
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <p>
-                                                    En el 2018 participaron y ganaron concursos obteniendo: 
-                                                    Primer lugar en cumbia, en decima 
-                                                    Segundo lugar en tambor 
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <p>
-                                                    En el 2019 se participaron de diferentes concursos obteniendo: 
-                                                    Primer lugar en saloma 
-                                                    Segundo lugar en Tambor, y en cumbia  
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <p>
-                                                    En el 2020 por pandemia de la COVID-19, solo se realizaron presentaciones del conjunto folclórico 
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <p>
-                                                    En 2021 ganaron diferentes concursos entre ellos: 
-                                                    Primer lugar en saloma. 
-                                                    Primer lugar en toque de tambor. 
-                                                    Primer lugar en pareja de baile 
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <p>
-                                                    Durante este año 2022, el conjunto folclórico fue el primer lugar en tamborera, tambor, saloma. 
-                                                    Segundo lugar en cumbia. Tercer lugar en decima 
-                                                </p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                En 2017 el conjunto folclórico obtuvo el primer lugar en tambor 
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                En el 2018 participaron y ganaron concursos obteniendo: 
+                                                Primer lugar en cumbia, en decima 
+                                                Segundo lugar en tambor 
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                En el 2019 se participaron de diferentes concursos obteniendo: 
+                                                Primer lugar en saloma 
+                                                Segundo lugar en Tambor, y en cumbia  
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                En el 2020 por pandemia de la COVID-19, solo se realizaron presentaciones del conjunto folclórico 
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                En 2021 ganaron diferentes concursos entre ellos: 
+                                                Primer lugar en saloma. 
+                                                Primer lugar en toque de tambor. 
+                                                Primer lugar en pareja de baile 
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Durante este año 2022, el conjunto folclórico fue el primer lugar en tamborera, tambor, saloma. 
+                                                Segundo lugar en cumbia. Tercer lugar en decima 
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-12">

@@ -21,7 +21,6 @@
     </script>
     <title>AMH: Banda de Música</title>
 </head>
-
 <body>
     <?php include('../Menu_Footer/menumain.html'); ?>
     <div class="contenedorMigaPan text-center">
