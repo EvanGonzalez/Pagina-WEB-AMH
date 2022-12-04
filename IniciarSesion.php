@@ -22,7 +22,7 @@
     <?php
     //inicia una SESSION
     session_start();
-    //destruye las variables para el nombre de usuario enviado
+    //obtiene la variable para el nombre de usuario enviado
     unset($_SESSION["username"]);
     //incluye el archivo que contiene el formulario
     include('./Iniciosesion/formulario.html');
