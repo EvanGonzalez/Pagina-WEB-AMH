@@ -11,7 +11,8 @@
            <!--este div no hace nada, ya que se elimino el otro formulario de registrar-->
            <div id="btnvai"></div>
             <!--Este boton muestra el texto de Iniciar Sesión pero no redirige a nada-->
-            <button type="button" class="botoncambiarcaja2" onclick="loginvai()" id="vaibtnlogin"><p class="colornegro">Iniciar sesión</p></button>
+            <button type="button" class="botoncambiarcaja2" onclick="loginvai()" id="vaibtnlogin">
+            <p class="colornegro">Iniciar sesión</p></button>
        </div>
        <!--termina div 3-->
        
@@ -45,63 +46,3 @@
    <!--termina div 2-->
 </div>
 <!--termina div 1-->
-    
-    
-    <script>
-    var x = document.getElementById("frmlogin");
-    var y = document.getElementById("frmregistrar");
-    var z = document.getElementById("btnvai");
-	var textcolor1=document.getElementById("vaibtnlogin");
-	var textcolor2=document.getElementById("vaibtnregistrar");
-	textcolor1.style.color="white";
-	textcolor2.style.color="black";
-
-        function registrarvai()
-		{
-			
-            x.style.left = "-4000px";
-            y.style.left = "50px";
-            z.style.left = "110px";
-			textcolor1.style.color="black";
-			textcolor2.style.color="white";
-	
-        }
-            function loginvai()
-		{
-			
-            x.style.left = "50px";
-            y.style.left = "450px";
-            z.style.left = "0";
-			textcolor1.style.color="white";
-			textcolor2.style.color="black";
-
-        }
-		
-		function abrirform() {
-  document.getElementById("formrecuperar").style.display = "block";
-  
-}
-
-function cancelarform() {
-  document.getElementById("formrecuperar").style.display = "none";
-}
-    </script>
-    
-<div class="caja_popup" id="formrecuperar">
-  <form action="recuperar.php" class="contenedor_popup" method="POST">  
-      <table>
-		<tr><th colspan="2">Recuperar contraseña</th></tr>
-            <tr> 
-                <br><br><br><br><br><br><br><br><br><br>
-                <td><b>&#128231; Correo</b></td>
-                <td><input type="email" name="txtcorreo" required class="cajaentradatexto" autofocus ></td>
-            </tr>
-            <tr> 	
-               <td colspan="2">
-				   <button type="button" onclick="cancelarform()" class="txtrecuperar">Cancelar</button>
-				   <input class="txtrecuperar" type="submit" name="btnrecuperar" value="Enviar" onClick="javascript: return confirm('¿Deseas enviar tu contraseña a tu correo?');">
-			</td>
-            </tr>
-        </table>
-    </form>
-	</div>
