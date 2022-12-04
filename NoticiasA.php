@@ -8,7 +8,8 @@
 	<div class="container">
 		<div class="alert alert-danger" role="alert">
 			<h4 class="alert-heading">Error 201.....</h4>
-			<p>No has iniciado sesión.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></p>
+			<p>No has iniciado sesión.............<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+            </button></p>
 			<hr>
 		</div>
 	</div>

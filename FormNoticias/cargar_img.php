@@ -55,7 +55,7 @@ if ($contar === 0) {
         //EL Siguiente Foreach es para la subida de las imagenes al servidor
         foreach ($_FILES["imagenes"]['tmp_name'] as $key => $tmp_name) {
 
-            //condicional si el fuchero existe
+            //condicional si el fichero existe
             if ($_FILES["imagenes"]["name"][$key]) {
                 $archivonombre = $_FILES["imagenes"]["name"][$key];
                 $fuente = $_FILES["imagenes"]["tmp_name"][$key];
