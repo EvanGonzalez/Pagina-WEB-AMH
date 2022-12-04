@@ -71,7 +71,6 @@
                 </div>
             </div>
             <br>
-            <!-- aqui quede  -->
             <div class="collapse" id="collapseExample"> 
                 <div class="container">
                     <div class="row" id="negar">
@@ -96,7 +95,7 @@
                             </div>                    
                         </div>
                                         
-                                        <!-- ---- -->
+                        <!-- Separcion de la segunda mitad de la primera seccion -->
                         <div class="col-md-6 wow fadeInRight">
                             <div class="img2" style="width: 100%;">
                                 <img src="../Otras_Actividades/img/conjunto/Premiacion1.jpeg" alt="" class="img-fluid">
