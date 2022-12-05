@@ -1,7 +1,5 @@
-<!-- RUTA CORREGIDA -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +20,6 @@
     </script>
     <title>AMH: Medalla de la Cultura</title>
 </head>
-
 <body>
     <?php include('../Menu_Footer/menumain.html'); ?>
     <div class="contenedorMigaPan text-center">
